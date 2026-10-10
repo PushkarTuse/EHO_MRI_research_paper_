@@ -1,0 +1,13 @@
+[
+  {
+    "output_type": "stream",
+    "name": "stdout",
+    "text": [
+      "Testing PSO on Rastrigin Function...\n",
+      "PSO Best Value: 23.87897702224869, Execution Time: 3.04840 seconds\n",
+      "\n",
+      "Testing EHO on Rastrigin Function...\n",
+      "EHO Best Value: 10.276375968390767, Execution Time: 2.58836 seconds\n"
+    ]
+  }
+]

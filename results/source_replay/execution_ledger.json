@@ -1,0 +1,234 @@
+[
+  {
+    "cell": 1,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_001.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 0.0006140000186860561
+  },
+  {
+    "cell": 2,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_002.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 0.5587490999605507
+  },
+  {
+    "cell": 3,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_003.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 0.19464689993765205
+  },
+  {
+    "cell": 4,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_004.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 0.00035550002939999104
+  },
+  {
+    "cell": 5,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_005.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 0.00027600000612437725
+  },
+  {
+    "cell": 6,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_006.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 1.9103377999272197
+  },
+  {
+    "cell": 7,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_007.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 2.1692765000043437
+  },
+  {
+    "cell": 8,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_008.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 0.0004734999965876341
+  },
+  {
+    "cell": 9,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_009.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 0.00045149994548410177
+  },
+  {
+    "cell": 10,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_010.py",
+    "status": "failed_as_supplied",
+    "classification": "original code execution",
+    "error": "NameError: name 'generate_customers' is not defined",
+    "seconds": 0.005974999978207052
+  },
+  {
+    "cell": 11,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_011.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 0.5723485000198707
+  },
+  {
+    "cell": 12,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_012.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 0.0004509000573307276
+  },
+  {
+    "cell": 13,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_013.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 0.000341600039973855
+  },
+  {
+    "cell": 14,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_014.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 0.0004967000568285584
+  },
+  {
+    "cell": 15,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_015.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 2.954385800054297
+  },
+  {
+    "cell": 16,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_016.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 0.27554050006438047
+  },
+  {
+    "cell": 17,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_017.py",
+    "status": "success",
+    "classification": "historical scalability: identical synthetic image pairs and unequal search budgets",
+    "seconds": 326.41265830001794
+  },
+  {
+    "cell": 18,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_018.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 0.0006409999914467335
+  },
+  {
+    "cell": 19,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_019.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 0.0004835999570786953
+  },
+  {
+    "cell": 20,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_020.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 0.00047099997755140066
+  },
+  {
+    "cell": 21,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_021.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 0.0006549999816343188
+  },
+  {
+    "cell": 22,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_022.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 0.00045790011063218117
+  },
+  {
+    "cell": 23,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_023.py",
+    "status": "success",
+    "classification": "historical plotting constants; not new MRI measurements; uncertainty arrays are hypothetical",
+    "seconds": 0.31739069998729974
+  },
+  {
+    "cell": 24,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_024.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 0.00042860000394284725
+  },
+  {
+    "cell": 25,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_025.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 0.0003486999776214361
+  },
+  {
+    "cell": 26,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_026.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 0.0003152999561280012
+  },
+  {
+    "cell": 27,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_027.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 0.0003325999714434147
+  },
+  {
+    "cell": 28,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_028.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 4.385750099900179
+  },
+  {
+    "cell": 29,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_029.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 0.0005160999717190862
+  },
+  {
+    "cell": 30,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_030.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 0.0004282000008970499
+  },
+  {
+    "cell": 31,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_031.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 0.0003914999542757869
+  },
+  {
+    "cell": 32,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_032.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 0.0004138000076636672
+  },
+  {
+    "cell": 33,
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_033.py",
+    "status": "success",
+    "classification": "original code execution",
+    "seconds": 17.96736560005229
+  }
+]

@@ -1,0 +1,676 @@
+{
+  "notebook_cells": [
+    {
+      "notebook": "mri_optimisation.ipynb",
+      "code_cell_1based": 10,
+      "all_cell_0based": 9,
+      "cell_id": "b4zg1Jr_0SW8",
+      "sha256": "066b5c797cd2cd0fd5626c0e60b08cacdb8c65ab354adbd3b754b93c16edf799",
+      "definitions": [
+        {
+          "name": "Particle",
+          "kind": "ClassDef",
+          "line": 6
+        },
+        {
+          "name": "pso_vrp",
+          "kind": "FunctionDef",
+          "line": 57
+        },
+        {
+          "name": "test_pso_vs_eho_on_vrp",
+          "kind": "FunctionDef",
+          "line": 76
+        },
+        {
+          "name": "__init__",
+          "kind": "FunctionDef",
+          "line": 7
+        },
+        {
+          "name": "initialize_routes",
+          "kind": "FunctionDef",
+          "line": 18
+        },
+        {
+          "name": "initialize_velocity",
+          "kind": "FunctionDef",
+          "line": 32
+        },
+        {
+          "name": "update_personal_best",
+          "kind": "FunctionDef",
+          "line": 36
+        },
+        {
+          "name": "update_velocity",
+          "kind": "FunctionDef",
+          "line": 42
+        },
+        {
+          "name": "move",
+          "kind": "FunctionDef",
+          "line": 51
+        }
+      ],
+      "source_copy": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\routing\\source_cell_copies\\mri_optimisation_code_cell_10.py.txt"
+    },
+    {
+      "notebook": "mri_optimisation.ipynb",
+      "code_cell_1based": 11,
+      "all_cell_0based": 10,
+      "cell_id": "am4gqqH21Rvn",
+      "sha256": "98a510f096278ae9e44058a9536d6dadca32715044b46080ea10ee1d4bd98b1b",
+      "definitions": [
+        {
+          "name": "vrp_cost",
+          "kind": "FunctionDef",
+          "line": 7
+        },
+        {
+          "name": "generate_customers",
+          "kind": "FunctionDef",
+          "line": 18
+        },
+        {
+          "name": "calc_distance_matrix",
+          "kind": "FunctionDef",
+          "line": 22
+        },
+        {
+          "name": "visualize_routes",
+          "kind": "FunctionDef",
+          "line": 31
+        },
+        {
+          "name": "Particle",
+          "kind": "ClassDef",
+          "line": 66
+        },
+        {
+          "name": "pso_vrp",
+          "kind": "FunctionDef",
+          "line": 117
+        },
+        {
+          "name": "Elephant",
+          "kind": "ClassDef",
+          "line": 136
+        },
+        {
+          "name": "eho_vrp",
+          "kind": "FunctionDef",
+          "line": 181
+        },
+        {
+          "name": "test_pso_vs_eho_with_visualization",
+          "kind": "FunctionDef",
+          "line": 201
+        },
+        {
+          "name": "__init__",
+          "kind": "FunctionDef",
+          "line": 67
+        },
+        {
+          "name": "initialize_routes",
+          "kind": "FunctionDef",
+          "line": 78
+        },
+        {
+          "name": "initialize_velocity",
+          "kind": "FunctionDef",
+          "line": 92
+        },
+        {
+          "name": "update_personal_best",
+          "kind": "FunctionDef",
+          "line": 96
+        },
+        {
+          "name": "update_velocity",
+          "kind": "FunctionDef",
+          "line": 102
+        },
+        {
+          "name": "move",
+          "kind": "FunctionDef",
+          "line": 111
+        },
+        {
+          "name": "__init__",
+          "kind": "FunctionDef",
+          "line": 137
+        },
+        {
+          "name": "initialize_routes",
+          "kind": "FunctionDef",
+          "line": 146
+        },
+        {
+          "name": "update_position",
+          "kind": "FunctionDef",
+          "line": 160
+        }
+      ],
+      "source_copy": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\routing\\source_cell_copies\\mri_optimisation_code_cell_11.py.txt"
+    },
+    {
+      "notebook": "mri_optimisation.ipynb",
+      "code_cell_1based": 28,
+      "all_cell_0based": 27,
+      "cell_id": "xvW4cpuqDlgm",
+      "sha256": "8931a08754cfdb585e21eb448e8a57d7cb3062de6365e909d6e719c1ed3ce05a",
+      "definitions": [
+        {
+          "name": "generate_distance_matrix",
+          "kind": "FunctionDef",
+          "line": 7
+        },
+        {
+          "name": "calculate_route_length",
+          "kind": "FunctionDef",
+          "line": 13
+        },
+        {
+          "name": "order_crossover",
+          "kind": "FunctionDef",
+          "line": 16
+        },
+        {
+          "name": "swap_mutation",
+          "kind": "FunctionDef",
+          "line": 30
+        },
+        {
+          "name": "initialize_population",
+          "kind": "FunctionDef",
+          "line": 35
+        },
+        {
+          "name": "select_parents",
+          "kind": "FunctionDef",
+          "line": 38
+        },
+        {
+          "name": "ga_tsp",
+          "kind": "FunctionDef",
+          "line": 44
+        },
+        {
+          "name": "Elephant",
+          "kind": "ClassDef",
+          "line": 78
+        },
+        {
+          "name": "elephant_herding_optimization",
+          "kind": "FunctionDef",
+          "line": 95
+        },
+        {
+          "name": "Ant",
+          "kind": "ClassDef",
+          "line": 138
+        },
+        {
+          "name": "aco_tsp",
+          "kind": "FunctionDef",
+          "line": 176
+        },
+        {
+          "name": "Particle",
+          "kind": "ClassDef",
+          "line": 204
+        },
+        {
+          "name": "pso_tsp",
+          "kind": "FunctionDef",
+          "line": 233
+        },
+        {
+          "name": "__init__",
+          "kind": "FunctionDef",
+          "line": 79
+        },
+        {
+          "name": "evaluate_fitness",
+          "kind": "FunctionDef",
+          "line": 84
+        },
+        {
+          "name": "calculate_route_length",
+          "kind": "FunctionDef",
+          "line": 89
+        },
+        {
+          "name": "initialize_clan",
+          "kind": "FunctionDef",
+          "line": 96
+        },
+        {
+          "name": "move_elephants",
+          "kind": "FunctionDef",
+          "line": 105
+        },
+        {
+          "name": "divide_into_herds",
+          "kind": "FunctionDef",
+          "line": 117
+        },
+        {
+          "name": "__init__",
+          "kind": "FunctionDef",
+          "line": 139
+        },
+        {
+          "name": "choose_next_city",
+          "kind": "FunctionDef",
+          "line": 144
+        },
+        {
+          "name": "build_route",
+          "kind": "FunctionDef",
+          "line": 155
+        },
+        {
+          "name": "calculate_route_length",
+          "kind": "FunctionDef",
+          "line": 170
+        },
+        {
+          "name": "__init__",
+          "kind": "FunctionDef",
+          "line": 205
+        },
+        {
+          "name": "update_personal_best",
+          "kind": "FunctionDef",
+          "line": 212
+        },
+        {
+          "name": "update_velocity",
+          "kind": "FunctionDef",
+          "line": 219
+        },
+        {
+          "name": "apply_velocity",
+          "kind": "FunctionDef",
+          "line": 227
+        }
+      ],
+      "source_copy": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\routing\\source_cell_copies\\mri_optimisation_code_cell_28.py.txt"
+    },
+    {
+      "notebook": "mri_optimisation.ipynb",
+      "code_cell_1based": 33,
+      "all_cell_0based": 32,
+      "cell_id": "IM37HOmAUhET",
+      "sha256": "3fe48028494c8706f6670707d29b4952338ded59872cddd4f2fbec8a5fa8e8cb",
+      "definitions": [
+        {
+          "name": "generate_distance_matrix",
+          "kind": "FunctionDef",
+          "line": 8
+        },
+        {
+          "name": "calculate_route_length",
+          "kind": "FunctionDef",
+          "line": 13
+        },
+        {
+          "name": "order_crossover",
+          "kind": "FunctionDef",
+          "line": 16
+        },
+        {
+          "name": "swap_mutation",
+          "kind": "FunctionDef",
+          "line": 30
+        },
+        {
+          "name": "initialize_population",
+          "kind": "FunctionDef",
+          "line": 35
+        },
+        {
+          "name": "select_parents",
+          "kind": "FunctionDef",
+          "line": 38
+        },
+        {
+          "name": "ga_tsp",
+          "kind": "FunctionDef",
+          "line": 44
+        },
+        {
+          "name": "Elephant",
+          "kind": "ClassDef",
+          "line": 82
+        },
+        {
+          "name": "elephant_herding_optimization",
+          "kind": "FunctionDef",
+          "line": 96
+        },
+        {
+          "name": "Ant",
+          "kind": "ClassDef",
+          "line": 140
+        },
+        {
+          "name": "aco_tsp",
+          "kind": "FunctionDef",
+          "line": 178
+        },
+        {
+          "name": "Particle",
+          "kind": "ClassDef",
+          "line": 204
+        },
+        {
+          "name": "pso_tsp",
+          "kind": "FunctionDef",
+          "line": 232
+        },
+        {
+          "name": "__init__",
+          "kind": "FunctionDef",
+          "line": 83
+        },
+        {
+          "name": "evaluate_fitness",
+          "kind": "FunctionDef",
+          "line": 87
+        },
+        {
+          "name": "calculate_route_length",
+          "kind": "FunctionDef",
+          "line": 91
+        },
+        {
+          "name": "initialize_clan",
+          "kind": "FunctionDef",
+          "line": 100
+        },
+        {
+          "name": "move_elephants",
+          "kind": "FunctionDef",
+          "line": 109
+        },
+        {
+          "name": "divide_into_herds",
+          "kind": "FunctionDef",
+          "line": 121
+        },
+        {
+          "name": "__init__",
+          "kind": "FunctionDef",
+          "line": 141
+        },
+        {
+          "name": "choose_next_city",
+          "kind": "FunctionDef",
+          "line": 146
+        },
+        {
+          "name": "build_route",
+          "kind": "FunctionDef",
+          "line": 157
+        },
+        {
+          "name": "calculate_route_length",
+          "kind": "FunctionDef",
+          "line": 172
+        },
+        {
+          "name": "__init__",
+          "kind": "FunctionDef",
+          "line": 205
+        },
+        {
+          "name": "update_personal_best",
+          "kind": "FunctionDef",
+          "line": 212
+        },
+        {
+          "name": "update_velocity",
+          "kind": "FunctionDef",
+          "line": 219
+        },
+        {
+          "name": "apply_velocity",
+          "kind": "FunctionDef",
+          "line": 227
+        }
+      ],
+      "source_copy": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\routing\\source_cell_copies\\mri_optimisation_code_cell_33.py.txt"
+    },
+    {
+      "notebook": "brute_force.ipynb",
+      "code_cell_1based": 1,
+      "all_cell_0based": 0,
+      "cell_id": "gNj0hDkTRNGx",
+      "sha256": "61618e0125c9516d1ea140f8923b15a8e6126bd9bbc86c15515bcaf28ab21b2a",
+      "definitions": [
+        {
+          "name": "generate_distance_matrix",
+          "kind": "FunctionDef",
+          "line": 5
+        },
+        {
+          "name": "tsp_brute_force",
+          "kind": "FunctionDef",
+          "line": 14
+        },
+        {
+          "name": "main",
+          "kind": "FunctionDef",
+          "line": 40
+        }
+      ],
+      "source_copy": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\routing\\source_cell_copies\\brute_force_code_cell_1.py.txt"
+    },
+    {
+      "notebook": "brute_force.ipynb",
+      "code_cell_1based": 2,
+      "all_cell_0based": 1,
+      "cell_id": "B4Liisd2QNS5",
+      "sha256": "1a6bac3995f297043b60c6cddc0616a64c2a091d18d8c16a95288afd395496fd",
+      "definitions": [
+        {
+          "name": "Elephant",
+          "kind": "ClassDef",
+          "line": 22
+        },
+        {
+          "name": "initialize_clan",
+          "kind": "FunctionDef",
+          "line": 42
+        },
+        {
+          "name": "divide_into_herds",
+          "kind": "FunctionDef",
+          "line": 54
+        },
+        {
+          "name": "order_crossover",
+          "kind": "FunctionDef",
+          "line": 64
+        },
+        {
+          "name": "swap_mutation",
+          "kind": "FunctionDef",
+          "line": 79
+        },
+        {
+          "name": "move_elephants",
+          "kind": "FunctionDef",
+          "line": 85
+        },
+        {
+          "name": "elephant_herding_optimization",
+          "kind": "FunctionDef",
+          "line": 111
+        },
+        {
+          "name": "main",
+          "kind": "FunctionDef",
+          "line": 137
+        },
+        {
+          "name": "__init__",
+          "kind": "FunctionDef",
+          "line": 23
+        },
+        {
+          "name": "evaluate_fitness",
+          "kind": "FunctionDef",
+          "line": 29
+        },
+        {
+          "name": "calculate_route_length",
+          "kind": "FunctionDef",
+          "line": 33
+        }
+      ],
+      "source_copy": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\routing\\source_cell_copies\\brute_force_code_cell_2.py.txt"
+    }
+  ],
+  "pdf_documents": [
+    {
+      "extracted_source": "major_last_codes_pages.json",
+      "routing_code_pages": [
+        {
+          "page": 38,
+          "functions": [
+            "generate_distance_matrix",
+            "calculate_route_length",
+            "order_crossover"
+          ]
+        },
+        {
+          "page": 39,
+          "functions": [
+            "swap_mutation",
+            "initialize_population",
+            "select_parents",
+            "ga_tsp"
+          ]
+        },
+        {
+          "page": 40,
+          "functions": [
+            "calculate_route_length",
+            "elephant_herding_optimization"
+          ]
+        },
+        {
+          "page": 42,
+          "functions": [
+            "calculate_route_length",
+            "aco_tsp"
+          ]
+        },
+        {
+          "page": 43,
+          "functions": [
+            "pso_tsp"
+          ]
+        }
+      ],
+      "execution_source": "Notebook counterpart; PDF text is documentary corroboration, not silently reinterpreted executable code."
+    },
+    {
+      "extracted_source": "mri_local_codes_pages.json",
+      "routing_code_pages": [
+        {
+          "page": 9,
+          "functions": [
+            "pso_vrp",
+            "vrp_cost"
+          ]
+        },
+        {
+          "page": 10,
+          "functions": [
+            "generate_customers",
+            "calc_distance_matrix",
+            "visualize_routes"
+          ]
+        },
+        {
+          "page": 11,
+          "functions": [
+            "pso_vrp",
+            "eho_vrp"
+          ]
+        },
+        {
+          "page": 12,
+          "functions": [
+            "test_pso_vs_eho_with_visualization"
+          ]
+        },
+        {
+          "page": 33,
+          "functions": [
+            "generate_distance_matrix",
+            "calculate_route_length"
+          ]
+        },
+        {
+          "page": 34,
+          "functions": [
+            "order_crossover",
+            "swap_mutation",
+            "initialize_population",
+            "select_parents",
+            "ga_tsp",
+            "calculate_route_length",
+            "elephant_herding_optimization"
+          ]
+        },
+        {
+          "page": 35,
+          "functions": [
+            "calculate_route_length",
+            "aco_tsp"
+          ]
+        },
+        {
+          "page": 36,
+          "functions": [
+            "pso_tsp"
+          ]
+        },
+        {
+          "page": 38,
+          "functions": [
+            "generate_distance_matrix",
+            "calculate_route_length",
+            "order_crossover"
+          ]
+        },
+        {
+          "page": 39,
+          "functions": [
+            "swap_mutation",
+            "initialize_population",
+            "select_parents",
+            "ga_tsp",
+            "calculate_route_length",
+            "elephant_herding_optimization"
+          ]
+        },
+        {
+          "page": 40,
+          "functions": [
+            "calculate_route_length",
+            "aco_tsp"
+          ]
+        }
+      ],
+      "execution_source": "Notebook counterpart; PDF text is documentary corroboration, not silently reinterpreted executable code."
+    }
+  ]
+}

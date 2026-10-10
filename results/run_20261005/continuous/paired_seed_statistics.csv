@@ -1,0 +1,9 @@
+task,comparison,n,mean_paired_difference,median_paired_difference,wins,ties,losses,wilcoxon_two_sided_p,caution,holm_adjusted_p
+ackley_10d,modified_eho minus acor,5,-0.03978208180940683,-0.022953531404596106,5,0,0,0.0625,Exploratory paired seeds on ONE instance; small n; no patient or dataset generalisation,0.5
+ackley_10d,modified_eho minus ga,5,-0.8348362009332547,-0.8095245601748111,5,0,0,0.0625,Exploratory paired seeds on ONE instance; small n; no patient or dataset generalisation,0.5
+ackley_10d,modified_eho minus original_eho,5,-0.3355173449598595,-0.32385605342858526,5,0,0,0.0625,Exploratory paired seeds on ONE instance; small n; no patient or dataset generalisation,0.5
+ackley_10d,modified_eho minus pso,5,-0.07959389030127753,-0.07934819773764445,5,0,0,0.0625,Exploratory paired seeds on ONE instance; small n; no patient or dataset generalisation,0.5
+rastrigin_10d,modified_eho minus acor,5,-47.54815805168198,-48.453705023201834,5,0,0,0.0625,Exploratory paired seeds on ONE instance; small n; no patient or dataset generalisation,0.5
+rastrigin_10d,modified_eho minus ga,5,-3.272451979153243,-2.81027369839353,5,0,0,0.0625,Exploratory paired seeds on ONE instance; small n; no patient or dataset generalisation,0.5
+rastrigin_10d,modified_eho minus original_eho,5,-0.13905625368853122,-0.1458162456463583,5,0,0,0.0625,Exploratory paired seeds on ONE instance; small n; no patient or dataset generalisation,0.5
+rastrigin_10d,modified_eho minus pso,5,-15.145358185038992,-15.96915868109646,5,0,0,0.0625,Exploratory paired seeds on ONE instance; small n; no patient or dataset generalisation,0.5

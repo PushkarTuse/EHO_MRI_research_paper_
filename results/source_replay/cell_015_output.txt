@@ -1,0 +1,22 @@
+Testing PSO on Medical Image Registration...
+PSO Best Value (MSE): 0.133550, Execution Time: 0.67117 seconds
+PSO Best Position: Angle=-0.94, Tx=-12.55, Ty=-2.49
+
+Testing EHO on Medical Image Registration...
+EHO Best Value (MSE): 0.134622, Execution Time: 0.27617 seconds
+EHO Best Position: Angle=0.87, Tx=8.80, Ty=8.78
+
+Testing GA on Medical Image Registration...
+GA Best Value (MSE): 0.134484, Execution Time: 0.67532 seconds
+GA Best Position: Angle=-0.69, Tx=-18.41, Ty=2.41
+
+Testing ACO on Medical Image Registration...
+ACO Best Value (MSE): 0.140261, Execution Time: 0.69272 seconds
+ACO Best Position: Angle=6.59, Tx=20.00, Ty=18.30
+
+===== Summary of Results =====
+PSO: Best MSE = 0.133550, Time = 0.67117 seconds
+EHO: Best MSE = 0.134622, Time = 0.27617 seconds
+GA:  Best MSE = 0.134484, Time = 0.67532 seconds
+ACO: Best MSE = 0.140261, Time = 0.69272 seconds
+===============================

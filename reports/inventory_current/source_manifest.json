@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-10-10T22:44:16.862414+00:00",
+  "sources": [
+    {
+      "path": "D:\\RANDOM\\research_paper_iim\\EHO_MRI_research_paper\\manuscripts\\without_citations_draft.pdf",
+      "bytes": 1162793,
+      "sha256": "242430efb8300be8c98cb87b35f788f41dff78ec4e51819b5a94fde01f63a6bd"
+    },
+    {
+      "path": "D:\\RANDOM\\research_paper_iim\\EHO_MRI_research_paper\\manuscripts\\without_citations_draft_rewritten.docx",
+      "bytes": 1151062,
+      "sha256": "ac873a669d20466b7d8a70acefbdbc68489c768e89c08c083d3718bfce607af5"
+    },
+    {
+      "path": "D:\\RANDOM\\research_paper_iim\\EHO_MRI_research_paper\\sources\\major_last_codes_draft.pdf",
+      "bytes": 2066313,
+      "sha256": "c0369e60e4507b9cc8ca64f685f9711c6f50222eb2ed187bcbfc30bdac57b984"
+    },
+    {
+      "path": "D:\\RANDOM\\research_paper_iim\\EHO_MRI_research_paper\\sources\\mri_local_codes.pdf",
+      "bytes": 4210206,
+      "sha256": "902b81b1935266552a55f29c2a85b114ff70a0c8a80d9a7d2aeaf564df0dcea6"
+    },
+    {
+      "path": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\dataset.json",
+      "bytes": 46231,
+      "sha256": "77f38db2fcf1a39ad4923f482f30c948cc7349fa7823cd307ceb3145adb81412"
+    },
+    {
+      "path": "D:\\RANDOM\\research_paper_iim\\EHO_MRI_research_paper\\sources\\mri_optimisation.ipynb",
+      "bytes": 1372946,
+      "sha256": "d1f4f2f482cdcd645684e74f3d684dfe57633e26f77c2336094256ec92581632"
+    },
+    {
+      "path": "D:\\RANDOM\\research_paper_iim\\EHO_MRI_research_paper\\sources\\brute_force.ipynb",
+      "bytes": 144824,
+      "sha256": "ee3d231c60d64284cf24b4d0fb866a1c5e3fdc837d20bcdd7bf1a0ed94c28e14"
+    }
+  ],
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0"
+}

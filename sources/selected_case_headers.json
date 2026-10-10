@@ -1,0 +1,86 @@
+[
+  {
+    "case": "BRATS_001",
+    "shape": [
+      240,
+      240,
+      155,
+      4
+    ],
+    "zoom": [
+      "1.0",
+      "1.0",
+      "1.0",
+      "1.0"
+    ],
+    "dtype": "float32",
+    "axcodes": [
+      "R",
+      "A",
+      "S"
+    ],
+    "label_values": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "affine_matches": true
+  },
+  {
+    "case": "BRATS_002",
+    "shape": [
+      240,
+      240,
+      155,
+      4
+    ],
+    "zoom": [
+      "1.0",
+      "1.0",
+      "1.0",
+      "1.0"
+    ],
+    "dtype": "float32",
+    "axcodes": [
+      "R",
+      "A",
+      "S"
+    ],
+    "label_values": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "affine_matches": true
+  },
+  {
+    "case": "BRATS_003",
+    "shape": [
+      240,
+      240,
+      155,
+      4
+    ],
+    "zoom": [
+      "1.0",
+      "1.0",
+      "1.0",
+      "1.0"
+    ],
+    "dtype": "float32",
+    "axcodes": [
+      "R",
+      "A",
+      "S"
+    ],
+    "label_values": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "affine_matches": true
+  }
+]

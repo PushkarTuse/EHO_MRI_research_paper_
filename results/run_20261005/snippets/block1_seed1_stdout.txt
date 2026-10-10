@@ -1,0 +1,12 @@
+GA: Best route = [14, 10, 6, 7, 11, 8, 13, 5, 3, 12, 4, 0, 1, 9, 2], Best distance = 464.7032313838504
+1791142362.909945   1791142363.147155
+Execution time: 0.23721003532409668 seconds
+EHO: Best route = [7, 13, 3, 5, 0, 12, 4, 1, 8, 11, 9, 6, 14, 10, 2], Best distance = 373.52824003869483
+1791142363.147155   1791142363.2696812
+Execution time: 0.12252616882324219 seconds
+ACO: Best route = [4, np.int64(1), np.int64(6), np.int64(10), np.int64(14), np.int64(9), np.int64(2), np.int64(7), np.int64(11), np.int64(8), np.int64(13), np.int64(3), np.int64(5), np.int64(0), np.int64(12)], Best distance = 320.5256656696074
+1791142363.2696812   1791142366.6049402
+Execution time: 3.335258960723877 seconds
+PSO: Best route = [3, 5, 7, 2, 12, 4, 13, 6, 1, 0, 14, 10, 9, 11, 8], Best distance = 585.8925989819577
+1791142366.6049402   1791142366.8098419
+Execution time: 0.20490169525146484 seconds

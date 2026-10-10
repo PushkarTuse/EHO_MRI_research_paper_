@@ -1,0 +1,99 @@
+{
+  "artifacts": [
+    {
+      "path": "D:\\RANDOM\\research_paper_iim\\EHO_MRI_research_paper\\sources\\existing_meshes\\eho_enhanced_brain_model.stl",
+      "method_filename": "eho",
+      "bytes": 551084,
+      "sha256": "34e568708682a5ff8596b38aae67757ab290e02a8bb7b94f5e5472ba09201c4d",
+      "vertices": 33060,
+      "faces": 11020,
+      "bounds_native_units": [
+        [
+          56.51628875732422,
+          25.796430587768555,
+          0.0
+        ],
+        [
+          185.56317138671875,
+          195.9844970703125,
+          3.0
+        ]
+      ],
+      "units": "not stored in STL",
+      "patient": "not recorded",
+      "prediction_provenance": "not recorded"
+    },
+    {
+      "path": "D:\\RANDOM\\research_paper_iim\\EHO_MRI_research_paper\\sources\\existing_meshes\\pso_enhanced_brain_model.stl",
+      "method_filename": "pso",
+      "bytes": 551084,
+      "sha256": "34e568708682a5ff8596b38aae67757ab290e02a8bb7b94f5e5472ba09201c4d",
+      "vertices": 33060,
+      "faces": 11020,
+      "bounds_native_units": [
+        [
+          56.51628875732422,
+          25.796430587768555,
+          0.0
+        ],
+        [
+          185.56317138671875,
+          195.9844970703125,
+          3.0
+        ]
+      ],
+      "units": "not stored in STL",
+      "patient": "not recorded",
+      "prediction_provenance": "not recorded"
+    },
+    {
+      "path": "D:\\RANDOM\\research_paper_iim\\EHO_MRI_research_paper\\sources\\existing_meshes\\3d_models\\eho_enhanced_brain_model.stl",
+      "method_filename": "eho",
+      "bytes": 549184,
+      "sha256": "4d20f48a0baa583c4615eddaa95fea05922cd46d4543613eef7f22948808adf0",
+      "vertices": 32946,
+      "faces": 10982,
+      "bounds_native_units": [
+        [
+          56.5180778503418,
+          25.80150604248047,
+          0.0
+        ],
+        [
+          185.56346130371094,
+          195.98141479492188,
+          3.0
+        ]
+      ],
+      "units": "not stored in STL",
+      "patient": "not recorded",
+      "prediction_provenance": "not recorded"
+    },
+    {
+      "path": "D:\\RANDOM\\research_paper_iim\\EHO_MRI_research_paper\\sources\\existing_meshes\\3d_models\\pso_enhanced_brain_model.stl",
+      "method_filename": "pso",
+      "bytes": 549184,
+      "sha256": "4d20f48a0baa583c4615eddaa95fea05922cd46d4543613eef7f22948808adf0",
+      "vertices": 32946,
+      "faces": 10982,
+      "bounds_native_units": [
+        [
+          56.5180778503418,
+          25.80150604248047,
+          0.0
+        ],
+        [
+          185.56346130371094,
+          195.98141479492188,
+          3.0
+        ]
+      ],
+      "units": "not stored in STL",
+      "patient": "not recorded",
+      "prediction_provenance": "not recorded"
+    }
+  ],
+  "root_eho_pso_identical": true,
+  "subfolder_eho_pso_identical": true,
+  "conclusion": "Within each folder EHO and PSO files are byte-identical. They cannot support an algorithm-specific reconstruction-quality difference. Patient, units and mask provenance are unspecified, so geometric error against current cases is not computed."
+}

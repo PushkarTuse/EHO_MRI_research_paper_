@@ -1,0 +1,20 @@
+[
+  {
+    "output_type": "stream",
+    "name": "stdout",
+    "text": [
+      "Iteration 1, Best Fitness: 201\n",
+      "Iteration 2, Best Fitness: 168\n",
+      "Iteration 3, Best Fitness: 168\n",
+      "Iteration 4, Best Fitness: 168\n",
+      "Iteration 5, Best Fitness: 168\n",
+      "Iteration 6, Best Fitness: 168\n",
+      "Iteration 7, Best Fitness: 166\n",
+      "\n",
+      "Best Route Found:\n",
+      "[2, 5, 1, 4, 9, 7, 3, 8, 0, 6]\n",
+      "Minimum Distance: 166\n",
+      "Execution time: 0.04320645332336426\n"
+    ]
+  }
+]

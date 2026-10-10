@@ -1,0 +1,1 @@
+print("Graph plot for mri enhancment with different algorithms and 3d model generation")

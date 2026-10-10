@@ -1,0 +1,89 @@
+[
+  {
+    "source": {
+      "notebook": "mri_optimisation.ipynb",
+      "code_cell_1based": 15,
+      "all_cell_0based": 14,
+      "cell_id": "SE8d7DD07EZu"
+    },
+    "variant": 1,
+    "first_line": 11,
+    "end_line_exclusive": 239,
+    "function_names": [
+      "generate_image",
+      "apply_transformation",
+      "mse",
+      "objective_function",
+      "PSOParticle",
+      "pso_registration",
+      "EHOElephant",
+      "eho_registration",
+      "ga_crossover",
+      "ga_mutate",
+      "ga_registration",
+      "ACOAnt",
+      "aco_registration"
+    ],
+    "eho_cap20": false,
+    "sha256": "c52c383d8b0cd56fc5619ae1889c20bc1a30894d8199d2e09fcaa0f9407dc338",
+    "invoked_by_historical_harness": false
+  },
+  {
+    "source": {
+      "notebook": "mri_optimisation.ipynb",
+      "code_cell_1based": 15,
+      "all_cell_0based": 14,
+      "cell_id": "SE8d7DD07EZu"
+    },
+    "variant": 2,
+    "first_line": 239,
+    "end_line_exclusive": 477,
+    "function_names": [
+      "generate_image",
+      "apply_transformation",
+      "mse",
+      "objective_function",
+      "PSOParticle",
+      "pso_registration",
+      "EHOElephant",
+      "eho_registration",
+      "ga_crossover",
+      "ga_mutate",
+      "ga_registration",
+      "ACOAnt",
+      "aco_registration"
+    ],
+    "eho_cap20": true,
+    "sha256": "9a45ed6cbabb6ec887eb6e02975361600c1d40baa0c01a5a8f358e47ad356719",
+    "invoked_by_historical_harness": false
+  },
+  {
+    "source": {
+      "notebook": "mri_optimisation.ipynb",
+      "code_cell_1based": 15,
+      "all_cell_0based": 14,
+      "cell_id": "SE8d7DD07EZu"
+    },
+    "variant": 3,
+    "first_line": 477,
+    "end_line_exclusive": 705,
+    "function_names": [
+      "generate_image",
+      "apply_transformation",
+      "mse",
+      "objective_function",
+      "PSOParticle",
+      "pso_registration",
+      "EHOElephant",
+      "eho_registration",
+      "ga_crossover",
+      "ga_mutate",
+      "ga_registration",
+      "ACOAnt",
+      "aco_registration"
+    ],
+    "eho_cap20": false,
+    "sha256": "c52c383d8b0cd56fc5619ae1889c20bc1a30894d8199d2e09fcaa0f9407dc338",
+    "invoked_by_historical_harness": false
+  }
+]

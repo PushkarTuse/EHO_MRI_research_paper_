@@ -1,0 +1,78 @@
+{
+  "path": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_001.nii.gz",
+  "slice_index": 71,
+  "slice_axis": 2,
+  "native_shape": [
+    240,
+    240,
+    155,
+    4
+  ],
+  "selected_volume_shape": [
+    240,
+    240,
+    155
+  ],
+  "modality_index": 0,
+  "modality_note": "Task01_BrainTumour channel 0 is FLAIR; channel names depend on input dataset",
+  "evaluation_shape": [
+    128,
+    128
+  ],
+  "resize_factor": 0.5333333333333333,
+  "positive_percentile_99_5": 1528.8300000000017,
+  "nifti_affine": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "truth_pull_parameters": [
+    12.0,
+    4.0,
+    -3.0
+  ],
+  "pixel_mask_count": 4930,
+  "fixed_mask": "circular interior safe for bounds, intersected with fixed>0",
+  "intensity_normalisation": "clip(raw / positive-pixel 99.5th percentile,0,1)",
+  "limitation": "single anatomical slice with synthetic rigid perturbation; no independent patient cohort",
+  "bounds": [
+    [
+      -30.0,
+      30.0
+    ],
+    [
+      -12.0,
+      12.0
+    ],
+    [
+      -12.0,
+      12.0
+    ]
+  ],
+  "unregistered_mse": 0.029684191415069543,
+  "true_transform_mse": 0.0005231594158655211,
+  "endpoint": "MSE on fixed mask",
+  "training": "none",
+  "timing": "optimizer plus objective only, excludes loading and report rendering"
+}

@@ -1,0 +1,28 @@
+{
+  "synthetic_seed": 42,
+  "source_forward_transform": [
+    25,
+    5,
+    -3
+  ],
+  "limitation": "same legacy circular integer translation and full-array metric; not anatomical validation",
+  "bounds": [
+    [
+      -45,
+      45
+    ],
+    [
+      -20,
+      20
+    ],
+    [
+      -20,
+      20
+    ]
+  ],
+  "unregistered_mse": 0.15022450167169288,
+  "true_transform_mse": null,
+  "endpoint": "MSE on fixed mask",
+  "training": "none",
+  "timing": "optimizer plus objective only, excludes loading and report rendering"
+}

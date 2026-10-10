@@ -1,0 +1,4358 @@
+[
+  {
+    "case": "BRATS_001",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_001.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_001.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10641910,
+    "label_bytes": 30597
+  },
+  {
+    "case": "BRATS_002",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_002.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_002.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11432262,
+    "label_bytes": 20857
+  },
+  {
+    "case": "BRATS_003",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_003.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_003.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 12178064,
+    "label_bytes": 34845
+  },
+  {
+    "case": "BRATS_004",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_004.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_004.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9038753,
+    "label_bytes": 29454
+  },
+  {
+    "case": "BRATS_005",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_005.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_005.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10954346,
+    "label_bytes": 30251
+  },
+  {
+    "case": "BRATS_006",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_006.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_006.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10111480,
+    "label_bytes": 45451
+  },
+  {
+    "case": "BRATS_007",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_007.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_007.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11433853,
+    "label_bytes": 24009
+  },
+  {
+    "case": "BRATS_008",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_008.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_008.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11703796,
+    "label_bytes": 39998
+  },
+  {
+    "case": "BRATS_009",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_009.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_009.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8790180,
+    "label_bytes": 40784
+  },
+  {
+    "case": "BRATS_010",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_010.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_010.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11272170,
+    "label_bytes": 13841
+  },
+  {
+    "case": "BRATS_011",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_011.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_011.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9722977,
+    "label_bytes": 33107
+  },
+  {
+    "case": "BRATS_012",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_012.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_012.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11036082,
+    "label_bytes": 14295
+  },
+  {
+    "case": "BRATS_013",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_013.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_013.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10852439,
+    "label_bytes": 12375
+  },
+  {
+    "case": "BRATS_014",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_014.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_014.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11611949,
+    "label_bytes": 37703
+  },
+  {
+    "case": "BRATS_015",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_015.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_015.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 12256925,
+    "label_bytes": 40839
+  },
+  {
+    "case": "BRATS_016",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_016.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_016.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9409910,
+    "label_bytes": 24290
+  },
+  {
+    "case": "BRATS_017",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_017.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_017.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 7801065,
+    "label_bytes": 26998
+  },
+  {
+    "case": "BRATS_018",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_018.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_018.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9107807,
+    "label_bytes": 33841
+  },
+  {
+    "case": "BRATS_019",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_019.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_019.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8808446,
+    "label_bytes": 37898
+  },
+  {
+    "case": "BRATS_020",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_020.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_020.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8969872,
+    "label_bytes": 55110
+  },
+  {
+    "case": "BRATS_021",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_021.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_021.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8434299,
+    "label_bytes": 19335
+  },
+  {
+    "case": "BRATS_022",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_022.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_022.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9295470,
+    "label_bytes": 43880
+  },
+  {
+    "case": "BRATS_023",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_023.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_023.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10693216,
+    "label_bytes": 18112
+  },
+  {
+    "case": "BRATS_024",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_024.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_024.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10443875,
+    "label_bytes": 14327
+  },
+  {
+    "case": "BRATS_025",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_025.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_025.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9490388,
+    "label_bytes": 13290
+  },
+  {
+    "case": "BRATS_026",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_026.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_026.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 7325346,
+    "label_bytes": 18991
+  },
+  {
+    "case": "BRATS_027",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_027.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_027.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8271824,
+    "label_bytes": 18038
+  },
+  {
+    "case": "BRATS_028",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_028.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_028.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8055169,
+    "label_bytes": 22607
+  },
+  {
+    "case": "BRATS_029",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_029.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_029.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8562957,
+    "label_bytes": 12948
+  },
+  {
+    "case": "BRATS_030",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_030.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_030.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8156920,
+    "label_bytes": 15856
+  },
+  {
+    "case": "BRATS_031",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_031.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_031.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10363360,
+    "label_bytes": 18919
+  },
+  {
+    "case": "BRATS_032",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_032.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_032.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9010434,
+    "label_bytes": 47018
+  },
+  {
+    "case": "BRATS_033",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_033.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_033.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9578916,
+    "label_bytes": 35159
+  },
+  {
+    "case": "BRATS_034",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_034.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_034.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9547299,
+    "label_bytes": 41804
+  },
+  {
+    "case": "BRATS_035",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_035.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_035.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9234944,
+    "label_bytes": 25298
+  },
+  {
+    "case": "BRATS_036",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_036.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_036.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8207534,
+    "label_bytes": 29577
+  },
+  {
+    "case": "BRATS_037",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_037.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_037.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11019427,
+    "label_bytes": 28873
+  },
+  {
+    "case": "BRATS_038",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_038.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_038.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9208594,
+    "label_bytes": 43078
+  },
+  {
+    "case": "BRATS_039",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_039.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_039.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8465712,
+    "label_bytes": 17511
+  },
+  {
+    "case": "BRATS_040",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_040.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_040.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 7480137,
+    "label_bytes": 29001
+  },
+  {
+    "case": "BRATS_041",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_041.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_041.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9550083,
+    "label_bytes": 40600
+  },
+  {
+    "case": "BRATS_042",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_042.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_042.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9389963,
+    "label_bytes": 17389
+  },
+  {
+    "case": "BRATS_043",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_043.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_043.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10918243,
+    "label_bytes": 18044
+  },
+  {
+    "case": "BRATS_044",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_044.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_044.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8629267,
+    "label_bytes": 18406
+  },
+  {
+    "case": "BRATS_045",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_045.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_045.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9734453,
+    "label_bytes": 26681
+  },
+  {
+    "case": "BRATS_046",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_046.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_046.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8844588,
+    "label_bytes": 33439
+  },
+  {
+    "case": "BRATS_047",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_047.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_047.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9679471,
+    "label_bytes": 44135
+  },
+  {
+    "case": "BRATS_048",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_048.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_048.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9327589,
+    "label_bytes": 35658
+  },
+  {
+    "case": "BRATS_049",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_049.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_049.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10191159,
+    "label_bytes": 25810
+  },
+  {
+    "case": "BRATS_050",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_050.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_050.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8828638,
+    "label_bytes": 24157
+  },
+  {
+    "case": "BRATS_051",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_051.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_051.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8521820,
+    "label_bytes": 28425
+  },
+  {
+    "case": "BRATS_052",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_052.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_052.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8602949,
+    "label_bytes": 25533
+  },
+  {
+    "case": "BRATS_053",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_053.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_053.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8372738,
+    "label_bytes": 29070
+  },
+  {
+    "case": "BRATS_054",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_054.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_054.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8195676,
+    "label_bytes": 28112
+  },
+  {
+    "case": "BRATS_055",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_055.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_055.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 7982000,
+    "label_bytes": 30890
+  },
+  {
+    "case": "BRATS_056",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_056.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_056.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8425415,
+    "label_bytes": 31643
+  },
+  {
+    "case": "BRATS_057",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_057.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_057.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 7920277,
+    "label_bytes": 35185
+  },
+  {
+    "case": "BRATS_058",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_058.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_058.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9305083,
+    "label_bytes": 35444
+  },
+  {
+    "case": "BRATS_059",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_059.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_059.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10375488,
+    "label_bytes": 29335
+  },
+  {
+    "case": "BRATS_060",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_060.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_060.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10406028,
+    "label_bytes": 46840
+  },
+  {
+    "case": "BRATS_061",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_061.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_061.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9701724,
+    "label_bytes": 27410
+  },
+  {
+    "case": "BRATS_062",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_062.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_062.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10892452,
+    "label_bytes": 29920
+  },
+  {
+    "case": "BRATS_063",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_063.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_063.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10357079,
+    "label_bytes": 31080
+  },
+  {
+    "case": "BRATS_064",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_064.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_064.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10188037,
+    "label_bytes": 41936
+  },
+  {
+    "case": "BRATS_065",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_065.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_065.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 12341984,
+    "label_bytes": 43825
+  },
+  {
+    "case": "BRATS_066",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_066.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_066.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 13393645,
+    "label_bytes": 47493
+  },
+  {
+    "case": "BRATS_067",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_067.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_067.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9046348,
+    "label_bytes": 18961
+  },
+  {
+    "case": "BRATS_068",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_068.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_068.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9020386,
+    "label_bytes": 18572
+  },
+  {
+    "case": "BRATS_069",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_069.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_069.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9010103,
+    "label_bytes": 21957
+  },
+  {
+    "case": "BRATS_070",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_070.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_070.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8853972,
+    "label_bytes": 21177
+  },
+  {
+    "case": "BRATS_071",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_071.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_071.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9418100,
+    "label_bytes": 23170
+  },
+  {
+    "case": "BRATS_072",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_072.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_072.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9428375,
+    "label_bytes": 28316
+  },
+  {
+    "case": "BRATS_073",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_073.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_073.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9364654,
+    "label_bytes": 27073
+  },
+  {
+    "case": "BRATS_074",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_074.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_074.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9236660,
+    "label_bytes": 35114
+  },
+  {
+    "case": "BRATS_075",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_075.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_075.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11069494,
+    "label_bytes": 38959
+  },
+  {
+    "case": "BRATS_076",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_076.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_076.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8746264,
+    "label_bytes": 41105
+  },
+  {
+    "case": "BRATS_077",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_077.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_077.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9157013,
+    "label_bytes": 19796
+  },
+  {
+    "case": "BRATS_078",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_078.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_078.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8650167,
+    "label_bytes": 33145
+  },
+  {
+    "case": "BRATS_079",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_079.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_079.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10350698,
+    "label_bytes": 28183
+  },
+  {
+    "case": "BRATS_080",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_080.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_080.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9713894,
+    "label_bytes": 34175
+  },
+  {
+    "case": "BRATS_081",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_081.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_081.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9586360,
+    "label_bytes": 29121
+  },
+  {
+    "case": "BRATS_082",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_082.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_082.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9728000,
+    "label_bytes": 29261
+  },
+  {
+    "case": "BRATS_083",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_083.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_083.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10336330,
+    "label_bytes": 22764
+  },
+  {
+    "case": "BRATS_084",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_084.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_084.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8914031,
+    "label_bytes": 17281
+  },
+  {
+    "case": "BRATS_085",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_085.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_085.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8356831,
+    "label_bytes": 23013
+  },
+  {
+    "case": "BRATS_086",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_086.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_086.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 12026268,
+    "label_bytes": 30770
+  },
+  {
+    "case": "BRATS_087",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_087.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_087.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11054155,
+    "label_bytes": 25931
+  },
+  {
+    "case": "BRATS_088",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_088.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_088.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11712152,
+    "label_bytes": 49848
+  },
+  {
+    "case": "BRATS_089",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_089.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_089.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9126462,
+    "label_bytes": 35765
+  },
+  {
+    "case": "BRATS_090",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_090.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_090.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11293704,
+    "label_bytes": 34530
+  },
+  {
+    "case": "BRATS_091",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_091.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_091.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10559646,
+    "label_bytes": 38672
+  },
+  {
+    "case": "BRATS_092",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_092.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_092.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9941754,
+    "label_bytes": 34574
+  },
+  {
+    "case": "BRATS_093",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_093.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_093.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9246870,
+    "label_bytes": 42842
+  },
+  {
+    "case": "BRATS_094",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_094.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_094.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10781577,
+    "label_bytes": 40608
+  },
+  {
+    "case": "BRATS_095",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_095.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_095.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11984991,
+    "label_bytes": 16487
+  },
+  {
+    "case": "BRATS_096",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_096.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_096.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9352256,
+    "label_bytes": 26790
+  },
+  {
+    "case": "BRATS_097",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_097.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_097.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10207390,
+    "label_bytes": 40158
+  },
+  {
+    "case": "BRATS_098",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_098.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_098.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8130154,
+    "label_bytes": 24426
+  },
+  {
+    "case": "BRATS_099",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_099.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_099.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10092726,
+    "label_bytes": 25986
+  },
+  {
+    "case": "BRATS_100",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_100.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_100.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10091302,
+    "label_bytes": 30780
+  },
+  {
+    "case": "BRATS_101",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_101.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_101.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9996617,
+    "label_bytes": 28652
+  },
+  {
+    "case": "BRATS_102",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_102.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_102.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9668334,
+    "label_bytes": 22472
+  },
+  {
+    "case": "BRATS_103",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_103.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_103.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9556153,
+    "label_bytes": 29559
+  },
+  {
+    "case": "BRATS_104",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_104.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_104.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9866840,
+    "label_bytes": 25063
+  },
+  {
+    "case": "BRATS_105",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_105.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_105.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10041967,
+    "label_bytes": 31412
+  },
+  {
+    "case": "BRATS_106",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_106.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_106.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10772880,
+    "label_bytes": 38548
+  },
+  {
+    "case": "BRATS_107",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_107.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_107.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9935295,
+    "label_bytes": 32643
+  },
+  {
+    "case": "BRATS_108",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_108.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_108.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10224312,
+    "label_bytes": 38724
+  },
+  {
+    "case": "BRATS_109",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_109.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_109.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8590962,
+    "label_bytes": 28647
+  },
+  {
+    "case": "BRATS_110",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_110.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_110.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11539466,
+    "label_bytes": 23625
+  },
+  {
+    "case": "BRATS_111",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_111.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_111.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9845694,
+    "label_bytes": 24151
+  },
+  {
+    "case": "BRATS_112",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_112.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_112.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8768488,
+    "label_bytes": 36741
+  },
+  {
+    "case": "BRATS_113",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_113.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_113.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10621345,
+    "label_bytes": 35766
+  },
+  {
+    "case": "BRATS_114",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_114.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_114.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9930402,
+    "label_bytes": 29413
+  },
+  {
+    "case": "BRATS_115",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_115.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_115.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9616555,
+    "label_bytes": 24794
+  },
+  {
+    "case": "BRATS_116",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_116.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_116.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9156044,
+    "label_bytes": 36876
+  },
+  {
+    "case": "BRATS_117",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_117.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_117.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9279913,
+    "label_bytes": 49927
+  },
+  {
+    "case": "BRATS_118",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_118.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_118.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10935855,
+    "label_bytes": 31021
+  },
+  {
+    "case": "BRATS_119",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_119.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_119.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10723195,
+    "label_bytes": 33102
+  },
+  {
+    "case": "BRATS_120",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_120.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_120.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11046451,
+    "label_bytes": 19157
+  },
+  {
+    "case": "BRATS_121",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_121.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_121.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10945622,
+    "label_bytes": 19299
+  },
+  {
+    "case": "BRATS_122",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_122.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_122.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11074948,
+    "label_bytes": 18981
+  },
+  {
+    "case": "BRATS_123",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_123.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_123.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10960608,
+    "label_bytes": 40954
+  },
+  {
+    "case": "BRATS_124",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_124.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_124.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11127258,
+    "label_bytes": 40987
+  },
+  {
+    "case": "BRATS_125",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_125.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_125.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10898686,
+    "label_bytes": 41978
+  },
+  {
+    "case": "BRATS_126",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_126.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_126.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9811112,
+    "label_bytes": 37038
+  },
+  {
+    "case": "BRATS_127",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_127.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_127.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 7233769,
+    "label_bytes": 23908
+  },
+  {
+    "case": "BRATS_128",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_128.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_128.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10716813,
+    "label_bytes": 14851
+  },
+  {
+    "case": "BRATS_129",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_129.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_129.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9308327,
+    "label_bytes": 41384
+  },
+  {
+    "case": "BRATS_130",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_130.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_130.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10700919,
+    "label_bytes": 20611
+  },
+  {
+    "case": "BRATS_131",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_131.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_131.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9802366,
+    "label_bytes": 41681
+  },
+  {
+    "case": "BRATS_132",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_132.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_132.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8412291,
+    "label_bytes": 22642
+  },
+  {
+    "case": "BRATS_133",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_133.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_133.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10040184,
+    "label_bytes": 19688
+  },
+  {
+    "case": "BRATS_134",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_134.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_134.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10098863,
+    "label_bytes": 20868
+  },
+  {
+    "case": "BRATS_135",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_135.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_135.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10469542,
+    "label_bytes": 43376
+  },
+  {
+    "case": "BRATS_136",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_136.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_136.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9414160,
+    "label_bytes": 24540
+  },
+  {
+    "case": "BRATS_137",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_137.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_137.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10670735,
+    "label_bytes": 41517
+  },
+  {
+    "case": "BRATS_138",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_138.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_138.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10843201,
+    "label_bytes": 14064
+  },
+  {
+    "case": "BRATS_139",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_139.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_139.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10898074,
+    "label_bytes": 29592
+  },
+  {
+    "case": "BRATS_140",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_140.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_140.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11014486,
+    "label_bytes": 47075
+  },
+  {
+    "case": "BRATS_141",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_141.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_141.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11010988,
+    "label_bytes": 62922
+  },
+  {
+    "case": "BRATS_142",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_142.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_142.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8953105,
+    "label_bytes": 40415
+  },
+  {
+    "case": "BRATS_143",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_143.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_143.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8677620,
+    "label_bytes": 26672
+  },
+  {
+    "case": "BRATS_144",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_144.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_144.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9541601,
+    "label_bytes": 21570
+  },
+  {
+    "case": "BRATS_145",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_145.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_145.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 6202495,
+    "label_bytes": 27095
+  },
+  {
+    "case": "BRATS_146",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_146.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_146.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11100708,
+    "label_bytes": 24258
+  },
+  {
+    "case": "BRATS_147",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_147.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_147.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9557774,
+    "label_bytes": 26432
+  },
+  {
+    "case": "BRATS_148",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_148.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_148.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9591878,
+    "label_bytes": 28219
+  },
+  {
+    "case": "BRATS_149",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_149.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_149.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9926500,
+    "label_bytes": 33246
+  },
+  {
+    "case": "BRATS_150",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_150.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_150.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10063539,
+    "label_bytes": 37371
+  },
+  {
+    "case": "BRATS_151",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_151.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_151.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10314573,
+    "label_bytes": 41800
+  },
+  {
+    "case": "BRATS_152",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_152.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_152.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10359874,
+    "label_bytes": 45943
+  },
+  {
+    "case": "BRATS_153",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_153.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_153.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10374634,
+    "label_bytes": 19728
+  },
+  {
+    "case": "BRATS_154",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_154.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_154.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11875065,
+    "label_bytes": 33386
+  },
+  {
+    "case": "BRATS_155",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_155.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_155.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9996679,
+    "label_bytes": 56810
+  },
+  {
+    "case": "BRATS_156",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_156.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_156.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 12110175,
+    "label_bytes": 57199
+  },
+  {
+    "case": "BRATS_157",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_157.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_157.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11994416,
+    "label_bytes": 54342
+  },
+  {
+    "case": "BRATS_158",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_158.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_158.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9834553,
+    "label_bytes": 20820
+  },
+  {
+    "case": "BRATS_159",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_159.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_159.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9240553,
+    "label_bytes": 36440
+  },
+  {
+    "case": "BRATS_160",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_160.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_160.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9634669,
+    "label_bytes": 16591
+  },
+  {
+    "case": "BRATS_161",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_161.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_161.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10708467,
+    "label_bytes": 35300
+  },
+  {
+    "case": "BRATS_162",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_162.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_162.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10335757,
+    "label_bytes": 25044
+  },
+  {
+    "case": "BRATS_163",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_163.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_163.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10374594,
+    "label_bytes": 23709
+  },
+  {
+    "case": "BRATS_164",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_164.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_164.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9628047,
+    "label_bytes": 23259
+  },
+  {
+    "case": "BRATS_165",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_165.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_165.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10198122,
+    "label_bytes": 37418
+  },
+  {
+    "case": "BRATS_166",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_166.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_166.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10005641,
+    "label_bytes": 28370
+  },
+  {
+    "case": "BRATS_167",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_167.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_167.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8729694,
+    "label_bytes": 15261
+  },
+  {
+    "case": "BRATS_168",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_168.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_168.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8747134,
+    "label_bytes": 19196
+  },
+  {
+    "case": "BRATS_169",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_169.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_169.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11764676,
+    "label_bytes": 27661
+  },
+  {
+    "case": "BRATS_170",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_170.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_170.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10717304,
+    "label_bytes": 35623
+  },
+  {
+    "case": "BRATS_171",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_171.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_171.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11603042,
+    "label_bytes": 13819
+  },
+  {
+    "case": "BRATS_172",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_172.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_172.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8622413,
+    "label_bytes": 30485
+  },
+  {
+    "case": "BRATS_173",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_173.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_173.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10025675,
+    "label_bytes": 35390
+  },
+  {
+    "case": "BRATS_174",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_174.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_174.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8803656,
+    "label_bytes": 31633
+  },
+  {
+    "case": "BRATS_175",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_175.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_175.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10171776,
+    "label_bytes": 12587
+  },
+  {
+    "case": "BRATS_176",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_176.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_176.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9930155,
+    "label_bytes": 13265
+  },
+  {
+    "case": "BRATS_177",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_177.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_177.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9961107,
+    "label_bytes": 14101
+  },
+  {
+    "case": "BRATS_178",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_178.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_178.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9979484,
+    "label_bytes": 15253
+  },
+  {
+    "case": "BRATS_179",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_179.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_179.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9769721,
+    "label_bytes": 17934
+  },
+  {
+    "case": "BRATS_180",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_180.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_180.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10541707,
+    "label_bytes": 29409
+  },
+  {
+    "case": "BRATS_181",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_181.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_181.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10669586,
+    "label_bytes": 45722
+  },
+  {
+    "case": "BRATS_182",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_182.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_182.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 7544987,
+    "label_bytes": 35685
+  },
+  {
+    "case": "BRATS_183",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_183.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_183.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10635883,
+    "label_bytes": 14338
+  },
+  {
+    "case": "BRATS_184",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_184.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_184.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10629539,
+    "label_bytes": 19046
+  },
+  {
+    "case": "BRATS_185",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_185.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_185.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10470756,
+    "label_bytes": 18614
+  },
+  {
+    "case": "BRATS_186",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_186.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_186.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10432348,
+    "label_bytes": 18745
+  },
+  {
+    "case": "BRATS_187",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_187.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_187.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10466373,
+    "label_bytes": 20566
+  },
+  {
+    "case": "BRATS_188",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_188.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_188.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10190079,
+    "label_bytes": 20058
+  },
+  {
+    "case": "BRATS_189",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_189.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_189.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10603541,
+    "label_bytes": 19956
+  },
+  {
+    "case": "BRATS_190",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_190.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_190.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 7512516,
+    "label_bytes": 26016
+  },
+  {
+    "case": "BRATS_191",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_191.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_191.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 7923318,
+    "label_bytes": 38920
+  },
+  {
+    "case": "BRATS_192",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_192.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_192.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9812892,
+    "label_bytes": 36753
+  },
+  {
+    "case": "BRATS_193",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_193.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_193.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9504058,
+    "label_bytes": 26290
+  },
+  {
+    "case": "BRATS_194",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_194.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_194.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9951306,
+    "label_bytes": 28762
+  },
+  {
+    "case": "BRATS_195",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_195.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_195.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10194226,
+    "label_bytes": 27954
+  },
+  {
+    "case": "BRATS_196",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_196.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_196.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10909874,
+    "label_bytes": 36336
+  },
+  {
+    "case": "BRATS_197",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_197.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_197.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9456713,
+    "label_bytes": 38416
+  },
+  {
+    "case": "BRATS_198",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_198.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_198.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10772486,
+    "label_bytes": 33673
+  },
+  {
+    "case": "BRATS_199",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_199.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_199.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11933890,
+    "label_bytes": 23585
+  },
+  {
+    "case": "BRATS_200",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_200.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_200.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9361027,
+    "label_bytes": 34349
+  },
+  {
+    "case": "BRATS_201",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_201.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_201.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10217112,
+    "label_bytes": 40680
+  },
+  {
+    "case": "BRATS_202",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_202.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_202.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8859761,
+    "label_bytes": 42926
+  },
+  {
+    "case": "BRATS_203",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_203.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_203.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8916244,
+    "label_bytes": 34136
+  },
+  {
+    "case": "BRATS_204",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_204.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_204.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9299580,
+    "label_bytes": 31294
+  },
+  {
+    "case": "BRATS_205",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_205.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_205.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9748298,
+    "label_bytes": 37138
+  },
+  {
+    "case": "BRATS_206",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_206.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_206.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8875547,
+    "label_bytes": 51943
+  },
+  {
+    "case": "BRATS_207",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_207.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_207.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10078738,
+    "label_bytes": 44414
+  },
+  {
+    "case": "BRATS_208",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_208.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_208.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9425403,
+    "label_bytes": 28089
+  },
+  {
+    "case": "BRATS_209",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_209.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_209.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10370346,
+    "label_bytes": 27777
+  },
+  {
+    "case": "BRATS_210",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_210.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_210.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10317668,
+    "label_bytes": 29722
+  },
+  {
+    "case": "BRATS_211",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_211.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_211.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10535888,
+    "label_bytes": 26802
+  },
+  {
+    "case": "BRATS_212",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_212.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_212.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10393936,
+    "label_bytes": 27604
+  },
+  {
+    "case": "BRATS_213",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_213.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_213.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9434485,
+    "label_bytes": 26798
+  },
+  {
+    "case": "BRATS_214",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_214.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_214.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10385284,
+    "label_bytes": 27763
+  },
+  {
+    "case": "BRATS_215",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_215.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_215.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10464426,
+    "label_bytes": 28617
+  },
+  {
+    "case": "BRATS_216",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_216.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_216.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10571670,
+    "label_bytes": 27846
+  },
+  {
+    "case": "BRATS_217",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_217.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_217.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9860886,
+    "label_bytes": 41523
+  },
+  {
+    "case": "BRATS_218",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_218.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_218.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11060839,
+    "label_bytes": 30924
+  },
+  {
+    "case": "BRATS_219",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_219.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_219.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8695845,
+    "label_bytes": 32889
+  },
+  {
+    "case": "BRATS_220",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_220.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_220.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10171101,
+    "label_bytes": 24408
+  },
+  {
+    "case": "BRATS_221",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_221.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_221.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11840395,
+    "label_bytes": 26442
+  },
+  {
+    "case": "BRATS_222",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_222.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_222.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9752523,
+    "label_bytes": 25648
+  },
+  {
+    "case": "BRATS_223",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_223.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_223.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10479192,
+    "label_bytes": 62835
+  },
+  {
+    "case": "BRATS_224",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_224.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_224.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9363683,
+    "label_bytes": 15354
+  },
+  {
+    "case": "BRATS_225",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_225.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_225.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10837716,
+    "label_bytes": 39996
+  },
+  {
+    "case": "BRATS_226",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_226.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_226.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11211855,
+    "label_bytes": 24651
+  },
+  {
+    "case": "BRATS_227",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_227.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_227.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9044636,
+    "label_bytes": 34031
+  },
+  {
+    "case": "BRATS_228",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_228.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_228.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9161253,
+    "label_bytes": 34898
+  },
+  {
+    "case": "BRATS_229",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_229.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_229.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8689122,
+    "label_bytes": 39305
+  },
+  {
+    "case": "BRATS_230",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_230.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_230.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10040810,
+    "label_bytes": 16829
+  },
+  {
+    "case": "BRATS_231",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_231.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_231.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 7670433,
+    "label_bytes": 26908
+  },
+  {
+    "case": "BRATS_232",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_232.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_232.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9066244,
+    "label_bytes": 15751
+  },
+  {
+    "case": "BRATS_233",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_233.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_233.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10123221,
+    "label_bytes": 19027
+  },
+  {
+    "case": "BRATS_234",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_234.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_234.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9064004,
+    "label_bytes": 28392
+  },
+  {
+    "case": "BRATS_235",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_235.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_235.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8502724,
+    "label_bytes": 28512
+  },
+  {
+    "case": "BRATS_236",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_236.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_236.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10805659,
+    "label_bytes": 43017
+  },
+  {
+    "case": "BRATS_237",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_237.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_237.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9432317,
+    "label_bytes": 29762
+  },
+  {
+    "case": "BRATS_238",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_238.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_238.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10001922,
+    "label_bytes": 14074
+  },
+  {
+    "case": "BRATS_239",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_239.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_239.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9041187,
+    "label_bytes": 38537
+  },
+  {
+    "case": "BRATS_240",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_240.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_240.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10162121,
+    "label_bytes": 50733
+  },
+  {
+    "case": "BRATS_241",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_241.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_241.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9623888,
+    "label_bytes": 39253
+  },
+  {
+    "case": "BRATS_242",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_242.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_242.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9189293,
+    "label_bytes": 44904
+  },
+  {
+    "case": "BRATS_243",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_243.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_243.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10897482,
+    "label_bytes": 23894
+  },
+  {
+    "case": "BRATS_244",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_244.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_244.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10009952,
+    "label_bytes": 32131
+  },
+  {
+    "case": "BRATS_245",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_245.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_245.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10513728,
+    "label_bytes": 34055
+  },
+  {
+    "case": "BRATS_246",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_246.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_246.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10031004,
+    "label_bytes": 32704
+  },
+  {
+    "case": "BRATS_247",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_247.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_247.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10343224,
+    "label_bytes": 27334
+  },
+  {
+    "case": "BRATS_248",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_248.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_248.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11779616,
+    "label_bytes": 29071
+  },
+  {
+    "case": "BRATS_249",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_249.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_249.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10121340,
+    "label_bytes": 55084
+  },
+  {
+    "case": "BRATS_250",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_250.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_250.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11031147,
+    "label_bytes": 42048
+  },
+  {
+    "case": "BRATS_251",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_251.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_251.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9916632,
+    "label_bytes": 50945
+  },
+  {
+    "case": "BRATS_252",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_252.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_252.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 7982478,
+    "label_bytes": 27201
+  },
+  {
+    "case": "BRATS_253",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_253.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_253.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8405879,
+    "label_bytes": 23175
+  },
+  {
+    "case": "BRATS_254",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_254.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_254.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9217433,
+    "label_bytes": 25318
+  },
+  {
+    "case": "BRATS_255",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_255.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_255.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10345882,
+    "label_bytes": 26577
+  },
+  {
+    "case": "BRATS_256",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_256.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_256.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9206535,
+    "label_bytes": 32399
+  },
+  {
+    "case": "BRATS_257",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_257.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_257.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9690336,
+    "label_bytes": 27816
+  },
+  {
+    "case": "BRATS_258",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_258.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_258.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 7526670,
+    "label_bytes": 20891
+  },
+  {
+    "case": "BRATS_259",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_259.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_259.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10007554,
+    "label_bytes": 18417
+  },
+  {
+    "case": "BRATS_260",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_260.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_260.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9722215,
+    "label_bytes": 24765
+  },
+  {
+    "case": "BRATS_261",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_261.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_261.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11040859,
+    "label_bytes": 39734
+  },
+  {
+    "case": "BRATS_262",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_262.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_262.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10452192,
+    "label_bytes": 15042
+  },
+  {
+    "case": "BRATS_263",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_263.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_263.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8990951,
+    "label_bytes": 34410
+  },
+  {
+    "case": "BRATS_264",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_264.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_264.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8588392,
+    "label_bytes": 15122
+  },
+  {
+    "case": "BRATS_265",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_265.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_265.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9233992,
+    "label_bytes": 46991
+  },
+  {
+    "case": "BRATS_266",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_266.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_266.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11385869,
+    "label_bytes": 44870
+  },
+  {
+    "case": "BRATS_267",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_267.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_267.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9197071,
+    "label_bytes": 24776
+  },
+  {
+    "case": "BRATS_268",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_268.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_268.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10724267,
+    "label_bytes": 38330
+  },
+  {
+    "case": "BRATS_269",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_269.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_269.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10816400,
+    "label_bytes": 40111
+  },
+  {
+    "case": "BRATS_270",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_270.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_270.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8635640,
+    "label_bytes": 29436
+  },
+  {
+    "case": "BRATS_271",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_271.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_271.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9685684,
+    "label_bytes": 46189
+  },
+  {
+    "case": "BRATS_272",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_272.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_272.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9084362,
+    "label_bytes": 25211
+  },
+  {
+    "case": "BRATS_273",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_273.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_273.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 7659359,
+    "label_bytes": 27440
+  },
+  {
+    "case": "BRATS_274",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_274.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_274.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11546745,
+    "label_bytes": 21073
+  },
+  {
+    "case": "BRATS_275",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_275.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_275.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10471267,
+    "label_bytes": 30588
+  },
+  {
+    "case": "BRATS_276",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_276.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_276.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8834837,
+    "label_bytes": 33834
+  },
+  {
+    "case": "BRATS_277",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_277.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_277.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8547591,
+    "label_bytes": 40797
+  },
+  {
+    "case": "BRATS_278",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_278.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_278.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11055109,
+    "label_bytes": 13833
+  },
+  {
+    "case": "BRATS_279",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_279.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_279.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11556187,
+    "label_bytes": 39990
+  },
+  {
+    "case": "BRATS_280",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_280.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_280.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 12378116,
+    "label_bytes": 40830
+  },
+  {
+    "case": "BRATS_281",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_281.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_281.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11925700,
+    "label_bytes": 34834
+  },
+  {
+    "case": "BRATS_282",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_282.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_282.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10724826,
+    "label_bytes": 30241
+  },
+  {
+    "case": "BRATS_283",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_283.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_283.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9827139,
+    "label_bytes": 45437
+  },
+  {
+    "case": "BRATS_284",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_284.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_284.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9008176,
+    "label_bytes": 29437
+  },
+  {
+    "case": "BRATS_285",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_285.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_285.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8769378,
+    "label_bytes": 55101
+  },
+  {
+    "case": "BRATS_286",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_286.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_286.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11621632,
+    "label_bytes": 37700
+  },
+  {
+    "case": "BRATS_287",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_287.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_287.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10792387,
+    "label_bytes": 14290
+  },
+  {
+    "case": "BRATS_288",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_288.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_288.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10650178,
+    "label_bytes": 12369
+  },
+  {
+    "case": "BRATS_289",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_289.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_289.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9068933,
+    "label_bytes": 24282
+  },
+  {
+    "case": "BRATS_290",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_290.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_290.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11182631,
+    "label_bytes": 24003
+  },
+  {
+    "case": "BRATS_291",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_291.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_291.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 7544327,
+    "label_bytes": 26989
+  },
+  {
+    "case": "BRATS_292",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_292.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_292.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8590032,
+    "label_bytes": 37889
+  },
+  {
+    "case": "BRATS_293",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_293.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_293.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11206062,
+    "label_bytes": 20849
+  },
+  {
+    "case": "BRATS_294",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_294.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_294.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9477344,
+    "label_bytes": 33107
+  },
+  {
+    "case": "BRATS_295",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_295.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_295.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8689815,
+    "label_bytes": 43504
+  },
+  {
+    "case": "BRATS_296",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_296.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_296.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10491492,
+    "label_bytes": 23521
+  },
+  {
+    "case": "BRATS_297",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_297.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_297.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8305678,
+    "label_bytes": 16851
+  },
+  {
+    "case": "BRATS_298",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_298.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_298.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9779694,
+    "label_bytes": 27310
+  },
+  {
+    "case": "BRATS_299",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_299.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_299.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9646291,
+    "label_bytes": 16482
+  },
+  {
+    "case": "BRATS_300",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_300.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_300.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9835676,
+    "label_bytes": 39443
+  },
+  {
+    "case": "BRATS_301",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_301.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_301.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9212350,
+    "label_bytes": 19333
+  },
+  {
+    "case": "BRATS_302",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_302.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_302.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10773436,
+    "label_bytes": 17845
+  },
+  {
+    "case": "BRATS_303",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_303.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_303.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9000268,
+    "label_bytes": 48605
+  },
+  {
+    "case": "BRATS_304",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_304.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_304.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8735105,
+    "label_bytes": 22802
+  },
+  {
+    "case": "BRATS_305",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_305.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_305.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11244731,
+    "label_bytes": 21375
+  },
+  {
+    "case": "BRATS_306",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_306.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_306.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11686740,
+    "label_bytes": 19322
+  },
+  {
+    "case": "BRATS_307",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_307.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_307.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9788006,
+    "label_bytes": 22266
+  },
+  {
+    "case": "BRATS_308",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_308.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_308.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11383786,
+    "label_bytes": 29927
+  },
+  {
+    "case": "BRATS_309",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_309.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_309.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11098416,
+    "label_bytes": 31301
+  },
+  {
+    "case": "BRATS_310",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_310.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_310.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9926066,
+    "label_bytes": 36361
+  },
+  {
+    "case": "BRATS_311",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_311.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_311.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10458958,
+    "label_bytes": 28498
+  },
+  {
+    "case": "BRATS_312",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_312.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_312.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8824266,
+    "label_bytes": 21878
+  },
+  {
+    "case": "BRATS_313",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_313.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_313.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8762880,
+    "label_bytes": 22721
+  },
+  {
+    "case": "BRATS_314",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_314.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_314.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10611295,
+    "label_bytes": 49708
+  },
+  {
+    "case": "BRATS_315",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_315.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_315.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8320051,
+    "label_bytes": 21234
+  },
+  {
+    "case": "BRATS_316",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_316.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_316.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10465671,
+    "label_bytes": 24830
+  },
+  {
+    "case": "BRATS_317",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_317.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_317.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9191112,
+    "label_bytes": 20805
+  },
+  {
+    "case": "BRATS_318",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_318.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_318.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11530498,
+    "label_bytes": 30572
+  },
+  {
+    "case": "BRATS_319",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_319.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_319.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8565353,
+    "label_bytes": 25955
+  },
+  {
+    "case": "BRATS_320",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_320.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_320.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11725637,
+    "label_bytes": 42583
+  },
+  {
+    "case": "BRATS_321",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_321.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_321.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9908317,
+    "label_bytes": 27783
+  },
+  {
+    "case": "BRATS_322",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_322.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_322.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10783956,
+    "label_bytes": 16679
+  },
+  {
+    "case": "BRATS_323",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_323.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_323.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8112670,
+    "label_bytes": 21441
+  },
+  {
+    "case": "BRATS_324",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_324.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_324.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10321226,
+    "label_bytes": 36850
+  },
+  {
+    "case": "BRATS_325",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_325.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_325.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10554594,
+    "label_bytes": 32484
+  },
+  {
+    "case": "BRATS_326",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_326.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_326.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8935673,
+    "label_bytes": 18119
+  },
+  {
+    "case": "BRATS_327",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_327.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_327.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8514589,
+    "label_bytes": 31743
+  },
+  {
+    "case": "BRATS_328",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_328.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_328.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8436256,
+    "label_bytes": 28617
+  },
+  {
+    "case": "BRATS_329",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_329.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_329.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11100741,
+    "label_bytes": 33924
+  },
+  {
+    "case": "BRATS_330",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_330.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_330.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9541919,
+    "label_bytes": 12942
+  },
+  {
+    "case": "BRATS_331",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_331.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_331.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9754762,
+    "label_bytes": 37091
+  },
+  {
+    "case": "BRATS_332",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_332.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_332.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9910163,
+    "label_bytes": 35500
+  },
+  {
+    "case": "BRATS_333",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_333.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_333.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8688382,
+    "label_bytes": 19058
+  },
+  {
+    "case": "BRATS_334",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_334.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_334.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 12434284,
+    "label_bytes": 37240
+  },
+  {
+    "case": "BRATS_335",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_335.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_335.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10984098,
+    "label_bytes": 30813
+  },
+  {
+    "case": "BRATS_336",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_336.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_336.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10171679,
+    "label_bytes": 25621
+  },
+  {
+    "case": "BRATS_337",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_337.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_337.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11376943,
+    "label_bytes": 21352
+  },
+  {
+    "case": "BRATS_338",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_338.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_338.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11075205,
+    "label_bytes": 17164
+  },
+  {
+    "case": "BRATS_339",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_339.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_339.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10083646,
+    "label_bytes": 34620
+  },
+  {
+    "case": "BRATS_340",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_340.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_340.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10723652,
+    "label_bytes": 21521
+  },
+  {
+    "case": "BRATS_341",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_341.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_341.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11226232,
+    "label_bytes": 41126
+  },
+  {
+    "case": "BRATS_342",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_342.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_342.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10465759,
+    "label_bytes": 19860
+  },
+  {
+    "case": "BRATS_343",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_343.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_343.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11021910,
+    "label_bytes": 23910
+  },
+  {
+    "case": "BRATS_344",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_344.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_344.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11170269,
+    "label_bytes": 31255
+  },
+  {
+    "case": "BRATS_345",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_345.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_345.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9653999,
+    "label_bytes": 32929
+  },
+  {
+    "case": "BRATS_346",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_346.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_346.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9984983,
+    "label_bytes": 20534
+  },
+  {
+    "case": "BRATS_347",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_347.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_347.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11657753,
+    "label_bytes": 33602
+  },
+  {
+    "case": "BRATS_348",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_348.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_348.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9513741,
+    "label_bytes": 30161
+  },
+  {
+    "case": "BRATS_349",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_349.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_349.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11868044,
+    "label_bytes": 28104
+  },
+  {
+    "case": "BRATS_350",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_350.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_350.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 7972497,
+    "label_bytes": 26999
+  },
+  {
+    "case": "BRATS_351",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_351.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_351.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 7463301,
+    "label_bytes": 23964
+  },
+  {
+    "case": "BRATS_352",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_352.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_352.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9909621,
+    "label_bytes": 33903
+  },
+  {
+    "case": "BRATS_353",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_353.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_353.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8896737,
+    "label_bytes": 17058
+  },
+  {
+    "case": "BRATS_354",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_354.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_354.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9511166,
+    "label_bytes": 27908
+  },
+  {
+    "case": "BRATS_355",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_355.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_355.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9540181,
+    "label_bytes": 15543
+  },
+  {
+    "case": "BRATS_356",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_356.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_356.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8819327,
+    "label_bytes": 37546
+  },
+  {
+    "case": "BRATS_357",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_357.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_357.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9954306,
+    "label_bytes": 13810
+  },
+  {
+    "case": "BRATS_358",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_358.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_358.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8788651,
+    "label_bytes": 32775
+  },
+  {
+    "case": "BRATS_359",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_359.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_359.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8861357,
+    "label_bytes": 14931
+  },
+  {
+    "case": "BRATS_360",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_360.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_360.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9769245,
+    "label_bytes": 23258
+  },
+  {
+    "case": "BRATS_361",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_361.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_361.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10155113,
+    "label_bytes": 34236
+  },
+  {
+    "case": "BRATS_362",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_362.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_362.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10190095,
+    "label_bytes": 25277
+  },
+  {
+    "case": "BRATS_363",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_363.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_363.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8838209,
+    "label_bytes": 60527
+  },
+  {
+    "case": "BRATS_364",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_364.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_364.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10832970,
+    "label_bytes": 28180
+  },
+  {
+    "case": "BRATS_365",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_365.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_365.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10097044,
+    "label_bytes": 31811
+  },
+  {
+    "case": "BRATS_366",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_366.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_366.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9198721,
+    "label_bytes": 34684
+  },
+  {
+    "case": "BRATS_367",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_367.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_367.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9782604,
+    "label_bytes": 19547
+  },
+  {
+    "case": "BRATS_368",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_368.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_368.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10192809,
+    "label_bytes": 30502
+  },
+  {
+    "case": "BRATS_369",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_369.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_369.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11150803,
+    "label_bytes": 44450
+  },
+  {
+    "case": "BRATS_370",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_370.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_370.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 7576684,
+    "label_bytes": 20828
+  },
+  {
+    "case": "BRATS_371",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_371.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_371.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8609225,
+    "label_bytes": 20307
+  },
+  {
+    "case": "BRATS_372",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_372.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_372.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10613476,
+    "label_bytes": 22108
+  },
+  {
+    "case": "BRATS_373",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_373.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_373.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8959630,
+    "label_bytes": 11765
+  },
+  {
+    "case": "BRATS_374",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_374.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_374.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8831162,
+    "label_bytes": 18474
+  },
+  {
+    "case": "BRATS_375",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_375.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_375.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10343016,
+    "label_bytes": 16865
+  },
+  {
+    "case": "BRATS_376",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_376.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_376.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9745588,
+    "label_bytes": 13484
+  },
+  {
+    "case": "BRATS_377",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_377.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_377.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10304550,
+    "label_bytes": 22473
+  },
+  {
+    "case": "BRATS_378",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_378.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_378.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10639886,
+    "label_bytes": 24822
+  },
+  {
+    "case": "BRATS_379",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_379.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_379.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10864150,
+    "label_bytes": 18340
+  },
+  {
+    "case": "BRATS_380",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_380.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_380.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11665043,
+    "label_bytes": 15347
+  },
+  {
+    "case": "BRATS_381",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_381.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_381.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11075063,
+    "label_bytes": 14557
+  },
+  {
+    "case": "BRATS_382",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_382.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_382.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11063102,
+    "label_bytes": 17650
+  },
+  {
+    "case": "BRATS_383",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_383.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_383.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9672984,
+    "label_bytes": 40732
+  },
+  {
+    "case": "BRATS_384",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_384.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_384.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8923137,
+    "label_bytes": 22826
+  },
+  {
+    "case": "BRATS_385",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_385.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_385.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8584167,
+    "label_bytes": 24627
+  },
+  {
+    "case": "BRATS_386",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_386.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_386.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11049703,
+    "label_bytes": 29784
+  },
+  {
+    "case": "BRATS_387",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_387.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_387.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8934466,
+    "label_bytes": 44549
+  },
+  {
+    "case": "BRATS_388",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_388.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_388.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 7152063,
+    "label_bytes": 25495
+  },
+  {
+    "case": "BRATS_389",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_389.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_389.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11507452,
+    "label_bytes": 18318
+  },
+  {
+    "case": "BRATS_390",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_390.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_390.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8212905,
+    "label_bytes": 16589
+  },
+  {
+    "case": "BRATS_391",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_391.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_391.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9361009,
+    "label_bytes": 22712
+  },
+  {
+    "case": "BRATS_392",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_392.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_392.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8471895,
+    "label_bytes": 33529
+  },
+  {
+    "case": "BRATS_393",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_393.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_393.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8967550,
+    "label_bytes": 34931
+  },
+  {
+    "case": "BRATS_394",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_394.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_394.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10468835,
+    "label_bytes": 24885
+  },
+  {
+    "case": "BRATS_395",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_395.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_395.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8574278,
+    "label_bytes": 19209
+  },
+  {
+    "case": "BRATS_396",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_396.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_396.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8205990,
+    "label_bytes": 25825
+  },
+  {
+    "case": "BRATS_397",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_397.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_397.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10109434,
+    "label_bytes": 26537
+  },
+  {
+    "case": "BRATS_398",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_398.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_398.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10085625,
+    "label_bytes": 30350
+  },
+  {
+    "case": "BRATS_399",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_399.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_399.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10059512,
+    "label_bytes": 39823
+  },
+  {
+    "case": "BRATS_400",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_400.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_400.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 12004070,
+    "label_bytes": 30079
+  },
+  {
+    "case": "BRATS_401",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_401.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_401.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8665751,
+    "label_bytes": 16278
+  },
+  {
+    "case": "BRATS_402",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_402.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_402.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10284033,
+    "label_bytes": 29790
+  },
+  {
+    "case": "BRATS_403",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_403.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_403.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10678478,
+    "label_bytes": 38085
+  },
+  {
+    "case": "BRATS_404",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_404.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_404.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9671319,
+    "label_bytes": 39621
+  },
+  {
+    "case": "BRATS_405",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_405.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_405.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11173276,
+    "label_bytes": 21075
+  },
+  {
+    "case": "BRATS_406",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_406.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_406.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8562340,
+    "label_bytes": 16194
+  },
+  {
+    "case": "BRATS_407",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_407.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_407.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8070053,
+    "label_bytes": 22993
+  },
+  {
+    "case": "BRATS_408",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_408.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_408.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10928889,
+    "label_bytes": 17908
+  },
+  {
+    "case": "BRATS_409",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_409.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_409.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8705098,
+    "label_bytes": 30566
+  },
+  {
+    "case": "BRATS_410",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_410.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_410.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10350727,
+    "label_bytes": 33063
+  },
+  {
+    "case": "BRATS_411",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_411.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_411.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8906883,
+    "label_bytes": 43674
+  },
+  {
+    "case": "BRATS_412",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_412.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_412.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11167384,
+    "label_bytes": 36138
+  },
+  {
+    "case": "BRATS_413",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_413.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_413.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 12072066,
+    "label_bytes": 15447
+  },
+  {
+    "case": "BRATS_414",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_414.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_414.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9738380,
+    "label_bytes": 38142
+  },
+  {
+    "case": "BRATS_415",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_415.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_415.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 7719070,
+    "label_bytes": 20868
+  },
+  {
+    "case": "BRATS_416",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_416.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_416.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11331893,
+    "label_bytes": 26021
+  },
+  {
+    "case": "BRATS_417",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_417.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_417.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9722545,
+    "label_bytes": 43187
+  },
+  {
+    "case": "BRATS_418",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_418.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_418.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9362076,
+    "label_bytes": 20538
+  },
+  {
+    "case": "BRATS_419",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_419.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_419.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8219482,
+    "label_bytes": 24340
+  },
+  {
+    "case": "BRATS_420",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_420.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_420.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11943063,
+    "label_bytes": 21749
+  },
+  {
+    "case": "BRATS_421",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_421.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_421.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9484419,
+    "label_bytes": 24658
+  },
+  {
+    "case": "BRATS_422",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_422.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_422.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10691008,
+    "label_bytes": 34988
+  },
+  {
+    "case": "BRATS_423",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_423.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_423.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10629675,
+    "label_bytes": 23619
+  },
+  {
+    "case": "BRATS_424",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_424.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_424.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10938908,
+    "label_bytes": 33023
+  },
+  {
+    "case": "BRATS_425",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_425.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_425.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 6902004,
+    "label_bytes": 24051
+  },
+  {
+    "case": "BRATS_426",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_426.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_426.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8984072,
+    "label_bytes": 36402
+  },
+  {
+    "case": "BRATS_427",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_427.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_427.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9454866,
+    "label_bytes": 40384
+  },
+  {
+    "case": "BRATS_428",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_428.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_428.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8197713,
+    "label_bytes": 23208
+  },
+  {
+    "case": "BRATS_429",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_429.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_429.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9797427,
+    "label_bytes": 20906
+  },
+  {
+    "case": "BRATS_430",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_430.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_430.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9686254,
+    "label_bytes": 28584
+  },
+  {
+    "case": "BRATS_431",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_431.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_431.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11060226,
+    "label_bytes": 35919
+  },
+  {
+    "case": "BRATS_432",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_432.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_432.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8534988,
+    "label_bytes": 37817
+  },
+  {
+    "case": "BRATS_433",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_433.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_433.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 5934697,
+    "label_bytes": 25518
+  },
+  {
+    "case": "BRATS_434",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_434.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_434.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9093518,
+    "label_bytes": 22816
+  },
+  {
+    "case": "BRATS_435",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_435.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_435.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 12588101,
+    "label_bytes": 32728
+  },
+  {
+    "case": "BRATS_436",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_436.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_436.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9668396,
+    "label_bytes": 21341
+  },
+  {
+    "case": "BRATS_437",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_437.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_437.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8897572,
+    "label_bytes": 33865
+  },
+  {
+    "case": "BRATS_438",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_438.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_438.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9214170,
+    "label_bytes": 14592
+  },
+  {
+    "case": "BRATS_439",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_439.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_439.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10141438,
+    "label_bytes": 26633
+  },
+  {
+    "case": "BRATS_440",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_440.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_440.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10141433,
+    "label_bytes": 23659
+  },
+  {
+    "case": "BRATS_441",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_441.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_441.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10063212,
+    "label_bytes": 36037
+  },
+  {
+    "case": "BRATS_442",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_442.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_442.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9599265,
+    "label_bytes": 25235
+  },
+  {
+    "case": "BRATS_443",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_443.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_443.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8357952,
+    "label_bytes": 15154
+  },
+  {
+    "case": "BRATS_444",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_444.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_444.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8351056,
+    "label_bytes": 24710
+  },
+  {
+    "case": "BRATS_445",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_445.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_445.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8344322,
+    "label_bytes": 27561
+  },
+  {
+    "case": "BRATS_446",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_446.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_446.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9637891,
+    "label_bytes": 35498
+  },
+  {
+    "case": "BRATS_447",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_447.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_447.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8421450,
+    "label_bytes": 29521
+  },
+  {
+    "case": "BRATS_448",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_448.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_448.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10429647,
+    "label_bytes": 42584
+  },
+  {
+    "case": "BRATS_449",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_449.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_449.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 7084537,
+    "label_bytes": 31380
+  },
+  {
+    "case": "BRATS_450",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_450.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_450.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 7181001,
+    "label_bytes": 22624
+  },
+  {
+    "case": "BRATS_451",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_451.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_451.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 7578786,
+    "label_bytes": 34305
+  },
+  {
+    "case": "BRATS_452",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_452.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_452.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9135272,
+    "label_bytes": 37385
+  },
+  {
+    "case": "BRATS_453",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_453.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_453.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11372275,
+    "label_bytes": 32739
+  },
+  {
+    "case": "BRATS_454",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_454.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_454.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 12928123,
+    "label_bytes": 20249
+  },
+  {
+    "case": "BRATS_455",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_455.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_455.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9170114,
+    "label_bytes": 33847
+  },
+  {
+    "case": "BRATS_456",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_456.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_456.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9505986,
+    "label_bytes": 39008
+  },
+  {
+    "case": "BRATS_457",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_457.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_457.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9893368,
+    "label_bytes": 22339
+  },
+  {
+    "case": "BRATS_458",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_458.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_458.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9501370,
+    "label_bytes": 25468
+  },
+  {
+    "case": "BRATS_459",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_459.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_459.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8882423,
+    "label_bytes": 12800
+  },
+  {
+    "case": "BRATS_460",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_460.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_460.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11575416,
+    "label_bytes": 42636
+  },
+  {
+    "case": "BRATS_461",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_461.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_461.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8346446,
+    "label_bytes": 36051
+  },
+  {
+    "case": "BRATS_462",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_462.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_462.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8666468,
+    "label_bytes": 18649
+  },
+  {
+    "case": "BRATS_463",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_463.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_463.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8711689,
+    "label_bytes": 27448
+  },
+  {
+    "case": "BRATS_464",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_464.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_464.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8151686,
+    "label_bytes": 26781
+  },
+  {
+    "case": "BRATS_465",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_465.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_465.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9529531,
+    "label_bytes": 30872
+  },
+  {
+    "case": "BRATS_466",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_466.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_466.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10063433,
+    "label_bytes": 13208
+  },
+  {
+    "case": "BRATS_467",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_467.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_467.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9677595,
+    "label_bytes": 31224
+  },
+  {
+    "case": "BRATS_468",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_468.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_468.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 7600032,
+    "label_bytes": 27433
+  },
+  {
+    "case": "BRATS_469",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_469.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_469.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9988243,
+    "label_bytes": 23546
+  },
+  {
+    "case": "BRATS_470",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_470.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_470.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8801022,
+    "label_bytes": 36091
+  },
+  {
+    "case": "BRATS_471",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_471.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_471.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10767701,
+    "label_bytes": 36183
+  },
+  {
+    "case": "BRATS_472",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_472.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_472.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8677149,
+    "label_bytes": 33634
+  },
+  {
+    "case": "BRATS_473",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_473.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_473.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8618359,
+    "label_bytes": 15729
+  },
+  {
+    "case": "BRATS_474",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_474.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_474.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8963290,
+    "label_bytes": 39487
+  },
+  {
+    "case": "BRATS_475",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_475.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_475.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 11702160,
+    "label_bytes": 41444
+  },
+  {
+    "case": "BRATS_476",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_476.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_476.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 8824322,
+    "label_bytes": 23209
+  },
+  {
+    "case": "BRATS_477",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_477.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_477.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9381388,
+    "label_bytes": 40164
+  },
+  {
+    "case": "BRATS_478",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_478.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_478.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 7243341,
+    "label_bytes": 25662
+  },
+  {
+    "case": "BRATS_479",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_479.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_479.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 13018434,
+    "label_bytes": 18939
+  },
+  {
+    "case": "BRATS_480",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_480.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_480.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9976245,
+    "label_bytes": 35276
+  },
+  {
+    "case": "BRATS_481",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_481.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_481.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10601215,
+    "label_bytes": 21845
+  },
+  {
+    "case": "BRATS_482",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_482.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_482.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10825593,
+    "label_bytes": 46219
+  },
+  {
+    "case": "BRATS_483",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_483.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_483.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 9556044,
+    "label_bytes": 22587
+  },
+  {
+    "case": "BRATS_484",
+    "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_484.nii.gz",
+    "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_484.nii.gz",
+    "image_exists": true,
+    "label_exists": true,
+    "image_bytes": 10792745,
+    "label_bytes": 29051
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "audited_date": "2026-10-11",
+  "unit_tests_passed": 90,
+  "saved_output_checks_passed": 552,
+  "saved_output_checks_failed": 0,
+  "historical_measurement_csv_json_files_preserved_byte_identically": 761,
+  "manuscript_and_video_integrity": [
+    {
+      "file": "manuscripts/without_citations_draft.pdf",
+      "sha256": "242430efb8300be8c98cb87b35f788f41dff78ec4e51819b5a94fde01f63a6bd",
+      "bytes": 1162793,
+      "matches_original": true
+    },
+    {
+      "file": "manuscripts/without_citations_draft_rewritten.docx",
+      "sha256": "ac873a669d20466b7d8a70acefbdbc68489c768e89c08c083d3718bfce607af5",
+      "bytes": 1151062,
+      "matches_original": true
+    },
+    {
+      "file": "manuscripts/abstract.txt",
+      "sha256": "e71d1ef23f7041c30e6ad45dd7b5490a836616f5262febf3aad43d044f526ada",
+      "bytes": 2089,
+      "matches_original": true
+    },
+    {
+      "file": "media/interactive_prediction_reference_brats001_2026-10-11.mp4",
+      "sha256": "50404de951403748944c36b8d4006205c8de576a6ce4b0bb773085da4dff1336",
+      "bytes": 61222154,
+      "matches_original": true
+    }
+  ],
+  "rewritten_docx_contains_comments": false,
+  "excluded_files_found": [],
+  "broken_navigation_links": [],
+  "credential_pattern_matches_in_code_and_text": [],
+  "original_mesh_pairs_reaudited": true,
+  "checks_scope": "Synthetic correctness, portability, saved-output validation, numerical evidence preservation and packaging. No new scientific experiment was performed.",
+  "complete_historical_mri_source_recovered": false,
+  "complete_declared_pipeline_executable": true,
+  "dataset_cohort_measured": [
+    "BRATS_001",
+    "BRATS_002",
+    "BRATS_003"
+  ],
+  "ml_dl_benchmark_completed": false
+}

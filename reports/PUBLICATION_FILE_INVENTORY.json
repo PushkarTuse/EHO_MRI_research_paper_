@@ -1,0 +1,5179 @@
+{
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 331
+    },
+    {
+      "path": ".github/workflows/checks.yml",
+      "bytes": 688
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 672
+    },
+    {
+      "path": "DATA_ATTRIBUTION.md",
+      "bytes": 1355
+    },
+    {
+      "path": "README.md",
+      "bytes": 6909
+    },
+    {
+      "path": "VIEW_RESULTS.html",
+      "bytes": 5014
+    },
+    {
+      "path": "bundle_code.py",
+      "bytes": 1924
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 1193
+    },
+    {
+      "path": "data/dataset_metadata.json",
+      "bytes": 46231
+    },
+    {
+      "path": "finalize.py",
+      "bytes": 2895
+    },
+    {
+      "path": "inventory_sources.py",
+      "bytes": 8396
+    },
+    {
+      "path": "manuscripts/README.md",
+      "bytes": 602
+    },
+    {
+      "path": "manuscripts/abstract.txt",
+      "bytes": 2089
+    },
+    {
+      "path": "manuscripts/without_citations_draft.pdf",
+      "bytes": 1162793
+    },
+    {
+      "path": "manuscripts/without_citations_draft_rewritten.docx",
+      "bytes": 1151062
+    },
+    {
+      "path": "media/README.md",
+      "bytes": 533
+    },
+    {
+      "path": "media/interactive_prediction_reference_brats001_2026-10-11.mp4",
+      "bytes": 61222154
+    },
+    {
+      "path": "media/recording_metadata.json",
+      "bytes": 498
+    },
+    {
+      "path": "reports/CODE_COMPLETENESS.md",
+      "bytes": 9748
+    },
+    {
+      "path": "reports/CODE_INVENTORY.md",
+      "bytes": 9170
+    },
+    {
+      "path": "reports/LOCAL_WORKSPACE_README.md",
+      "bytes": 9572
+    },
+    {
+      "path": "reports/PUBLICATION_NOTES.md",
+      "bytes": 1616
+    },
+    {
+      "path": "reports/PUBLICATION_VALIDATION.json",
+      "bytes": 1752
+    },
+    {
+      "path": "reports/final_code_bundle_manifest.json",
+      "bytes": 14408
+    },
+    {
+      "path": "reports/imaging_method_notes.md",
+      "bytes": 12491
+    },
+    {
+      "path": "reports/inventory_current/CODE_INVENTORY.md",
+      "bytes": 7015
+    },
+    {
+      "path": "reports/inventory_current/dataset_case_inventory.json",
+      "bytes": 172523
+    },
+    {
+      "path": "reports/inventory_current/notebook_cell_inventory.json",
+      "bytes": 12948
+    },
+    {
+      "path": "reports/inventory_current/source_manifest.json",
+      "bytes": 1822
+    },
+    {
+      "path": "reports/mesh_audit_current.json",
+      "bytes": 3153
+    },
+    {
+      "path": "reports/pdf_code_coverage.json",
+      "bytes": 112857
+    },
+    {
+      "path": "reports/pdf_code_coverage.md",
+      "bytes": 12019
+    },
+    {
+      "path": "reports/publication_artifact_validation.log",
+      "bytes": 47
+    },
+    {
+      "path": "reports/publication_tests.log",
+      "bytes": 1800
+    },
+    {
+      "path": "reports/routing_method_notes.md",
+      "bytes": 9437
+    },
+    {
+      "path": "reports/source_method_notes.md",
+      "bytes": 5902
+    },
+    {
+      "path": "requirements-lock.txt",
+      "bytes": 622
+    },
+    {
+      "path": "results/existing_meshes/mesh_audit.json",
+      "bytes": 3069
+    },
+    {
+      "path": "results/run_20261005/ablations/matched_evaluations_ackley_shifted_10d_convergence.png",
+      "bytes": 89760
+    },
+    {
+      "path": "results/run_20261005/ablations/matched_evaluations_rastrigin_shifted_10d_convergence.png",
+      "bytes": 90353
+    },
+    {
+      "path": "results/run_20261005/ablations/paired_ablation_statistics.csv",
+      "bytes": 1895
+    },
+    {
+      "path": "results/run_20261005/ablations/protocol.json",
+      "bytes": 3397
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_all__seed0.json",
+      "bytes": 160565
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_all__seed0_history.csv",
+      "bytes": 71747
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_all__seed1.json",
+      "bytes": 162461
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_all__seed1_history.csv",
+      "bytes": 73643
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_all__seed2.json",
+      "bytes": 162728
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_all__seed2_history.csv",
+      "bytes": 73920
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_all__seed3.json",
+      "bytes": 159943
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_all__seed3_history.csv",
+      "bytes": 71131
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_all__seed4.json",
+      "bytes": 162652
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_all__seed4_history.csv",
+      "bytes": 73835
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_nodim__seed0.json",
+      "bytes": 159921
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_nodim__seed0_history.csv",
+      "bytes": 71074
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_nodim__seed1.json",
+      "bytes": 162670
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_nodim__seed1_history.csv",
+      "bytes": 73822
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_nodim__seed2.json",
+      "bytes": 160012
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_nodim__seed2_history.csv",
+      "bytes": 71171
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_nodim__seed3.json",
+      "bytes": 156815
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_nodim__seed3_history.csv",
+      "bytes": 67965
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_nodim__seed4.json",
+      "bytes": 159973
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_nodim__seed4_history.csv",
+      "bytes": 71125
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_norepulsion__seed0.json",
+      "bytes": 162505
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_norepulsion__seed0_history.csv",
+      "bytes": 73646
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_norepulsion__seed1.json",
+      "bytes": 162173
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_norepulsion__seed1_history.csv",
+      "bytes": 73307
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_norepulsion__seed2.json",
+      "bytes": 162719
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_norepulsion__seed2_history.csv",
+      "bytes": 73850
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_norepulsion__seed3.json",
+      "bytes": 162093
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_norepulsion__seed3_history.csv",
+      "bytes": 73205
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_norepulsion__seed4.json",
+      "bytes": 161659
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_norepulsion__seed4_history.csv",
+      "bytes": 72773
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_noschedule__seed0.json",
+      "bytes": 160936
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_noschedule__seed0_history.csv",
+      "bytes": 72077
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_noschedule__seed1.json",
+      "bytes": 159878
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_noschedule__seed1_history.csv",
+      "bytes": 71033
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_noschedule__seed2.json",
+      "bytes": 161006
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_noschedule__seed2_history.csv",
+      "bytes": 72155
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_noschedule__seed3.json",
+      "bytes": 162722
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_noschedule__seed3_history.csv",
+      "bytes": 73869
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_noschedule__seed4.json",
+      "bytes": 160244
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_noschedule__seed4_history.csv",
+      "bytes": 71379
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_noseparation__seed0.json",
+      "bytes": 162234
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_noseparation__seed0_history.csv",
+      "bytes": 73363
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_noseparation__seed1.json",
+      "bytes": 158568
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_noseparation__seed1_history.csv",
+      "bytes": 69705
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_noseparation__seed2.json",
+      "bytes": 162784
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_noseparation__seed2_history.csv",
+      "bytes": 73920
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_noseparation__seed3.json",
+      "bytes": 162581
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_noseparation__seed3_history.csv",
+      "bytes": 73711
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_noseparation__seed4.json",
+      "bytes": 162774
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__modified_noseparation__seed4_history.csv",
+      "bytes": 73905
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__original_eho__seed0.json",
+      "bytes": 162555
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__original_eho__seed0_history.csv",
+      "bytes": 73733
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__original_eho__seed1.json",
+      "bytes": 159826
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__original_eho__seed1_history.csv",
+      "bytes": 71004
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__original_eho__seed2.json",
+      "bytes": 162739
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__original_eho__seed2_history.csv",
+      "bytes": 73916
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__original_eho__seed3.json",
+      "bytes": 159779
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__original_eho__seed3_history.csv",
+      "bytes": 70955
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__original_eho__seed4.json",
+      "bytes": 162617
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/ackley_shifted_10d__original_eho__seed4_history.csv",
+      "bytes": 73799
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_all__seed0.json",
+      "bytes": 159712
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_all__seed0_history.csv",
+      "bytes": 70947
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_all__seed1.json",
+      "bytes": 159867
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_all__seed1_history.csv",
+      "bytes": 71106
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_all__seed2.json",
+      "bytes": 162669
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_all__seed2_history.csv",
+      "bytes": 73902
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_all__seed3.json",
+      "bytes": 159810
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_all__seed3_history.csv",
+      "bytes": 71045
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_all__seed4.json",
+      "bytes": 156901
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_all__seed4_history.csv",
+      "bytes": 68140
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_nodim__seed0.json",
+      "bytes": 159762
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_nodim__seed0_history.csv",
+      "bytes": 70947
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_nodim__seed1.json",
+      "bytes": 159782
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_nodim__seed1_history.csv",
+      "bytes": 70968
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_nodim__seed2.json",
+      "bytes": 159799
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_nodim__seed2_history.csv",
+      "bytes": 70989
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_nodim__seed3.json",
+      "bytes": 159781
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_nodim__seed3_history.csv",
+      "bytes": 70964
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_nodim__seed4.json",
+      "bytes": 159797
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_nodim__seed4_history.csv",
+      "bytes": 70983
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_norepulsion__seed0.json",
+      "bytes": 159723
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_norepulsion__seed0_history.csv",
+      "bytes": 70903
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_norepulsion__seed1.json",
+      "bytes": 159841
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_norepulsion__seed1_history.csv",
+      "bytes": 71025
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_norepulsion__seed2.json",
+      "bytes": 162718
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_norepulsion__seed2_history.csv",
+      "bytes": 73902
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_norepulsion__seed3.json",
+      "bytes": 159854
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_norepulsion__seed3_history.csv",
+      "bytes": 71037
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_norepulsion__seed4.json",
+      "bytes": 160103
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_norepulsion__seed4_history.csv",
+      "bytes": 71290
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_noschedule__seed0.json",
+      "bytes": 161682
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_noschedule__seed0_history.csv",
+      "bytes": 72865
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_noschedule__seed1.json",
+      "bytes": 159923
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_noschedule__seed1_history.csv",
+      "bytes": 71112
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_noschedule__seed2.json",
+      "bytes": 159994
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_noschedule__seed2_history.csv",
+      "bytes": 71172
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_noschedule__seed3.json",
+      "bytes": 157300
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_noschedule__seed3_history.csv",
+      "bytes": 68480
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_noschedule__seed4.json",
+      "bytes": 159913
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_noschedule__seed4_history.csv",
+      "bytes": 71097
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_noseparation__seed0.json",
+      "bytes": 159778
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_noseparation__seed0_history.csv",
+      "bytes": 70947
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_noseparation__seed1.json",
+      "bytes": 160098
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_noseparation__seed1_history.csv",
+      "bytes": 71265
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_noseparation__seed2.json",
+      "bytes": 159443
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_noseparation__seed2_history.csv",
+      "bytes": 70612
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_noseparation__seed3.json",
+      "bytes": 159828
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_noseparation__seed3_history.csv",
+      "bytes": 70997
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_noseparation__seed4.json",
+      "bytes": 160929
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__modified_noseparation__seed4_history.csv",
+      "bytes": 72102
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__original_eho__seed0.json",
+      "bytes": 156940
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__original_eho__seed0_history.csv",
+      "bytes": 68157
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__original_eho__seed1.json",
+      "bytes": 159803
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__original_eho__seed1_history.csv",
+      "bytes": 71019
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__original_eho__seed2.json",
+      "bytes": 159669
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__original_eho__seed2_history.csv",
+      "bytes": 70885
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__original_eho__seed3.json",
+      "bytes": 159762
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__original_eho__seed3_history.csv",
+      "bytes": 70981
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__original_eho__seed4.json",
+      "bytes": 161197
+    },
+    {
+      "path": "results/run_20261005/ablations/raw/rastrigin_shifted_10d__original_eho__seed4_history.csv",
+      "bytes": 72408
+    },
+    {
+      "path": "results/run_20261005/ablations/runs.csv",
+      "bytes": 17264
+    },
+    {
+      "path": "results/run_20261005/ablations/summary.csv",
+      "bytes": 2592
+    },
+    {
+      "path": "results/run_20261005/continuous/matched_evaluations_ackley_10d_convergence.png",
+      "bytes": 106887
+    },
+    {
+      "path": "results/run_20261005/continuous/matched_evaluations_rastrigin_10d_convergence.png",
+      "bytes": 102874
+    },
+    {
+      "path": "results/run_20261005/continuous/paired_seed_statistics.csv",
+      "bytes": 1617
+    },
+    {
+      "path": "results/run_20261005/continuous/protocol.json",
+      "bytes": 647
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__acor__seed0.json",
+      "bytes": 161377
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__acor__seed0_history.csv",
+      "bytes": 72902
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__acor__seed1.json",
+      "bytes": 162646
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__acor__seed1_history.csv",
+      "bytes": 74172
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__acor__seed2.json",
+      "bytes": 162641
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__acor__seed2_history.csv",
+      "bytes": 74167
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__acor__seed3.json",
+      "bytes": 161384
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__acor__seed3_history.csv",
+      "bytes": 72909
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__acor__seed4.json",
+      "bytes": 162076
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__acor__seed4_history.csv",
+      "bytes": 73602
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__ga__seed0.json",
+      "bytes": 160926
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__ga__seed0_history.csv",
+      "bytes": 72465
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__ga__seed1.json",
+      "bytes": 160266
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__ga__seed1_history.csv",
+      "bytes": 71802
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__ga__seed2.json",
+      "bytes": 161078
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__ga__seed2_history.csv",
+      "bytes": 72620
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__ga__seed3.json",
+      "bytes": 161959
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__ga__seed3_history.csv",
+      "bytes": 73498
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__ga__seed4.json",
+      "bytes": 161601
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__ga__seed4_history.csv",
+      "bytes": 73130
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__modified_eho__seed0.json",
+      "bytes": 166385
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__modified_eho__seed0_history.csv",
+      "bytes": 77818
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__modified_eho__seed1.json",
+      "bytes": 167158
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__modified_eho__seed1_history.csv",
+      "bytes": 78590
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__modified_eho__seed2.json",
+      "bytes": 165364
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__modified_eho__seed2_history.csv",
+      "bytes": 76792
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__modified_eho__seed3.json",
+      "bytes": 165577
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__modified_eho__seed3_history.csv",
+      "bytes": 77014
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__modified_eho__seed4.json",
+      "bytes": 165478
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__modified_eho__seed4_history.csv",
+      "bytes": 76915
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__original_eho__seed0.json",
+      "bytes": 162547
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__original_eho__seed0_history.csv",
+      "bytes": 73979
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__original_eho__seed1.json",
+      "bytes": 163852
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__original_eho__seed1_history.csv",
+      "bytes": 75279
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__original_eho__seed2.json",
+      "bytes": 161935
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__original_eho__seed2_history.csv",
+      "bytes": 73364
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__original_eho__seed3.json",
+      "bytes": 163635
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__original_eho__seed3_history.csv",
+      "bytes": 75067
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__original_eho__seed4.json",
+      "bytes": 162076
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__original_eho__seed4_history.csv",
+      "bytes": 73505
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__pso__seed0.json",
+      "bytes": 161725
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__pso__seed0_history.csv",
+      "bytes": 73360
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__pso__seed1.json",
+      "bytes": 161909
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__pso__seed1_history.csv",
+      "bytes": 73540
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__pso__seed2.json",
+      "bytes": 161014
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__pso__seed2_history.csv",
+      "bytes": 72648
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__pso__seed3.json",
+      "bytes": 162312
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__pso__seed3_history.csv",
+      "bytes": 73939
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__pso__seed4.json",
+      "bytes": 161224
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/ackley_10d__pso__seed4_history.csv",
+      "bytes": 72859
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__acor__seed0.json",
+      "bytes": 160120
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__acor__seed0_history.csv",
+      "bytes": 71707
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__acor__seed1.json",
+      "bytes": 160579
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__acor__seed1_history.csv",
+      "bytes": 72161
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__acor__seed2.json",
+      "bytes": 159566
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__acor__seed2_history.csv",
+      "bytes": 71153
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__acor__seed3.json",
+      "bytes": 159252
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__acor__seed3_history.csv",
+      "bytes": 70838
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__acor__seed4.json",
+      "bytes": 159415
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__acor__seed4_history.csv",
+      "bytes": 71003
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__ga__seed0.json",
+      "bytes": 160155
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__ga__seed0_history.csv",
+      "bytes": 71727
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__ga__seed1.json",
+      "bytes": 160287
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__ga__seed1_history.csv",
+      "bytes": 71859
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__ga__seed2.json",
+      "bytes": 160792
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__ga__seed2_history.csv",
+      "bytes": 72369
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__ga__seed3.json",
+      "bytes": 160487
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__ga__seed3_history.csv",
+      "bytes": 72067
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__ga__seed4.json",
+      "bytes": 159775
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__ga__seed4_history.csv",
+      "bytes": 71351
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__modified_eho__seed0.json",
+      "bytes": 168845
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__modified_eho__seed0_history.csv",
+      "bytes": 80311
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__modified_eho__seed1.json",
+      "bytes": 169105
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__modified_eho__seed1_history.csv",
+      "bytes": 80568
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__modified_eho__seed2.json",
+      "bytes": 167810
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__modified_eho__seed2_history.csv",
+      "bytes": 79270
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__modified_eho__seed3.json",
+      "bytes": 168211
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__modified_eho__seed3_history.csv",
+      "bytes": 79673
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__modified_eho__seed4.json",
+      "bytes": 166584
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__modified_eho__seed4_history.csv",
+      "bytes": 78047
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__original_eho__seed0.json",
+      "bytes": 163345
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__original_eho__seed0_history.csv",
+      "bytes": 74804
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__original_eho__seed1.json",
+      "bytes": 164216
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__original_eho__seed1_history.csv",
+      "bytes": 75671
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__original_eho__seed2.json",
+      "bytes": 162578
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__original_eho__seed2_history.csv",
+      "bytes": 74039
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__original_eho__seed3.json",
+      "bytes": 163787
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__original_eho__seed3_history.csv",
+      "bytes": 75247
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__original_eho__seed4.json",
+      "bytes": 160111
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__original_eho__seed4_history.csv",
+      "bytes": 71569
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__pso__seed0.json",
+      "bytes": 160524
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__pso__seed0_history.csv",
+      "bytes": 72215
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__pso__seed1.json",
+      "bytes": 161035
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__pso__seed1_history.csv",
+      "bytes": 72725
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__pso__seed2.json",
+      "bytes": 159955
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__pso__seed2_history.csv",
+      "bytes": 71647
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__pso__seed3.json",
+      "bytes": 160607
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__pso__seed3_history.csv",
+      "bytes": 72295
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__pso__seed4.json",
+      "bytes": 159537
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/rastrigin_10d__pso__seed4_history.csv",
+      "bytes": 71226
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_ackley_cell2__aco__seed0.json",
+      "bytes": 273580
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_ackley_cell2__aco__seed0_history.csv",
+      "bytes": 125070
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_ackley_cell2__aco__seed1.json",
+      "bytes": 273171
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_ackley_cell2__aco__seed1_history.csv",
+      "bytes": 124650
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_ackley_cell2__aco__seed2.json",
+      "bytes": 272531
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_ackley_cell2__aco__seed2_history.csv",
+      "bytes": 124011
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_ackley_cell2__eho__seed0.json",
+      "bytes": 541079
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_ackley_cell2__eho__seed0_history.csv",
+      "bytes": 247519
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_ackley_cell2__eho__seed1.json",
+      "bytes": 540886
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_ackley_cell2__eho__seed1_history.csv",
+      "bytes": 247305
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_ackley_cell2__eho__seed2.json",
+      "bytes": 535180
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_ackley_cell2__eho__seed2_history.csv",
+      "bytes": 241620
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_ackley_cell2__ga__seed0.json",
+      "bytes": 279145
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_ackley_cell2__ga__seed0_history.csv",
+      "bytes": 127695
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_ackley_cell2__ga__seed1.json",
+      "bytes": 272684
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_ackley_cell2__ga__seed1_history.csv",
+      "bytes": 121243
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_ackley_cell2__ga__seed2.json",
+      "bytes": 274023
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_ackley_cell2__ga__seed2_history.csv",
+      "bytes": 122585
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_ackley_cell2__pso__seed0.json",
+      "bytes": 270812
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_ackley_cell2__pso__seed0_history.csv",
+      "bytes": 122229
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_ackley_cell2__pso__seed1.json",
+      "bytes": 271035
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_ackley_cell2__pso__seed1_history.csv",
+      "bytes": 122467
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_ackley_cell2__pso__seed2.json",
+      "bytes": 269682
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_ackley_cell2__pso__seed2_history.csv",
+      "bytes": 121116
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_rastrigin_cell6__eho__seed0.json",
+      "bytes": 5270038
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_rastrigin_cell6__eho__seed0_history.csv",
+      "bytes": 2466751
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_rastrigin_cell6__eho__seed1.json",
+      "bytes": 5251375
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_rastrigin_cell6__eho__seed1_history.csv",
+      "bytes": 2439689
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_rastrigin_cell6__eho__seed2.json",
+      "bytes": 5292142
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_rastrigin_cell6__eho__seed2_history.csv",
+      "bytes": 2487435
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_rastrigin_cell6__pso__seed0.json",
+      "bytes": 2717047
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_rastrigin_cell6__pso__seed0_history.csv",
+      "bytes": 1263935
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_rastrigin_cell6__pso__seed1.json",
+      "bytes": 2734536
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_rastrigin_cell6__pso__seed1_history.csv",
+      "bytes": 1281458
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_rastrigin_cell6__pso__seed2.json",
+      "bytes": 2704381
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_rastrigin_cell6__pso__seed2_history.csv",
+      "bytes": 1251324
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_rastrigin_cell7__eho__seed0.json",
+      "bytes": 5296700
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_rastrigin_cell7__eho__seed0_history.csv",
+      "bytes": 2466751
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_rastrigin_cell7__eho__seed1.json",
+      "bytes": 5277452
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_rastrigin_cell7__eho__seed1_history.csv",
+      "bytes": 2439689
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_rastrigin_cell7__eho__seed2.json",
+      "bytes": 5319031
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_rastrigin_cell7__eho__seed2_history.csv",
+      "bytes": 2487435
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_rastrigin_cell7__pso__seed0.json",
+      "bytes": 2750118
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_rastrigin_cell7__pso__seed0_history.csv",
+      "bytes": 1270421
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_rastrigin_cell7__pso__seed1.json",
+      "bytes": 2724604
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_rastrigin_cell7__pso__seed1_history.csv",
+      "bytes": 1245443
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_rastrigin_cell7__pso__seed2.json",
+      "bytes": 2739502
+    },
+    {
+      "path": "results/run_20261005/continuous/raw/source_rastrigin_cell7__pso__seed2_history.csv",
+      "bytes": 1260024
+    },
+    {
+      "path": "results/run_20261005/continuous/runs.csv",
+      "bytes": 17927
+    },
+    {
+      "path": "results/run_20261005/continuous/source_unchanged_bodies_source_ackley_cell2_convergence.png",
+      "bytes": 83009
+    },
+    {
+      "path": "results/run_20261005/continuous/source_unchanged_bodies_source_rastrigin_cell6_convergence.png",
+      "bytes": 63669
+    },
+    {
+      "path": "results/run_20261005/continuous/source_unchanged_bodies_source_rastrigin_cell7_convergence.png",
+      "bytes": 68199
+    },
+    {
+      "path": "results/run_20261005/continuous/summary.csv",
+      "bytes": 3657
+    },
+    {
+      "path": "results/run_20261005/environment.json",
+      "bytes": 2365
+    },
+    {
+      "path": "results/run_20261005/hardware.json",
+      "bytes": 429
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/acor_seed0_enhanced_normalized_flair.nii.gz",
+      "bytes": 2820069
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/acor_seed0_enhancement_convergence.csv",
+      "bytes": 39054
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/acor_seed0_evaluated.json",
+      "bytes": 192651
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/acor_seed0_prediction.nii.gz",
+      "bytes": 70790
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/acor_seed0_prediction_record.json",
+      "bytes": 192059
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/acor_seed0_segmentation_convergence.csv",
+      "bytes": 38065
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/acor_seed1_enhancement_convergence.csv",
+      "bytes": 38727
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/acor_seed1_evaluated.json",
+      "bytes": 194422
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/acor_seed1_prediction.nii.gz",
+      "bytes": 70790
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/acor_seed1_prediction_record.json",
+      "bytes": 193830
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/acor_seed1_segmentation_convergence.csv",
+      "bytes": 40483
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/acor_seed2_enhancement_convergence.csv",
+      "bytes": 38701
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/acor_seed2_evaluated.json",
+      "bytes": 192428
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/acor_seed2_prediction.nii.gz",
+      "bytes": 70790
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/acor_seed2_prediction_record.json",
+      "bytes": 191836
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/acor_seed2_segmentation_convergence.csv",
+      "bytes": 38527
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/acor_slice_71.png",
+      "bytes": 153932
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/acor_slice_74.png",
+      "bytes": 152817
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/case_manifest.json",
+      "bytes": 4606
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/direct_otsu_prediction.nii.gz",
+      "bytes": 68014
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/direct_otsu_seed0_evaluated.json",
+      "bytes": 2215
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/direct_otsu_slice_71.png",
+      "bytes": 105743
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/direct_otsu_slice_74.png",
+      "bytes": 104882
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/ga_seed0_enhanced_normalized_flair.nii.gz",
+      "bytes": 2829081
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/ga_seed0_enhancement_convergence.csv",
+      "bytes": 38612
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/ga_seed0_evaluated.json",
+      "bytes": 194741
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/ga_seed0_prediction.nii.gz",
+      "bytes": 70790
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/ga_seed0_prediction_record.json",
+      "bytes": 194149
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/ga_seed0_segmentation_convergence.csv",
+      "bytes": 40619
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/ga_seed1_enhancement_convergence.csv",
+      "bytes": 39347
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/ga_seed1_evaluated.json",
+      "bytes": 195114
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/ga_seed1_prediction.nii.gz",
+      "bytes": 70790
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/ga_seed1_prediction_record.json",
+      "bytes": 194522
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/ga_seed1_segmentation_convergence.csv",
+      "bytes": 40570
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/ga_seed2_enhancement_convergence.csv",
+      "bytes": 39254
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/ga_seed2_evaluated.json",
+      "bytes": 194855
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/ga_seed2_prediction.nii.gz",
+      "bytes": 70790
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/ga_seed2_prediction_record.json",
+      "bytes": 194263
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/ga_seed2_segmentation_convergence.csv",
+      "bytes": 40408
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/ga_slice_71.png",
+      "bytes": 153831
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/ga_slice_74.png",
+      "bytes": 152784
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/meshes/acor_prediction.ply",
+      "bytes": 363328
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/meshes/acor_prediction.stl",
+      "bytes": 960184
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/meshes/brain_context.ply",
+      "bytes": 1040545
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/meshes/brain_context.stl",
+      "bytes": 2737784
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/meshes/direct_otsu_prediction.ply",
+      "bytes": 335454
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/meshes/direct_otsu_prediction.stl",
+      "bytes": 884684
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/meshes/ga_prediction.ply",
+      "bytes": 363328
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/meshes/ga_prediction.stl",
+      "bytes": 960184
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/meshes/interactive_prediction_reference.html",
+      "bytes": 10636610
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/meshes/mesh_manifest.json",
+      "bytes": 3035
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/meshes/modified_eho_prediction.ply",
+      "bytes": 336030
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/meshes/modified_eho_prediction.stl",
+      "bytes": 885884
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/meshes/original_eho_prediction.ply",
+      "bytes": 362830
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/meshes/original_eho_prediction.stl",
+      "bytes": 958684
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/meshes/prediction_reference_preview.png",
+      "bytes": 289428
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/meshes/pso_prediction.ply",
+      "bytes": 363328
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/meshes/pso_prediction.stl",
+      "bytes": 960184
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/meshes/reference_whole_tumour.ply",
+      "bytes": 270790
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/meshes/reference_whole_tumour.stl",
+      "bytes": 712684
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/modified_eho_seed0_enhanced_normalized_flair.nii.gz",
+      "bytes": 2824460
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/modified_eho_seed0_enhancement_convergence.csv",
+      "bytes": 39416
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/modified_eho_seed0_evaluated.json",
+      "bytes": 194596
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/modified_eho_seed0_prediction.nii.gz",
+      "bytes": 68778
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/modified_eho_seed0_prediction_record.json",
+      "bytes": 194005
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/modified_eho_seed0_segmentation_convergence.csv",
+      "bytes": 39427
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/modified_eho_seed1_enhancement_convergence.csv",
+      "bytes": 39421
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/modified_eho_seed1_evaluated.json",
+      "bytes": 195745
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/modified_eho_seed1_prediction.nii.gz",
+      "bytes": 70127
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/modified_eho_seed1_prediction_record.json",
+      "bytes": 195167
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/modified_eho_seed1_segmentation_convergence.csv",
+      "bytes": 40916
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/modified_eho_seed2_enhancement_convergence.csv",
+      "bytes": 39413
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/modified_eho_seed2_evaluated.json",
+      "bytes": 194247
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/modified_eho_seed2_prediction.nii.gz",
+      "bytes": 69342
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/modified_eho_seed2_prediction_record.json",
+      "bytes": 193668
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/modified_eho_seed2_segmentation_convergence.csv",
+      "bytes": 39421
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/modified_eho_slice_71.png",
+      "bytes": 153101
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/modified_eho_slice_74.png",
+      "bytes": 152007
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/original_eho_seed0_enhanced_normalized_flair.nii.gz",
+      "bytes": 2847226
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/original_eho_seed0_enhancement_convergence.csv",
+      "bytes": 39382
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/original_eho_seed0_evaluated.json",
+      "bytes": 194988
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/original_eho_seed0_prediction.nii.gz",
+      "bytes": 70652
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/original_eho_seed0_prediction_record.json",
+      "bytes": 194407
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/original_eho_seed0_segmentation_convergence.csv",
+      "bytes": 39827
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/original_eho_seed1_enhancement_convergence.csv",
+      "bytes": 39421
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/original_eho_seed1_evaluated.json",
+      "bytes": 195326
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/original_eho_seed1_prediction.nii.gz",
+      "bytes": 71434
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/original_eho_seed1_prediction_record.json",
+      "bytes": 194734
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/original_eho_seed1_segmentation_convergence.csv",
+      "bytes": 40452
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/original_eho_seed2_enhancement_convergence.csv",
+      "bytes": 39413
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/original_eho_seed2_evaluated.json",
+      "bytes": 194286
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/original_eho_seed2_prediction.nii.gz",
+      "bytes": 68384
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/original_eho_seed2_prediction_record.json",
+      "bytes": 193706
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/original_eho_seed2_segmentation_convergence.csv",
+      "bytes": 39420
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/original_eho_slice_71.png",
+      "bytes": 153685
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/original_eho_slice_74.png",
+      "bytes": 152760
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/pso_seed0_enhanced_normalized_flair.nii.gz",
+      "bytes": 2825001
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/pso_seed0_enhancement_convergence.csv",
+      "bytes": 39259
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/pso_seed0_evaluated.json",
+      "bytes": 193069
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/pso_seed0_prediction.nii.gz",
+      "bytes": 70790
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/pso_seed0_prediction_record.json",
+      "bytes": 192477
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/pso_seed0_segmentation_convergence.csv",
+      "bytes": 38507
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/pso_seed1_enhancement_convergence.csv",
+      "bytes": 38970
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/pso_seed1_evaluated.json",
+      "bytes": 192324
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/pso_seed1_prediction.nii.gz",
+      "bytes": 70790
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/pso_seed1_prediction_record.json",
+      "bytes": 191732
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/pso_seed1_segmentation_convergence.csv",
+      "bytes": 38368
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/pso_seed2_enhancement_convergence.csv",
+      "bytes": 38976
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/pso_seed2_evaluated.json",
+      "bytes": 192684
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/pso_seed2_prediction.nii.gz",
+      "bytes": 70790
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/pso_seed2_prediction_record.json",
+      "bytes": 192092
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/pso_seed2_segmentation_convergence.csv",
+      "bytes": 38725
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/pso_slice_71.png",
+      "bytes": 154153
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/pso_slice_74.png",
+      "bytes": 153038
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001/reference_whole_tumour.nii.gz",
+      "bytes": 66622
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_001_convergence.png",
+      "bytes": 100363
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/acor_seed0_enhanced_normalized_flair.nii.gz",
+      "bytes": 2967367
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/acor_seed0_enhancement_convergence.csv",
+      "bytes": 39310
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/acor_seed0_evaluated.json",
+      "bytes": 194535
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/acor_seed0_prediction.nii.gz",
+      "bytes": 280624
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/acor_seed0_prediction_record.json",
+      "bytes": 193956
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/acor_seed0_segmentation_convergence.csv",
+      "bytes": 39719
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/acor_seed1_enhancement_convergence.csv",
+      "bytes": 39053
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/acor_seed1_evaluated.json",
+      "bytes": 193863
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/acor_seed1_prediction.nii.gz",
+      "bytes": 280624
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/acor_seed1_prediction_record.json",
+      "bytes": 193284
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/acor_seed1_segmentation_convergence.csv",
+      "bytes": 39622
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/acor_seed2_enhancement_convergence.csv",
+      "bytes": 39337
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/acor_seed2_evaluated.json",
+      "bytes": 194324
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/acor_seed2_prediction.nii.gz",
+      "bytes": 280624
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/acor_seed2_prediction_record.json",
+      "bytes": 193745
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/acor_seed2_segmentation_convergence.csv",
+      "bytes": 39779
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/acor_slice_67.png",
+      "bytes": 186513
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/acor_slice_71.png",
+      "bytes": 190301
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/case_manifest.json",
+      "bytes": 4624
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/direct_otsu_prediction.nii.gz",
+      "bytes": 147172
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/direct_otsu_seed0_evaluated.json",
+      "bytes": 2212
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/direct_otsu_slice_67.png",
+      "bytes": 121195
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/direct_otsu_slice_71.png",
+      "bytes": 124960
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/ga_seed0_enhanced_normalized_flair.nii.gz",
+      "bytes": 2963437
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/ga_seed0_enhancement_convergence.csv",
+      "bytes": 39199
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/ga_seed0_evaluated.json",
+      "bytes": 195397
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/ga_seed0_prediction.nii.gz",
+      "bytes": 280624
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/ga_seed0_prediction_record.json",
+      "bytes": 194818
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/ga_seed0_segmentation_convergence.csv",
+      "bytes": 40702
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/ga_seed1_enhancement_convergence.csv",
+      "bytes": 39408
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/ga_seed1_evaluated.json",
+      "bytes": 192776
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/ga_seed1_prediction.nii.gz",
+      "bytes": 280624
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/ga_seed1_prediction_record.json",
+      "bytes": 192197
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/ga_seed1_segmentation_convergence.csv",
+      "bytes": 38183
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/ga_seed2_enhancement_convergence.csv",
+      "bytes": 39376
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/ga_seed2_evaluated.json",
+      "bytes": 194069
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/ga_seed2_prediction.nii.gz",
+      "bytes": 280624
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/ga_seed2_prediction_record.json",
+      "bytes": 193490
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/ga_seed2_segmentation_convergence.csv",
+      "bytes": 39495
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/ga_slice_67.png",
+      "bytes": 186483
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/ga_slice_71.png",
+      "bytes": 190282
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/meshes/acor_prediction.ply",
+      "bytes": 4277071
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/meshes/acor_prediction.stl",
+      "bytes": 11435584
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/meshes/brain_context.ply",
+      "bytes": 1204783
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/meshes/brain_context.stl",
+      "bytes": 3170684
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/meshes/direct_otsu_prediction.ply",
+      "bytes": 1695101
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/meshes/direct_otsu_prediction.stl",
+      "bytes": 4518784
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/meshes/ga_prediction.ply",
+      "bytes": 4277071
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/meshes/ga_prediction.stl",
+      "bytes": 11435584
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/meshes/interactive_prediction_reference.html",
+      "bytes": 39663727
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/meshes/mesh_manifest.json",
+      "bytes": 3047
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/meshes/modified_eho_prediction.ply",
+      "bytes": 218188
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/meshes/modified_eho_prediction.stl",
+      "bytes": 575584
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/meshes/original_eho_prediction.ply",
+      "bytes": 4520091
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/meshes/original_eho_prediction.stl",
+      "bytes": 12088184
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/meshes/prediction_reference_preview.png",
+      "bytes": 234707
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/meshes/pso_prediction.ply",
+      "bytes": 4277071
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/meshes/pso_prediction.stl",
+      "bytes": 11435584
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/meshes/reference_whole_tumour.ply",
+      "bytes": 166321
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/meshes/reference_whole_tumour.stl",
+      "bytes": 438084
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/modified_eho_seed0_enhanced_normalized_flair.nii.gz",
+      "bytes": 2935421
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/modified_eho_seed0_enhancement_convergence.csv",
+      "bytes": 39417
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/modified_eho_seed0_evaluated.json",
+      "bytes": 194575
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/modified_eho_seed0_prediction.nii.gz",
+      "bytes": 59245
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/modified_eho_seed0_prediction_record.json",
+      "bytes": 194001
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/modified_eho_seed0_segmentation_convergence.csv",
+      "bytes": 39431
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/modified_eho_seed1_enhancement_convergence.csv",
+      "bytes": 39408
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/modified_eho_seed1_evaluated.json",
+      "bytes": 191280
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/modified_eho_seed1_prediction.nii.gz",
+      "bytes": 287732
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/modified_eho_seed1_prediction_record.json",
+      "bytes": 190699
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/modified_eho_seed1_segmentation_convergence.csv",
+      "bytes": 36458
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/modified_eho_seed2_enhancement_convergence.csv",
+      "bytes": 37948
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/modified_eho_seed2_evaluated.json",
+      "bytes": 192780
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/modified_eho_seed2_prediction.nii.gz",
+      "bytes": 240143
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/modified_eho_seed2_prediction_record.json",
+      "bytes": 192200
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/modified_eho_seed2_segmentation_convergence.csv",
+      "bytes": 39423
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/modified_eho_slice_67.png",
+      "bytes": 156085
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/modified_eho_slice_71.png",
+      "bytes": 161473
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/original_eho_seed0_enhanced_normalized_flair.nii.gz",
+      "bytes": 2966160
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/original_eho_seed0_enhancement_convergence.csv",
+      "bytes": 38331
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/original_eho_seed0_evaluated.json",
+      "bytes": 191265
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/original_eho_seed0_prediction.nii.gz",
+      "bytes": 292302
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/original_eho_seed0_prediction_record.json",
+      "bytes": 190684
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/original_eho_seed0_segmentation_convergence.csv",
+      "bytes": 37161
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/original_eho_seed1_enhancement_convergence.csv",
+      "bytes": 39408
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/original_eho_seed1_evaluated.json",
+      "bytes": 195293
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/original_eho_seed1_prediction.nii.gz",
+      "bytes": 282181
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/original_eho_seed1_prediction_record.json",
+      "bytes": 194713
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/original_eho_seed1_segmentation_convergence.csv",
+      "bytes": 40433
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/original_eho_seed2_enhancement_convergence.csv",
+      "bytes": 38825
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/original_eho_seed2_evaluated.json",
+      "bytes": 195187
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/original_eho_seed2_prediction.nii.gz",
+      "bytes": 266469
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/original_eho_seed2_prediction_record.json",
+      "bytes": 194597
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/original_eho_seed2_segmentation_convergence.csv",
+      "bytes": 40903
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/original_eho_slice_67.png",
+      "bytes": 188810
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/original_eho_slice_71.png",
+      "bytes": 192197
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/pso_seed0_enhanced_normalized_flair.nii.gz",
+      "bytes": 2959736
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/pso_seed0_enhancement_convergence.csv",
+      "bytes": 38979
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/pso_seed0_evaluated.json",
+      "bytes": 193795
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/pso_seed0_prediction.nii.gz",
+      "bytes": 280624
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/pso_seed0_prediction_record.json",
+      "bytes": 193216
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/pso_seed0_segmentation_convergence.csv",
+      "bytes": 39530
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/pso_seed1_enhancement_convergence.csv",
+      "bytes": 38529
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/pso_seed1_evaluated.json",
+      "bytes": 192947
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/pso_seed1_prediction.nii.gz",
+      "bytes": 280624
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/pso_seed1_prediction_record.json",
+      "bytes": 192368
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/pso_seed1_segmentation_convergence.csv",
+      "bytes": 39442
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/pso_seed2_enhancement_convergence.csv",
+      "bytes": 39129
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/pso_seed2_evaluated.json",
+      "bytes": 193544
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/pso_seed2_prediction.nii.gz",
+      "bytes": 280624
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/pso_seed2_prediction_record.json",
+      "bytes": 192965
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/pso_seed2_segmentation_convergence.csv",
+      "bytes": 39443
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/pso_slice_67.png",
+      "bytes": 186718
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/pso_slice_71.png",
+      "bytes": 190523
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002/reference_whole_tumour.nii.gz",
+      "bytes": 55859
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_002_convergence.png",
+      "bytes": 97067
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/acor_seed0_enhanced_normalized_flair.nii.gz",
+      "bytes": 2948523
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/acor_seed0_enhancement_convergence.csv",
+      "bytes": 39306
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/acor_seed0_evaluated.json",
+      "bytes": 194329
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/acor_seed0_prediction.nii.gz",
+      "bytes": 81804
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/acor_seed0_prediction_record.json",
+      "bytes": 193748
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/acor_seed0_segmentation_convergence.csv",
+      "bytes": 39506
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/acor_seed1_enhancement_convergence.csv",
+      "bytes": 38457
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/acor_seed1_evaluated.json",
+      "bytes": 193066
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/acor_seed1_prediction.nii.gz",
+      "bytes": 81804
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/acor_seed1_prediction_record.json",
+      "bytes": 192485
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/acor_seed1_segmentation_convergence.csv",
+      "bytes": 39422
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/acor_seed2_enhancement_convergence.csv",
+      "bytes": 39334
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/acor_seed2_evaluated.json",
+      "bytes": 193972
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/acor_seed2_prediction.nii.gz",
+      "bytes": 81804
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/acor_seed2_prediction_record.json",
+      "bytes": 193391
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/acor_seed2_segmentation_convergence.csv",
+      "bytes": 39430
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/acor_slice_71.png",
+      "bytes": 161747
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/acor_slice_79.png",
+      "bytes": 162681
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/case_manifest.json",
+      "bytes": 4612
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/direct_otsu_prediction.nii.gz",
+      "bytes": 79487
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/direct_otsu_seed0_evaluated.json",
+      "bytes": 2204
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/direct_otsu_slice_71.png",
+      "bytes": 111030
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/direct_otsu_slice_79.png",
+      "bytes": 112509
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/ga_seed0_enhanced_normalized_flair.nii.gz",
+      "bytes": 2950763
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/ga_seed0_enhancement_convergence.csv",
+      "bytes": 38806
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/ga_seed0_evaluated.json",
+      "bytes": 193795
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/ga_seed0_prediction.nii.gz",
+      "bytes": 81804
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/ga_seed0_prediction_record.json",
+      "bytes": 193214
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/ga_seed0_segmentation_convergence.csv",
+      "bytes": 39498
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/ga_seed1_enhancement_convergence.csv",
+      "bytes": 38189
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/ga_seed1_evaluated.json",
+      "bytes": 194272
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/ga_seed1_prediction.nii.gz",
+      "bytes": 81804
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/ga_seed1_prediction_record.json",
+      "bytes": 193691
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/ga_seed1_segmentation_convergence.csv",
+      "bytes": 40905
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/ga_seed2_enhancement_convergence.csv",
+      "bytes": 39367
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/ga_seed2_evaluated.json",
+      "bytes": 193921
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/ga_seed2_prediction.nii.gz",
+      "bytes": 81804
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/ga_seed2_prediction_record.json",
+      "bytes": 193340
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/ga_seed2_segmentation_convergence.csv",
+      "bytes": 39368
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/ga_slice_71.png",
+      "bytes": 161740
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/ga_slice_79.png",
+      "bytes": 162653
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/meshes/acor_prediction.ply",
+      "bytes": 487519
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/meshes/acor_prediction.stl",
+      "bytes": 1285484
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/meshes/brain_context.ply",
+      "bytes": 1126335
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/meshes/brain_context.stl",
+      "bytes": 2963484
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/meshes/direct_otsu_prediction.ply",
+      "bytes": 470057
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/meshes/direct_otsu_prediction.stl",
+      "bytes": 1239784
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/meshes/ga_prediction.ply",
+      "bytes": 487519
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/meshes/ga_prediction.stl",
+      "bytes": 1285484
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/meshes/interactive_prediction_reference.html",
+      "bytes": 12361042
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/meshes/mesh_manifest.json",
+      "bytes": 3042
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/meshes/modified_eho_prediction.ply",
+      "bytes": 467715
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/meshes/modified_eho_prediction.stl",
+      "bytes": 1233684
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/meshes/original_eho_prediction.ply",
+      "bytes": 491213
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/meshes/original_eho_prediction.stl",
+      "bytes": 1295584
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/meshes/prediction_reference_preview.png",
+      "bytes": 326038
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/meshes/pso_prediction.ply",
+      "bytes": 487519
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/meshes/pso_prediction.stl",
+      "bytes": 1285484
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/meshes/reference_whole_tumour.ply",
+      "bytes": 436471
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/meshes/reference_whole_tumour.stl",
+      "bytes": 1149884
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/modified_eho_seed0_enhanced_normalized_flair.nii.gz",
+      "bytes": 2986314
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/modified_eho_seed0_enhancement_convergence.csv",
+      "bytes": 37941
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/modified_eho_seed0_evaluated.json",
+      "bytes": 193107
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/modified_eho_seed0_prediction.nii.gz",
+      "bytes": 79230
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/modified_eho_seed0_prediction_record.json",
+      "bytes": 192527
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/modified_eho_seed0_segmentation_convergence.csv",
+      "bytes": 39431
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/modified_eho_seed1_enhancement_convergence.csv",
+      "bytes": 39421
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/modified_eho_seed1_evaluated.json",
+      "bytes": 194270
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/modified_eho_seed1_prediction.nii.gz",
+      "bytes": 79086
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/modified_eho_seed1_prediction_record.json",
+      "bytes": 193690
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/modified_eho_seed1_segmentation_convergence.csv",
+      "bytes": 39437
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/modified_eho_seed2_enhancement_convergence.csv",
+      "bytes": 37938
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/modified_eho_seed2_evaluated.json",
+      "bytes": 194178
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/modified_eho_seed2_prediction.nii.gz",
+      "bytes": 89625
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/modified_eho_seed2_prediction_record.json",
+      "bytes": 193601
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/modified_eho_seed2_segmentation_convergence.csv",
+      "bytes": 40833
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/modified_eho_slice_71.png",
+      "bytes": 161761
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/modified_eho_slice_79.png",
+      "bytes": 162932
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/original_eho_seed0_enhanced_normalized_flair.nii.gz",
+      "bytes": 2950177
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/original_eho_seed0_enhancement_convergence.csv",
+      "bytes": 39064
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/original_eho_seed0_evaluated.json",
+      "bytes": 195432
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/original_eho_seed0_prediction.nii.gz",
+      "bytes": 81974
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/original_eho_seed0_prediction_record.json",
+      "bytes": 194851
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/original_eho_seed0_segmentation_convergence.csv",
+      "bytes": 40599
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/original_eho_seed1_enhancement_convergence.csv",
+      "bytes": 39421
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/original_eho_seed1_evaluated.json",
+      "bytes": 195173
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/original_eho_seed1_prediction.nii.gz",
+      "bytes": 81815
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/original_eho_seed1_prediction_record.json",
+      "bytes": 194595
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/original_eho_seed1_segmentation_convergence.csv",
+      "bytes": 40300
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/original_eho_seed2_enhancement_convergence.csv",
+      "bytes": 38079
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/original_eho_seed2_evaluated.json",
+      "bytes": 193172
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/original_eho_seed2_prediction.nii.gz",
+      "bytes": 80842
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/original_eho_seed2_prediction_record.json",
+      "bytes": 192591
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/original_eho_seed2_segmentation_convergence.csv",
+      "bytes": 39639
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/original_eho_slice_71.png",
+      "bytes": 162041
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/original_eho_slice_79.png",
+      "bytes": 162560
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/pso_seed0_enhanced_normalized_flair.nii.gz",
+      "bytes": 2948578
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/pso_seed0_enhancement_convergence.csv",
+      "bytes": 39100
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/pso_seed0_evaluated.json",
+      "bytes": 193840
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/pso_seed0_prediction.nii.gz",
+      "bytes": 81804
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/pso_seed0_prediction_record.json",
+      "bytes": 193259
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/pso_seed0_segmentation_convergence.csv",
+      "bytes": 39447
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/pso_seed1_enhancement_convergence.csv",
+      "bytes": 39139
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/pso_seed1_evaluated.json",
+      "bytes": 193742
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/pso_seed1_prediction.nii.gz",
+      "bytes": 81804
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/pso_seed1_prediction_record.json",
+      "bytes": 193161
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/pso_seed1_segmentation_convergence.csv",
+      "bytes": 39629
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/pso_seed2_enhancement_convergence.csv",
+      "bytes": 39189
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/pso_seed2_evaluated.json",
+      "bytes": 193576
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/pso_seed2_prediction.nii.gz",
+      "bytes": 81804
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/pso_seed2_prediction_record.json",
+      "bytes": 192995
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/pso_seed2_segmentation_convergence.csv",
+      "bytes": 39413
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/pso_slice_71.png",
+      "bytes": 161970
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/pso_slice_79.png",
+      "bytes": 162901
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003/reference_whole_tumour.nii.gz",
+      "bytes": 77353
+    },
+    {
+      "path": "results/run_20261005/imaging/BRATS_003_convergence.png",
+      "bytes": 100100
+    },
+    {
+      "path": "results/run_20261005/imaging/across_case_summary.csv",
+      "bytes": 4019
+    },
+    {
+      "path": "results/run_20261005/imaging/all_records.json",
+      "bytes": 9827445
+    },
+    {
+      "path": "results/run_20261005/imaging/all_runs.csv",
+      "bytes": 28686
+    },
+    {
+      "path": "results/run_20261005/imaging/per_case_seed_summary.csv",
+      "bytes": 9265
+    },
+    {
+      "path": "results/run_20261005/imaging/run_manifest.json",
+      "bytes": 3700
+    },
+    {
+      "path": "results/run_20261005/logs/ablations.log",
+      "bytes": 4351
+    },
+    {
+      "path": "results/run_20261005/logs/comparison.log",
+      "bytes": 346
+    },
+    {
+      "path": "results/run_20261005/logs/continuous.log",
+      "bytes": 4622
+    },
+    {
+      "path": "results/run_20261005/logs/imaging.log",
+      "bytes": 2825
+    },
+    {
+      "path": "results/run_20261005/logs/pdf_configs.log",
+      "bytes": 2305
+    },
+    {
+      "path": "results/run_20261005/logs/registration.log",
+      "bytes": 4478
+    },
+    {
+      "path": "results/run_20261005/logs/routing.log",
+      "bytes": 18159
+    },
+    {
+      "path": "results/run_20261005/logs/snippets.log",
+      "bytes": 674
+    },
+    {
+      "path": "results/run_20261005/logs/tests.log",
+      "bytes": 1882
+    },
+    {
+      "path": "results/run_20261005/logs/validation.log",
+      "bytes": 286
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/block101_seed0_convergence.csv",
+      "bytes": 5127589
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/block101_seed0_details.json",
+      "bytes": 77731
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/block101_seed0_stdout.txt",
+      "bytes": 1259
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/block101_seed1_convergence.csv",
+      "bytes": 5142373
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/block101_seed1_details.json",
+      "bytes": 77744
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/block101_seed1_stdout.txt",
+      "bytes": 1266
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/block101_seed2_convergence.csv",
+      "bytes": 5144933
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/block101_seed2_details.json",
+      "bytes": 77731
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/block101_seed2_stdout.txt",
+      "bytes": 1262
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/block102_seed0_convergence.csv",
+      "bytes": 2509729
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/block102_seed0_details.json",
+      "bytes": 10183
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/block102_seed0_stdout.txt",
+      "bytes": 200
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/block102_seed1_convergence.csv",
+      "bytes": 2500855
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/block102_seed1_details.json",
+      "bytes": 10177
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/block102_seed1_stdout.txt",
+      "bytes": 200
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/block102_seed2_convergence.csv",
+      "bytes": 2514651
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/block102_seed2_details.json",
+      "bytes": 10182
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/block102_seed2_stdout.txt",
+      "bytes": 200
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/completion.json",
+      "bytes": 162
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/pdf_configuration_manifest.json",
+      "bytes": 1517
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/pdf_tsp_routes_and_validation.json",
+      "bytes": 279573
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/pdf_tsp_runs.csv",
+      "bytes": 26710
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_definition_groups.json",
+      "bytes": 3075
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/new_experiment_recovered_dormant_source_synthetic_source_cell15_variant1_convergence.png",
+      "bytes": 68949
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/new_experiment_recovered_dormant_source_synthetic_source_cell15_variant2_convergence.png",
+      "bytes": 69350
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/new_experiment_recovered_dormant_source_synthetic_source_cell15_variant3_convergence.png",
+      "bytes": 69291
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__aco__seed0.json",
+      "bytes": 83042
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__aco__seed0_history.csv",
+      "bytes": 37896
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__aco__seed0_images.npz",
+      "bytes": 204215
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__aco__seed1.json",
+      "bytes": 81586
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__aco__seed1_history.csv",
+      "bytes": 36417
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__aco__seed1_images.npz",
+      "bytes": 205152
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__aco__seed2.json",
+      "bytes": 83096
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__aco__seed2_history.csv",
+      "bytes": 37920
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__aco__seed2_images.npz",
+      "bytes": 204607
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__eho__seed0.json",
+      "bytes": 84502
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__eho__seed0_history.csv",
+      "bytes": 38424
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__eho__seed0_images.npz",
+      "bytes": 205213
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__eho__seed1.json",
+      "bytes": 84766
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__eho__seed1_history.csv",
+      "bytes": 38693
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__eho__seed1_images.npz",
+      "bytes": 205210
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__eho__seed2.json",
+      "bytes": 83554
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__eho__seed2_history.csv",
+      "bytes": 37487
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__eho__seed2_images.npz",
+      "bytes": 205252
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__ga__seed0.json",
+      "bytes": 84727
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__ga__seed0_history.csv",
+      "bytes": 38654
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__ga__seed0_images.npz",
+      "bytes": 205073
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__ga__seed1.json",
+      "bytes": 83981
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__ga__seed1_history.csv",
+      "bytes": 37911
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__ga__seed1_images.npz",
+      "bytes": 204831
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__ga__seed2.json",
+      "bytes": 84763
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__ga__seed2_history.csv",
+      "bytes": 38694
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__ga__seed2_images.npz",
+      "bytes": 205188
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__pso__seed0.json",
+      "bytes": 82520
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__pso__seed0_history.csv",
+      "bytes": 37314
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__pso__seed0_images.npz",
+      "bytes": 205225
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__pso__seed1.json",
+      "bytes": 82644
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__pso__seed1_history.csv",
+      "bytes": 37443
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__pso__seed1_images.npz",
+      "bytes": 205212
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__pso__seed2.json",
+      "bytes": 82817
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__pso__seed2_history.csv",
+      "bytes": 37615
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant1__pso__seed2_images.npz",
+      "bytes": 205173
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__aco__seed0.json",
+      "bytes": 83040
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__aco__seed0_history.csv",
+      "bytes": 37896
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__aco__seed0_images.npz",
+      "bytes": 204215
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__aco__seed1.json",
+      "bytes": 81584
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__aco__seed1_history.csv",
+      "bytes": 36417
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__aco__seed1_images.npz",
+      "bytes": 205152
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__aco__seed2.json",
+      "bytes": 83094
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__aco__seed2_history.csv",
+      "bytes": 37920
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__aco__seed2_images.npz",
+      "bytes": 204607
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__eho__seed0.json",
+      "bytes": 35229
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__eho__seed0_history.csv",
+      "bytes": 15256
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__eho__seed0_images.npz",
+      "bytes": 205210
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__eho__seed1.json",
+      "bytes": 35268
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__eho__seed1_history.csv",
+      "bytes": 15301
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__eho__seed1_images.npz",
+      "bytes": 205197
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__eho__seed2.json",
+      "bytes": 35485
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__eho__seed2_history.csv",
+      "bytes": 15517
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__eho__seed2_images.npz",
+      "bytes": 205254
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__ga__seed0.json",
+      "bytes": 84725
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__ga__seed0_history.csv",
+      "bytes": 38654
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__ga__seed0_images.npz",
+      "bytes": 205073
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__ga__seed1.json",
+      "bytes": 83979
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__ga__seed1_history.csv",
+      "bytes": 37911
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__ga__seed1_images.npz",
+      "bytes": 204831
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__ga__seed2.json",
+      "bytes": 84761
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__ga__seed2_history.csv",
+      "bytes": 38694
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__ga__seed2_images.npz",
+      "bytes": 205188
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__pso__seed0.json",
+      "bytes": 82518
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__pso__seed0_history.csv",
+      "bytes": 37314
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__pso__seed0_images.npz",
+      "bytes": 205225
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__pso__seed1.json",
+      "bytes": 82642
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__pso__seed1_history.csv",
+      "bytes": 37443
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__pso__seed1_images.npz",
+      "bytes": 205212
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__pso__seed2.json",
+      "bytes": 82815
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__pso__seed2_history.csv",
+      "bytes": 37615
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant2__pso__seed2_images.npz",
+      "bytes": 205173
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__aco__seed0.json",
+      "bytes": 83042
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__aco__seed0_history.csv",
+      "bytes": 37896
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__aco__seed0_images.npz",
+      "bytes": 204215
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__aco__seed1.json",
+      "bytes": 81586
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__aco__seed1_history.csv",
+      "bytes": 36417
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__aco__seed1_images.npz",
+      "bytes": 205152
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__aco__seed2.json",
+      "bytes": 83097
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__aco__seed2_history.csv",
+      "bytes": 37920
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__aco__seed2_images.npz",
+      "bytes": 204607
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__eho__seed0.json",
+      "bytes": 84503
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__eho__seed0_history.csv",
+      "bytes": 38424
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__eho__seed0_images.npz",
+      "bytes": 205213
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__eho__seed1.json",
+      "bytes": 84767
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__eho__seed1_history.csv",
+      "bytes": 38693
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__eho__seed1_images.npz",
+      "bytes": 205210
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__eho__seed2.json",
+      "bytes": 83555
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__eho__seed2_history.csv",
+      "bytes": 37487
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__eho__seed2_images.npz",
+      "bytes": 205252
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__ga__seed0.json",
+      "bytes": 84727
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__ga__seed0_history.csv",
+      "bytes": 38654
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__ga__seed0_images.npz",
+      "bytes": 205073
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__ga__seed1.json",
+      "bytes": 83982
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__ga__seed1_history.csv",
+      "bytes": 37911
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__ga__seed1_images.npz",
+      "bytes": 204831
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__ga__seed2.json",
+      "bytes": 84764
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__ga__seed2_history.csv",
+      "bytes": 38694
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__ga__seed2_images.npz",
+      "bytes": 205188
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__pso__seed0.json",
+      "bytes": 82521
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__pso__seed0_history.csv",
+      "bytes": 37314
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__pso__seed0_images.npz",
+      "bytes": 205225
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__pso__seed1.json",
+      "bytes": 82645
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__pso__seed1_history.csv",
+      "bytes": 37443
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__pso__seed1_images.npz",
+      "bytes": 205212
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__pso__seed2.json",
+      "bytes": 82818
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__pso__seed2_history.csv",
+      "bytes": 37615
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/raw/synthetic_source_cell15_variant3__pso__seed2_images.npz",
+      "bytes": 205173
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/runs.csv",
+      "bytes": 11360
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/source_variant_manifest.json",
+      "bytes": 2233
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/summary.csv",
+      "bytes": 2896
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/synthetic_source_cell15_variant1__aco__seed0.png",
+      "bytes": 120074
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/synthetic_source_cell15_variant1__eho__seed0.png",
+      "bytes": 120447
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/synthetic_source_cell15_variant1__ga__seed0.png",
+      "bytes": 120755
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/synthetic_source_cell15_variant1__pso__seed0.png",
+      "bytes": 120726
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/synthetic_source_cell15_variant2__aco__seed0.png",
+      "bytes": 120328
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/synthetic_source_cell15_variant2__eho__seed0.png",
+      "bytes": 120703
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/synthetic_source_cell15_variant2__ga__seed0.png",
+      "bytes": 120997
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/synthetic_source_cell15_variant2__pso__seed0.png",
+      "bytes": 120965
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/synthetic_source_cell15_variant3__aco__seed0.png",
+      "bytes": 120363
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/synthetic_source_cell15_variant3__eho__seed0.png",
+      "bytes": 120782
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/synthetic_source_cell15_variant3__ga__seed0.png",
+      "bytes": 121064
+    },
+    {
+      "path": "results/run_20261005/pdf_configs/registration_variants/synthetic_source_cell15_variant3__pso__seed0.png",
+      "bytes": 121005
+    },
+    {
+      "path": "results/run_20261005/registration/anatomical_geometry_summary.csv",
+      "bytes": 276
+    },
+    {
+      "path": "results/run_20261005/registration/anatomical_rigid_perturbation__acor__seed0.png",
+      "bytes": 124815
+    },
+    {
+      "path": "results/run_20261005/registration/anatomical_rigid_perturbation__ga__seed0.png",
+      "bytes": 124726
+    },
+    {
+      "path": "results/run_20261005/registration/anatomical_rigid_perturbation__modified_eho__seed0.png",
+      "bytes": 134632
+    },
+    {
+      "path": "results/run_20261005/registration/anatomical_rigid_perturbation__original_eho__seed0.png",
+      "bytes": 131176
+    },
+    {
+      "path": "results/run_20261005/registration/anatomical_rigid_perturbation__pso__seed0.png",
+      "bytes": 124697
+    },
+    {
+      "path": "results/run_20261005/registration/anatomical_rigid_perturbation_case.json",
+      "bytes": 1562
+    },
+    {
+      "path": "results/run_20261005/registration/anatomical_rigid_perturbation_input.npz",
+      "bytes": 82256
+    },
+    {
+      "path": "results/run_20261005/registration/matched_evaluations_anatomical_rigid_perturbation_convergence.png",
+      "bytes": 105841
+    },
+    {
+      "path": "results/run_20261005/registration/matched_evaluations_synthetic_legacy_transform_convergence.png",
+      "bytes": 79076
+    },
+    {
+      "path": "results/run_20261005/registration/paired_seed_statistics.csv",
+      "bytes": 1761
+    },
+    {
+      "path": "results/run_20261005/registration/protocol.json",
+      "bytes": 468
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__acor__seed0.json",
+      "bytes": 85063
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__acor__seed0_aligned.npz",
+      "bytes": 42942
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__acor__seed0_history.csv",
+      "bytes": 40324
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__acor__seed1.json",
+      "bytes": 85194
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__acor__seed1_aligned.npz",
+      "bytes": 42942
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__acor__seed1_history.csv",
+      "bytes": 40459
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__acor__seed2.json",
+      "bytes": 85343
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__acor__seed2_aligned.npz",
+      "bytes": 42911
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__acor__seed2_history.csv",
+      "bytes": 40607
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__acor__seed3.json",
+      "bytes": 85451
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__acor__seed3_aligned.npz",
+      "bytes": 42945
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__acor__seed3_history.csv",
+      "bytes": 40715
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__acor__seed4.json",
+      "bytes": 85097
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__acor__seed4_aligned.npz",
+      "bytes": 42923
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__acor__seed4_history.csv",
+      "bytes": 40362
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__ga__seed0.json",
+      "bytes": 84866
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__ga__seed0_aligned.npz",
+      "bytes": 42903
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__ga__seed0_history.csv",
+      "bytes": 40115
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__ga__seed1.json",
+      "bytes": 85311
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__ga__seed1_aligned.npz",
+      "bytes": 42937
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__ga__seed1_history.csv",
+      "bytes": 40559
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__ga__seed2.json",
+      "bytes": 85155
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__ga__seed2_aligned.npz",
+      "bytes": 42936
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__ga__seed2_history.csv",
+      "bytes": 40408
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__ga__seed3.json",
+      "bytes": 85475
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__ga__seed3_aligned.npz",
+      "bytes": 42930
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__ga__seed3_history.csv",
+      "bytes": 40726
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__ga__seed4.json",
+      "bytes": 85497
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__ga__seed4_aligned.npz",
+      "bytes": 42956
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__ga__seed4_history.csv",
+      "bytes": 40745
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__modified_eho__seed0.json",
+      "bytes": 84227
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__modified_eho__seed0_aligned.npz",
+      "bytes": 42982
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__modified_eho__seed0_history.csv",
+      "bytes": 39419
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__modified_eho__seed1.json",
+      "bytes": 84183
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__modified_eho__seed1_aligned.npz",
+      "bytes": 42927
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__modified_eho__seed1_history.csv",
+      "bytes": 39374
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__modified_eho__seed2.json",
+      "bytes": 84218
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__modified_eho__seed2_aligned.npz",
+      "bytes": 42903
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__modified_eho__seed2_history.csv",
+      "bytes": 39408
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__modified_eho__seed3.json",
+      "bytes": 84164
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__modified_eho__seed3_aligned.npz",
+      "bytes": 42904
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__modified_eho__seed3_history.csv",
+      "bytes": 39353
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__modified_eho__seed4.json",
+      "bytes": 84206
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__modified_eho__seed4_aligned.npz",
+      "bytes": 42964
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__modified_eho__seed4_history.csv",
+      "bytes": 39395
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__original_eho__seed0.json",
+      "bytes": 84173
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__original_eho__seed0_aligned.npz",
+      "bytes": 42996
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__original_eho__seed0_history.csv",
+      "bytes": 39341
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__original_eho__seed1.json",
+      "bytes": 84178
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__original_eho__seed1_aligned.npz",
+      "bytes": 42878
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__original_eho__seed1_history.csv",
+      "bytes": 39346
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__original_eho__seed2.json",
+      "bytes": 84242
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__original_eho__seed2_aligned.npz",
+      "bytes": 42927
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__original_eho__seed2_history.csv",
+      "bytes": 39408
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__original_eho__seed3.json",
+      "bytes": 84855
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__original_eho__seed3_aligned.npz",
+      "bytes": 42950
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__original_eho__seed3_history.csv",
+      "bytes": 40017
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__original_eho__seed4.json",
+      "bytes": 84229
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__original_eho__seed4_aligned.npz",
+      "bytes": 42976
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__original_eho__seed4_history.csv",
+      "bytes": 39393
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__pso__seed0.json",
+      "bytes": 84940
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__pso__seed0_aligned.npz",
+      "bytes": 42949
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__pso__seed0_history.csv",
+      "bytes": 40306
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__pso__seed1.json",
+      "bytes": 85304
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__pso__seed1_aligned.npz",
+      "bytes": 42915
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__pso__seed1_history.csv",
+      "bytes": 40671
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__pso__seed2.json",
+      "bytes": 85227
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__pso__seed2_aligned.npz",
+      "bytes": 42936
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__pso__seed2_history.csv",
+      "bytes": 40594
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__pso__seed3.json",
+      "bytes": 85109
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__pso__seed3_aligned.npz",
+      "bytes": 42967
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__pso__seed3_history.csv",
+      "bytes": 40481
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__pso__seed4.json",
+      "bytes": 85379
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__pso__seed4_aligned.npz",
+      "bytes": 42964
+    },
+    {
+      "path": "results/run_20261005/registration/raw/anatomical_rigid_perturbation__pso__seed4_history.csv",
+      "bytes": 40745
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__acor__seed0.json",
+      "bytes": 82078
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__acor__seed0_aligned.npz",
+      "bytes": 64936
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__acor__seed0_history.csv",
+      "bytes": 37629
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__acor__seed1.json",
+      "bytes": 82305
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__acor__seed1_aligned.npz",
+      "bytes": 64941
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__acor__seed1_history.csv",
+      "bytes": 37861
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__acor__seed2.json",
+      "bytes": 81909
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__acor__seed2_aligned.npz",
+      "bytes": 64927
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__acor__seed2_history.csv",
+      "bytes": 37460
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__acor__seed3.json",
+      "bytes": 82150
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__acor__seed3_aligned.npz",
+      "bytes": 64924
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__acor__seed3_history.csv",
+      "bytes": 37703
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__acor__seed4.json",
+      "bytes": 82026
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__acor__seed4_aligned.npz",
+      "bytes": 64921
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__acor__seed4_history.csv",
+      "bytes": 37578
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__ga__seed0.json",
+      "bytes": 81936
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__ga__seed0_aligned.npz",
+      "bytes": 64905
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__ga__seed0_history.csv",
+      "bytes": 37478
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__ga__seed1.json",
+      "bytes": 82076
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__ga__seed1_aligned.npz",
+      "bytes": 64941
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__ga__seed1_history.csv",
+      "bytes": 37613
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__ga__seed2.json",
+      "bytes": 82210
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__ga__seed2_aligned.npz",
+      "bytes": 64928
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__ga__seed2_history.csv",
+      "bytes": 37750
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__ga__seed3.json",
+      "bytes": 81654
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__ga__seed3_aligned.npz",
+      "bytes": 64943
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__ga__seed3_history.csv",
+      "bytes": 37191
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__ga__seed4.json",
+      "bytes": 82235
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__ga__seed4_aligned.npz",
+      "bytes": 64918
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__ga__seed4_history.csv",
+      "bytes": 37775
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__modified_eho__seed0.json",
+      "bytes": 82442
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__modified_eho__seed0_aligned.npz",
+      "bytes": 64909
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__modified_eho__seed0_history.csv",
+      "bytes": 37910
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__modified_eho__seed1.json",
+      "bytes": 82208
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__modified_eho__seed1_aligned.npz",
+      "bytes": 64922
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__modified_eho__seed1_history.csv",
+      "bytes": 37675
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__modified_eho__seed2.json",
+      "bytes": 82455
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__modified_eho__seed2_aligned.npz",
+      "bytes": 64954
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__modified_eho__seed2_history.csv",
+      "bytes": 37920
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__modified_eho__seed3.json",
+      "bytes": 82282
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__modified_eho__seed3_aligned.npz",
+      "bytes": 64900
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__modified_eho__seed3_history.csv",
+      "bytes": 37746
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__modified_eho__seed4.json",
+      "bytes": 81501
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__modified_eho__seed4_aligned.npz",
+      "bytes": 64912
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__modified_eho__seed4_history.csv",
+      "bytes": 36969
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__original_eho__seed0.json",
+      "bytes": 82463
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__original_eho__seed0_aligned.npz",
+      "bytes": 64965
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__original_eho__seed0_history.csv",
+      "bytes": 37910
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__original_eho__seed1.json",
+      "bytes": 81896
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__original_eho__seed1_aligned.npz",
+      "bytes": 64917
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__original_eho__seed1_history.csv",
+      "bytes": 37343
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__original_eho__seed2.json",
+      "bytes": 82471
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__original_eho__seed2_aligned.npz",
+      "bytes": 64945
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__original_eho__seed2_history.csv",
+      "bytes": 37920
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__original_eho__seed3.json",
+      "bytes": 81000
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__original_eho__seed3_aligned.npz",
+      "bytes": 64922
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__original_eho__seed3_history.csv",
+      "bytes": 36448
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__original_eho__seed4.json",
+      "bytes": 82475
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__original_eho__seed4_aligned.npz",
+      "bytes": 64912
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__original_eho__seed4_history.csv",
+      "bytes": 37920
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__pso__seed0.json",
+      "bytes": 81624
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__pso__seed0_aligned.npz",
+      "bytes": 64955
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__pso__seed0_history.csv",
+      "bytes": 37280
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__pso__seed1.json",
+      "bytes": 81253
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__pso__seed1_aligned.npz",
+      "bytes": 64909
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__pso__seed1_history.csv",
+      "bytes": 36913
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__pso__seed2.json",
+      "bytes": 82010
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__pso__seed2_aligned.npz",
+      "bytes": 64951
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__pso__seed2_history.csv",
+      "bytes": 37669
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__pso__seed3.json",
+      "bytes": 81468
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__pso__seed3_aligned.npz",
+      "bytes": 64920
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__pso__seed3_history.csv",
+      "bytes": 37140
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__pso__seed4.json",
+      "bytes": 81799
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__pso__seed4_aligned.npz",
+      "bytes": 64927
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_legacy_transform__pso__seed4_history.csv",
+      "bytes": 37456
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_source_cell15__aco__seed0.json",
+      "bytes": 82852
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_source_cell15__aco__seed0_history.csv",
+      "bytes": 37896
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_source_cell15__aco__seed1.json",
+      "bytes": 81396
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_source_cell15__aco__seed1_history.csv",
+      "bytes": 36417
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_source_cell15__aco__seed2.json",
+      "bytes": 82906
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_source_cell15__aco__seed2_history.csv",
+      "bytes": 37920
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_source_cell15__eho__seed0.json",
+      "bytes": 35041
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_source_cell15__eho__seed0_history.csv",
+      "bytes": 15256
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_source_cell15__eho__seed1.json",
+      "bytes": 35081
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_source_cell15__eho__seed1_history.csv",
+      "bytes": 15301
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_source_cell15__eho__seed2.json",
+      "bytes": 35296
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_source_cell15__eho__seed2_history.csv",
+      "bytes": 15517
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_source_cell15__ga__seed0.json",
+      "bytes": 84536
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_source_cell15__ga__seed0_history.csv",
+      "bytes": 38654
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_source_cell15__ga__seed1.json",
+      "bytes": 83791
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_source_cell15__ga__seed1_history.csv",
+      "bytes": 37911
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_source_cell15__ga__seed2.json",
+      "bytes": 84573
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_source_cell15__ga__seed2_history.csv",
+      "bytes": 38694
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_source_cell15__pso__seed0.json",
+      "bytes": 82330
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_source_cell15__pso__seed0_history.csv",
+      "bytes": 37314
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_source_cell15__pso__seed1.json",
+      "bytes": 82454
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_source_cell15__pso__seed1_history.csv",
+      "bytes": 37443
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_source_cell15__pso__seed2.json",
+      "bytes": 82627
+    },
+    {
+      "path": "results/run_20261005/registration/raw/synthetic_source_cell15__pso__seed2_history.csv",
+      "bytes": 37615
+    },
+    {
+      "path": "results/run_20261005/registration/runs.csv",
+      "bytes": 17417
+    },
+    {
+      "path": "results/run_20261005/registration/source_unchanged_bodies_synthetic_source_cell15_convergence.png",
+      "bytes": 65029
+    },
+    {
+      "path": "results/run_20261005/registration/summary.csv",
+      "bytes": 3102
+    },
+    {
+      "path": "results/run_20261005/registration/synthetic_legacy_transform__acor__seed0.png",
+      "bytes": 120371
+    },
+    {
+      "path": "results/run_20261005/registration/synthetic_legacy_transform__ga__seed0.png",
+      "bytes": 120140
+    },
+    {
+      "path": "results/run_20261005/registration/synthetic_legacy_transform__modified_eho__seed0.png",
+      "bytes": 120584
+    },
+    {
+      "path": "results/run_20261005/registration/synthetic_legacy_transform__original_eho__seed0.png",
+      "bytes": 121233
+    },
+    {
+      "path": "results/run_20261005/registration/synthetic_legacy_transform__pso__seed0.png",
+      "bytes": 120274
+    },
+    {
+      "path": "results/run_20261005/registration/synthetic_legacy_transform_case.json",
+      "bytes": 552
+    },
+    {
+      "path": "results/run_20261005/registration/synthetic_legacy_transform_input.npz",
+      "bytes": 140719
+    },
+    {
+      "path": "results/run_20261005/registration/synthetic_source_cell15__aco__seed0.png",
+      "bytes": 119354
+    },
+    {
+      "path": "results/run_20261005/registration/synthetic_source_cell15__eho__seed0.png",
+      "bytes": 119613
+    },
+    {
+      "path": "results/run_20261005/registration/synthetic_source_cell15__ga__seed0.png",
+      "bytes": 120010
+    },
+    {
+      "path": "results/run_20261005/registration/synthetic_source_cell15__pso__seed0.png",
+      "bytes": 119805
+    },
+    {
+      "path": "results/run_20261005/reports/CLAIMS_VS_RERUNS.md",
+      "bytes": 42388
+    },
+    {
+      "path": "results/run_20261005/reports/COMPLETION_SUMMARY.json",
+      "bytes": 1981
+    },
+    {
+      "path": "results/run_20261005/reports/claim_comparison.csv",
+      "bytes": 5946
+    },
+    {
+      "path": "results/run_20261005/reports/historical_table_texts.json",
+      "bytes": 1513
+    },
+    {
+      "path": "results/run_20261005/reports/imaging_quality_time_by_case.csv",
+      "bytes": 2108
+    },
+    {
+      "path": "results/run_20261005/reports/output_manifest.json",
+      "bytes": 138607
+    },
+    {
+      "path": "results/run_20261005/reports/routing_summary.csv",
+      "bytes": 4195
+    },
+    {
+      "path": "results/run_20261005/reports/validation.json",
+      "bytes": 54206
+    },
+    {
+      "path": "results/run_20261005/routing/routing_convergence.csv",
+      "bytes": 63842838
+    },
+    {
+      "path": "results/run_20261005/routing/routing_defect_demonstrations.json",
+      "bytes": 2974
+    },
+    {
+      "path": "results/run_20261005/routing/routing_exact_8.json",
+      "bytes": 395
+    },
+    {
+      "path": "results/run_20261005/routing/routing_instances.json",
+      "bytes": 397998
+    },
+    {
+      "path": "results/run_20261005/routing/routing_protocol.json",
+      "bytes": 2165
+    },
+    {
+      "path": "results/run_20261005/routing/routing_routes_and_validation.json",
+      "bytes": 286753
+    },
+    {
+      "path": "results/run_20261005/routing/routing_runs.csv",
+      "bytes": 38096
+    },
+    {
+      "path": "results/run_20261005/routing/routing_source_inventory.json",
+      "bytes": 16933
+    },
+    {
+      "path": "results/run_20261005/routing/routing_tsp_100_convergence.png",
+      "bytes": 93256
+    },
+    {
+      "path": "results/run_20261005/routing/routing_tsp_10_convergence.png",
+      "bytes": 74217
+    },
+    {
+      "path": "results/run_20261005/routing/routing_tsp_20_convergence.png",
+      "bytes": 93288
+    },
+    {
+      "path": "results/run_20261005/routing/routing_tsp_50_convergence.png",
+      "bytes": 93743
+    },
+    {
+      "path": "results/run_20261005/routing/routing_tsp_8_convergence.png",
+      "bytes": 62640
+    },
+    {
+      "path": "results/run_20261005/routing/routing_vrp_20_convergence.png",
+      "bytes": 66121
+    },
+    {
+      "path": "results/run_20261005/routing/source_cell_copies/brute_force_code_cell_1.py.txt",
+      "bytes": 2601
+    },
+    {
+      "path": "results/run_20261005/routing/source_cell_copies/brute_force_code_cell_2.py.txt",
+      "bytes": 5881
+    },
+    {
+      "path": "results/run_20261005/routing/source_cell_copies/mri_optimisation_code_cell_10.py.txt",
+      "bytes": 5291
+    },
+    {
+      "path": "results/run_20261005/routing/source_cell_copies/mri_optimisation_code_cell_11.py.txt",
+      "bytes": 11416
+    },
+    {
+      "path": "results/run_20261005/routing/source_cell_copies/mri_optimisation_code_cell_28.py.txt",
+      "bytes": 14594
+    },
+    {
+      "path": "results/run_20261005/routing/source_cell_copies/mri_optimisation_code_cell_33.py.txt",
+      "bytes": 13264
+    },
+    {
+      "path": "results/run_20261005/snippets/block1_seed0_convergence.csv",
+      "bytes": 1131070
+    },
+    {
+      "path": "results/run_20261005/snippets/block1_seed0_details.json",
+      "bytes": 5051
+    },
+    {
+      "path": "results/run_20261005/snippets/block1_seed0_stdout.txt",
+      "bytes": 901
+    },
+    {
+      "path": "results/run_20261005/snippets/block1_seed1_convergence.csv",
+      "bytes": 1129516
+    },
+    {
+      "path": "results/run_20261005/snippets/block1_seed1_details.json",
+      "bytes": 5051
+    },
+    {
+      "path": "results/run_20261005/snippets/block1_seed1_stdout.txt",
+      "bytes": 899
+    },
+    {
+      "path": "results/run_20261005/snippets/block1_seed2_convergence.csv",
+      "bytes": 1132058
+    },
+    {
+      "path": "results/run_20261005/snippets/block1_seed2_details.json",
+      "bytes": 5054
+    },
+    {
+      "path": "results/run_20261005/snippets/block1_seed2_stdout.txt",
+      "bytes": 899
+    },
+    {
+      "path": "results/run_20261005/snippets/block2_seed0_convergence.csv",
+      "bytes": 1210328
+    },
+    {
+      "path": "results/run_20261005/snippets/block2_seed0_details.json",
+      "bytes": 12097
+    },
+    {
+      "path": "results/run_20261005/snippets/block2_seed0_stdout.txt",
+      "bytes": 379
+    },
+    {
+      "path": "results/run_20261005/snippets/block2_seed1_convergence.csv",
+      "bytes": 1197384
+    },
+    {
+      "path": "results/run_20261005/snippets/block2_seed1_details.json",
+      "bytes": 12094
+    },
+    {
+      "path": "results/run_20261005/snippets/block2_seed1_stdout.txt",
+      "bytes": 378
+    },
+    {
+      "path": "results/run_20261005/snippets/block2_seed2_convergence.csv",
+      "bytes": 1207898
+    },
+    {
+      "path": "results/run_20261005/snippets/block2_seed2_details.json",
+      "bytes": 12092
+    },
+    {
+      "path": "results/run_20261005/snippets/block2_seed2_stdout.txt",
+      "bytes": 377
+    },
+    {
+      "path": "results/run_20261005/snippets/snippet_routes_and_validation.json",
+      "bytes": 51424
+    },
+    {
+      "path": "results/run_20261005/snippets/snippet_runs.csv",
+      "bytes": 3063
+    },
+    {
+      "path": "results/run_20261005/snippets/snippet_source_manifest.json",
+      "bytes": 5090
+    },
+    {
+      "path": "results/run_20261005/stage_ledger.json",
+      "bytes": 6557
+    },
+    {
+      "path": "results/source_replay/brute_source_validation.json",
+      "bytes": 619
+    },
+    {
+      "path": "results/source_replay/cell_001_output.txt",
+      "bytes": 17
+    },
+    {
+      "path": "results/source_replay/cell_001_values.json",
+      "bytes": 2
+    },
+    {
+      "path": "results/source_replay/cell_002_output.txt",
+      "bytes": 734
+    },
+    {
+      "path": "results/source_replay/cell_002_values.json",
+      "bytes": 2
+    },
+    {
+      "path": "results/source_replay/cell_003_figure_001.png",
+      "bytes": 33970
+    },
+    {
+      "path": "results/source_replay/cell_003_output.txt",
+      "bytes": 0
+    },
+    {
+      "path": "results/source_replay/cell_003_values.json",
+      "bytes": 126
+    },
+    {
+      "path": "results/source_replay/cell_004_output.txt",
+      "bytes": 307
+    },
+    {
+      "path": "results/source_replay/cell_004_values.json",
+      "bytes": 126
+    },
+    {
+      "path": "results/source_replay/cell_005_output.txt",
+      "bytes": 20
+    },
+    {
+      "path": "results/source_replay/cell_005_values.json",
+      "bytes": 126
+    },
+    {
+      "path": "results/source_replay/cell_006_output.txt",
+      "bytes": 215
+    },
+    {
+      "path": "results/source_replay/cell_006_values.json",
+      "bytes": 126
+    },
+    {
+      "path": "results/source_replay/cell_007_figure_002.png",
+      "bytes": 44038
+    },
+    {
+      "path": "results/source_replay/cell_007_output.txt",
+      "bytes": 453
+    },
+    {
+      "path": "results/source_replay/cell_007_values.json",
+      "bytes": 126
+    },
+    {
+      "path": "results/source_replay/cell_008_output.txt",
+      "bytes": 307
+    },
+    {
+      "path": "results/source_replay/cell_008_values.json",
+      "bytes": 126
+    },
+    {
+      "path": "results/source_replay/cell_009_output.txt",
+      "bytes": 24
+    },
+    {
+      "path": "results/source_replay/cell_009_values.json",
+      "bytes": 126
+    },
+    {
+      "path": "results/source_replay/cell_010_output.txt",
+      "bytes": 607
+    },
+    {
+      "path": "results/source_replay/cell_010_values.json",
+      "bytes": 126
+    },
+    {
+      "path": "results/source_replay/cell_011_figure_003.png",
+      "bytes": 115597
+    },
+    {
+      "path": "results/source_replay/cell_011_figure_004.png",
+      "bytes": 111411
+    },
+    {
+      "path": "results/source_replay/cell_011_figure_005.png",
+      "bytes": 28503
+    },
+    {
+      "path": "results/source_replay/cell_011_output.txt",
+      "bytes": 118
+    },
+    {
+      "path": "results/source_replay/cell_011_values.json",
+      "bytes": 126
+    },
+    {
+      "path": "results/source_replay/cell_012_output.txt",
+      "bytes": 307
+    },
+    {
+      "path": "results/source_replay/cell_012_values.json",
+      "bytes": 126
+    },
+    {
+      "path": "results/source_replay/cell_013_output.txt",
+      "bytes": 307
+    },
+    {
+      "path": "results/source_replay/cell_013_values.json",
+      "bytes": 126
+    },
+    {
+      "path": "results/source_replay/cell_014_output.txt",
+      "bytes": 307
+    },
+    {
+      "path": "results/source_replay/cell_014_values.json",
+      "bytes": 126
+    },
+    {
+      "path": "results/source_replay/cell_015_figure_006.png",
+      "bytes": 91300
+    },
+    {
+      "path": "results/source_replay/cell_015_output.txt",
+      "bytes": 919
+    },
+    {
+      "path": "results/source_replay/cell_015_values.json",
+      "bytes": 126
+    },
+    {
+      "path": "results/source_replay/cell_016_figure_007.png",
+      "bytes": 96002
+    },
+    {
+      "path": "results/source_replay/cell_016_output.txt",
+      "bytes": 0
+    },
+    {
+      "path": "results/source_replay/cell_016_values.json",
+      "bytes": 210
+    },
+    {
+      "path": "results/source_replay/cell_017_figure_008.png",
+      "bytes": 80212
+    },
+    {
+      "path": "results/source_replay/cell_017_output.txt",
+      "bytes": 190
+    },
+    {
+      "path": "results/source_replay/cell_017_values.json",
+      "bytes": 210
+    },
+    {
+      "path": "results/source_replay/cell_018_output.txt",
+      "bytes": 307
+    },
+    {
+      "path": "results/source_replay/cell_018_values.json",
+      "bytes": 210
+    },
+    {
+      "path": "results/source_replay/cell_019_output.txt",
+      "bytes": 307
+    },
+    {
+      "path": "results/source_replay/cell_019_values.json",
+      "bytes": 210
+    },
+    {
+      "path": "results/source_replay/cell_020_output.txt",
+      "bytes": 307
+    },
+    {
+      "path": "results/source_replay/cell_020_values.json",
+      "bytes": 210
+    },
+    {
+      "path": "results/source_replay/cell_021_output.txt",
+      "bytes": 81
+    },
+    {
+      "path": "results/source_replay/cell_021_values.json",
+      "bytes": 210
+    },
+    {
+      "path": "results/source_replay/cell_022_output.txt",
+      "bytes": 91
+    },
+    {
+      "path": "results/source_replay/cell_022_values.json",
+      "bytes": 210
+    },
+    {
+      "path": "results/source_replay/cell_023_figure_009.png",
+      "bytes": 115754
+    },
+    {
+      "path": "results/source_replay/cell_023_output.txt",
+      "bytes": 0
+    },
+    {
+      "path": "results/source_replay/cell_023_values.json",
+      "bytes": 194
+    },
+    {
+      "path": "results/source_replay/cell_024_output.txt",
+      "bytes": 307
+    },
+    {
+      "path": "results/source_replay/cell_024_values.json",
+      "bytes": 194
+    },
+    {
+      "path": "results/source_replay/cell_025_output.txt",
+      "bytes": 307
+    },
+    {
+      "path": "results/source_replay/cell_025_values.json",
+      "bytes": 194
+    },
+    {
+      "path": "results/source_replay/cell_026_output.txt",
+      "bytes": 307
+    },
+    {
+      "path": "results/source_replay/cell_026_values.json",
+      "bytes": 194
+    },
+    {
+      "path": "results/source_replay/cell_027_output.txt",
+      "bytes": 5
+    },
+    {
+      "path": "results/source_replay/cell_027_values.json",
+      "bytes": 194
+    },
+    {
+      "path": "results/source_replay/cell_028_figure_010.png",
+      "bytes": 78616
+    },
+    {
+      "path": "results/source_replay/cell_028_output.txt",
+      "bytes": 2741
+    },
+    {
+      "path": "results/source_replay/cell_028_values.json",
+      "bytes": 558
+    },
+    {
+      "path": "results/source_replay/cell_029_output.txt",
+      "bytes": 307
+    },
+    {
+      "path": "results/source_replay/cell_029_values.json",
+      "bytes": 558
+    },
+    {
+      "path": "results/source_replay/cell_030_output.txt",
+      "bytes": 307
+    },
+    {
+      "path": "results/source_replay/cell_030_values.json",
+      "bytes": 558
+    },
+    {
+      "path": "results/source_replay/cell_031_output.txt",
+      "bytes": 307
+    },
+    {
+      "path": "results/source_replay/cell_031_values.json",
+      "bytes": 558
+    },
+    {
+      "path": "results/source_replay/cell_032_output.txt",
+      "bytes": 37
+    },
+    {
+      "path": "results/source_replay/cell_032_values.json",
+      "bytes": 558
+    },
+    {
+      "path": "results/source_replay/cell_033_figure_011.png",
+      "bytes": 125881
+    },
+    {
+      "path": "results/source_replay/cell_033_output.txt",
+      "bytes": 7005
+    },
+    {
+      "path": "results/source_replay/cell_033_values.json",
+      "bytes": 2635
+    },
+    {
+      "path": "results/source_replay/execution_ledger.json",
+      "bytes": 8159
+    },
+    {
+      "path": "results/source_replay/notebook_replay_driver.log",
+      "bytes": 1712
+    },
+    {
+      "path": "run_all.py",
+      "bytes": 7014
+    },
+    {
+      "path": "run_pipeline.ps1",
+      "bytes": 685
+    },
+    {
+      "path": "sources/MINORREPORT_extracted.txt",
+      "bytes": 150995
+    },
+    {
+      "path": "sources/brute_force.ipynb",
+      "bytes": 144824
+    },
+    {
+      "path": "sources/brute_force/cell_001.py",
+      "bytes": 2601
+    },
+    {
+      "path": "sources/brute_force/cell_001_saved_outputs.json",
+      "bytes": 106465
+    },
+    {
+      "path": "sources/brute_force/cell_002.py",
+      "bytes": 5881
+    },
+    {
+      "path": "sources/brute_force/cell_002_saved_outputs.json",
+      "bytes": 557
+    },
+    {
+      "path": "sources/code_snippets_block_1.py",
+      "bytes": 11598
+    },
+    {
+      "path": "sources/code_snippets_block_2.py",
+      "bytes": 12024
+    },
+    {
+      "path": "sources/code_snippets_original.txt",
+      "bytes": 23622
+    },
+    {
+      "path": "sources/dataset_case_inventory.json",
+      "bytes": 172523
+    },
+    {
+      "path": "sources/existing_meshes/3d_models/eho_enhanced_brain_model.stl",
+      "bytes": 549184
+    },
+    {
+      "path": "sources/existing_meshes/3d_models/pso_enhanced_brain_model.stl",
+      "bytes": 549184
+    },
+    {
+      "path": "sources/existing_meshes/README.md",
+      "bytes": 631
+    },
+    {
+      "path": "sources/existing_meshes/eho_enhanced_brain_model.stl",
+      "bytes": 551084
+    },
+    {
+      "path": "sources/existing_meshes/pso_enhanced_brain_model.stl",
+      "bytes": 551084
+    },
+    {
+      "path": "sources/major_last_codes_draft.pdf",
+      "bytes": 2066313
+    },
+    {
+      "path": "sources/major_last_codes_extracted.txt",
+      "bytes": 205765
+    },
+    {
+      "path": "sources/major_last_codes_pages.json",
+      "bytes": 208498
+    },
+    {
+      "path": "sources/mri_local_codes.pdf",
+      "bytes": 4210206
+    },
+    {
+      "path": "sources/mri_local_codes_extracted.txt",
+      "bytes": 179600
+    },
+    {
+      "path": "sources/mri_local_codes_pages.json",
+      "bytes": 180940
+    },
+    {
+      "path": "sources/mri_optimisation.ipynb",
+      "bytes": 1372946
+    },
+    {
+      "path": "sources/mri_optimisation/cell_001.py",
+      "bytes": 24
+    },
+    {
+      "path": "sources/mri_optimisation/cell_001_saved_outputs.json",
+      "bytes": 116
+    },
+    {
+      "path": "sources/mri_optimisation/cell_002.py",
+      "bytes": 10533
+    },
+    {
+      "path": "sources/mri_optimisation/cell_002_saved_outputs.json",
+      "bytes": 1007
+    },
+    {
+      "path": "sources/mri_optimisation/cell_003.py",
+      "bytes": 744
+    },
+    {
+      "path": "sources/mri_optimisation/cell_003_saved_outputs.json",
+      "bytes": 35669
+    },
+    {
+      "path": "sources/mri_optimisation/cell_004.py",
+      "bytes": 314
+    },
+    {
+      "path": "sources/mri_optimisation/cell_004_saved_outputs.json",
+      "bytes": 406
+    },
+    {
+      "path": "sources/mri_optimisation/cell_005.py",
+      "bytes": 27
+    },
+    {
+      "path": "sources/mri_optimisation/cell_005_saved_outputs.json",
+      "bytes": 119
+    },
+    {
+      "path": "sources/mri_optimisation/cell_006.py",
+      "bytes": 5279
+    },
+    {
+      "path": "sources/mri_optimisation/cell_006_saved_outputs.json",
+      "bytes": 358
+    },
+    {
+      "path": "sources/mri_optimisation/cell_007.py",
+      "bytes": 6557
+    },
+    {
+      "path": "sources/mri_optimisation/cell_007_saved_outputs.json",
+      "bytes": 48190
+    },
+    {
+      "path": "sources/mri_optimisation/cell_008.py",
+      "bytes": 314
+    },
+    {
+      "path": "sources/mri_optimisation/cell_008_saved_outputs.json",
+      "bytes": 406
+    },
+    {
+      "path": "sources/mri_optimisation/cell_009.py",
+      "bytes": 31
+    },
+    {
+      "path": "sources/mri_optimisation/cell_009_saved_outputs.json",
+      "bytes": 123
+    },
+    {
+      "path": "sources/mri_optimisation/cell_010.py",
+      "bytes": 5291
+    },
+    {
+      "path": "sources/mri_optimisation/cell_010_saved_outputs.json",
+      "bytes": 327
+    },
+    {
+      "path": "sources/mri_optimisation/cell_011.py",
+      "bytes": 11416
+    },
+    {
+      "path": "sources/mri_optimisation/cell_011_saved_outputs.json",
+      "bytes": 261053
+    },
+    {
+      "path": "sources/mri_optimisation/cell_012.py",
+      "bytes": 316
+    },
+    {
+      "path": "sources/mri_optimisation/cell_012_saved_outputs.json",
+      "bytes": 406
+    },
+    {
+      "path": "sources/mri_optimisation/cell_013.py",
+      "bytes": 314
+    },
+    {
+      "path": "sources/mri_optimisation/cell_013_saved_outputs.json",
+      "bytes": 406
+    },
+    {
+      "path": "sources/mri_optimisation/cell_014.py",
+      "bytes": 314
+    },
+    {
+      "path": "sources/mri_optimisation/cell_014_saved_outputs.json",
+      "bytes": 406
+    },
+    {
+      "path": "sources/mri_optimisation/cell_015.py",
+      "bytes": 43775
+    },
+    {
+      "path": "sources/mri_optimisation/cell_015_saved_outputs.json",
+      "bytes": 404087
+    },
+    {
+      "path": "sources/mri_optimisation/cell_016.py",
+      "bytes": 1440
+    },
+    {
+      "path": "sources/mri_optimisation/cell_016_saved_outputs.json",
+      "bytes": 93713
+    },
+    {
+      "path": "sources/mri_optimisation/cell_017.py",
+      "bytes": 12333
+    },
+    {
+      "path": "sources/mri_optimisation/cell_017_saved_outputs.json",
+      "bytes": 81339
+    },
+    {
+      "path": "sources/mri_optimisation/cell_018.py",
+      "bytes": 314
+    },
+    {
+      "path": "sources/mri_optimisation/cell_018_saved_outputs.json",
+      "bytes": 406
+    },
+    {
+      "path": "sources/mri_optimisation/cell_019.py",
+      "bytes": 314
+    },
+    {
+      "path": "sources/mri_optimisation/cell_019_saved_outputs.json",
+      "bytes": 406
+    },
+    {
+      "path": "sources/mri_optimisation/cell_020.py",
+      "bytes": 314
+    },
+    {
+      "path": "sources/mri_optimisation/cell_020_saved_outputs.json",
+      "bytes": 406
+    },
+    {
+      "path": "sources/mri_optimisation/cell_021.py",
+      "bytes": 88
+    },
+    {
+      "path": "sources/mri_optimisation/cell_021_saved_outputs.json",
+      "bytes": 180
+    },
+    {
+      "path": "sources/mri_optimisation/cell_022.py",
+      "bytes": 98
+    },
+    {
+      "path": "sources/mri_optimisation/cell_022_saved_outputs.json",
+      "bytes": 190
+    },
+    {
+      "path": "sources/mri_optimisation/cell_023.py",
+      "bytes": 3117
+    },
+    {
+      "path": "sources/mri_optimisation/cell_023_saved_outputs.json",
+      "bytes": 128226
+    },
+    {
+      "path": "sources/mri_optimisation/cell_024.py",
+      "bytes": 314
+    },
+    {
+      "path": "sources/mri_optimisation/cell_024_saved_outputs.json",
+      "bytes": 406
+    },
+    {
+      "path": "sources/mri_optimisation/cell_025.py",
+      "bytes": 314
+    },
+    {
+      "path": "sources/mri_optimisation/cell_025_saved_outputs.json",
+      "bytes": 406
+    },
+    {
+      "path": "sources/mri_optimisation/cell_026.py",
+      "bytes": 314
+    },
+    {
+      "path": "sources/mri_optimisation/cell_026_saved_outputs.json",
+      "bytes": 406
+    },
+    {
+      "path": "sources/mri_optimisation/cell_027.py",
+      "bytes": 12
+    },
+    {
+      "path": "sources/mri_optimisation/cell_027_saved_outputs.json",
+      "bytes": 104
+    },
+    {
+      "path": "sources/mri_optimisation/cell_028.py",
+      "bytes": 14594
+    },
+    {
+      "path": "sources/mri_optimisation/cell_028_saved_outputs.json",
+      "bytes": 3103
+    },
+    {
+      "path": "sources/mri_optimisation/cell_029.py",
+      "bytes": 314
+    },
+    {
+      "path": "sources/mri_optimisation/cell_029_saved_outputs.json",
+      "bytes": 406
+    },
+    {
+      "path": "sources/mri_optimisation/cell_030.py",
+      "bytes": 314
+    },
+    {
+      "path": "sources/mri_optimisation/cell_030_saved_outputs.json",
+      "bytes": 406
+    },
+    {
+      "path": "sources/mri_optimisation/cell_031.py",
+      "bytes": 314
+    },
+    {
+      "path": "sources/mri_optimisation/cell_031_saved_outputs.json",
+      "bytes": 406
+    },
+    {
+      "path": "sources/mri_optimisation/cell_032.py",
+      "bytes": 44
+    },
+    {
+      "path": "sources/mri_optimisation/cell_032_saved_outputs.json",
+      "bytes": 136
+    },
+    {
+      "path": "sources/mri_optimisation/cell_033.py",
+      "bytes": 13264
+    },
+    {
+      "path": "sources/mri_optimisation/cell_033_saved_outputs.json",
+      "bytes": 117161
+    },
+    {
+      "path": "sources/notebook_cell_15.py",
+      "bytes": 43775
+    },
+    {
+      "path": "sources/notebook_cell_2.py",
+      "bytes": 10533
+    },
+    {
+      "path": "sources/notebook_cell_6.py",
+      "bytes": 5279
+    },
+    {
+      "path": "sources/notebook_cell_7.py",
+      "bytes": 6557
+    },
+    {
+      "path": "sources/notebook_cell_inventory.json",
+      "bytes": 12948
+    },
+    {
+      "path": "sources/original_manuscript_extracted.txt",
+      "bytes": 45784
+    },
+    {
+      "path": "sources/pdf_configuration_local_tsp.py",
+      "bytes": 11279
+    },
+    {
+      "path": "sources/pdf_configuration_major_tsp.py",
+      "bytes": 11336
+    },
+    {
+      "path": "sources/pdf_views/major_92.png",
+      "bytes": 132874
+    },
+    {
+      "path": "sources/pdf_views/major_93.png",
+      "bytes": 131264
+    },
+    {
+      "path": "sources/pdf_views/major_94.png",
+      "bytes": 129435
+    },
+    {
+      "path": "sources/pdf_views/major_95.png",
+      "bytes": 94055
+    },
+    {
+      "path": "sources/pdf_views/major_96.png",
+      "bytes": 301857
+    },
+    {
+      "path": "sources/registration_cell15_variant1.py",
+      "bytes": 9438
+    },
+    {
+      "path": "sources/registration_cell15_variant2.py",
+      "bytes": 9938
+    },
+    {
+      "path": "sources/registration_cell15_variant3.py",
+      "bytes": 9438
+    },
+    {
+      "path": "sources/rewritten_manuscript_extracted.txt",
+      "bytes": 57943
+    },
+    {
+      "path": "sources/selected_case_headers.json",
+      "bytes": 1107
+    },
+    {
+      "path": "sources/source_manifest.json",
+      "bytes": 1927
+    },
+    {
+      "path": "src/ablations.py",
+      "bytes": 5587
+    },
+    {
+      "path": "src/audit_existing_meshes.py",
+      "bytes": 2136
+    },
+    {
+      "path": "src/benchmarks_continuous.py",
+      "bytes": 12251
+    },
+    {
+      "path": "src/compare_claims.py",
+      "bytes": 19699
+    },
+    {
+      "path": "src/imaging.py",
+      "bytes": 33143
+    },
+    {
+      "path": "src/inventory_pdf_code.py",
+      "bytes": 17054
+    },
+    {
+      "path": "src/optimizers.py",
+      "bytes": 11645
+    },
+    {
+      "path": "src/registration.py",
+      "bytes": 11963
+    },
+    {
+      "path": "src/replay_pdf_configs.py",
+      "bytes": 11066
+    },
+    {
+      "path": "src/replay_snippets.py",
+      "bytes": 10932
+    },
+    {
+      "path": "src/replay_sources.py",
+      "bytes": 4434
+    },
+    {
+      "path": "src/repository_paths.py",
+      "bytes": 3375
+    },
+    {
+      "path": "src/routing.py",
+      "bytes": 31665
+    },
+    {
+      "path": "src/validate_outputs.py",
+      "bytes": 7763
+    },
+    {
+      "path": "tests/test_imaging.py",
+      "bytes": 7565
+    },
+    {
+      "path": "tests/test_optimizers.py",
+      "bytes": 3038
+    },
+    {
+      "path": "tests/test_registration.py",
+      "bytes": 2134
+    },
+    {
+      "path": "tests/test_repository_paths.py",
+      "bytes": 4425
+    },
+    {
+      "path": "tests/test_routing.py",
+      "bytes": 3993
+    }
+  ],
+  "total_files_excluding_inventory_itself": 1293,
+  "total_bytes_excluding_inventory_itself": 558326441,
+  "self_omitted_to_avoid_recursive_size_metadata": true
+}

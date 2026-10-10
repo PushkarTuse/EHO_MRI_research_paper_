@@ -1,0 +1,13 @@
+{
+  "output": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\registration",
+  "seeds": "0,1,2,3,4",
+  "source_seeds": "0,1,2",
+  "budget": 1500,
+  "population": 30,
+  "mode": "all",
+  "notebook": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation.ipynb",
+  "anatomical": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_001.nii.gz",
+  "slice": 71,
+  "modality": 0,
+  "max_size": 128
+}

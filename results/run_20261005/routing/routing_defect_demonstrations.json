@@ -1,0 +1,206 @@
+[
+  {
+    "label": "valid",
+    "routes": [
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      [
+        18,
+        19,
+        20
+      ]
+    ],
+    "legacy_distance_score": 1173.1293687702416,
+    "validation": {
+      "valid": true,
+      "missing": [],
+      "duplicates": [],
+      "out_of_range": [],
+      "loads": [
+        47,
+        50,
+        8
+      ],
+      "overloaded_routes": [],
+      "route_count": 3,
+      "integer_ids": true
+    }
+  },
+  {
+    "label": "omitted_customer",
+    "routes": [
+      [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      [
+        18,
+        19,
+        20
+      ]
+    ],
+    "legacy_distance_score": 1132.8378533459206,
+    "validation": {
+      "valid": false,
+      "missing": [
+        1
+      ],
+      "duplicates": [],
+      "out_of_range": [],
+      "loads": [
+        43,
+        50,
+        8
+      ],
+      "overloaded_routes": [],
+      "route_count": 3,
+      "integer_ids": true
+    }
+  },
+  {
+    "label": "duplicate_customer",
+    "routes": [
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      [
+        18,
+        19,
+        20,
+        1
+      ]
+    ],
+    "legacy_distance_score": 1254.2444820574135,
+    "validation": {
+      "valid": false,
+      "missing": [],
+      "duplicates": [
+        1
+      ],
+      "out_of_range": [],
+      "loads": [
+        47,
+        50,
+        12
+      ],
+      "overloaded_routes": [],
+      "route_count": 3,
+      "integer_ids": true
+    }
+  },
+  {
+    "label": "depot_only_invalid",
+    "routes": [
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    "legacy_distance_score": 0.0,
+    "validation": {
+      "valid": false,
+      "missing": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "duplicates": [
+        0
+      ],
+      "out_of_range": [
+        0
+      ],
+      "loads": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "overloaded_routes": [],
+      "route_count": 5,
+      "integer_ids": true
+    }
+  }
+]

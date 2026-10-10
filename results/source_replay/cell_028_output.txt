@@ -1,0 +1,26 @@
+D:\RANDOM\research_paper_iim\code_reruns\sources\mri_optimisation\cell_028.py:10: DeprecationWarning: `distance_matrix` is deprecated in favor of `scipy.spatial.distance.cdist` as of SciPy 1.18.0 and will be removed in SciPy 1.20.0.
+  return distance_matrix(points, points)
+D:\RANDOM\research_paper_iim\code_reruns\sources\mri_optimisation\cell_028.py:10: DeprecationWarning: `minkowski_distance` is deprecated in favor of `scipy.spatial.distance.minkowski` as of SciPy 1.18.0 and will be removed in SciPy 1.20.0.
+  return distance_matrix(points, points)
+D:\RANDOM\research_paper_iim\code_reruns\sources\mri_optimisation\cell_028.py:10: DeprecationWarning: `minkowski_distance_p` is deprecated in favor of `scipy.spatial.distance.minkowski` as of SciPy 1.18.0 and will be removed in SciPy 1.20.0.
+  return distance_matrix(points, points)
+GA: Best route = [4, 0, 8, 11, 9, 13, 5, 3, 18, 6, 10, 14, 2, 7, 16, 17, 1, 12, 19, 15], Best distance = 772.971117118493
+1791122131.5592022   1791122131.596861
+Execution time: 0.03765869140625 seconds
+EHO: Best route = [7, 15, 6, 17, 14, 9, 0, 16, 11, 4, 1, 2, 18, 19, 12, 13, 10, 5, 3, 8], Best distance = 928.8849405701468
+1791122131.596861   1791122131.5998828
+Execution time: 0.0030219554901123047 seconds
+ACO: Best route = [10, np.int64(15), np.int64(6), np.int64(19), np.int64(1), np.int64(17), np.int64(4), np.int64(12), np.int64(0), np.int64(16), np.int64(5), np.int64(3), np.int64(13), np.int64(8), np.int64(11), np.int64(9), np.int64(7), np.int64(2), np.int64(18), np.int64(14)], Best distance = 386.62667700610024
+1791122131.5998828   1791122133.5207505
+Execution time: 1.920867681503296 seconds
+PSO: Best route = [3, 17, 9, 15, 10, 7, 18, 1, 19, 14, 11, 6, 2, 13, 16, 8, 5, 0, 4, 12], Best distance = 847.4201615624294
+1791122133.5207505   1791122133.540432
+Execution time: 0.019681453704833984 seconds
+GA: Best route = [2, 6, 17, 1, 12, 16, 3, 5, 7, 10, 14, 15, 8, 19, 4, 11, 9, 13, 0, 18], Best distance = 757.2210215517778
+Execution time: 0.04080939292907715 seconds
+EHO: Best route = [16, 5, 0, 11, 4, 10, 6, 17, 1, 9, 7, 12, 19, 15, 18, 14, 3, 2, 13, 8], Best distance = 848.9634075685416
+Execution time: 0.0020127296447753906 seconds
+ACO: Best route = [9, np.int64(15), np.int64(10), np.int64(14), np.int64(6), np.int64(19), np.int64(1), np.int64(17), np.int64(4), np.int64(12), np.int64(0), np.int64(16), np.int64(5), np.int64(3), np.int64(13), np.int64(8), np.int64(11), np.int64(7), np.int64(2), np.int64(18)], Best distance = 386.4296894765134
+Execution time: 1.946434497833252 seconds
+PSO: Best route = [4, 6, 14, 1, 19, 15, 2, 17, 10, 9, 18, 8, 0, 12, 16, 5, 13, 7, 11, 3], Best distance = 823.7990680571861
+Execution time: 0.01887035369873047 seconds

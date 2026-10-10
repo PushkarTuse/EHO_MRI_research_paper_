@@ -1,0 +1,18 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.ps1 text eol=lf
+# Preserve original source and measured-output bytes and their hashes.
+sources/** -text
+results/** -text
+manuscripts/** -text
+media/** -text
+*.pdf binary
+*.docx binary
+*.mp4 binary
+*.png binary
+*.nii.gz binary
+*.npz binary
+*.ply binary
+*.stl binary

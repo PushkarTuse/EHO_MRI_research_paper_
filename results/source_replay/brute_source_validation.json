@@ -1,0 +1,24 @@
+[
+  {
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\brute_force\\cell_001.py",
+    "status": "invalid_input_not_run",
+    "row_lengths": [
+      10,
+      11,
+      10,
+      10,
+      10,
+      11,
+      10,
+      10,
+      10,
+      11
+    ],
+    "reason": "Source matrix is ragged/nonmetric. Exact original solver is rerun on a valid eight-city instance by routing.py."
+  },
+  {
+    "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\brute_force\\cell_002.py",
+    "status": "syntax_error_as_supplied",
+    "error": "invalid syntax (<unknown>, line 152)"
+  }
+]

@@ -1,0 +1,4110 @@
+{
+  "documents": [
+    {
+      "document": "major_last_codes_pages.json",
+      "pages": 105,
+      "page_inventory": [
+        {
+          "page": 1,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 2,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 3,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 4,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 5,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 6,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 7,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 8,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 9,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 10,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 11,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 12,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 13,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 14,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 15,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 16,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 17,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 18,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 19,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 20,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 21,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 22,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 23,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 24,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 25,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 26,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 27,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 28,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 29,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 30,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 31,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 32,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 33,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 34,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 35,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 36,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 37,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 38,
+          "definition_names_as_rendered": [
+            "generate_distance_matrix",
+            "calculate_route_length",
+            "order_crossover"
+          ],
+          "normalized_names": [
+            "generate_distance_matrix",
+            "calculate_route_length",
+            "order_crossover"
+          ],
+          "notebook_cells_by_name": {
+            "calculate_route_length": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "generate_distance_matrix": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "order_crossover": [
+              "cell_028.py",
+              "cell_033.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 39,
+          "definition_names_as_rendered": [
+            "swap_mutation",
+            "initialize_population",
+            "select_parents",
+            "ga_tsp"
+          ],
+          "normalized_names": [
+            "swap_mutation",
+            "initialize_population",
+            "select_parents",
+            "ga_tsp"
+          ],
+          "notebook_cells_by_name": {
+            "ga_tsp": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "initialize_population": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "select_parents": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "swap_mutation": [
+              "cell_028.py",
+              "cell_033.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 40,
+          "definition_names_as_rendered": [
+            "Elephant",
+            "init",
+            "evaluate_fitness",
+            "calculate_route_length",
+            "elephant_herding_optimization",
+            "initialize_clan",
+            "move_elephants"
+          ],
+          "normalized_names": [
+            "Elephant",
+            "__init__",
+            "evaluate_fitness",
+            "calculate_route_length",
+            "elephant_herding_optimization",
+            "initialize_clan",
+            "move_elephants"
+          ],
+          "notebook_cells_by_name": {
+            "Elephant": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_011.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "calculate_route_length": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "elephant_herding_optimization": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "evaluate_fitness": [
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "initialize_clan": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "move_elephants": [
+              "cell_028.py",
+              "cell_033.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 41,
+          "definition_names_as_rendered": [
+            "divide_into_herds",
+            "Ant",
+            "init",
+            "choose_next_city"
+          ],
+          "normalized_names": [
+            "divide_into_herds",
+            "Ant",
+            "__init__",
+            "choose_next_city"
+          ],
+          "notebook_cells_by_name": {
+            "Ant": [
+              "cell_002.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "choose_next_city": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "divide_into_herds": [
+              "cell_028.py",
+              "cell_033.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 42,
+          "definition_names_as_rendered": [
+            "build_route",
+            "calculate_route_length",
+            "aco_tsp"
+          ],
+          "normalized_names": [
+            "build_route",
+            "calculate_route_length",
+            "aco_tsp"
+          ],
+          "notebook_cells_by_name": {
+            "aco_tsp": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "build_route": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "calculate_route_length": [
+              "cell_028.py",
+              "cell_033.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 43,
+          "definition_names_as_rendered": [
+            "Particle",
+            "init",
+            "update_personal_best",
+            "update_velocity",
+            "apply_velocity",
+            "pso_tsp"
+          ],
+          "normalized_names": [
+            "Particle",
+            "__init__",
+            "update_personal_best",
+            "update_velocity",
+            "apply_velocity",
+            "pso_tsp"
+          ],
+          "notebook_cells_by_name": {
+            "Particle": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "apply_velocity": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "pso_tsp": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "update_personal_best": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "update_velocity": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_028.py",
+              "cell_033.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 44,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 45,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 46,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 47,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 48,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 49,
+          "definition_names_as_rendered": [
+            "ackley",
+            "Particle",
+            "init"
+          ],
+          "normalized_names": [
+            "ackley",
+            "Particle",
+            "__init__"
+          ],
+          "notebook_cells_by_name": {
+            "Particle": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "ackley": [
+              "cell_002.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 50,
+          "definition_names_as_rendered": [
+            "update_personal_best",
+            "update_velocity",
+            "move",
+            "pso_ackley",
+            "Elephant",
+            "init"
+          ],
+          "normalized_names": [
+            "update_personal_best",
+            "update_velocity",
+            "move",
+            "pso_ackley",
+            "Elephant",
+            "__init__"
+          ],
+          "notebook_cells_by_name": {
+            "Elephant": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_011.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "move": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py"
+            ],
+            "pso_ackley": [
+              "cell_002.py"
+            ],
+            "update_personal_best": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "update_velocity": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_028.py",
+              "cell_033.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 51,
+          "definition_names_as_rendered": [
+            "update_position",
+            "mutate",
+            "eho_ackley"
+          ],
+          "normalized_names": [
+            "update_position",
+            "mutate",
+            "eho_ackley"
+          ],
+          "notebook_cells_by_name": {
+            "eho_ackley": [
+              "cell_002.py"
+            ],
+            "mutate": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py"
+            ],
+            "update_position": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_011.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 52,
+          "definition_names_as_rendered": [
+            "ga_ackley",
+            "crossover",
+            "mutate",
+            "Ant",
+            "init"
+          ],
+          "normalized_names": [
+            "ga_ackley",
+            "crossover",
+            "mutate",
+            "Ant",
+            "__init__"
+          ],
+          "notebook_cells_by_name": {
+            "Ant": [
+              "cell_002.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "crossover": [
+              "cell_002.py"
+            ],
+            "ga_ackley": [
+              "cell_002.py"
+            ],
+            "mutate": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 53,
+          "definition_names_as_rendered": [
+            "update_position",
+            "aco_ackley",
+            "test_optimization_algorithms_on_ackley"
+          ],
+          "normalized_names": [
+            "update_position",
+            "aco_ackley",
+            "test_optimization_algorithms_on_ackley"
+          ],
+          "notebook_cells_by_name": {
+            "aco_ackley": [
+              "cell_002.py"
+            ],
+            "test_optimization_algorithms_on_ackley": [
+              "cell_002.py"
+            ],
+            "update_position": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_011.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 54,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 55,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 56,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 57,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 58,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 59,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 60,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 61,
+          "definition_names_as_rendered": [
+            "apply_transformation"
+          ],
+          "normalized_names": [
+            "apply_transformation"
+          ],
+          "notebook_cells_by_name": {
+            "apply_transformation": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 62,
+          "definition_names_as_rendered": [
+            "mse",
+            "objective_function",
+            "EHOElephant",
+            "init",
+            "evaluate_fitness",
+            "update_position_eho"
+          ],
+          "normalized_names": [
+            "mse",
+            "objective_function",
+            "EHOElephant",
+            "__init__",
+            "evaluate_fitness",
+            "update_position_eho"
+          ],
+          "notebook_cells_by_name": {
+            "EHOElephant": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "evaluate_fitness": [
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "mse": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "objective_function": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "update_position_eho": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 63,
+          "definition_names_as_rendered": [
+            "eho_registration",
+            "ga_crossover"
+          ],
+          "normalized_names": [
+            "eho_registration",
+            "ga_crossover"
+          ],
+          "notebook_cells_by_name": {
+            "eho_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "ga_crossover": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 64,
+          "definition_names_as_rendered": [
+            "ga_mutate",
+            "ga_registration"
+          ],
+          "normalized_names": [
+            "ga_mutate",
+            "ga_registration"
+          ],
+          "notebook_cells_by_name": {
+            "ga_mutate": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "ga_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 65,
+          "definition_names_as_rendered": [
+            "ACOAnt",
+            "init",
+            "move_position",
+            "aco_registration"
+          ],
+          "normalized_names": [
+            "ACOAnt",
+            "__init__",
+            "move_position",
+            "aco_registration"
+          ],
+          "notebook_cells_by_name": {
+            "ACOAnt": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "aco_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "move_position": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 66,
+          "definition_names_as_rendered": [
+            "generate_image",
+            "apply_transformation"
+          ],
+          "normalized_names": [
+            "generate_image",
+            "apply_transformation"
+          ],
+          "notebook_cells_by_name": {
+            "apply_transformation": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "generate_image": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 67,
+          "definition_names_as_rendered": [
+            "mse",
+            "objective_function",
+            "PSOParticle",
+            "init",
+            "update_personal_best",
+            "update_velocity_pso"
+          ],
+          "normalized_names": [
+            "mse",
+            "objective_function",
+            "PSOParticle",
+            "__init__",
+            "update_personal_best",
+            "update_velocity_pso"
+          ],
+          "notebook_cells_by_name": {
+            "PSOParticle": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "mse": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "objective_function": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "update_personal_best": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "update_velocity_pso": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 68,
+          "definition_names_as_rendered": [
+            "move_pso",
+            "pso_registration"
+          ],
+          "normalized_names": [
+            "move_pso",
+            "pso_registration"
+          ],
+          "notebook_cells_by_name": {
+            "move_pso": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "pso_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 69,
+          "definition_names_as_rendered": [
+            "EHOElephant",
+            "init",
+            "evaluate_fitness",
+            "update_position_eho",
+            "eho_registration"
+          ],
+          "normalized_names": [
+            "EHOElephant",
+            "__init__",
+            "evaluate_fitness",
+            "update_position_eho",
+            "eho_registration"
+          ],
+          "notebook_cells_by_name": {
+            "EHOElephant": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "eho_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "evaluate_fitness": [
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "update_position_eho": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 70,
+          "definition_names_as_rendered": [
+            "ga_crossover",
+            "ga_mutate"
+          ],
+          "normalized_names": [
+            "ga_crossover",
+            "ga_mutate"
+          ],
+          "notebook_cells_by_name": {
+            "ga_crossover": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "ga_mutate": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 71,
+          "definition_names_as_rendered": [
+            "ga_registration",
+            "ACOAnt"
+          ],
+          "normalized_names": [
+            "ga_registration",
+            "ACOAnt"
+          ],
+          "notebook_cells_by_name": {
+            "ACOAnt": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "ga_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 72,
+          "definition_names_as_rendered": [
+            "init",
+            "move_position",
+            "aco_registration"
+          ],
+          "normalized_names": [
+            "__init__",
+            "move_position",
+            "aco_registration"
+          ],
+          "notebook_cells_by_name": {
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "aco_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "move_position": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 73,
+          "definition_names_as_rendered": [
+            "generate_image",
+            "apply_transformation",
+            "mse"
+          ],
+          "normalized_names": [
+            "generate_image",
+            "apply_transformation",
+            "mse"
+          ],
+          "notebook_cells_by_name": {
+            "apply_transformation": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "generate_image": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "mse": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 74,
+          "definition_names_as_rendered": [
+            "objective_function",
+            "PSOParticle",
+            "init",
+            "update_personal_best",
+            "update_velocity_pso"
+          ],
+          "normalized_names": [
+            "objective_function",
+            "PSOParticle",
+            "__init__",
+            "update_personal_best",
+            "update_velocity_pso"
+          ],
+          "notebook_cells_by_name": {
+            "PSOParticle": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "objective_function": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "update_personal_best": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "update_velocity_pso": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 75,
+          "definition_names_as_rendered": [
+            "move_pso",
+            "pso_registration",
+            "EHOElephant",
+            "init"
+          ],
+          "normalized_names": [
+            "move_pso",
+            "pso_registration",
+            "EHOElephant",
+            "__init__"
+          ],
+          "notebook_cells_by_name": {
+            "EHOElephant": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "move_pso": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "pso_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 76,
+          "definition_names_as_rendered": [
+            "evaluate_fitness",
+            "update_position_eho",
+            "eho_registration"
+          ],
+          "normalized_names": [
+            "evaluate_fitness",
+            "update_position_eho",
+            "eho_registration"
+          ],
+          "notebook_cells_by_name": {
+            "eho_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "evaluate_fitness": [
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "update_position_eho": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 77,
+          "definition_names_as_rendered": [
+            "ga_crossover",
+            "ga_mutate",
+            "ga_registration"
+          ],
+          "normalized_names": [
+            "ga_crossover",
+            "ga_mutate",
+            "ga_registration"
+          ],
+          "notebook_cells_by_name": {
+            "ga_crossover": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "ga_mutate": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "ga_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 78,
+          "definition_names_as_rendered": [
+            "ACOAnt",
+            "init",
+            "move_position"
+          ],
+          "normalized_names": [
+            "ACOAnt",
+            "__init__",
+            "move_position"
+          ],
+          "notebook_cells_by_name": {
+            "ACOAnt": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "move_position": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 79,
+          "definition_names_as_rendered": [
+            "aco_registration"
+          ],
+          "normalized_names": [
+            "aco_registration"
+          ],
+          "notebook_cells_by_name": {
+            "aco_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 80,
+          "definition_names_as_rendered": [
+            "generate_image",
+            "apply_transformation",
+            "mse",
+            "objective_function",
+            "PSOParticle",
+            "init"
+          ],
+          "normalized_names": [
+            "generate_image",
+            "apply_transformation",
+            "mse",
+            "objective_function",
+            "PSOParticle",
+            "__init__"
+          ],
+          "notebook_cells_by_name": {
+            "PSOParticle": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "apply_transformation": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "generate_image": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "mse": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "objective_function": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 81,
+          "definition_names_as_rendered": [
+            "update_personal_best",
+            "update_velocity_pso",
+            "move_pso",
+            "pso_registration"
+          ],
+          "normalized_names": [
+            "update_personal_best",
+            "update_velocity_pso",
+            "move_pso",
+            "pso_registration"
+          ],
+          "notebook_cells_by_name": {
+            "move_pso": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "pso_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "update_personal_best": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "update_velocity_pso": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 82,
+          "definition_names_as_rendered": [
+            "EHOElephant",
+            "init",
+            "evaluate_fitness",
+            "update_position_eho"
+          ],
+          "normalized_names": [
+            "EHOElephant",
+            "__init__",
+            "evaluate_fitness",
+            "update_position_eho"
+          ],
+          "notebook_cells_by_name": {
+            "EHOElephant": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "evaluate_fitness": [
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "update_position_eho": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 83,
+          "definition_names_as_rendered": [
+            "eho_registration"
+          ],
+          "normalized_names": [
+            "eho_registration"
+          ],
+          "notebook_cells_by_name": {
+            "eho_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 84,
+          "definition_names_as_rendered": [
+            "ga_crossover",
+            "ga_mutate",
+            "ga_registration"
+          ],
+          "normalized_names": [
+            "ga_crossover",
+            "ga_mutate",
+            "ga_registration"
+          ],
+          "notebook_cells_by_name": {
+            "ga_crossover": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "ga_mutate": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "ga_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 85,
+          "definition_names_as_rendered": [
+            "ACOAnt",
+            "init",
+            "move_position"
+          ],
+          "normalized_names": [
+            "ACOAnt",
+            "__init__",
+            "move_position"
+          ],
+          "notebook_cells_by_name": {
+            "ACOAnt": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "move_position": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 86,
+          "definition_names_as_rendered": [
+            "aco_registration",
+            "plot_transformation"
+          ],
+          "normalized_names": [
+            "aco_registration",
+            "plot_transformation"
+          ],
+          "notebook_cells_by_name": {
+            "aco_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "plot_transformation": [
+              "cell_015.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 87,
+          "definition_names_as_rendered": [
+            "test_optimization_algorithms_on_medical_image_registration"
+          ],
+          "normalized_names": [
+            "test_optimization_algorithms_on_medical_image_registration"
+          ],
+          "notebook_cells_by_name": {
+            "test_optimization_algorithms_on_medical_image_registration": [
+              "cell_015.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 88,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 89,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 90,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 91,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 92,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 93,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 94,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 95,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 96,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 97,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 98,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 99,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 100,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 101,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 102,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 103,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 104,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 105,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        }
+      ],
+      "unmatched_definition_names": []
+    },
+    {
+      "document": "mri_local_codes_pages.json",
+      "pages": 40,
+      "page_inventory": [
+        {
+          "page": 1,
+          "definition_names_as_rendered": [
+            "ackley",
+            "Particle",
+            "__init__",
+            "update_personal_best",
+            "update_velocity",
+            "move",
+            "pso_ackley",
+            "Elephant",
+            "__init__",
+            "update_position",
+            "mutate",
+            "eho_ackley"
+          ],
+          "normalized_names": [
+            "ackley",
+            "Particle",
+            "__init__",
+            "update_personal_best",
+            "update_velocity",
+            "move",
+            "pso_ackley",
+            "Elephant",
+            "__init__",
+            "update_position",
+            "mutate",
+            "eho_ackley"
+          ],
+          "notebook_cells_by_name": {
+            "Elephant": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_011.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "Particle": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "ackley": [
+              "cell_002.py"
+            ],
+            "eho_ackley": [
+              "cell_002.py"
+            ],
+            "move": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py"
+            ],
+            "mutate": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py"
+            ],
+            "pso_ackley": [
+              "cell_002.py"
+            ],
+            "update_personal_best": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "update_position": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_011.py"
+            ],
+            "update_velocity": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_028.py",
+              "cell_033.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 2,
+          "definition_names_as_rendered": [
+            "ga_ackley",
+            "crossover",
+            "mutate",
+            "Ant",
+            "__init__",
+            "update_position",
+            "aco_ackley"
+          ],
+          "normalized_names": [
+            "ga_ackley",
+            "crossover",
+            "mutate",
+            "Ant",
+            "__init__",
+            "update_position",
+            "aco_ackley"
+          ],
+          "notebook_cells_by_name": {
+            "Ant": [
+              "cell_002.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "aco_ackley": [
+              "cell_002.py"
+            ],
+            "crossover": [
+              "cell_002.py"
+            ],
+            "ga_ackley": [
+              "cell_002.py"
+            ],
+            "mutate": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py"
+            ],
+            "update_position": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_011.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 3,
+          "definition_names_as_rendered": [
+            "test_optimization_algorithms_on_ackley"
+          ],
+          "normalized_names": [
+            "test_optimization_algorithms_on_ackley"
+          ],
+          "notebook_cells_by_name": {
+            "test_optimization_algorithms_on_ackley": [
+              "cell_002.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 4,
+          "definition_names_as_rendered": [
+            "rastrigin",
+            "Particle",
+            "__init__",
+            "update_personal_best",
+            "update_velocity",
+            "move",
+            "pso_rastrigin"
+          ],
+          "normalized_names": [
+            "rastrigin",
+            "Particle",
+            "__init__",
+            "update_personal_best",
+            "update_velocity",
+            "move",
+            "pso_rastrigin"
+          ],
+          "notebook_cells_by_name": {
+            "Particle": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "move": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py"
+            ],
+            "pso_rastrigin": [
+              "cell_006.py",
+              "cell_007.py"
+            ],
+            "rastrigin": [
+              "cell_006.py",
+              "cell_007.py"
+            ],
+            "update_personal_best": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "update_velocity": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_028.py",
+              "cell_033.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 5,
+          "definition_names_as_rendered": [
+            "Elephant",
+            "__init__",
+            "update_position",
+            "mutate",
+            "eho_rastrigin",
+            "test_pso_vs_eho_on_rastrigin",
+            "rastrigin",
+            "Particle",
+            "__init__"
+          ],
+          "normalized_names": [
+            "Elephant",
+            "__init__",
+            "update_position",
+            "mutate",
+            "eho_rastrigin",
+            "test_pso_vs_eho_on_rastrigin",
+            "rastrigin",
+            "Particle",
+            "__init__"
+          ],
+          "notebook_cells_by_name": {
+            "Elephant": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_011.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "Particle": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "eho_rastrigin": [
+              "cell_006.py",
+              "cell_007.py"
+            ],
+            "mutate": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py"
+            ],
+            "rastrigin": [
+              "cell_006.py",
+              "cell_007.py"
+            ],
+            "test_pso_vs_eho_on_rastrigin": [
+              "cell_006.py"
+            ],
+            "update_position": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_011.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 6,
+          "definition_names_as_rendered": [
+            "update_personal_best",
+            "update_velocity",
+            "move",
+            "pso_rastrigin",
+            "Elephant",
+            "__init__",
+            "update_position",
+            "mutate",
+            "eho_rastrigin"
+          ],
+          "normalized_names": [
+            "update_personal_best",
+            "update_velocity",
+            "move",
+            "pso_rastrigin",
+            "Elephant",
+            "__init__",
+            "update_position",
+            "mutate",
+            "eho_rastrigin"
+          ],
+          "notebook_cells_by_name": {
+            "Elephant": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_011.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "eho_rastrigin": [
+              "cell_006.py",
+              "cell_007.py"
+            ],
+            "move": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py"
+            ],
+            "mutate": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py"
+            ],
+            "pso_rastrigin": [
+              "cell_006.py",
+              "cell_007.py"
+            ],
+            "update_personal_best": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "update_position": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_011.py"
+            ],
+            "update_velocity": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_028.py",
+              "cell_033.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 7,
+          "definition_names_as_rendered": [
+            "test_pso_vs_eho_on_rastrigin_with_values"
+          ],
+          "normalized_names": [
+            "test_pso_vs_eho_on_rastrigin_with_values"
+          ],
+          "notebook_cells_by_name": {
+            "test_pso_vs_eho_on_rastrigin_with_values": [
+              "cell_007.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 8,
+          "definition_names_as_rendered": [
+            "Particle",
+            "__init__",
+            "initialize_routes",
+            "initialize_velocity"
+          ],
+          "normalized_names": [
+            "Particle",
+            "__init__",
+            "initialize_routes",
+            "initialize_velocity"
+          ],
+          "notebook_cells_by_name": {
+            "Particle": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "initialize_routes": [
+              "cell_010.py",
+              "cell_011.py"
+            ],
+            "initialize_velocity": [
+              "cell_010.py",
+              "cell_011.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 9,
+          "definition_names_as_rendered": [
+            "update_personal_best",
+            "update_velocity",
+            "move",
+            "pso_vrp",
+            "test_pso_vs_eho_on_vrp",
+            "vrp_cost"
+          ],
+          "normalized_names": [
+            "update_personal_best",
+            "update_velocity",
+            "move",
+            "pso_vrp",
+            "test_pso_vs_eho_on_vrp",
+            "vrp_cost"
+          ],
+          "notebook_cells_by_name": {
+            "move": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py"
+            ],
+            "pso_vrp": [
+              "cell_010.py",
+              "cell_011.py"
+            ],
+            "test_pso_vs_eho_on_vrp": [
+              "cell_010.py"
+            ],
+            "update_personal_best": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "update_velocity": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "vrp_cost": [
+              "cell_011.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 10,
+          "definition_names_as_rendered": [
+            "generate_customers",
+            "calc_distance_matrix",
+            "visualize_routes",
+            "Particle",
+            "__init__",
+            "initialize_routes",
+            "initialize_velocity",
+            "update_personal_best"
+          ],
+          "normalized_names": [
+            "generate_customers",
+            "calc_distance_matrix",
+            "visualize_routes",
+            "Particle",
+            "__init__",
+            "initialize_routes",
+            "initialize_velocity",
+            "update_personal_best"
+          ],
+          "notebook_cells_by_name": {
+            "Particle": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "calc_distance_matrix": [
+              "cell_011.py"
+            ],
+            "generate_customers": [
+              "cell_011.py"
+            ],
+            "initialize_routes": [
+              "cell_010.py",
+              "cell_011.py"
+            ],
+            "initialize_velocity": [
+              "cell_010.py",
+              "cell_011.py"
+            ],
+            "update_personal_best": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "visualize_routes": [
+              "cell_011.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 11,
+          "definition_names_as_rendered": [
+            "update_velocity",
+            "move",
+            "pso_vrp",
+            "Elephant",
+            "__init__",
+            "initialize_routes",
+            "update_position",
+            "eho_vrp"
+          ],
+          "normalized_names": [
+            "update_velocity",
+            "move",
+            "pso_vrp",
+            "Elephant",
+            "__init__",
+            "initialize_routes",
+            "update_position",
+            "eho_vrp"
+          ],
+          "notebook_cells_by_name": {
+            "Elephant": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_011.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "eho_vrp": [
+              "cell_011.py"
+            ],
+            "initialize_routes": [
+              "cell_010.py",
+              "cell_011.py"
+            ],
+            "move": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py"
+            ],
+            "pso_vrp": [
+              "cell_010.py",
+              "cell_011.py"
+            ],
+            "update_position": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_011.py"
+            ],
+            "update_velocity": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_028.py",
+              "cell_033.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 12,
+          "definition_names_as_rendered": [
+            "test_pso_vs_eho_with_visualization"
+          ],
+          "normalized_names": [
+            "test_pso_vs_eho_with_visualization"
+          ],
+          "notebook_cells_by_name": {
+            "test_pso_vs_eho_with_visualization": [
+              "cell_011.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 13,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 14,
+          "definition_names_as_rendered": [
+            "generate_image",
+            "apply_transformation",
+            "mse",
+            "objective_function"
+          ],
+          "normalized_names": [
+            "generate_image",
+            "apply_transformation",
+            "mse",
+            "objective_function"
+          ],
+          "notebook_cells_by_name": {
+            "apply_transformation": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "generate_image": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "mse": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "objective_function": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 15,
+          "definition_names_as_rendered": [
+            "PSOParticle",
+            "__init__",
+            "update_personal_best",
+            "update_velocity_pso",
+            "move_pso",
+            "pso_registration",
+            "EHOElephant",
+            "__init__",
+            "evaluate_fitness",
+            "update_position_eho",
+            "eho_registration"
+          ],
+          "normalized_names": [
+            "PSOParticle",
+            "__init__",
+            "update_personal_best",
+            "update_velocity_pso",
+            "move_pso",
+            "pso_registration",
+            "EHOElephant",
+            "__init__",
+            "evaluate_fitness",
+            "update_position_eho",
+            "eho_registration"
+          ],
+          "notebook_cells_by_name": {
+            "EHOElephant": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "PSOParticle": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "eho_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "evaluate_fitness": [
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "move_pso": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "pso_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "update_personal_best": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "update_position_eho": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "update_velocity_pso": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 16,
+          "definition_names_as_rendered": [
+            "ga_crossover",
+            "ga_mutate",
+            "ga_registration",
+            "ACOAnt",
+            "__init__",
+            "move_position",
+            "aco_registration"
+          ],
+          "normalized_names": [
+            "ga_crossover",
+            "ga_mutate",
+            "ga_registration",
+            "ACOAnt",
+            "__init__",
+            "move_position",
+            "aco_registration"
+          ],
+          "notebook_cells_by_name": {
+            "ACOAnt": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "aco_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "ga_crossover": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "ga_mutate": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "ga_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "move_position": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 17,
+          "definition_names_as_rendered": [
+            "generate_image",
+            "apply_transformation",
+            "mse",
+            "objective_function",
+            "PSOParticle",
+            "__init__",
+            "update_personal_best",
+            "update_velocity_pso",
+            "move_pso",
+            "pso_registration"
+          ],
+          "normalized_names": [
+            "generate_image",
+            "apply_transformation",
+            "mse",
+            "objective_function",
+            "PSOParticle",
+            "__init__",
+            "update_personal_best",
+            "update_velocity_pso",
+            "move_pso",
+            "pso_registration"
+          ],
+          "notebook_cells_by_name": {
+            "PSOParticle": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "apply_transformation": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "generate_image": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "move_pso": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "mse": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "objective_function": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "pso_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "update_personal_best": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "update_velocity_pso": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 18,
+          "definition_names_as_rendered": [
+            "EHOElephant",
+            "__init__",
+            "evaluate_fitness",
+            "update_position_eho",
+            "eho_registration",
+            "ga_crossover",
+            "ga_mutate",
+            "ga_registration"
+          ],
+          "normalized_names": [
+            "EHOElephant",
+            "__init__",
+            "evaluate_fitness",
+            "update_position_eho",
+            "eho_registration",
+            "ga_crossover",
+            "ga_mutate",
+            "ga_registration"
+          ],
+          "notebook_cells_by_name": {
+            "EHOElephant": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "eho_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "evaluate_fitness": [
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "ga_crossover": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "ga_mutate": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "ga_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "update_position_eho": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 19,
+          "definition_names_as_rendered": [
+            "ACOAnt",
+            "__init__",
+            "move_position",
+            "aco_registration",
+            "generate_image",
+            "apply_transformation"
+          ],
+          "normalized_names": [
+            "ACOAnt",
+            "__init__",
+            "move_position",
+            "aco_registration",
+            "generate_image",
+            "apply_transformation"
+          ],
+          "notebook_cells_by_name": {
+            "ACOAnt": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "aco_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "apply_transformation": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "generate_image": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "move_position": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 20,
+          "definition_names_as_rendered": [
+            "mse",
+            "objective_function",
+            "PSOParticle",
+            "__init__",
+            "update_personal_best",
+            "update_velocity_pso",
+            "move_pso",
+            "pso_registration",
+            "EHOElephant",
+            "__init__",
+            "evaluate_fitness",
+            "update_position_eho",
+            "eho_registration"
+          ],
+          "normalized_names": [
+            "mse",
+            "objective_function",
+            "PSOParticle",
+            "__init__",
+            "update_personal_best",
+            "update_velocity_pso",
+            "move_pso",
+            "pso_registration",
+            "EHOElephant",
+            "__init__",
+            "evaluate_fitness",
+            "update_position_eho",
+            "eho_registration"
+          ],
+          "notebook_cells_by_name": {
+            "EHOElephant": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "PSOParticle": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "eho_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "evaluate_fitness": [
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "move_pso": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "mse": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "objective_function": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "pso_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "update_personal_best": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "update_position_eho": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "update_velocity_pso": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 21,
+          "definition_names_as_rendered": [
+            "ga_crossover",
+            "ga_mutate",
+            "ga_registration",
+            "ACOAnt",
+            "__init__",
+            "move_position"
+          ],
+          "normalized_names": [
+            "ga_crossover",
+            "ga_mutate",
+            "ga_registration",
+            "ACOAnt",
+            "__init__",
+            "move_position"
+          ],
+          "notebook_cells_by_name": {
+            "ACOAnt": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "ga_crossover": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "ga_mutate": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "ga_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "move_position": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 22,
+          "definition_names_as_rendered": [
+            "aco_registration",
+            "generate_image",
+            "apply_transformation",
+            "mse",
+            "objective_function",
+            "PSOParticle",
+            "__init__",
+            "update_personal_best",
+            "update_velocity_pso",
+            "move_pso"
+          ],
+          "normalized_names": [
+            "aco_registration",
+            "generate_image",
+            "apply_transformation",
+            "mse",
+            "objective_function",
+            "PSOParticle",
+            "__init__",
+            "update_personal_best",
+            "update_velocity_pso",
+            "move_pso"
+          ],
+          "notebook_cells_by_name": {
+            "PSOParticle": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "aco_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "apply_transformation": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "generate_image": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "move_pso": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "mse": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "objective_function": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "update_personal_best": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "update_velocity_pso": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 23,
+          "definition_names_as_rendered": [
+            "pso_registration",
+            "EHOElephant",
+            "__init__",
+            "evaluate_fitness",
+            "update_position_eho",
+            "eho_registration",
+            "ga_crossover"
+          ],
+          "normalized_names": [
+            "pso_registration",
+            "EHOElephant",
+            "__init__",
+            "evaluate_fitness",
+            "update_position_eho",
+            "eho_registration",
+            "ga_crossover"
+          ],
+          "notebook_cells_by_name": {
+            "EHOElephant": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "eho_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "evaluate_fitness": [
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "ga_crossover": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "pso_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "update_position_eho": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 24,
+          "definition_names_as_rendered": [
+            "ga_mutate",
+            "ga_registration",
+            "ACOAnt",
+            "__init__",
+            "move_position",
+            "aco_registration",
+            "plot_transformation"
+          ],
+          "normalized_names": [
+            "ga_mutate",
+            "ga_registration",
+            "ACOAnt",
+            "__init__",
+            "move_position",
+            "aco_registration",
+            "plot_transformation"
+          ],
+          "notebook_cells_by_name": {
+            "ACOAnt": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "aco_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "ga_mutate": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "ga_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "move_position": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "plot_transformation": [
+              "cell_015.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 25,
+          "definition_names_as_rendered": [
+            "test_optimization_algorithms_on_medical_image_registration"
+          ],
+          "normalized_names": [
+            "test_optimization_algorithms_on_medical_image_registration"
+          ],
+          "notebook_cells_by_name": {
+            "test_optimization_algorithms_on_medical_image_registration": [
+              "cell_015.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 26,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 27,
+          "definition_names_as_rendered": [
+            "generate_image",
+            "apply_transformation",
+            "mse",
+            "objective_function",
+            "PSOParticle",
+            "__init__",
+            "update_personal_best"
+          ],
+          "normalized_names": [
+            "generate_image",
+            "apply_transformation",
+            "mse",
+            "objective_function",
+            "PSOParticle",
+            "__init__",
+            "update_personal_best"
+          ],
+          "notebook_cells_by_name": {
+            "PSOParticle": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "apply_transformation": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "generate_image": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "mse": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "objective_function": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "update_personal_best": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 28,
+          "definition_names_as_rendered": [
+            "update_velocity_pso",
+            "move_pso",
+            "pso_registration",
+            "EHOElephant",
+            "__init__",
+            "evaluate_fitness",
+            "update_position_eho",
+            "eho_registration",
+            "ga_crossover"
+          ],
+          "normalized_names": [
+            "update_velocity_pso",
+            "move_pso",
+            "pso_registration",
+            "EHOElephant",
+            "__init__",
+            "evaluate_fitness",
+            "update_position_eho",
+            "eho_registration",
+            "ga_crossover"
+          ],
+          "notebook_cells_by_name": {
+            "EHOElephant": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "eho_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "evaluate_fitness": [
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "ga_crossover": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "move_pso": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "pso_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "update_position_eho": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "update_velocity_pso": [
+              "cell_015.py",
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 29,
+          "definition_names_as_rendered": [
+            "ga_mutate",
+            "ga_registration",
+            "ACOAnt",
+            "__init__",
+            "move_position",
+            "aco_registration",
+            "run_experiment_with_increasing_datasets"
+          ],
+          "normalized_names": [
+            "ga_mutate",
+            "ga_registration",
+            "ACOAnt",
+            "__init__",
+            "move_position",
+            "aco_registration",
+            "run_experiment_with_increasing_datasets"
+          ],
+          "notebook_cells_by_name": {
+            "ACOAnt": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "aco_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "ga_mutate": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "ga_registration": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "move_position": [
+              "cell_015.py",
+              "cell_017.py"
+            ],
+            "run_experiment_with_increasing_datasets": [
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 30,
+          "definition_names_as_rendered": [
+            "plot_execution_time_vs_dataset_size"
+          ],
+          "normalized_names": [
+            "plot_execution_time_vs_dataset_size"
+          ],
+          "notebook_cells_by_name": {
+            "plot_execution_time_vs_dataset_size": [
+              "cell_017.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 31,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 32,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 33,
+          "definition_names_as_rendered": [
+            "generate_distance_matrix",
+            "calculate_route_length"
+          ],
+          "normalized_names": [
+            "generate_distance_matrix",
+            "calculate_route_length"
+          ],
+          "notebook_cells_by_name": {
+            "calculate_route_length": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "generate_distance_matrix": [
+              "cell_028.py",
+              "cell_033.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 34,
+          "definition_names_as_rendered": [
+            "order_crossover",
+            "swap_mutation",
+            "initialize_population",
+            "select_parents",
+            "ga_tsp",
+            "Elephant",
+            "__init__",
+            "evaluate_fitness",
+            "calculate_route_length",
+            "elephant_herding_optimization",
+            "initialize_clan"
+          ],
+          "normalized_names": [
+            "order_crossover",
+            "swap_mutation",
+            "initialize_population",
+            "select_parents",
+            "ga_tsp",
+            "Elephant",
+            "__init__",
+            "evaluate_fitness",
+            "calculate_route_length",
+            "elephant_herding_optimization",
+            "initialize_clan"
+          ],
+          "notebook_cells_by_name": {
+            "Elephant": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_011.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "calculate_route_length": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "elephant_herding_optimization": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "evaluate_fitness": [
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "ga_tsp": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "initialize_clan": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "initialize_population": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "order_crossover": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "select_parents": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "swap_mutation": [
+              "cell_028.py",
+              "cell_033.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 35,
+          "definition_names_as_rendered": [
+            "move_elephants",
+            "divide_into_herds",
+            "Ant",
+            "__init__",
+            "choose_next_city",
+            "build_route",
+            "calculate_route_length",
+            "aco_tsp"
+          ],
+          "normalized_names": [
+            "move_elephants",
+            "divide_into_herds",
+            "Ant",
+            "__init__",
+            "choose_next_city",
+            "build_route",
+            "calculate_route_length",
+            "aco_tsp"
+          ],
+          "notebook_cells_by_name": {
+            "Ant": [
+              "cell_002.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "aco_tsp": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "build_route": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "calculate_route_length": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "choose_next_city": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "divide_into_herds": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "move_elephants": [
+              "cell_028.py",
+              "cell_033.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 36,
+          "definition_names_as_rendered": [
+            "Particle",
+            "__init__",
+            "update_personal_best",
+            "update_velocity",
+            "apply_velocity",
+            "pso_tsp"
+          ],
+          "normalized_names": [
+            "Particle",
+            "__init__",
+            "update_personal_best",
+            "update_velocity",
+            "apply_velocity",
+            "pso_tsp"
+          ],
+          "notebook_cells_by_name": {
+            "Particle": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "apply_velocity": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "pso_tsp": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "update_personal_best": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "update_velocity": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_028.py",
+              "cell_033.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 37,
+          "definition_names_as_rendered": [],
+          "normalized_names": [],
+          "notebook_cells_by_name": {},
+          "unmatched_names": []
+        },
+        {
+          "page": 38,
+          "definition_names_as_rendered": [
+            "generate_distance_matrix",
+            "calculate_route_length",
+            "order_crossover"
+          ],
+          "normalized_names": [
+            "generate_distance_matrix",
+            "calculate_route_length",
+            "order_crossover"
+          ],
+          "notebook_cells_by_name": {
+            "calculate_route_length": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "generate_distance_matrix": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "order_crossover": [
+              "cell_028.py",
+              "cell_033.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 39,
+          "definition_names_as_rendered": [
+            "swap_mutation",
+            "initialize_population",
+            "select_parents",
+            "ga_tsp",
+            "Elephant",
+            "__init__",
+            "evaluate_fitness",
+            "calculate_route_length",
+            "elephant_herding_optimization",
+            "initialize_clan",
+            "move_elephants"
+          ],
+          "normalized_names": [
+            "swap_mutation",
+            "initialize_population",
+            "select_parents",
+            "ga_tsp",
+            "Elephant",
+            "__init__",
+            "evaluate_fitness",
+            "calculate_route_length",
+            "elephant_herding_optimization",
+            "initialize_clan",
+            "move_elephants"
+          ],
+          "notebook_cells_by_name": {
+            "Elephant": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_011.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "calculate_route_length": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "elephant_herding_optimization": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "evaluate_fitness": [
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "ga_tsp": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "initialize_clan": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "initialize_population": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "move_elephants": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "select_parents": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "swap_mutation": [
+              "cell_028.py",
+              "cell_033.py"
+            ]
+          },
+          "unmatched_names": []
+        },
+        {
+          "page": 40,
+          "definition_names_as_rendered": [
+            "divide_into_herds",
+            "Ant",
+            "__init__",
+            "choose_next_city",
+            "build_route",
+            "calculate_route_length",
+            "aco_tsp",
+            "Particle"
+          ],
+          "normalized_names": [
+            "divide_into_herds",
+            "Ant",
+            "__init__",
+            "choose_next_city",
+            "build_route",
+            "calculate_route_length",
+            "aco_tsp",
+            "Particle"
+          ],
+          "notebook_cells_by_name": {
+            "Ant": [
+              "cell_002.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "Particle": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "__init__": [
+              "cell_002.py",
+              "cell_006.py",
+              "cell_007.py",
+              "cell_010.py",
+              "cell_011.py",
+              "cell_015.py",
+              "cell_017.py",
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "aco_tsp": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "build_route": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "calculate_route_length": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "choose_next_city": [
+              "cell_028.py",
+              "cell_033.py"
+            ],
+            "divide_into_herds": [
+              "cell_028.py",
+              "cell_033.py"
+            ]
+          },
+          "unmatched_names": []
+        }
+      ],
+      "unmatched_definition_names": []
+    }
+  ],
+  "registration_variant_equivalence": [
+    {
+      "variants": [
+        1,
+        2
+      ],
+      "common_definitions": 13,
+      "changed_definitions": [
+        "EHOElephant",
+        "eho_registration"
+      ],
+      "unique_definitions": []
+    },
+    {
+      "variants": [
+        1,
+        3
+      ],
+      "common_definitions": 13,
+      "changed_definitions": [],
+      "unique_definitions": []
+    },
+    {
+      "variants": [
+        1,
+        4
+      ],
+      "common_definitions": 13,
+      "changed_definitions": [
+        "EHOElephant",
+        "eho_registration"
+      ],
+      "unique_definitions": [
+        "plot_transformation",
+        "test_optimization_algorithms_on_medical_image_registration"
+      ]
+    },
+    {
+      "variants": [
+        2,
+        3
+      ],
+      "common_definitions": 13,
+      "changed_definitions": [
+        "EHOElephant",
+        "eho_registration"
+      ],
+      "unique_definitions": []
+    },
+    {
+      "variants": [
+        2,
+        4
+      ],
+      "common_definitions": 13,
+      "changed_definitions": [],
+      "unique_definitions": [
+        "plot_transformation",
+        "test_optimization_algorithms_on_medical_image_registration"
+      ]
+    },
+    {
+      "variants": [
+        3,
+        4
+      ],
+      "common_definitions": 13,
+      "changed_definitions": [
+        "EHOElephant",
+        "eho_registration"
+      ],
+      "unique_definitions": [
+        "plot_transformation",
+        "test_optimization_algorithms_on_medical_image_registration"
+      ]
+    }
+  ],
+  "original_notebook_execution": {
+    "cells": 33,
+    "successes": 32,
+    "failures": [
+      {
+        "cell": 10,
+        "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_010.py",
+        "status": "failed_as_supplied",
+        "classification": "original code execution",
+        "error": "NameError: name 'generate_customers' is not defined",
+        "seconds": 0.005974999978207052
+      }
+    ]
+  },
+  "pdf_results_directory": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\pdf_configs",
+  "pdf_configuration_completion": {
+    "mode": "all",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "tsp_runs": 144,
+    "registration_variants": [
+      1,
+      2,
+      3
+    ],
+    "failures": []
+  },
+  "pdf_tsp_rows": 144,
+  "dormant_registration_rows": 36,
+  "comparison_limit": "PDF text identifiers and inspected mechanisms corroborate notebook counterparts; PDF glyph/whitespace loss does not establish byte-identical source provenance."
+}

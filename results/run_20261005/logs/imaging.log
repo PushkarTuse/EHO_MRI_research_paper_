@@ -1,0 +1,51 @@
+
+COMMAND ["D:\\RANDOM\\research_paper_iim\\code_reruns\\.venv\\Scripts\\python.exe", "D:\\RANDOM\\research_paper_iim\\code_reruns\\src\\imaging.py", "--dataset", "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour", "--output", "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\imaging", "--cases", "3", "--seeds", "0,1,2", "--budget", "1500"]
+IMAGE-ONLY prediction BRATS_001 original_eho seed=0
+IMAGE-ONLY prediction BRATS_001 original_eho seed=1
+IMAGE-ONLY prediction BRATS_001 original_eho seed=2
+IMAGE-ONLY prediction BRATS_001 modified_eho seed=0
+IMAGE-ONLY prediction BRATS_001 modified_eho seed=1
+IMAGE-ONLY prediction BRATS_001 modified_eho seed=2
+IMAGE-ONLY prediction BRATS_001 pso seed=0
+IMAGE-ONLY prediction BRATS_001 pso seed=1
+IMAGE-ONLY prediction BRATS_001 pso seed=2
+IMAGE-ONLY prediction BRATS_001 ga seed=0
+IMAGE-ONLY prediction BRATS_001 ga seed=1
+IMAGE-ONLY prediction BRATS_001 ga seed=2
+IMAGE-ONLY prediction BRATS_001 acor seed=0
+IMAGE-ONLY prediction BRATS_001 acor seed=1
+IMAGE-ONLY prediction BRATS_001 acor seed=2
+INDEPENDENT EVALUATION: all predictions saved for BRATS_001
+IMAGE-ONLY prediction BRATS_002 original_eho seed=0
+IMAGE-ONLY prediction BRATS_002 original_eho seed=1
+IMAGE-ONLY prediction BRATS_002 original_eho seed=2
+IMAGE-ONLY prediction BRATS_002 modified_eho seed=0
+IMAGE-ONLY prediction BRATS_002 modified_eho seed=1
+IMAGE-ONLY prediction BRATS_002 modified_eho seed=2
+IMAGE-ONLY prediction BRATS_002 pso seed=0
+IMAGE-ONLY prediction BRATS_002 pso seed=1
+IMAGE-ONLY prediction BRATS_002 pso seed=2
+IMAGE-ONLY prediction BRATS_002 ga seed=0
+IMAGE-ONLY prediction BRATS_002 ga seed=1
+IMAGE-ONLY prediction BRATS_002 ga seed=2
+IMAGE-ONLY prediction BRATS_002 acor seed=0
+IMAGE-ONLY prediction BRATS_002 acor seed=1
+IMAGE-ONLY prediction BRATS_002 acor seed=2
+INDEPENDENT EVALUATION: all predictions saved for BRATS_002
+IMAGE-ONLY prediction BRATS_003 original_eho seed=0
+IMAGE-ONLY prediction BRATS_003 original_eho seed=1
+IMAGE-ONLY prediction BRATS_003 original_eho seed=2
+IMAGE-ONLY prediction BRATS_003 modified_eho seed=0
+IMAGE-ONLY prediction BRATS_003 modified_eho seed=1
+IMAGE-ONLY prediction BRATS_003 modified_eho seed=2
+IMAGE-ONLY prediction BRATS_003 pso seed=0
+IMAGE-ONLY prediction BRATS_003 pso seed=1
+IMAGE-ONLY prediction BRATS_003 pso seed=2
+IMAGE-ONLY prediction BRATS_003 ga seed=0
+IMAGE-ONLY prediction BRATS_003 ga seed=1
+IMAGE-ONLY prediction BRATS_003 ga seed=2
+IMAGE-ONLY prediction BRATS_003 acor seed=0
+IMAGE-ONLY prediction BRATS_003 acor seed=1
+IMAGE-ONLY prediction BRATS_003 acor seed=2
+INDEPENDENT EVALUATION: all predictions saved for BRATS_003
+{"status": "completed", "runs": 48, "output": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\imaging"}

@@ -1,0 +1,177 @@
+{
+  "arguments": {
+    "output": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\ablations",
+    "seeds": "0,1,2,3,4",
+    "budget": 3000,
+    "population": 30
+  },
+  "variants": {
+    "original_eho": [
+      "original_eho",
+      {}
+    ],
+    "modified_all": [
+      "modified_eho",
+      {}
+    ],
+    "modified_nodim": [
+      "modified_eho",
+      {
+        "dimensional_scaling": false
+      }
+    ],
+    "modified_noschedule": [
+      "modified_eho",
+      {
+        "scheduling": false
+      }
+    ],
+    "modified_norepulsion": [
+      "modified_eho",
+      {
+        "repulsion": false
+      }
+    ],
+    "modified_noseparation": [
+      "modified_eho",
+      {
+        "interpolated_separation": false
+      }
+    ]
+  },
+  "fixed_shift_direction": [
+    -1.0,
+    0.75,
+    -0.5,
+    0.25,
+    1.0,
+    -0.75,
+    0.5,
+    -0.25,
+    0.875,
+    -0.875
+  ],
+  "tasks": {
+    "rastrigin_shifted_10d": {
+      "bounds": [
+        [
+          -5.12,
+          5.12
+        ],
+        [
+          -5.12,
+          5.12
+        ],
+        [
+          -5.12,
+          5.12
+        ],
+        [
+          -5.12,
+          5.12
+        ],
+        [
+          -5.12,
+          5.12
+        ],
+        [
+          -5.12,
+          5.12
+        ],
+        [
+          -5.12,
+          5.12
+        ],
+        [
+          -5.12,
+          5.12
+        ],
+        [
+          -5.12,
+          5.12
+        ],
+        [
+          -5.12,
+          5.12
+        ]
+      ],
+      "shift": [
+        -2.0,
+        1.5,
+        -1.0,
+        0.5,
+        2.0,
+        -1.5,
+        1.0,
+        -0.5,
+        1.75,
+        -1.75
+      ],
+      "objective": "base(x - shift)",
+      "known_optimum": 0.0
+    },
+    "ackley_shifted_10d": {
+      "bounds": [
+        [
+          -32.768,
+          32.768
+        ],
+        [
+          -32.768,
+          32.768
+        ],
+        [
+          -32.768,
+          32.768
+        ],
+        [
+          -32.768,
+          32.768
+        ],
+        [
+          -32.768,
+          32.768
+        ],
+        [
+          -32.768,
+          32.768
+        ],
+        [
+          -32.768,
+          32.768
+        ],
+        [
+          -32.768,
+          32.768
+        ],
+        [
+          -32.768,
+          32.768
+        ],
+        [
+          -32.768,
+          32.768
+        ]
+      ],
+      "shift": [
+        -20.0,
+        15.0,
+        -10.0,
+        5.0,
+        20.0,
+        -15.0,
+        10.0,
+        -5.0,
+        17.5,
+        -17.5
+      ],
+      "objective": "base(x - shift)",
+      "known_optimum": 0.0
+    }
+  },
+  "shift_selection": "Fixed deterministic vectors written before experiment; no outcome-dependent shift or hyperparameter selection",
+  "variant_note": "modified_noseparation disables interpolated separation only; original uniform worst-member replacement remains",
+  "schedule_note": "Disabling scheduling holds attraction at alpha and repulsion at repulsion_max; it removes the time ramps",
+  "timing": "Sequential optimizer and objective calls only; excludes file writes and plotting",
+  "limitation": "New reconstructed operators, five seeds and one shift per function; no historical validation or general convergence proof"
+}

@@ -1,0 +1,117 @@
+{
+  "provenance": "new_unsupervised_reconstruction_2026-10-04_not_historical_MRI_code",
+  "dataset": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour",
+  "dataset_metadata": {
+    "name": "BRATS",
+    "description": "Gliomas segmentation tumour and oedema in on brain images",
+    "reference": "https://www.med.upenn.edu/sbia/brats2017.html",
+    "licence": "CC-BY-SA 4.0",
+    "release": "2.0 04/05/2018",
+    "tensorImageSize": "4D",
+    "modality": {
+      "0": "FLAIR",
+      "1": "T1w",
+      "2": "t1gd",
+      "3": "T2w"
+    },
+    "labels": {
+      "0": "background",
+      "1": "edema",
+      "2": "non-enhancing tumor",
+      "3": "enhancing tumour"
+    },
+    "numTraining": 484,
+    "numTest": 266
+  },
+  "cases": [
+    {
+      "case_id": "BRATS_001",
+      "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_001.nii.gz",
+      "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_001.nii.gz"
+    },
+    {
+      "case_id": "BRATS_002",
+      "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_002.nii.gz",
+      "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_002.nii.gz"
+    },
+    {
+      "case_id": "BRATS_003",
+      "image": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_003.nii.gz",
+      "label": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\labelsTr\\BRATS_003.nii.gz"
+    }
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "methods": [
+    "original_eho",
+    "modified_eho",
+    "pso",
+    "ga",
+    "acor"
+  ],
+  "budget_per_optimizer_stage": 1500,
+  "population": 30,
+  "protocol": {
+    "normalization_percentiles": [
+      1,
+      99
+    ],
+    "roi": "finite nonzero FLAIR",
+    "enhancement_bounds": [
+      [
+        0.7,
+        1.5
+      ],
+      [
+        0.8,
+        1.3
+      ]
+    ],
+    "otsu_bounds": [
+      [
+        0.02,
+        0.98
+      ],
+      [
+        0.02,
+        0.98
+      ]
+    ],
+    "hist_bins": 256,
+    "segmentation_class": "highest of three Otsu classes",
+    "component_rule": "largest 6-connected component, fixed before evaluation",
+    "selection": "lexically first cases from training manifest; no labels examined",
+    "reference_access": "after ALL methods/seeds predicted masks saved for each case",
+    "cohort_role": "retrospective evaluation subset of MSD training set; not hidden challenge test set",
+    "labels_used_for_training_or_tuning": false,
+    "mesh_stride": 2
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+    "logical_cpus": 12,
+    "ram_gb": 15.729297637939453,
+    "libraries": {
+      "numpy": "2.5.3",
+      "scipy": "1.18.1",
+      "nibabel": "5.4.2",
+      "scikit-image": "0.26.0",
+      "plotly": "7.1.0",
+      "trimesh": "5.1.1"
+    }
+  },
+  "started_utc": "2026-10-04T19:38:47Z",
+  "status": "completed",
+  "total_seconds_including_io_mesh_evaluation": 59.929950700025074,
+  "completed_utc": "2026-10-04T19:39:47Z",
+  "output_records": 48,
+  "case_manifests": [
+    "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\imaging\\BRATS_001\\case_manifest.json",
+    "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\imaging\\BRATS_002\\case_manifest.json",
+    "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\imaging\\BRATS_003\\case_manifest.json"
+  ]
+}

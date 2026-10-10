@@ -1,0 +1,19 @@
+Testing PSO on Rastrigin Function...
+
+Testing EHO on Rastrigin Function...
+
+PSO Convergence Values at key iterations:
+Iteration 1: 115.4419
+Iteration 200: 24.0952
+Iteration 400: 23.4797
+Iteration 600: 23.2618
+Iteration 800: 23.0876
+Iteration 1000: 23.0164
+
+EHO Convergence Values at key iterations:
+Iteration 1: 83.3575
+Iteration 200: 12.5617
+Iteration 400: 11.1095
+Iteration 600: 11.1095
+Iteration 800: 9.1764
+Iteration 1000: 9.1764

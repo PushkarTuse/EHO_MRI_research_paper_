@@ -1,0 +1,60 @@
+{
+  "brain_context": {
+    "status": "exported",
+    "vertices": 27377,
+    "faces": 54754,
+    "ply": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\imaging\\BRATS_001\\meshes\\brain_context.ply",
+    "stl": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\imaging\\BRATS_001\\meshes\\brain_context.stl"
+  },
+  "reference_whole_tumour": {
+    "status": "exported",
+    "vertices": 7108,
+    "faces": 14252,
+    "ply": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\imaging\\BRATS_001\\meshes\\reference_whole_tumour.ply",
+    "stl": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\imaging\\BRATS_001\\meshes\\reference_whole_tumour.stl"
+  },
+  "original_eho_prediction": {
+    "status": "exported",
+    "vertices": 9448,
+    "faces": 19172,
+    "ply": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\imaging\\BRATS_001\\meshes\\original_eho_prediction.ply",
+    "stl": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\imaging\\BRATS_001\\meshes\\original_eho_prediction.stl"
+  },
+  "modified_eho_prediction": {
+    "status": "exported",
+    "vertices": 8792,
+    "faces": 17716,
+    "ply": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\imaging\\BRATS_001\\meshes\\modified_eho_prediction.ply",
+    "stl": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\imaging\\BRATS_001\\meshes\\modified_eho_prediction.stl"
+  },
+  "pso_prediction": {
+    "status": "exported",
+    "vertices": 9457,
+    "faces": 19202,
+    "ply": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\imaging\\BRATS_001\\meshes\\pso_prediction.ply",
+    "stl": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\imaging\\BRATS_001\\meshes\\pso_prediction.stl"
+  },
+  "ga_prediction": {
+    "status": "exported",
+    "vertices": 9457,
+    "faces": 19202,
+    "ply": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\imaging\\BRATS_001\\meshes\\ga_prediction.ply",
+    "stl": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\imaging\\BRATS_001\\meshes\\ga_prediction.stl"
+  },
+  "acor_prediction": {
+    "status": "exported",
+    "vertices": 9457,
+    "faces": 19202,
+    "ply": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\imaging\\BRATS_001\\meshes\\acor_prediction.ply",
+    "stl": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\imaging\\BRATS_001\\meshes\\acor_prediction.stl"
+  },
+  "direct_otsu_prediction": {
+    "status": "exported",
+    "vertices": 8770,
+    "faces": 17692,
+    "ply": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\imaging\\BRATS_001\\meshes\\direct_otsu_prediction.ply",
+    "stl": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\imaging\\BRATS_001\\meshes\\direct_otsu_prediction.stl"
+  },
+  "display_stride": 2,
+  "evaluation_downsampled": false
+}

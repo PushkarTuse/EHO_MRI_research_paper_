@@ -1,0 +1,17 @@
+Testing PSO on Ackley Function...
+PSO Best Value (Ackley): 3.2265560659591626, Execution Time: 0.07685 seconds
+
+Testing Improved EHO on Ackley Function...
+EHO Best Value (Ackley): 0.3822433739794886, Execution Time: 0.11060 seconds
+
+Testing GA on Ackley Function...
+GA Best Value (Ackley): 18.467348874710037, Execution Time: 0.05572 seconds
+
+Testing ACO on Ackley Function...
+ACO Best Value (Ackley): 17.73388722309981, Execution Time: 0.31203 seconds
+
+Summary of Results:
+PSO: Best Value = 3.2265560659591626, Time = 0.07685 seconds
+EHO: Best Value = 0.3822433739794886, Time = 0.11060 seconds
+GA:  Best Value = 18.467348874710037, Time = 0.05572 seconds
+ACO: Best Value = 17.73388722309981, Time = 0.31203 seconds

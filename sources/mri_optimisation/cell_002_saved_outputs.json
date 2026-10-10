@@ -1,0 +1,25 @@
+[
+  {
+    "output_type": "stream",
+    "name": "stdout",
+    "text": [
+      "Testing PSO on Ackley Function...\n",
+      "PSO Best Value (Ackley): 5.09211346966514, Execution Time: 0.11082 seconds\n",
+      "\n",
+      "Testing Improved EHO on Ackley Function...\n",
+      "EHO Best Value (Ackley): 4.7997695069642425, Execution Time: 0.21845 seconds\n",
+      "\n",
+      "Testing GA on Ackley Function...\n",
+      "GA Best Value (Ackley): 15.811119901981645, Execution Time: 0.09717 seconds\n",
+      "\n",
+      "Testing ACO on Ackley Function...\n",
+      "ACO Best Value (Ackley): 19.943817220955953, Execution Time: 0.52352 seconds\n",
+      "\n",
+      "Summary of Results:\n",
+      "PSO: Best Value = 5.09211346966514, Time = 0.11082 seconds\n",
+      "EHO: Best Value = 4.7997695069642425, Time = 0.21845 seconds\n",
+      "GA:  Best Value = 15.811119901981645, Time = 0.09717 seconds\n",
+      "ACO: Best Value = 19.943817220955953, Time = 0.52352 seconds\n"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+
+COMMAND ["D:\\RANDOM\\research_paper_iim\\code_reruns\\.venv\\Scripts\\python.exe", "D:\\RANDOM\\research_paper_iim\\code_reruns\\src\\replay_snippets.py", "--output", "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\snippets", "--seeds", "0,1,2"]
+RUN block1 seed0 start
+RUN block1 seed0 done: 4 algorithms
+RUN block2 seed0 start
+RUN block2 seed0 done: 4 algorithms
+RUN block1 seed1 start
+RUN block1 seed1 done: 4 algorithms
+RUN block2 seed1 start
+RUN block2 seed1 done: 4 algorithms
+RUN block1 seed2 start
+RUN block1 seed2 done: 4 algorithms
+RUN block2 seed2 start
+RUN block2 seed2 done: 4 algorithms
+Completed 24 faithful observed runs

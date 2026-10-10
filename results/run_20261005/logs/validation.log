@@ -1,0 +1,3 @@
+
+COMMAND ["D:\\RANDOM\\research_paper_iim\\code_reruns\\.venv\\Scripts\\python.exe", "D:\\RANDOM\\research_paper_iim\\code_reruns\\src\\validate_outputs.py", "--run", "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005"]
+Saved-output validation: 548 passed, 0 failed

@@ -1,0 +1,36 @@
+# Rebuildable local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
+Thumbs.db
+
+# Credentials and editor lock files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+~$*
+
+# Explicitly excluded reviewed manuscript and redundant bundles
+**/without_citations_draft_proactively_reviewed_commented*
+Code_bundle*/
+CODE_BUNDLE.zip
+ALL_CODE_WITH_COMMENTS.md
+
+# Obtain the raw dataset separately; keep its documentation and metadata
+data/*
+!data/README.md
+!data/dataset_metadata.json
+**/imagesTr/
+**/labelsTr/
+**/imagesTs/
+
+# Fresh large runs should be reviewed before deliberately adding them
+results/new_run*/
+results/expanded_cohort*/

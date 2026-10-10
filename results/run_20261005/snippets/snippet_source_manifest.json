@@ -1,0 +1,166 @@
+{
+  "original_path": "D:\\RANDOM\\research_paper_iim\\code_snippets.txt",
+  "sha256": "a1b21ede8ebf740e648f9a0b3c23b9e7281eca8c8e26c1f7be36b9a1e201ead0",
+  "byte_length": 23622,
+  "block_start_lines": [
+    1,
+    286
+  ],
+  "block1": "15-city complete comparison; population30, EHO15 clans, iterations100, ACO50 ants.",
+  "block2": "95-city complete comparison; GA/EHO50 candidates100 iterations and EHO5 clans; ACO/PSO10 candidates100 iterations.",
+  "source_relations": [
+    {
+      "snippet_block": 1,
+      "notebook_source": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_028.py",
+      "common_definitions": [
+        "Ant",
+        "Elephant",
+        "Particle",
+        "aco_tsp",
+        "calculate_route_length",
+        "elephant_herding_optimization",
+        "ga_tsp",
+        "generate_distance_matrix",
+        "initialize_population",
+        "order_crossover",
+        "pso_tsp",
+        "select_parents",
+        "swap_mutation"
+      ],
+      "identical_ast_definitions": [
+        "Ant",
+        "Elephant",
+        "Particle",
+        "calculate_route_length",
+        "ga_tsp",
+        "generate_distance_matrix",
+        "initialize_population",
+        "order_crossover",
+        "pso_tsp",
+        "select_parents",
+        "swap_mutation"
+      ],
+      "changed_definitions": [
+        "aco_tsp",
+        "elephant_herding_optimization"
+      ]
+    },
+    {
+      "snippet_block": 2,
+      "notebook_source": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_028.py",
+      "common_definitions": [
+        "Ant",
+        "Elephant",
+        "Particle",
+        "aco_tsp",
+        "calculate_route_length",
+        "elephant_herding_optimization",
+        "ga_tsp",
+        "generate_distance_matrix",
+        "initialize_population",
+        "order_crossover",
+        "pso_tsp",
+        "select_parents",
+        "swap_mutation"
+      ],
+      "identical_ast_definitions": [
+        "Ant",
+        "Elephant",
+        "calculate_route_length",
+        "ga_tsp",
+        "generate_distance_matrix",
+        "initialize_population",
+        "order_crossover",
+        "select_parents",
+        "swap_mutation"
+      ],
+      "changed_definitions": [
+        "Particle",
+        "aco_tsp",
+        "elephant_herding_optimization",
+        "pso_tsp"
+      ]
+    },
+    {
+      "snippet_block": 1,
+      "notebook_source": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_033.py",
+      "common_definitions": [
+        "Ant",
+        "Elephant",
+        "Particle",
+        "aco_tsp",
+        "calculate_route_length",
+        "elephant_herding_optimization",
+        "ga_tsp",
+        "generate_distance_matrix",
+        "initialize_population",
+        "order_crossover",
+        "pso_tsp",
+        "select_parents",
+        "swap_mutation"
+      ],
+      "identical_ast_definitions": [
+        "Elephant",
+        "Particle",
+        "calculate_route_length",
+        "generate_distance_matrix",
+        "initialize_population",
+        "order_crossover",
+        "select_parents",
+        "swap_mutation"
+      ],
+      "changed_definitions": [
+        "Ant",
+        "aco_tsp",
+        "elephant_herding_optimization",
+        "ga_tsp",
+        "pso_tsp"
+      ]
+    },
+    {
+      "snippet_block": 2,
+      "notebook_source": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_033.py",
+      "common_definitions": [
+        "Ant",
+        "Elephant",
+        "Particle",
+        "aco_tsp",
+        "calculate_route_length",
+        "elephant_herding_optimization",
+        "ga_tsp",
+        "generate_distance_matrix",
+        "initialize_population",
+        "order_crossover",
+        "pso_tsp",
+        "select_parents",
+        "swap_mutation"
+      ],
+      "identical_ast_definitions": [
+        "Elephant",
+        "calculate_route_length",
+        "generate_distance_matrix",
+        "initialize_population",
+        "order_crossover",
+        "select_parents",
+        "swap_mutation"
+      ],
+      "changed_definitions": [
+        "Ant",
+        "Particle",
+        "aco_tsp",
+        "elephant_herding_optimization",
+        "ga_tsp",
+        "pso_tsp"
+      ]
+    }
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "fidelity": "Function bodies and top-level harness execute unchanged. Python random is seeded; observer wrappers and profiler add measurement overhead. Internal NumPy seed42 remains.",
+  "MRI_relation": "Neither program reads MRI data or constructs masks/meshes; TSP input remains its original synthetic Euclidean matrix.",
+  "evidence_status": "Fresh measured source replay; not proof these programs generated historical manuscript numbers.",
+  "limits": "Different populations and actual fitness-call budgets prevent a controlled speed superiority inference. Neither EHO implements continuous dimensionality scaling or adaptive alpha/beta schedules."
+}

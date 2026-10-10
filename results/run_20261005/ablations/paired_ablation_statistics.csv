@@ -1,0 +1,11 @@
+task,comparison,n,mean_paired_difference,median_paired_difference,wins,ties,losses,wilcoxon_two_sided_p,interpretation,holm_adjusted_p
+ackley_shifted_10d,modified_all minus modified_nodim,5,0.1707902098077966,0.11824563845292246,0,0,5,0.0625,Five seeds on one fixed shift per function; exploratory only,0.625
+ackley_shifted_10d,modified_all minus modified_norepulsion,5,-0.017123857436887845,-0.0235808805111688,4,0,1,0.625,Five seeds on one fixed shift per function; exploratory only,1.0
+ackley_shifted_10d,modified_all minus modified_noschedule,5,0.17537196875681857,0.13507197831858875,1,0,4,0.125,Five seeds on one fixed shift per function; exploratory only,0.75
+ackley_shifted_10d,modified_all minus modified_noseparation,5,0.6926115740286342,0.5136946962921556,0,0,5,0.0625,Five seeds on one fixed shift per function; exploratory only,0.625
+ackley_shifted_10d,modified_all minus original_eho,5,1.7038189364332077,1.6925326366697675,0,0,5,0.0625,Five seeds on one fixed shift per function; exploratory only,0.625
+rastrigin_shifted_10d,modified_all minus modified_nodim,5,2.922473514853661,4.570145757306079,2,0,3,0.4375,Five seeds on one fixed shift per function; exploratory only,1.0
+rastrigin_shifted_10d,modified_all minus modified_norepulsion,5,-3.983682343745548,0.0,2,1,2,0.625,Five seeds on one fixed shift per function; exploratory only,1.0
+rastrigin_shifted_10d,modified_all minus modified_noschedule,5,1.723556104852109,5.145093425778171,2,0,3,0.8125,Five seeds on one fixed shift per function; exploratory only,1.0
+rastrigin_shifted_10d,modified_all minus modified_noseparation,5,14.985032298644763,17.93962796085856,1,0,4,0.125,Five seeds on one fixed shift per function; exploratory only,0.75
+rastrigin_shifted_10d,modified_all minus original_eho,5,15.515967819810125,18.44137800172649,0,0,5,0.0625,Five seeds on one fixed shift per function; exploratory only,0.625

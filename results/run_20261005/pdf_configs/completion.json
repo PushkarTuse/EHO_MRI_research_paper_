@@ -1,0 +1,15 @@
+{
+  "mode": "all",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "tsp_runs": 144,
+  "registration_variants": [
+    1,
+    2,
+    3
+  ],
+  "failures": []
+}

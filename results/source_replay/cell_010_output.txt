@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "D:\RANDOM\research_paper_iim\code_reruns\src\replay_sources.py", line 42, in replay
+    exec(compile(path.read_text(encoding='utf8'),str(path),'exec'),env)
+  File "D:\RANDOM\research_paper_iim\code_reruns\sources\mri_optimisation\cell_010.py", line 106, in <module>
+    test_pso_vs_eho_on_vrp()
+  File "D:\RANDOM\research_paper_iim\code_reruns\sources\mri_optimisation\cell_010.py", line 90, in test_pso_vs_eho_on_vrp
+    customers = generate_customers(num_customers)
+                ^^^^^^^^^^^^^^^^^^
+NameError: name 'generate_customers' is not defined

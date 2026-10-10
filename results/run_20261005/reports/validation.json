@@ -1,0 +1,2230 @@
+{
+  "checks": [
+    {
+      "check": "continuous matched objective budgets",
+      "passed": true
+    },
+    {
+      "check": "continuous returned candidate/objective consistency",
+      "passed": true
+    },
+    {
+      "check": "continuous finite measured objectives",
+      "passed": true
+    },
+    {
+      "check": "registration matched objective budgets",
+      "passed": true
+    },
+    {
+      "check": "registration returned candidate/objective consistency",
+      "passed": true
+    },
+    {
+      "check": "registration finite measured objectives",
+      "passed": true
+    },
+    {
+      "check": "all corrected final TSP/VRP routes feasible",
+      "passed": true
+    },
+    {
+      "check": "corrected routing evaluation budgets",
+      "passed": true
+    },
+    {
+      "check": "corrected returned routing costs independently recomputed",
+      "passed": true
+    },
+    {
+      "check": "eight-city exact optimum recorded",
+      "passed": true
+    },
+    {
+      "check": "PDF parameter harnesses completed without failure",
+      "passed": true
+    },
+    {
+      "check": "PDF TSP routes independently feasible",
+      "passed": true
+    },
+    {
+      "check": "PDF TSP returned costs independently recomputed",
+      "passed": true
+    },
+    {
+      "check": "both additional PDF harnesses covered",
+      "passed": true
+    },
+    {
+      "check": "MRI run completed",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed0 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed0 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed0 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed0 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed0 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed0 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed0 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed0 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed0 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed0 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed1 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed1 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed1 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed1 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed1 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed1 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed1 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed1 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed1 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed1 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed2 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed2 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed2 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed2 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed2 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed2 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed2 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed2 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed2 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 original_eho seed2 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed0 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed0 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed0 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed0 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed0 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed0 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed0 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed0 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed0 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed0 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed1 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed1 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed1 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed1 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed1 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed1 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed1 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed1 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed1 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed1 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed2 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed2 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed2 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed2 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed2 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed2 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed2 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed2 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed2 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 modified_eho seed2 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed0 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed0 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed0 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed0 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed0 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed0 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed0 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed0 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed0 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed0 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed1 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed1 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed1 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed1 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed1 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed1 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed1 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed1 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed1 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed1 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed2 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed2 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed2 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed2 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed2 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed2 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed2 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed2 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed2 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 pso seed2 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed0 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed0 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed0 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed0 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed0 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed0 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed0 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed0 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed0 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed0 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed1 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed1 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed1 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed1 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed1 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed1 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed1 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed1 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed1 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed1 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed2 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed2 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed2 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed2 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed2 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed2 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed2 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed2 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed2 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 ga seed2 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed0 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed0 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed0 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed0 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed0 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed0 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed0 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed0 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed0 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed0 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed1 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed1 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed1 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed1 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed1 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed1 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed1 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed1 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed1 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed1 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed2 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed2 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed2 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed2 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed2 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed2 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed2 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed2 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed2 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 acor seed2 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 direct_otsu seed0 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 direct_otsu seed0 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 direct_otsu seed0 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 direct_otsu seed0 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 direct_otsu seed0 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 direct_otsu seed0 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 direct_otsu seed0 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 direct_otsu seed0 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 direct_otsu seed0 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed0 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed0 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed0 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed0 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed0 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed0 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed0 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed0 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed0 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed0 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed1 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed1 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed1 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed1 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed1 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed1 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed1 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed1 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed1 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed1 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed2 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed2 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed2 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed2 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed2 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed2 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed2 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed2 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed2 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 original_eho seed2 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed0 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed0 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed0 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed0 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed0 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed0 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed0 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed0 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed0 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed0 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed1 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed1 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed1 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed1 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed1 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed1 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed1 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed1 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed1 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed1 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed2 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed2 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed2 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed2 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed2 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed2 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed2 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed2 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed2 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 modified_eho seed2 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed0 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed0 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed0 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed0 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed0 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed0 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed0 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed0 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed0 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed0 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed1 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed1 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed1 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed1 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed1 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed1 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed1 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed1 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed1 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed1 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed2 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed2 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed2 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed2 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed2 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed2 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed2 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed2 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed2 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 pso seed2 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed0 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed0 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed0 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed0 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed0 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed0 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed0 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed0 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed0 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed0 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed1 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed1 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed1 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed1 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed1 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed1 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed1 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed1 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed1 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed1 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed2 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed2 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed2 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed2 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed2 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed2 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed2 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed2 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed2 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 ga seed2 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed0 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed0 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed0 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed0 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed0 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed0 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed0 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed0 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed0 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed0 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed1 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed1 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed1 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed1 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed1 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed1 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed1 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed1 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed1 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed1 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed2 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed2 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed2 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed2 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed2 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed2 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed2 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed2 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed2 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 acor seed2 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 direct_otsu seed0 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 direct_otsu seed0 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 direct_otsu seed0 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 direct_otsu seed0 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 direct_otsu seed0 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 direct_otsu seed0 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 direct_otsu seed0 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 direct_otsu seed0 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 direct_otsu seed0 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed0 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed0 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed0 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed0 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed0 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed0 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed0 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed0 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed0 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed0 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed1 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed1 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed1 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed1 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed1 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed1 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed1 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed1 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed1 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed1 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed2 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed2 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed2 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed2 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed2 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed2 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed2 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed2 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed2 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 original_eho seed2 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed0 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed0 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed0 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed0 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed0 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed0 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed0 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed0 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed0 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed0 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed1 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed1 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed1 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed1 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed1 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed1 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed1 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed1 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed1 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed1 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed2 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed2 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed2 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed2 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed2 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed2 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed2 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed2 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed2 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 modified_eho seed2 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed0 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed0 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed0 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed0 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed0 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed0 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed0 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed0 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed0 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed0 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed1 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed1 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed1 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed1 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed1 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed1 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed1 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed1 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed1 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed1 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed2 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed2 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed2 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed2 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed2 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed2 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed2 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed2 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed2 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 pso seed2 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed0 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed0 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed0 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed0 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed0 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed0 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed0 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed0 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed0 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed0 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed1 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed1 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed1 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed1 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed1 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed1 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed1 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed1 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed1 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed1 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed2 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed2 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed2 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed2 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed2 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed2 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed2 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed2 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed2 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 ga seed2 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed0 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed0 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed0 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed0 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed0 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed0 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed0 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed0 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed0 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed0 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed1 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed1 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed1 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed1 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed1 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed1 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed1 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed1 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed1 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed1 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed2 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed2 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed2 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed2 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed2 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed2 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed2 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed2 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed2 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 acor seed2 measured stage budgets",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 direct_otsu seed0 geometry",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 direct_otsu seed0 binary saved prediction",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 direct_otsu seed0 dice_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 direct_otsu seed0 iou_whole_tumour",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 direct_otsu seed0 tp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 direct_otsu seed0 fp",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 direct_otsu seed0 fn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 direct_otsu seed0 tn",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 direct_otsu seed0 evaluation boundary recorded",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 representative enhanced volumes saved",
+      "passed": true
+    },
+    {
+      "check": "acor_seed0_enhanced_normalized_flair.nii.gz original image geometry",
+      "passed": true
+    },
+    {
+      "check": "acor_seed0_enhanced_normalized_flair.nii.gz bounded finite intensities",
+      "passed": true
+    },
+    {
+      "check": "ga_seed0_enhanced_normalized_flair.nii.gz original image geometry",
+      "passed": true
+    },
+    {
+      "check": "ga_seed0_enhanced_normalized_flair.nii.gz bounded finite intensities",
+      "passed": true
+    },
+    {
+      "check": "modified_eho_seed0_enhanced_normalized_flair.nii.gz original image geometry",
+      "passed": true
+    },
+    {
+      "check": "modified_eho_seed0_enhanced_normalized_flair.nii.gz bounded finite intensities",
+      "passed": true
+    },
+    {
+      "check": "original_eho_seed0_enhanced_normalized_flair.nii.gz original image geometry",
+      "passed": true
+    },
+    {
+      "check": "original_eho_seed0_enhanced_normalized_flair.nii.gz bounded finite intensities",
+      "passed": true
+    },
+    {
+      "check": "pso_seed0_enhanced_normalized_flair.nii.gz original image geometry",
+      "passed": true
+    },
+    {
+      "check": "pso_seed0_enhanced_normalized_flair.nii.gz bounded finite intensities",
+      "passed": true
+    },
+    {
+      "check": "BRATS_001 self-contained interactive mesh",
+      "passed": true
+    },
+    {
+      "check": "acor_prediction.ply exported mesh integrity",
+      "passed": true
+    },
+    {
+      "check": "brain_context.ply exported mesh integrity",
+      "passed": true
+    },
+    {
+      "check": "direct_otsu_prediction.ply exported mesh integrity",
+      "passed": true
+    },
+    {
+      "check": "ga_prediction.ply exported mesh integrity",
+      "passed": true
+    },
+    {
+      "check": "modified_eho_prediction.ply exported mesh integrity",
+      "passed": true
+    },
+    {
+      "check": "original_eho_prediction.ply exported mesh integrity",
+      "passed": true
+    },
+    {
+      "check": "pso_prediction.ply exported mesh integrity",
+      "passed": true
+    },
+    {
+      "check": "reference_whole_tumour.ply exported mesh integrity",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 representative enhanced volumes saved",
+      "passed": true
+    },
+    {
+      "check": "acor_seed0_enhanced_normalized_flair.nii.gz original image geometry",
+      "passed": true
+    },
+    {
+      "check": "acor_seed0_enhanced_normalized_flair.nii.gz bounded finite intensities",
+      "passed": true
+    },
+    {
+      "check": "ga_seed0_enhanced_normalized_flair.nii.gz original image geometry",
+      "passed": true
+    },
+    {
+      "check": "ga_seed0_enhanced_normalized_flair.nii.gz bounded finite intensities",
+      "passed": true
+    },
+    {
+      "check": "modified_eho_seed0_enhanced_normalized_flair.nii.gz original image geometry",
+      "passed": true
+    },
+    {
+      "check": "modified_eho_seed0_enhanced_normalized_flair.nii.gz bounded finite intensities",
+      "passed": true
+    },
+    {
+      "check": "original_eho_seed0_enhanced_normalized_flair.nii.gz original image geometry",
+      "passed": true
+    },
+    {
+      "check": "original_eho_seed0_enhanced_normalized_flair.nii.gz bounded finite intensities",
+      "passed": true
+    },
+    {
+      "check": "pso_seed0_enhanced_normalized_flair.nii.gz original image geometry",
+      "passed": true
+    },
+    {
+      "check": "pso_seed0_enhanced_normalized_flair.nii.gz bounded finite intensities",
+      "passed": true
+    },
+    {
+      "check": "BRATS_002 self-contained interactive mesh",
+      "passed": true
+    },
+    {
+      "check": "acor_prediction.ply exported mesh integrity",
+      "passed": true
+    },
+    {
+      "check": "brain_context.ply exported mesh integrity",
+      "passed": true
+    },
+    {
+      "check": "direct_otsu_prediction.ply exported mesh integrity",
+      "passed": true
+    },
+    {
+      "check": "ga_prediction.ply exported mesh integrity",
+      "passed": true
+    },
+    {
+      "check": "modified_eho_prediction.ply exported mesh integrity",
+      "passed": true
+    },
+    {
+      "check": "original_eho_prediction.ply exported mesh integrity",
+      "passed": true
+    },
+    {
+      "check": "pso_prediction.ply exported mesh integrity",
+      "passed": true
+    },
+    {
+      "check": "reference_whole_tumour.ply exported mesh integrity",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 representative enhanced volumes saved",
+      "passed": true
+    },
+    {
+      "check": "acor_seed0_enhanced_normalized_flair.nii.gz original image geometry",
+      "passed": true
+    },
+    {
+      "check": "acor_seed0_enhanced_normalized_flair.nii.gz bounded finite intensities",
+      "passed": true
+    },
+    {
+      "check": "ga_seed0_enhanced_normalized_flair.nii.gz original image geometry",
+      "passed": true
+    },
+    {
+      "check": "ga_seed0_enhanced_normalized_flair.nii.gz bounded finite intensities",
+      "passed": true
+    },
+    {
+      "check": "modified_eho_seed0_enhanced_normalized_flair.nii.gz original image geometry",
+      "passed": true
+    },
+    {
+      "check": "modified_eho_seed0_enhanced_normalized_flair.nii.gz bounded finite intensities",
+      "passed": true
+    },
+    {
+      "check": "original_eho_seed0_enhanced_normalized_flair.nii.gz original image geometry",
+      "passed": true
+    },
+    {
+      "check": "original_eho_seed0_enhanced_normalized_flair.nii.gz bounded finite intensities",
+      "passed": true
+    },
+    {
+      "check": "pso_seed0_enhanced_normalized_flair.nii.gz original image geometry",
+      "passed": true
+    },
+    {
+      "check": "pso_seed0_enhanced_normalized_flair.nii.gz bounded finite intensities",
+      "passed": true
+    },
+    {
+      "check": "BRATS_003 self-contained interactive mesh",
+      "passed": true
+    },
+    {
+      "check": "acor_prediction.ply exported mesh integrity",
+      "passed": true
+    },
+    {
+      "check": "brain_context.ply exported mesh integrity",
+      "passed": true
+    },
+    {
+      "check": "direct_otsu_prediction.ply exported mesh integrity",
+      "passed": true
+    },
+    {
+      "check": "ga_prediction.ply exported mesh integrity",
+      "passed": true
+    },
+    {
+      "check": "modified_eho_prediction.ply exported mesh integrity",
+      "passed": true
+    },
+    {
+      "check": "original_eho_prediction.ply exported mesh integrity",
+      "passed": true
+    },
+    {
+      "check": "pso_prediction.ply exported mesh integrity",
+      "passed": true
+    },
+    {
+      "check": "reference_whole_tumour.ply exported mesh integrity",
+      "passed": true
+    }
+  ],
+  "passed": 552,
+  "failed": 0,
+  "final_code_sha256": {
+    "src/ablations.py": "7d314a3466054499ef3602b7e9ae05f1a1afcd040e62024de75777fa97ed5e23",
+    "src/audit_existing_meshes.py": "74dcccd75690d4dc3c2f902c0f6d0c5aa72272633d786be6e7d78bfbcdf00858",
+    "src/benchmarks_continuous.py": "54d858b6a54f39530e1cdf5fc1e4c5c11ac2a16647a99df8fd0b2e30b9e86043",
+    "src/compare_claims.py": "ad49e959e691fa27241e90a945d23f2eb07cc3cd92ee4ea5550e093d770948b8",
+    "src/imaging.py": "734637f543e3d6efa514e8f301659ec52c1f46c86bed19c82f232ddc22218c22",
+    "src/inventory_pdf_code.py": "ce13d7bf51c861cce932f49c5ac789b0d3d25ed712ac79f97678f9318632d3b8",
+    "src/optimizers.py": "612fe372065b73b4d27ffe2454992235b59d809ef371d67a6a243ba9c1aa5969",
+    "src/registration.py": "bde223b972ab1ea9c5103e93d7ea4ef9b0e53a2823e08153d9d068e34ba507ca",
+    "src/replay_pdf_configs.py": "7b117d5f89a2595fdaa26d3637f37a31d45dc21f0931352e85f73e6aae3ae34c",
+    "src/replay_snippets.py": "15cf4fbcdd5a37f74b34ccb75cab4d1a2589c27ffd394a373f1800be26ccc27a",
+    "src/replay_sources.py": "b797482d5cd9319c364888151263a11593a5c8f89d6d47f6f8603e752977ba5e",
+    "src/repository_paths.py": "a4d4e2717357975adcb12f1c1604267e17cd441f2f4f4d5927b71bcd5567c1a7",
+    "src/routing.py": "dfc9fd26fad62a3a33128de830aec4bae4a68e5270e6904ccb2e3dd3452b144c",
+    "src/validate_outputs.py": "12870ad038faedbb88f4b53c438abaf56a9bbae4e68f4e63d6de8046e7dc9d79"
+  }
+}

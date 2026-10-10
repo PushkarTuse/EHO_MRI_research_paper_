@@ -1,0 +1,9 @@
+task,comparison,n,mean_paired_difference,median_paired_difference,wins,ties,losses,wilcoxon_two_sided_p,caution,holm_adjusted_p
+anatomical_rigid_perturbation,modified_eho minus acor,5,0.01741622948151935,0.017974935504902725,0,0,5,0.0625,Exploratory paired seeds on ONE instance; small n; no patient or dataset generalisation,0.5
+anatomical_rigid_perturbation,modified_eho minus ga,5,0.017411626876655352,0.017960236384924267,0,0,5,0.0625,Exploratory paired seeds on ONE instance; small n; no patient or dataset generalisation,0.5
+anatomical_rigid_perturbation,modified_eho minus original_eho,5,0.014304505941903137,0.015452749768013078,0,0,5,0.0625,Exploratory paired seeds on ONE instance; small n; no patient or dataset generalisation,0.5
+anatomical_rigid_perturbation,modified_eho minus pso,5,0.01741608190580194,0.0179748977039744,0,0,5,0.0625,Exploratory paired seeds on ONE instance; small n; no patient or dataset generalisation,0.5
+synthetic_legacy_transform,modified_eho minus acor,5,0.002049238947283849,0.002056986613773265,0,0,5,0.0625,Exploratory paired seeds on ONE instance; small n; no patient or dataset generalisation,0.5
+synthetic_legacy_transform,modified_eho minus ga,5,0.0017997386890009903,0.0019332134786141097,0,0,5,0.0625,Exploratory paired seeds on ONE instance; small n; no patient or dataset generalisation,0.5
+synthetic_legacy_transform,modified_eho minus original_eho,5,0.0006752769438397366,0.0007495729029635134,0,0,5,0.0625,Exploratory paired seeds on ONE instance; small n; no patient or dataset generalisation,0.5
+synthetic_legacy_transform,modified_eho minus pso,5,0.0018175312543229293,0.0016716395534741302,0,0,5,0.0625,Exploratory paired seeds on ONE instance; small n; no patient or dataset generalisation,0.5

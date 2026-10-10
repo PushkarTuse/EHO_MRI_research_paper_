@@ -1,0 +1,43 @@
+{
+  "finalized_utc": "2026-10-04T19:52:04.838663+00:00",
+  "user_date": "2026-10-05",
+  "timezone": "Asia/Calcutta",
+  "measured_rows": {
+    "snippet_trials": 24,
+    "routing_trials": 170,
+    "continuous_trials": 74,
+    "registration_trials": 62,
+    "ablation_trials": 60,
+    "mri_prediction_records": 48,
+    "pdf_tsp_trials": 144,
+    "earlier_registration_definition_trials": 36
+  },
+  "unit_checks_passed": 72,
+  "saved_output_checks_passed": 552,
+  "saved_output_checks_failed": 0,
+  "original_cells_replayed": 33,
+  "original_cells_successful": 32,
+  "original_failures_preserved": [
+    {
+      "cell": 10,
+      "file": "D:\\RANDOM\\research_paper_iim\\code_reruns\\sources\\mri_optimisation\\cell_010.py",
+      "status": "failed_as_supplied",
+      "classification": "original code execution",
+      "error": "NameError: name 'generate_customers' is not defined",
+      "seconds": 0.005974999978207052
+    }
+  ],
+  "dataset_pairs_inventoried": 484,
+  "mri_cases_evaluated": 3,
+  "all_pipeline_stages_executed": true,
+  "interpretation": "Three-case new MRI baseline; no claim of full-cohort, historical-implementation or clinical validation.",
+  "deliverables": [
+    "D:\\RANDOM\\research_paper_iim\\code_reruns\\reports\\pdf_code_coverage.md",
+    "D:\\RANDOM\\research_paper_iim\\code_reruns\\CODE_BUNDLE.zip",
+    "D:\\RANDOM\\research_paper_iim\\code_reruns\\ALL_CODE_WITH_COMMENTS.md",
+    "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\reports\\CLAIMS_VS_RERUNS.md",
+    "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\imaging\\BRATS_001\\meshes\\interactive_prediction_reference.html",
+    "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\imaging\\BRATS_002\\meshes\\interactive_prediction_reference.html",
+    "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\imaging\\BRATS_003\\meshes\\interactive_prediction_reference.html"
+  ]
+}

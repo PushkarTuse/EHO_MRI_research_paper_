@@ -1,0 +1,50 @@
+
+COMMAND ["D:\\RANDOM\\research_paper_iim\\code_reruns\\.venv\\Scripts\\python.exe", "D:\\RANDOM\\research_paper_iim\\code_reruns\\src\\replay_pdf_configs.py", "--output", "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\pdf_configs", "--seeds", "0,1,2"]
+PDF major TSP seed0 start
+PDF major TSP seed0 done: 40 methods/cases
+PDF local TSP seed0 start
+PDF local TSP seed0 done: 8 methods/cases
+PDF major TSP seed1 start
+PDF major TSP seed1 done: 40 methods/cases
+PDF local TSP seed1 start
+PDF local TSP seed1 done: 8 methods/cases
+PDF major TSP seed2 start
+PDF major TSP seed2 done: 40 methods/cases
+PDF local TSP seed2 start
+PDF local TSP seed2 done: 8 methods/cases
+variant1 pso seed0 MSE=0.1332666 calls=1500
+variant1 eho seed0 MSE=0.1342217 calls=1530
+variant1 ga seed0 MSE=0.1350606 calls=1530
+variant1 aco seed0 MSE=0.1406296 calls=1500
+variant1 pso seed1 MSE=0.1343437 calls=1500
+variant1 eho seed1 MSE=0.1346993 calls=1530
+variant1 ga seed1 MSE=0.135212 calls=1530
+variant1 aco seed1 MSE=0.1385437 calls=1500
+variant1 pso seed2 MSE=0.1344656 calls=1500
+variant1 eho seed2 MSE=0.1349931 calls=1530
+variant1 ga seed2 MSE=0.1338438 calls=1530
+variant1 aco seed2 MSE=0.1391118 calls=1500
+variant2 pso seed0 MSE=0.1332666 calls=1500
+variant2 eho seed0 MSE=0.1335512 calls=630
+variant2 ga seed0 MSE=0.1350606 calls=1530
+variant2 aco seed0 MSE=0.1406296 calls=1500
+variant2 pso seed1 MSE=0.1343437 calls=1500
+variant2 eho seed1 MSE=0.1350418 calls=630
+variant2 ga seed1 MSE=0.135212 calls=1530
+variant2 aco seed1 MSE=0.1385437 calls=1500
+variant2 pso seed2 MSE=0.1344656 calls=1500
+variant2 eho seed2 MSE=0.1349931 calls=630
+variant2 ga seed2 MSE=0.1338438 calls=1530
+variant2 aco seed2 MSE=0.1391118 calls=1500
+variant3 pso seed0 MSE=0.1332666 calls=1500
+variant3 eho seed0 MSE=0.1342217 calls=1530
+variant3 ga seed0 MSE=0.1350606 calls=1530
+variant3 aco seed0 MSE=0.1406296 calls=1500
+variant3 pso seed1 MSE=0.1343437 calls=1500
+variant3 eho seed1 MSE=0.1346993 calls=1530
+variant3 ga seed1 MSE=0.135212 calls=1530
+variant3 aco seed1 MSE=0.1385437 calls=1500
+variant3 pso seed2 MSE=0.1344656 calls=1500
+variant3 eho seed2 MSE=0.1349931 calls=1530
+variant3 ga seed2 MSE=0.1338438 calls=1530
+variant3 aco seed2 MSE=0.1391118 calls=1500

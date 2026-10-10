@@ -1,0 +1,19 @@
+{
+  "user_date": "2026-10-05",
+  "timezone": "Asia/Calcutta",
+  "cpu": {
+    "Name": "11th Gen Intel(R) Core(TM) i7-11600H @ 2.90GHz",
+    "NumberOfCores": 6,
+    "NumberOfLogicalProcessors": 12
+  },
+  "memory_bytes": 16889204736,
+  "gpus": [
+    {
+      "Name": "NVIDIA GeForce RTX 3050 Laptop GPU"
+    },
+    {
+      "Name": "Intel(R) UHD Graphics"
+    }
+  ],
+  "processing_device": "CPU only; GPU unused"
+}

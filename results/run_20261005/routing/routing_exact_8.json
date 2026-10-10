@@ -1,0 +1,22 @@
+{
+  "route": [
+    0,
+    5,
+    3,
+    2,
+    7,
+    6,
+    1,
+    4
+  ],
+  "value": 277.23241951682456,
+  "seconds": 0.2615576999960467,
+  "evaluations": 40320,
+  "source": {
+    "notebook": "brute_force.ipynb",
+    "code_cell_1based": 1,
+    "all_cell_0based": 0,
+    "cell_id": "gNj0hDkTRNGx"
+  },
+  "tag": "faithful_brute_solver_valid_replay_matrix_stdout_redirected"
+}

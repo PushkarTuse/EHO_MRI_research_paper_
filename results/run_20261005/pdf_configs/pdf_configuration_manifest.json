@@ -1,0 +1,68 @@
+[
+  {
+    "document": "major_last_codes_draft.pdf",
+    "pages": [
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "configuration_page": 44,
+    "function_source": {
+      "notebook": "mri_optimisation.ipynb",
+      "code_cell_1based": 33,
+      "all_cell_0based": 32,
+      "cell_id": "IM37HOmAUhET"
+    },
+    "block_id": 101,
+    "cities": [
+      1,
+      11,
+      21,
+      31,
+      41,
+      51,
+      61,
+      71,
+      81,
+      91
+    ],
+    "population": 30,
+    "eho_clans": 15,
+    "nominal_iterations": 50,
+    "aco_ants": 50,
+    "actual_loops": "EHO150, GA50, PSO50, ACO16; n1 guards skip all search",
+    "n1": "Each source function has num_cities<2 guard; record actual outcomes. No expected failure is fabricated."
+  },
+  {
+    "document": "mri_local_codes.pdf",
+    "pages": [
+      33,
+      34,
+      35,
+      36,
+      37
+    ],
+    "configuration_page": 36,
+    "function_source": {
+      "notebook": "mri_optimisation.ipynb",
+      "code_cell_1based": 28,
+      "all_cell_0based": 27,
+      "cell_id": "xvW4cpuqDlgm"
+    },
+    "block_id": 102,
+    "cities": [
+      15
+    ],
+    "population": 30,
+    "eho_clans": 15,
+    "nominal_iterations": 100,
+    "aco_ants": 50,
+    "repeated_comparisons": 2,
+    "difference_from_new_snippet1": "Cell28 EHO mutation decays0.2*(1-t/T) and ACO beta2/deposit100; snippet1 uses fixed mutation0.2 and ACO beta5/inverse-cost deposition."
+  }
+]

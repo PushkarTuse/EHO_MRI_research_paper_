@@ -1,0 +1,63 @@
+{
+  "case_id": "BRATS_002",
+  "method": "direct_otsu",
+  "seed": 0,
+  "budget_per_stage": null,
+  "provenance": "deterministic_skimage_3class_otsu_on_unenhanced_input",
+  "prediction_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\imaging\\BRATS_002\\direct_otsu_prediction.nii.gz",
+  "prediction_sha256": "437685f65b66d83a229d69572b52e8a54881124a37824cc95e812b6afd5fe51b",
+  "segmentation_resources": {
+    "seconds": 0.18413379997946322,
+    "baseline_rss_mb": 197.9140625,
+    "sampled_peak_rss_mb": 243.2734375,
+    "sampled_rss_increase_mb": 45.359375,
+    "rss_sampling_seconds": 0.05
+  },
+  "thresholds": {
+    "thresholds": [
+      0.341796875,
+      0.626953125
+    ],
+    "raw_positive_voxels": 284113
+  },
+  "appearance": {
+    "roi_input_departure_mse": 0.0,
+    "roi_input_similarity_psnr_db": null,
+    "identity_psnr_infinite": true,
+    "selected_slice_input_ssim": [
+      {
+        "slice_index_axis2": 67,
+        "input_similarity_ssim": 1.0,
+        "roi_input_similarity_ssim": 1.0,
+        "roi_ssim_rule": "average SSIM map where complete window is in nonzero ROI"
+      },
+      {
+        "slice_index_axis2": 71,
+        "input_similarity_ssim": 1.0,
+        "roi_input_similarity_ssim": 1.0,
+        "roi_ssim_rule": "average SSIM map where complete window is in nonzero ROI"
+      }
+    ],
+    "selected_slice_input_ssim_mean": 1.0,
+    "selected_slice_roi_input_ssim_mean": 1.0,
+    "reference_meaning": "same normalized input; appearance similarity, NOT denoising/diagnostic accuracy"
+  },
+  "reference_labels_accessed": false,
+  "evaluation": {
+    "dice_whole_tumour": 0.46514373369226025,
+    "iou_whole_tumour": 0.3030536108838472,
+    "precision_whole_tumour": 0.30484878053588416,
+    "recall_whole_tumour": 0.9809390907216822,
+    "sensitivity_whole_tumour": 0.9809390907216822,
+    "specificity": 0.9840881025802884,
+    "tp": 61859,
+    "fp": 141058,
+    "fn": 1202,
+    "tn": 8723881,
+    "prediction_ml": 202.917,
+    "reference_ml": 63.061,
+    "voxel_volume_ml": 0.001,
+    "reference_rule": "label>0: union of labels 1,2,3"
+  },
+  "reference_evaluation_after_prediction": true
+}

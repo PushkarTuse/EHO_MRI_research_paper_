@@ -1,0 +1,167 @@
+[
+  {
+    "stage": "snippets",
+    "command": [
+      "D:\\RANDOM\\research_paper_iim\\code_reruns\\.venv\\Scripts\\python.exe",
+      "D:\\RANDOM\\research_paper_iim\\code_reruns\\src\\replay_snippets.py",
+      "--output",
+      "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\snippets",
+      "--seeds",
+      "0,1,2"
+    ],
+    "returncode": 0,
+    "elapsed_seconds_including_process_startup_and_reporting": 52.12601829995401,
+    "finished_utc": "2026-10-04T19:33:18.449417+00:00",
+    "log": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\logs\\snippets.log"
+  },
+  {
+    "stage": "routing",
+    "command": [
+      "D:\\RANDOM\\research_paper_iim\\code_reruns\\.venv\\Scripts\\python.exe",
+      "D:\\RANDOM\\research_paper_iim\\code_reruns\\src\\routing.py",
+      "--output",
+      "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\routing",
+      "--seeds",
+      "0,1,2,3,4",
+      "--budget",
+      "3000"
+    ],
+    "returncode": 0,
+    "elapsed_seconds_including_process_startup_and_reporting": 137.34573199995793,
+    "finished_utc": "2026-10-04T19:35:35.796480+00:00",
+    "log": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\logs\\routing.log"
+  },
+  {
+    "stage": "continuous",
+    "command": [
+      "D:\\RANDOM\\research_paper_iim\\code_reruns\\.venv\\Scripts\\python.exe",
+      "D:\\RANDOM\\research_paper_iim\\code_reruns\\src\\benchmarks_continuous.py",
+      "--output",
+      "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\continuous",
+      "--seeds",
+      "0,1,2,3,4",
+      "--budget",
+      "3000",
+      "--mode",
+      "all"
+    ],
+    "returncode": 0,
+    "elapsed_seconds_including_process_startup_and_reporting": 32.45511139999144,
+    "finished_utc": "2026-10-04T19:36:08.252739+00:00",
+    "log": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\logs\\continuous.log"
+  },
+  {
+    "stage": "registration",
+    "command": [
+      "D:\\RANDOM\\research_paper_iim\\code_reruns\\.venv\\Scripts\\python.exe",
+      "D:\\RANDOM\\research_paper_iim\\code_reruns\\src\\registration.py",
+      "--output",
+      "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\registration",
+      "--seeds",
+      "0,1,2,3,4",
+      "--budget",
+      "1500",
+      "--mode",
+      "all",
+      "--anatomical",
+      "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour\\imagesTr\\BRATS_001.nii.gz"
+    ],
+    "returncode": 0,
+    "elapsed_seconds_including_process_startup_and_reporting": 65.6987449999433,
+    "finished_utc": "2026-10-04T19:37:13.952019+00:00",
+    "log": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\logs\\registration.log"
+  },
+  {
+    "stage": "tests",
+    "command": [
+      "D:\\RANDOM\\research_paper_iim\\code_reruns\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "D:\\RANDOM\\research_paper_iim\\code_reruns\\tests",
+      "-q"
+    ],
+    "returncode": 0,
+    "elapsed_seconds_including_process_startup_and_reporting": 6.982146100024693,
+    "finished_utc": "2026-10-04T19:38:36.794679+00:00",
+    "log": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\logs\\tests.log"
+  },
+  {
+    "stage": "ablations",
+    "command": [
+      "D:\\RANDOM\\research_paper_iim\\code_reruns\\.venv\\Scripts\\python.exe",
+      "D:\\RANDOM\\research_paper_iim\\code_reruns\\src\\ablations.py",
+      "--output",
+      "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\ablations",
+      "--seeds",
+      "0,1,2,3,4",
+      "--budget",
+      "3000"
+    ],
+    "returncode": 0,
+    "elapsed_seconds_including_process_startup_and_reporting": 10.062665699981153,
+    "finished_utc": "2026-10-04T19:38:46.857751+00:00",
+    "log": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\logs\\ablations.log"
+  },
+  {
+    "stage": "imaging",
+    "command": [
+      "D:\\RANDOM\\research_paper_iim\\code_reruns\\.venv\\Scripts\\python.exe",
+      "D:\\RANDOM\\research_paper_iim\\code_reruns\\src\\imaging.py",
+      "--dataset",
+      "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour",
+      "--output",
+      "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\imaging",
+      "--cases",
+      "3",
+      "--seeds",
+      "0,1,2",
+      "--budget",
+      "1500"
+    ],
+    "returncode": 0,
+    "elapsed_seconds_including_process_startup_and_reporting": 60.85073760000523,
+    "finished_utc": "2026-10-04T19:39:47.708547+00:00",
+    "log": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\logs\\imaging.log"
+  },
+  {
+    "stage": "comparison",
+    "command": [
+      "D:\\RANDOM\\research_paper_iim\\code_reruns\\.venv\\Scripts\\python.exe",
+      "D:\\RANDOM\\research_paper_iim\\code_reruns\\src\\compare_claims.py",
+      "--run",
+      "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005"
+    ],
+    "returncode": 0,
+    "elapsed_seconds_including_process_startup_and_reporting": 1.7864404000574723,
+    "finished_utc": "2026-10-04T19:39:49.495314+00:00",
+    "log": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\logs\\comparison.log"
+  },
+  {
+    "stage": "validation",
+    "command": [
+      "D:\\RANDOM\\research_paper_iim\\code_reruns\\.venv\\Scripts\\python.exe",
+      "D:\\RANDOM\\research_paper_iim\\code_reruns\\src\\validate_outputs.py",
+      "--run",
+      "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005"
+    ],
+    "returncode": 0,
+    "elapsed_seconds_including_process_startup_and_reporting": 12.407349699991755,
+    "finished_utc": "2026-10-04T19:41:49.868741+00:00",
+    "log": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\logs\\validation.log"
+  },
+  {
+    "stage": "pdf_configs",
+    "command": [
+      "D:\\RANDOM\\research_paper_iim\\code_reruns\\.venv\\Scripts\\python.exe",
+      "D:\\RANDOM\\research_paper_iim\\code_reruns\\src\\replay_pdf_configs.py",
+      "--output",
+      "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\pdf_configs",
+      "--seeds",
+      "0,1,2"
+    ],
+    "returncode": 0,
+    "elapsed_seconds_including_process_startup_and_reporting": 163.92426979995798,
+    "finished_utc": "2026-10-04T19:47:24.839350+00:00",
+    "log": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005\\logs\\pdf_configs.log"
+  }
+]

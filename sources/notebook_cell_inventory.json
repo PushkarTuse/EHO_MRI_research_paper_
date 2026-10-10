@@ -1,0 +1,537 @@
+[
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 0,
+    "code_cell_1based": 1,
+    "id": "FWSk31Pht-45",
+    "file": "sources\\mri_optimisation\\cell_001.py",
+    "lines": 1,
+    "syntax": "valid",
+    "functions": [],
+    "classes": []
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 1,
+    "code_cell_1based": 2,
+    "id": "NUWPKqmHsw-M",
+    "file": "sources\\mri_optimisation\\cell_002.py",
+    "lines": 223,
+    "syntax": "valid",
+    "functions": [
+      "ackley",
+      "pso_ackley",
+      "eho_ackley",
+      "ga_ackley",
+      "aco_ackley",
+      "test_optimization_algorithms_on_ackley"
+    ],
+    "classes": [
+      "Particle",
+      "Elephant",
+      "Ant"
+    ]
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 2,
+    "code_cell_1based": 3,
+    "id": "Ym-Tygbqt7OU",
+    "file": "sources\\mri_optimisation\\cell_003.py",
+    "lines": 22,
+    "syntax": "valid",
+    "functions": [],
+    "classes": []
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 3,
+    "code_cell_1based": 4,
+    "id": "4M2RU1aOsyhd",
+    "file": "sources\\mri_optimisation\\cell_004.py",
+    "lines": 1,
+    "syntax": "valid",
+    "functions": [],
+    "classes": []
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 4,
+    "code_cell_1based": 5,
+    "id": "VJruhXC2w7QL",
+    "file": "sources\\mri_optimisation\\cell_005.py",
+    "lines": 1,
+    "syntax": "valid",
+    "functions": [],
+    "classes": []
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 5,
+    "code_cell_1based": 6,
+    "id": "DqvpY4QhxQKc",
+    "file": "sources\\mri_optimisation\\cell_006.py",
+    "lines": 115,
+    "syntax": "valid",
+    "functions": [
+      "rastrigin",
+      "pso_rastrigin",
+      "eho_rastrigin",
+      "test_pso_vs_eho_on_rastrigin"
+    ],
+    "classes": [
+      "Particle",
+      "Elephant"
+    ]
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 6,
+    "code_cell_1based": 7,
+    "id": "x-YFemkPxWV_",
+    "file": "sources\\mri_optimisation\\cell_007.py",
+    "lines": 152,
+    "syntax": "valid",
+    "functions": [
+      "rastrigin",
+      "pso_rastrigin",
+      "eho_rastrigin",
+      "test_pso_vs_eho_on_rastrigin_with_values"
+    ],
+    "classes": [
+      "Particle",
+      "Elephant"
+    ]
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 7,
+    "code_cell_1based": 8,
+    "id": "TWsZGnVczEzV",
+    "file": "sources\\mri_optimisation\\cell_008.py",
+    "lines": 1,
+    "syntax": "valid",
+    "functions": [],
+    "classes": []
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 8,
+    "code_cell_1based": 9,
+    "id": "clOfZzt90M-c",
+    "file": "sources\\mri_optimisation\\cell_009.py",
+    "lines": 1,
+    "syntax": "valid",
+    "functions": [],
+    "classes": []
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 9,
+    "code_cell_1based": 10,
+    "id": "b4zg1Jr_0SW8",
+    "file": "sources\\mri_optimisation\\cell_010.py",
+    "lines": 106,
+    "syntax": "valid",
+    "functions": [
+      "pso_vrp",
+      "test_pso_vs_eho_on_vrp"
+    ],
+    "classes": [
+      "Particle"
+    ]
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 10,
+    "code_cell_1based": 11,
+    "id": "am4gqqH21Rvn",
+    "file": "sources\\mri_optimisation\\cell_011.py",
+    "lines": 253,
+    "syntax": "valid",
+    "functions": [
+      "vrp_cost",
+      "generate_customers",
+      "calc_distance_matrix",
+      "visualize_routes",
+      "pso_vrp",
+      "eho_vrp",
+      "test_pso_vs_eho_with_visualization"
+    ],
+    "classes": [
+      "Particle",
+      "Elephant"
+    ]
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 11,
+    "code_cell_1based": 12,
+    "id": "3zplxKU44mnk",
+    "file": "sources\\mri_optimisation\\cell_012.py",
+    "lines": 1,
+    "syntax": "valid",
+    "functions": [],
+    "classes": []
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 12,
+    "code_cell_1based": 13,
+    "id": "vHjv9kCv7Amr",
+    "file": "sources\\mri_optimisation\\cell_013.py",
+    "lines": 1,
+    "syntax": "valid",
+    "functions": [],
+    "classes": []
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 13,
+    "code_cell_1based": 14,
+    "id": "JLNpRtXI7DcC",
+    "file": "sources\\mri_optimisation\\cell_014.py",
+    "lines": 1,
+    "syntax": "valid",
+    "functions": [],
+    "classes": []
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 14,
+    "code_cell_1based": 15,
+    "id": "SE8d7DD07EZu",
+    "file": "sources\\mri_optimisation\\cell_015.py",
+    "lines": 1025,
+    "syntax": "valid",
+    "functions": [
+      "generate_image",
+      "apply_transformation",
+      "mse",
+      "objective_function",
+      "pso_registration",
+      "eho_registration",
+      "ga_crossover",
+      "ga_mutate",
+      "ga_registration",
+      "aco_registration",
+      "generate_image",
+      "apply_transformation",
+      "mse",
+      "objective_function",
+      "pso_registration",
+      "eho_registration",
+      "ga_crossover",
+      "ga_mutate",
+      "ga_registration",
+      "aco_registration",
+      "generate_image",
+      "apply_transformation",
+      "mse",
+      "objective_function",
+      "pso_registration",
+      "eho_registration",
+      "ga_crossover",
+      "ga_mutate",
+      "ga_registration",
+      "aco_registration",
+      "generate_image",
+      "apply_transformation",
+      "mse",
+      "objective_function",
+      "pso_registration",
+      "eho_registration",
+      "ga_crossover",
+      "ga_mutate",
+      "ga_registration",
+      "aco_registration",
+      "plot_transformation",
+      "test_optimization_algorithms_on_medical_image_registration"
+    ],
+    "classes": [
+      "PSOParticle",
+      "EHOElephant",
+      "ACOAnt",
+      "PSOParticle",
+      "EHOElephant",
+      "ACOAnt",
+      "PSOParticle",
+      "EHOElephant",
+      "ACOAnt",
+      "PSOParticle",
+      "EHOElephant",
+      "ACOAnt"
+    ]
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 15,
+    "code_cell_1based": 16,
+    "id": "3net9pLwAmpI",
+    "file": "sources\\mri_optimisation\\cell_016.py",
+    "lines": 32,
+    "syntax": "valid",
+    "functions": [],
+    "classes": []
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 16,
+    "code_cell_1based": 17,
+    "id": "JSUoVdCS7dZ-",
+    "file": "sources\\mri_optimisation\\cell_017.py",
+    "lines": 281,
+    "syntax": "valid",
+    "functions": [
+      "generate_image",
+      "apply_transformation",
+      "mse",
+      "objective_function",
+      "pso_registration",
+      "eho_registration",
+      "ga_crossover",
+      "ga_mutate",
+      "ga_registration",
+      "aco_registration",
+      "run_experiment_with_increasing_datasets",
+      "plot_execution_time_vs_dataset_size"
+    ],
+    "classes": [
+      "PSOParticle",
+      "EHOElephant",
+      "ACOAnt"
+    ]
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 17,
+    "code_cell_1based": 18,
+    "id": "mlJWMiXwArZ-",
+    "file": "sources\\mri_optimisation\\cell_018.py",
+    "lines": 1,
+    "syntax": "valid",
+    "functions": [],
+    "classes": []
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 18,
+    "code_cell_1based": 19,
+    "id": "mIL4-9Y2BKu1",
+    "file": "sources\\mri_optimisation\\cell_019.py",
+    "lines": 1,
+    "syntax": "valid",
+    "functions": [],
+    "classes": []
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 19,
+    "code_cell_1based": 20,
+    "id": "tQWwLYbTBTtY",
+    "file": "sources\\mri_optimisation\\cell_020.py",
+    "lines": 1,
+    "syntax": "valid",
+    "functions": [],
+    "classes": []
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 20,
+    "code_cell_1based": 21,
+    "id": "rkCjgCGQBUXR",
+    "file": "sources\\mri_optimisation\\cell_021.py",
+    "lines": 1,
+    "syntax": "valid",
+    "functions": [],
+    "classes": []
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 21,
+    "code_cell_1based": 22,
+    "id": "Poj47BoSBc10",
+    "file": "sources\\mri_optimisation\\cell_022.py",
+    "lines": 1,
+    "syntax": "valid",
+    "functions": [],
+    "classes": []
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 22,
+    "code_cell_1based": 23,
+    "id": "2tjKZcqUBlvN",
+    "file": "sources\\mri_optimisation\\cell_023.py",
+    "lines": 79,
+    "syntax": "valid",
+    "functions": [],
+    "classes": []
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 23,
+    "code_cell_1based": 24,
+    "id": "wxTV6CeXBrTV",
+    "file": "sources\\mri_optimisation\\cell_024.py",
+    "lines": 1,
+    "syntax": "valid",
+    "functions": [],
+    "classes": []
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 24,
+    "code_cell_1based": 25,
+    "id": "zymAfEfyCjgi",
+    "file": "sources\\mri_optimisation\\cell_025.py",
+    "lines": 1,
+    "syntax": "valid",
+    "functions": [],
+    "classes": []
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 25,
+    "code_cell_1based": 26,
+    "id": "D5eetr5yCk-4",
+    "file": "sources\\mri_optimisation\\cell_026.py",
+    "lines": 1,
+    "syntax": "valid",
+    "functions": [],
+    "classes": []
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 26,
+    "code_cell_1based": 27,
+    "id": "tIjPvx1fCqE2",
+    "file": "sources\\mri_optimisation\\cell_027.py",
+    "lines": 1,
+    "syntax": "valid",
+    "functions": [],
+    "classes": []
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 27,
+    "code_cell_1based": 28,
+    "id": "xvW4cpuqDlgm",
+    "file": "sources\\mri_optimisation\\cell_028.py",
+    "lines": 354,
+    "syntax": "valid",
+    "functions": [
+      "generate_distance_matrix",
+      "calculate_route_length",
+      "order_crossover",
+      "swap_mutation",
+      "initialize_population",
+      "select_parents",
+      "ga_tsp",
+      "elephant_herding_optimization",
+      "aco_tsp",
+      "pso_tsp"
+    ],
+    "classes": [
+      "Elephant",
+      "Ant",
+      "Particle"
+    ]
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 28,
+    "code_cell_1based": 29,
+    "id": "qGalLxxRXjwL",
+    "file": "sources\\mri_optimisation\\cell_029.py",
+    "lines": 1,
+    "syntax": "valid",
+    "functions": [],
+    "classes": []
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 29,
+    "code_cell_1based": 30,
+    "id": "cU7GsB9kXqGS",
+    "file": "sources\\mri_optimisation\\cell_030.py",
+    "lines": 1,
+    "syntax": "valid",
+    "functions": [],
+    "classes": []
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 30,
+    "code_cell_1based": 31,
+    "id": "jQUu5RDeXwHq",
+    "file": "sources\\mri_optimisation\\cell_031.py",
+    "lines": 1,
+    "syntax": "valid",
+    "functions": [],
+    "classes": []
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 31,
+    "code_cell_1based": 32,
+    "id": "E0k5ZsFfX3_y",
+    "file": "sources\\mri_optimisation\\cell_032.py",
+    "lines": 1,
+    "syntax": "valid",
+    "functions": [],
+    "classes": []
+  },
+  {
+    "notebook": "mri_optimisation.ipynb",
+    "notebook_index": 32,
+    "code_cell_1based": 33,
+    "id": "IM37HOmAUhET",
+    "file": "sources\\mri_optimisation\\cell_033.py",
+    "lines": 326,
+    "syntax": "valid",
+    "functions": [
+      "generate_distance_matrix",
+      "calculate_route_length",
+      "order_crossover",
+      "swap_mutation",
+      "initialize_population",
+      "select_parents",
+      "ga_tsp",
+      "elephant_herding_optimization",
+      "aco_tsp",
+      "pso_tsp"
+    ],
+    "classes": [
+      "Elephant",
+      "Ant",
+      "Particle"
+    ]
+  },
+  {
+    "notebook": "brute_force.ipynb",
+    "notebook_index": 0,
+    "code_cell_1based": 1,
+    "id": "gNj0hDkTRNGx",
+    "file": "sources\\brute_force\\cell_001.py",
+    "lines": 67,
+    "syntax": "valid",
+    "functions": [
+      "generate_distance_matrix",
+      "tsp_brute_force",
+      "main"
+    ],
+    "classes": []
+  },
+  {
+    "notebook": "brute_force.ipynb",
+    "notebook_index": 1,
+    "code_cell_1based": 2,
+    "id": "B4Liisd2QNS5",
+    "file": "sources\\brute_force\\cell_002.py",
+    "lines": 152,
+    "syntax": "invalid syntax, line 152",
+    "functions": [],
+    "classes": []
+  }
+]

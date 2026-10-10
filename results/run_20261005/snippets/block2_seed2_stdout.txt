@@ -1,0 +1,6 @@
+
+Running for 95 Cities:
+GA for 95 cities: Best Distance = 4159.698263517804, Execution Time = 1.76517 seconds
+EHO for 95 cities: Best Distance = 2103.340145035707, Execution Time = 0.95308 seconds
+ACO for 95 cities: Best Distance = 826.688534618661, Execution Time = 11.23884 seconds
+PSO for 95 cities: Best Distance = 4561.735899884982, Execution Time = 0.16734 seconds

@@ -1,0 +1,50 @@
+{
+  "created_utc": "2026-10-04T19:32:26.198549+00:00",
+  "user_timezone": "Asia/Calcutta",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "D:\\RANDOM\\research_paper_iim\\code_reruns\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "logical_cpus": 12,
+  "physical_cpus": 6,
+  "ram_bytes": 16889204736,
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "device": "CPU; no GPU training or inference",
+  "args": {
+    "dataset": "D:\\MInor Project\\datasets\\New folder\\Task01_BrainTumour",
+    "output": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\run_20261005",
+    "stages": "snippets,routing,continuous,registration",
+    "cases": 3,
+    "seeds": "0,1,2,3,4",
+    "imaging_seeds": "0,1,2",
+    "budget": 3000,
+    "image_budget": 1500,
+    "resume": false
+  },
+  "dependency_versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "nibabel": "5.4.2",
+    "scikit-image": "0.26.0",
+    "trimesh": "5.1.1",
+    "plotly": "7.1.0"
+  },
+  "source_code_sha256": {
+    "src\\audit_existing_meshes.py": "0d430b433c464a6b7e97ebff64f407c93ed70f5c8fa21a81ffad3d436d54c2fc",
+    "src\\benchmarks_continuous.py": "54d858b6a54f39530e1cdf5fc1e4c5c11ac2a16647a99df8fd0b2e30b9e86043",
+    "src\\imaging.py": "eb38530b27dd21013df6165ba483e7edcd4a1a61b5bdec0024e30d7af13b43dd",
+    "src\\optimizers.py": "9b0b29c295e52f110b57182921648e05aa6647137762a36adc15adf69020974a",
+    "src\\registration.py": "bde223b972ab1ea9c5103e93d7ea4ef9b0e53a2823e08153d9d068e34ba507ca",
+    "src\\replay_snippets.py": "f8702d6db3e1b7cf8627d2502b66a1db1244b2571e2762d4115a52f53acac8c1",
+    "src\\replay_sources.py": "b797482d5cd9319c364888151263a11593a5c8f89d6d47f6f8603e752977ba5e",
+    "src\\routing.py": "06b2b9ebe4d783e84e0b8f60b2b921843f1eb3563f26d6e7a1079b0560ee6bf2"
+  },
+  "recovered_notebook_replay": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\source_replay\\execution_ledger.json",
+  "interpretation": "Original replay already completed separately. Each reconstructed stage has a distinct protocol. Seeds are not patients. New runs do not verify unknown historical configurations."
+}

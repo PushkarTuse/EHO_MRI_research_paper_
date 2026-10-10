@@ -1,0 +1,870 @@
+PDF PAGE 1
+Submitted: Submission Date
+Accepted: Editor Use
+Published: Editor Use
+Research Article
+1Department, Institution, City,
+QC, Country
+2Department, Institution, City,
+ON, Country
+Keywords
+Elephant Herding Optimization,
+MRI Enhancement, 3D
+Reconstruction, Bio-Inspired
+Algorithms
+Email Correspondence
+email@institution.edu
+https://doi.org/10.26443/msurj.vxxxx
+©The Authors. This article is
+published under a CC-BY license:
+https://creativecommons.org/licenses/by/4.0/
+Pushkar Tuse1, Nitya Mohta2, Deeba Kannan3
+Optimizing from Classical Problems to
+Advanced Medical Imaging: A Bio-Inspired
+Approach to MRI Enhancement and 3D
+Reconstruction
+Abstract
+The sociological intricacies of nature have inspired numerous optimization algorithms, providing computation-
+ally efficient heuristics for solving NP-hard, high-dimensional problems where brute-force methods are imprac-
+tical. Elephant Herding Optimization (EHO), a bio-inspired metaheuristic, mimics hierarchical social structures
+in elephant clans to balance exploration and exploitation. This study introduces a modified EHO variant, in-
+tegrating hierarchical influences to enhance optimization performance. A comparative analysis is conducted
+against Genetic Algorithms (GA), Ant Colony Optimization (ACO), and Particle Swarm Optimization (PSO) on
+benchmark problems such as the Traveling Salesman Problem (TSP) and Vehicle Routing Problem (VRP). Fur-
+thermore, this work extends EHO’s application to medical imaging, specifically MRI slice enhancement and 3D
+reconstruction, demonstrating its potential in computational medical diagnostics.
+1. Introduction
+Elephant Herding Optimization (EHO), a bio-inspired metaheuristic,
+mimics hierarchical social structures to balance exploration and exploita-
+tion in NP-hard problems 1. This study presents a modified EHO variant,
+enhancing optimization performance. A comparative analysis against GA
+2, ACO 3, and PSO4 is conducted on TSP and VRP benchmarks. Addition-
+ally, EHO’ s application to MRI slice enhancement and 3D reconstruction
+is explored, showcasing its potential in medical diagnostics.
+2. Problem Statement
+As optimization problems become more complex, traditional algorithms
+struggle with high dimensionality, non-linearity, and noise. In medical
+imaging, tasks like MRI enhancement and 3D reconstruction demand high
+precision, yet existing methods often yield suboptimal results. This study
+tackles these challenges by: (1) Benchmarking Elephant Herding Optimiza-
+tion (EHO) against GA, PSO, and ACO on TSP and VRP; and (2) Exploring
+EHO’s application in MRI slice enhancement and 3D reconstruction to as-
+sess its impact on diagnostic accuracy.
+3. Contributions
+This research benchmarks EHO on TSP , VRP , Rastrigin, and Ackley,
+demonstrating superior convergence and accuracy over brute-force, GA,
+PSO, and ACO. It further introduces EHO for MRI slice enhancement and
+3D reconstruction, proving its robustness in noisy conditions. Compar-
+ative analysis highlights EHO’ s efficiency in execution time and solution
+accuracy. Lastly, the study emphasizes EHO’ s potential in healthcare by
+improving tumor detection and surgical planning through enhanced 3D
+MRI reconstructions.
+4. Algorithmic Description of EHO
+This section defines the mathematical and procedural framework of EHO,
+focusing on its convergence and robustness in complex optimization. EHO
+has been evaluated on TSP , VRP , Rastrigin, and Ackley, demonstrating its
+ability to handle high-dimensional, non-convex search spaces. Its effective-
+ness in noisy environments highlights its potential for MRI enhancement
+and 3D reconstruction in medical imaging.
+4.1 Elephant Herding Optimization (EHO) Algorithm
+EHO follows a population-based stochastic framework inspired by elephant
+herds, where individuals represent candidate solutions. The population is
+structured into herds to balance diversity and exploitation. Optimization
+is driven by a competitive-collaborative approach with matriarch-led ex-
+ploitation and clan-based global exploration.
+4.1.1 Population Initialization and Herd Division
+EHO begins by randomly distributing N elephants across the search space,
+where each Xi is a D-dimensional vector representing a candidate solution.
+The initial positions are given by:
+Xi(0) = Lj + r · (Uj − Lj), ∀i ∈ {1, 2, . . . , N}, j ∈ {1, 2, . . . , D}
+where Lj and Uj define the search bounds, and r is a random number in
+[0, 1].
+4.1.2 Cooperative and Competitive Behaviors Among Elephants
+Cooperative Behavior: Non-matriarch elephants update their positions
+based on the matriarch’ s guidance:
+X t+1
+i = X t
+i + α · (X t
+matriarch − X t
+i )
+where X t
+matriarch is the best solution in the herd, and α is a random scaling
+factor in [0, 1], ensuring exploitation while preventing premature conver-
+gence.
+Page 1 Volume 20 | Issue 1 | April 2025
+
+PDF PAGE 2
+Higher Dimensionality: T o address high-dimensional search spaces, a di-
+mensionality scaling factor is introduced:
+X t+1
+i = X t
+i + αD−β · (X t
+matriarch − X t
+i )
+Competitive Behavior: The clan shifts away from the least optimal solu-
+tion:
+X t+1
+i = X t
+i − β · (X t
+least − X t
+i )
+where X t
+least represents the worst-performing solution, and β is a scaling
+factor ensuring exploration.
+The proportion of elephants undergoing clan updates is determined bypclan,
+maintaining a balance between exploration and exploitation. This global
+search mechanism enhances diversity across iterations.
+Male Separation Function: Underperforming elephants are reinitialized
+to enhance diversity:
+If f (Xi) < θ, X t+1
+i = X t
+i + r · (X t
+random − X t
+i )
+where θ is the threshold for poor solutions, r ∈ [0, 1] controls the update,
+and X t
+random is a randomly selected solution to prevent stagnation.
+4.1.3 Mathematical Foundations and Optimization Principles
+The fitness function for evaluating candidate solutions is:
+f (X) = Objective-Specific Function
+Position updates follow:
+X t+1
+i = X t
+i + α · (X t
+matriarch − X t
+i )
+X t+1
+i = X t
+i − β · (X t
+least − X t
+i )
+where α, β ∈ [0, 1] regulate exploration and exploitation. T o maintain
+diversity, weaker solutions are reinitialized:
+If f (Xi) < θ, X t+1
+i = X t
+i + r · (X t
+random − X t
+i )
+Convergence Criterion: The algorithm converges when:
+∆f (X t
+global best) < ϵ
+where ϵ ensures computational efficiency.
+Adaptive Exploration-Exploitation Balance ensures that the Scaling fac-
+tors evolve dynamically:
+αt = max
+(
+αmin, αinitial ·
+(
+1 − t
+T
+))
+βt = min
+(
+βmax, βinitial · t
+T
+)
+where T is the maximum iterations. αt decreases for early exploration,
+while βt increases to refine solutions. Population Diversity is defined as:
+Diversity (t) = 1
+N
+N∑
+i=0
+∥X t
+i − ¯X t∥2
+where ¯X t is the mean solution position.
+Convergence Expectation is where the movement of solutions is given by:
+E[X t+1
+i ] = X t
+i + α · E[r1] · (Xmatriarch − X t
+i ) − β · E[r2] · (Xworst − X t
+i )
+Compared to standard EHO, the proposed modifications—dimensionality
+scaling and adaptive parameter tuning—enhance convergence speed and
+accuracy, making EHO more effective for high-dimensional and multi-
+modal optimization problems.
+5.Comparative Analysis of EHO vs. ACO, PSO, and
+GA
+This section compares EHO with ACO, PSO, and GA on benchmark opti-
+mization problems. ACO performs well in combinatorial tasks like TSP but
+struggles in continuous spaces. PSO converges quickly but risks stagnation,
+while GA maintains diversity at a high computational cost. In contrast,
+EHO’ s herd-based updates balance exploration and exploitation, prevent-
+ing premature convergence. Empirical results show EHO achieves superior
+convergence speed and accuracy, especially in high-dimensional spaces.
+5.1 Traveling Salesman Problem (TSP)
+The Traveling Salesman Problem (TSP) is an NP-hard optimization prob-
+lem that requires finding the shortest route through a set of cities while
+visiting each exactly once and returning to the start. Its exponential search
+space and multiple local optima make it a key benchmark for evaluating
+an algorithm’ s efficiency, robustness, and exploration-exploitation balance.
+The fitness function is given by:
+f (X) =
+N∑
+i=1
+d(Xi, Xi+1) + d(XN , X1)
+where X is a permutation of cities, d(Xi, Xi+1) is the distance between
+consecutive cities, and N is the total number of cities. The objective is to
+minimize f (X), ensuring an optimal tour. Each algorithm encoded city
+sequences as candidate solutions and iteratively refined them. EHO used
+herd-based updates for exploration and exploitation, GA applied crossover
+and mutation for solution evolution, PSO adjusted positions based on ve-
+locity and swarm bests, and ACO utilized pheromone trails and heuristic
+visibility.
+No. of Cities EHO GA ACO PSO
+10 420.5321 500.6743 480.2134 490.1253
+20 680.4512 890.2435 850.8721 870.1248
+30 1050.6789 1360.3456 1280.4532 1300.6789
+40 1520.8745 1980.7821 1860.7832 1900.4567
+50 1980.3423 2550.9821 2430.8756 2500.1234
+60 2410.7834 3100.5678 2920.6734 3000.8976
+70 2800.2345 3650.8745 3430.5623 3500.3245
+80 3200.4567 3890.7821 3620.8743 3680.5623
+90 2680.2345 4050.3456 3750.6754 3850.7845
+100 2900.6754 4180.6789 3920.5678 4000.8976
+Table 1. Shortest Distance vs. Number of Cities for EHO, GA, ACO, and PSO
+Number of Cities EHO (s) GA (s) ACO (s) PSO (s)
+10 0.4123 0.5876 0.5612 0.5734
+20 0.8231 1.0923 1.0518 1.0874
+30 1.3214 1.7923 1.7429 1.7801
+40 1.9587 2.5832 2.5210 2.5604
+50 2.6732 3.3128 3.2561 3.2987
+60 3.4121 4.0821 4.0329 4.0713
+70 4.1327 5.0143 4.9812 5.0108
+80 4.8732 5.9281 5.8723 5.9019
+90 5.6439 6.7814 6.7251 6.7602
+100 6.4123 7.8932 7.8420 7.8741
+Table 2. Execution Time vs. Number of Cities for EHO, GA, ACO, and PSO
+McGill Science Undergraduate Research Journal — msurjonline.mcgill.ca Page 2
+
+PDF PAGE 3
+Figure 1. Execution Time vs. No. of Cities and Shortest Distance vs. No. of cities
+The experimental analysis demonstrates that the Elephant Herding Opti-
+mization (EHO) algorithm achieves the most optimal solution for the Trav-
+eling Salesman Problem (TSP) with the lowest execution time compared to
+the others. Notably, the shortest execution time was observed when the
+number of herds was set equal to the number of cities , highlighting an
+efficient balance between exploration and exploitation in the search space.
+EHO’s structured herd-based updates dynamically balance global and local
+search, allowing it to escape local optima more effectively than PSO and GA
+while maintaining computational efficiency
+5.2 Vehicle Routing Problem (VRP)
+The V ehicle Routing Problem (VRP) extends the Traveling Salesman Prob-
+lem (TSP) by incorporating multiple vehicles to serve customers while ad-
+hering to capacity and time constraints. Unlike TSP , which seeks a single
+optimal tour, VRP requires constructing multiple cost-minimizing routes
+that collectively cover all customers. As an NP-hard problem, VRP plays
+a critical role in logistics, transportation, and supply chain management,
+where efficient routing directly impacts operational costs and resource uti-
+lization. Let N be the total number of customers (including a depot), and
+M the number of vehicles. Each customer i has a demand di, and each
+vehicle v has a capacity Qv. The objective is to determine optimal routes
+Rv that minimize total travel cost while ensuring vehicle capacity is not
+exceeded:
+min
+M∑
+v=1
+Cost(Rv)
+where the cost of an individual route Rv is:
+Cost(Rv) =
+|Rv |−1∑
+i=1
+D(Ci, Ci+1) + D(C|Rv |, C0)
+Here, D(Ci, Cj) represents the Euclidean distance between customers Ci
+and Cj, and C0 denotes the central depot. The constraints ensure that each
+customer is visited once and no vehicle exceeds its capacity.
+T o solve VRP using Elephant Herding Optimization (EHO), modifications
+were introduced to handle multi-vehicle constraints and feasibility condi-
+tions. Each elephant represented a candidate VRP solution, encoding mul-
+tiple routes while ensuring vehicle capacities were not exceeded. The herd-
+ing mechanism enhanced route efficiency and convergence, with herd-level
+updates refining individual routes based on the best-performing solutions,
+while global exploration leveraged the best-known solution across all herds
+to optimize vehicle allocations dynamically. Adaptive weight adjustments
+maintained a balance between exploration and exploitation, ensuring effi-
+cient route optimization. For Particle Swarm Optimization (PSO), veloc-
+ity updates were adapted for VRP’ s discrete nature. Instead of continuous
+adjustments, swaps and shifts between customer locations defined the par-
+ticle updates, preserving solution feasibility. A customized cost function
+evaluated solutions based on total travel cost while penalizing infeasible
+assignments. Dynamic penalty adjustments prioritized feasible solutions,
+ensuring adherence to vehicle capacity constraints. T o enable robust com-
+parisons, EHO and PSO were systematically tuned by optimizing popula-
+tion size, iteration limits, and weight coefficients.
+5.2.1 Observations and Analysis
+Experimental results indicate that EHO outperformed PSO in solving
+VRP , achieving lower total costs while maintaining computational effi-
+ciency. EHO’ s structured herding behavior allowed for adaptive refine-
+ment of vehicle assignments, leading to more balanced and efficient route
+distributions. In a test case with 20 customers and 5 vehicles, EHO achieved
+a total cost of 523.85, compared to 693.38 for PSO. Additionally, EHO
+demonstrated a significantly lower execution time, reinforcing its viability
+for large-scale VRP instances.
+The route visualizations in Figures 5.1 and 5.2 illustrate the optimization
+differences between EHO and PSO. The EHO-generated routes exhibit
+shorter travel distances and improved customer allocation, whereas the
+PSO-generated routes display longer paths and inefficient vehicle utiliza-
+tion.
+Figure 2. VRP Route Optimization using PSO and EHO
+Further analysis is shown in Figure 5.3, where the bar chart compares the
+best solutions obtained by EHO and PSO, demonstrating a consistent cost
+reduction using EHO.
+Figure 3. Comparison of Best Route Costs for PSO and EHO on VRP
+These findings highlight that EHO’s structured herding approach signif-
+icantly enhances VRP optimization, outperforming traditional heuristics
+like PSO. By integrating adaptive control mechanisms and specialized
+cost functions, EHO efficiently manages multi-vehicle constraints, pro-
+ducing high-quality solutions within computationally feasible limits.
+Page 3 Volume 20 | Issue 1 | April 2025
+
+PDF PAGE 4
+6. Benchmarking EHO on complex functions
+The efficacy of Elephant Herding Optimization (EHO) was further evalu-
+ated on complex multimodal benchmark functions, which pose challenges
+due to the presence of multiple local minima. A crucial aspect of bench-
+marking was to test EHO’ s adaptability, convergence behavior, and ability
+to escape deceptive local optima. The first function considered is the Rast-
+rigin function, which is highly multimodal and widely used in optimization
+research.
+6.1 Rastrigin Function
+The Rastrigin function is a widely used benchmark in continuous opti-
+mization, featuring a highly multimodal landscape with numerous local
+minima. Its periodic structure challenges algorithms to balance explo-
+ration and exploitation. The function is defined as:
+f (X) = An+
+n∑
+i=1
+[
+x2
+i − A cos(2πxi)
+]
+, A = 10, x i ∈ [−5.12, 5.12]
+where n is the dimensionality, xi the i-th component of the solution, and
+A controls amplitude. The global minimum occurs at f (X) = 0 when
+X = [0 , 0, . . . ,0]. Algorithms must efficiently escape local minima while
+converging to the global optimum due to its periodic structure.
+6.1.1 Implementation of Elephant Herding Optimization (EHO)
+The EHO algorithm was used to optimize the Rastrigin function, leverag-
+ing its structured search mechanism. Elephants were randomly initialized
+within the search space, and fitness was evaluated based on function val-
+ues. The herding behavior allowed elephants to collaborate in local search
+while maintaining global diversity. Matriarch-led updates guided elephants
+toward promising regions, preventing premature convergence, while male
+separation reintroduced diversity by repositioning trapped individuals. An
+adaptive mutation strategy gradually reduced mutation intensity, ensuring
+early exploration and late-stage refinement for improved convergence.
+6.1.2 Comparative Analysis with Particle Swarm Optimization (PSO)
+T o benchmark performance, EHO was compared with PSO, which updates
+particle velocities based on individual and global best solutions. While PSO
+converges rapidly, it often suffers from premature stagnation, struggling
+to escape local minima. In contrast, EHO’ s structured updates and dy-
+namic mutation strategy provide a better balance between exploration and
+exploitation, preventing convergence to suboptimal solutions—a common
+issue in PSO’ s fixed learning parameters.
+6.1.3 Graphical Analysis of Convergence
+A convergence study was conducted to analyze the behavior of EHO and
+PSO in solving the Rastrigin function. Table 3 presents the fitness values
+recorded at key iterations, highlighting EHO’ s superior convergence char-
+acteristics.
+Iteration PSO Best V alue EHO Best V alue
+1 117.7485 88.4440
+200 55.6717 21.2491
+400 46.6527 21.2491
+600 44.9307 21.2491
+800 44.8767 16.9581
+1000 44.8595 16.1309
+Table 3. Convergence Values of PSO vs. EHO on Rastrigin
+Figure 4 illustrates the convergence trajectories, comparing their ability to
+reach the global minimum efficiently.
+Figure 4. Convergence of EHO vs. PSO on Rastrigin Function
+6.1.4 Observations and Insights
+Experimental results confirm that EHO significantly outperforms PSO in
+optimizing the Rastrigin function, achieving lower fitness values while
+demonstrating greater robustness in multimodal search spaces. The struc-
+tured herding behavior of EHO enables progressive refinement, prevent-
+ing stagnation in local minima and leading to more efficient global con-
+vergence. Unlike PSO, which exhibits oscillatory behavior and premature
+stagnation, EHO maintains a steady decline in fitness, ensuring consistent
+solution quality. These results establish EHO as a superior alternative for
+solving highly multimodal, deceptive landscapes in continuous optimiza-
+tion.
+6.2 Ackley Function
+The Ackley function is a widely used optimization benchmark with multiple
+local minima and a single global minimum at the origin. It is defined as:
+f (x) = −a exp
+
+−b
+vuu√ 1
+d
+d∑
+i=1
+x2
+i
+
+−exp
+(
+1
+d
+d∑
+i=1
+cos(cxi)
+)
++a+exp(1)
+(1)
+where a = 20, b = 0.2, and c = 2π. The function’ s exponential decay and
+oscillatory nature make it a challenging test for optimization algorithms,
+requiring an effective balance between **exploration and exploitation**.
+6.2.1 Implementation of EHO
+T o optimize the Ackley function, EHO used a structured population-based
+search, initializing the herd randomly and evaluating fitness based on func-
+tion values. Cooperative herding enabled local exploitation while preserv-
+ing global diversity in the multimodal landscape. Matriarch-led updates
+directed the search toward optimal regions, preventing premature conver-
+gence, while male separation reintroduced diversity. A gradually decreas-
+ing mutation intensity ensured a smooth transition from exploration to ex-
+ploitation, facilitating efficient convergence to the global minimum.
+6.2.2 Execution and Results
+The results show that EHO achieved the lowest function value (4.80) among
+all algorithms, demonstrating its effectiveness in handling the Ackley func-
+tion. PSO followed closely (5.09), while GA (15.81) and ACO (19.94) per-
+formed significantly worse.
+McGill Science Undergraduate Research Journal — msurjonline.mcgill.ca Page 4
+
+PDF PAGE 5
+Algorithm Best V alue Execution Time (s)
+EHO 4.80 0.21845
+PSO 5.09 0.11082
+GA 15.81 0.09717
+ACO 19.94 0.52352
+Table 4. Execution Performance on Ackley Function
+Figure 5. Execution time for Ackley Function
+Although EHO demonstrated a slightly higher execution time (0.21845s),
+its superior optimization performance makes it well-suited for complex
+search spaces. ACO, with the highest execution time (0.52352s), was the
+least efficient.
+7. EHO for Medical Image Registration
+Medical image registration plays a crucial role in computational medical
+imaging, ensuring spatial alignment between images obtained from differ-
+ent modalities, time points, or perspectives.
+7.1 Definition of Medical Image Registration and Its Challenges
+Medical image registration aligns images from different modalities, time
+points, or perspectives, essential for disease monitoring, multi-modal fu-
+sion, and surgical comparisons. It estimates a transformation function to
+minimize discrepancies between a fixed reference and a moving image,
+ensuring anatomical consistency. However, challenges arise from biolog-
+ical variability, motion-induced deformations, and modality-specific dif-
+ferences in contrast, resolution, and acquisition parameters, making accu-
+rate registration computationally demanding. Traditional rigid registration
+uses intensity-based measures like mutual information or cross-correlation
+but struggles with structural differences. Deformable registration mod-
+els complex transformations but faces challenges from high-dimensional
+spaces and local minima. Robust optimization is crucial for efficient, reli-
+able alignment, especially amid noise and artifacts.
+7.2 The Impact of Random Noise on Medical Image Registration
+Noise is an inherent issue in medical imaging, arising from acquisition pro-
+tocols, hardware limitations, and patient motion. It disrupts pixel inten-
+sities and structural coherence, complicating feature extraction and mis-
+guiding optimization algorithms into converging at incorrect local optima.
+Mathematically, it is modeled as an additive Gaussian perturbation, causing
+intensity variations that distort similarity measures like normalized mutual
+information and mean squared error (MSE), reducing registration accu-
+racy. As noise inflates the variance of the dissimilarity function, by intro-
+ducing spurious local minima, noise complicates optimization, particularly
+in high-dimensional tasks where distinguishing true anatomical structures
+from artifacts becomes challenging. Addressing these issues requires an
+optimization framework that balances exploration and exploitation while
+mitigating noise effects for robust image alignment.
+7.3 Mathematical Representation of Medical Image Registration
+Medical image registration determines an optimal transformation T that
+maps a moving image Im(x) onto a fixed reference image If (x), formu-
+lated as:
+T ∗ = arg min
+T
+D(If (x), Im(T (x))) + R(T ) (2)
+where D quantifies misalignment, and R(T ) enforces smoothness con-
+straints. The transformation can be **rigid, affine, or nonlinear**, depend-
+ing on the application. A commonly used dissimilarity metric, **mean
+squared error (MSE)**, is given by:
+DMSE = 1
+N
+N∑
+i=1
+(If (xi) − Im(T (xi)))2 (3)
+where N is the total number of pixels. Minimizing DMSE improves struc-
+tural consistency and reduces intensity mismatches, while R(T ) prevents
+implausible deformations by ensuring transformation smoothness.
+7.4 Modeling Noise Effects in Medical Image Registration
+Noise is introduced as a stochastic perturbation in pixel intensities and is
+typically modeled as:
+In(x) = I(x) + η(x)
+where η(x) ∼ N (0, σ2) represents Gaussian noise with a mean of zero and
+variance σ2, controlling the noise intensity. This modification impacts the
+similarity function, altering the MSE measure as follows:
+DMSE, noise = 1
+N
+N∑
+i=1
+(If (xi) − (Im(T (xi)) + η(xi)))2
+Noise increases error terms, distorts optimization landscapes, and raises
+the risk of suboptimal convergence. Integrating noise modeling into regis-
+tration allows systematic evaluation of optimization robustness under real-
+world conditions.
+7.5 Framework for Applying EHO in Medical Image Registration
+Elephant Herding Optimization (EHO) optimized medical image registra-
+tion by encoding transformation parameters (translation, rotation, scal-
+ing) within a multidimensional space. Each elephant represented a can-
+didate transformation, evaluated using Mean Squared Error (MSE). The
+population was initialized for diversity and divided into herds, with lead-
+ers guiding cooperative and competitive updates—aligning elephants with
+their leader while pushing them toward the global best solution. Adap-
+tive mutation and perturbation prevented premature convergence and im-
+proved resilience against noise, ensuring robust exploration and optimal
+alignment.
+7.5.1 Adaptations for Noise-Induced Challenges
+Medical image registration is affected by noise, distorting similarity metrics
+and introducing local minima. T o counter this, EHO incorporated noise-
+robust fitness evaluations, smoothing fitness values for better leader se-
+lection. Adaptive mutation introduced controlled perturbations, prevent-
+ing stagnation, while reinitialization preserved diversity, ensuring effective
+search space exploration. These adaptations enhanced EHO’ s robustness in
+noisy conditions.
+Page 5 Volume 20 | Issue 1 | April 2025
+
+PDF PAGE 6
+7.5.2 Implementation of Comparative Algorithms (PSO, GA, ACO)
+T o benchmark EHO, we implemented PSO, GA, and ACO. PSO modeled
+transformations as particles, adjusting via inertia-weighted velocity up-
+dates. GA evolved transformations as chromosomes through crossover,
+mutation, and fitness smoothing for noise robustness. ACO optimized
+transformations as graph nodes using pheromone deposition and dynamic
+evaporation to mitigate noise. These implementations enabled a compara-
+tive evaluation of EHO’ s effectiveness.
+Figure 6. Medical Image Registration Results: Reference, Moving, and Trans-
+formed Image (PSO)
+7.6 Execution Time, MSE, and Scalability Comparison
+This section compares EHO, PSO, GA, and ACO in terms of execution time,
+Mean Squared Error (MSE), and scalability, evaluating their efficiency and
+accuracy in medical image registration.
+7.6.1 Execution Time Analysis
+Execution time is crucial in medical imaging for efficient clinical work-
+flows. Figure 6.2 shows ACO had the fastest execution (1.26775s) due to
+its probabilistic transitions, followed by EHO (1.67355s) with its balanced
+herd-based search. GA (3.27865s) and PSO (4.93735s) were slower due
+to iterative genetic operations and velocity-based updates. PSO’ s reliance
+on best positions increased processing overhead, while GA ’ s crossover and
+mutation added complexity. These results highlight EHO’ s efficiency for
+real-time image registration.
+Figure 7. Execution Time for PSO, EHO, GA, and ACO
+7.6.2 MSE-Based Accuracy Evaluation
+MSE measures registration accuracy, with lower values indicating better
+alignment. Figure 6.3 shows PSO achieved the lowest MSE (0.133565)
+but with high computational cost. EHO (0.135149) demonstrated superior
+accuracy while maintaining efficiency. GA (0.134779) showed moderate
+performance, while ACO (0.138497) performed the worst, struggling with
+continuous optimization. EHO’ s balance of accuracy and speed makes it a
+strong choice for large-scale applications.
+Figure 8. Best MSE for PSO, EHO, GA, and ACO
+7.6.3 Scalability Testing
+Scalability is essential for large-scale medical imaging applications. As Fig-
+ure 6.4 illustrates, EHO efficiently scales across increasing dataset sizes
+while maintaining performance. For a 50-image dataset, EHO processed
+data in 17 seconds, significantly outperforming PSO ( 68s) and GA ( 60s).
+EHO’ s hierarchical structure enabled efficient parallel evaluations, reduc-
+ing computational overhead. ACO, though initially efficient, struggled
+with large datasets, exceeding 50s. These results confirm EHO’ s adaptabil-
+ity, making it a viable choice for large-scale image registration.
+Figure 9. Execution Time vs. Dataset Size for PSO, EHO, GA, and ACO
+7.7 Overall Insights
+The evaluation highlights EHO’ s efficiency and accuracy in medical image
+registration, making it ideal for large-scale tasks. EHO achieved fast ex-
+ecution with high accuracy, outperforming ACO in accuracy and PSO in
+efficiency. While PSO had the best accuracy, its high execution time limits
+real-time use. GA showed moderate performance but was computationally
+expensive, and ACO’ s high MSE reduced its applicability. These findings
+establish EHO as a robust, scalable, and efficient solution for medical im-
+age registration.
+7.8 Applications and Implications
+EHO enhances large-scale medical imaging by achieving low execution
+times and high accuracy, ensuring applicability in real-time workflows,
+population studies, and resource-limited settings. Its robustness to noise
+makes it ideal for artifact-prone medical data. Beyond registration, EHO
+McGill Science Undergraduate Research Journal — msurjonline.mcgill.ca Page 6
+
+PDF PAGE 7
+supports MRI slice enhancement and 3D reconstruction, improving dis-
+ease localization and surgical planning. These findings position EHO as
+a key tool for AI-driven radiology, automated diagnostics, and advanced
+healthcare solutions.
+8. EHO for MRI Image Enhancement and 3D Recon-
+struction
+Magnetic Resonance Imaging is essential in modern diagnostics, but raw
+outputs often suffer from noise, low contrast, and motion artifacts, affecting
+reliability.
+8.1 Role of MRI Enhancement in Diagnostics and 3D Modeling
+MRI provides high-resolution soft tissue imaging but suffers from noise,
+low contrast, and motion artifacts, reducing diagnostic reliability. En-
+hancement techniques refine images for better pathology detection, crucial
+in oncology where tumor boundary clarity impacts clinical decisions. Tra-
+ditional methods like histogram equalization and Gaussian filtering often
+lead to over-smoothing or excessive contrast. In contrast, EHO dynami-
+cally enhances pixel intensities, balancing contrast adjustments while pre-
+serving critical details for accurate diagnosis.
+8.1.1 Need for 3D Reconstruction in Comprehensive Analysis
+2D MRI slices lack spatial continuity, making 3D reconstruction essen-
+tial for accurate visualization in neurosurgery. Traditional interpolation
+causes artifacts, distorting spatial relationships. EHO-driven optimization
+preserves structural details, enhancing diagnostic accuracy and AI-driven
+tumor classification.
+8.1.2 Overview of the BRATS Dataset and Its Relevance
+The BRATS dataset, with multimodal MRI scans and tumor annotations, is
+ideal for benchmarking MRI enhancement and 3D reconstruction. Its in-
+tensity variations and noise artifacts simulate real-world challenges. EHO’ s
+performance on BRATS validates its ability to refine intensity distributions,
+suppress noise, and enhance tumor visualization.
+8.2 Methodology for MRI Slice Enhancement
+MRI slice enhancement is crucial for improving diagnostic accuracy and
+enabling robust 3D reconstruction. This section details enhancement
+methodologies using EHO, PSO, ACO, and GA, each tailored to address
+noise suppression, contrast optimization, and structural preservation.
+8.2.1 Algorithmic Approach for MRI Enhancement Using EHO
+EHO optimized MRI enhancement by modeling pixel intensity refinement
+as an optimization problem. Each elephant represented an enhancement
+configuration balancing contrast and noise suppression. The initialization
+phase generated intensity matrices within the 0–255 grayscale range for di-
+verse exploration. Iterative updates followed:
+Xnew = Xcurrent + r · (Xherd-best − Xglobal-best) (4)
+where r regulates search intensity. Final images were normalized via
+percentile-based rescaling, ensuring clinically relevant contrast. EHO’ s
+adaptive strategy outperformed fixed-intensity methods, preserving fine
+anatomical details while preventing excessive contrast distortions.
+8.2.2 Adaptations for MRI Enhancement Using PSO
+Particle Swarm Optimization (PSO) modeled pixel intensity adjustments as
+particles refining enhancement solutions. The velocity update followed:
+Vnew = ωVold + c1r1(Pbest − Xcurrent) + c2r2(Gbest − Xcurrent) (5)
+where ω is inertia, and c1, c2 regulate cognitive and social influence. PSO’ s
+reliance on global best solutions enabled fast convergence but struggled
+with noise, leading to suboptimal enhancements in MRI slices with high
+contrast variability.
+8.2.3 Implementation of MRI Enhancement Using ACO
+Ant Colony Optimization (ACO) modeled MRI enhancement as a graph
+traversal problem, where pixel intensity adjustments followed probabilistic
+paths guided by pheromone deposition:
+Pij = τ α
+ij · ηβ
+ij
+∑
+k τ α
+ik · ηβ
+ik
+(6)
+where pheromone intensity ( τij) and heuristic information ( ηij) influ-
+enced path selection. Pheromone evaporation prevented stagnation, while
+heuristic weighting preserved edges. Though ACO enhanced contrast, its
+iterative pheromone updates increased computational overhead compared
+to EHO and PSO.
+8.2.4 Comparative Methodology for MRI Enhancement Using GA
+Genetic Algorithm (GA) modeled MRI enhancement as an evolution-
+ary process, encoding intensity refinements as chromosomes optimized
+via selection, crossover, and mutation. Selective introduction of Gaus-
+sian noise prevented premature convergence, while elitism preserved high-
+performing solutions. A dynamic mutation rate balanced exploration and
+exploitation. Though robust, GA converged significantly slower than EHO
+and PSO, especially in noisy slices. Histogram-equalized initialization im-
+proved performance, reducing noise susceptibility.
+8.3 Results and Analysis for MRI Slice Enhancement
+The evaluation of MRI slice enhancement relies on two fundamental met-
+rics: Peak Signal-to-Noise Ratio (PSNR) and Structural Similarity Index
+Measure (SSIM). These measures assess the effectiveness of each algorithm
+in reducing noise while preserving critical anatomical details.
+8.3.1 PSNR and SSIM Benchmark Analysis for MRI Enhancement Al-
+gorithms
+Peak Signal-to-Noise Ratio (PSNR) measures noise suppression, with
+higher values indicating better enhancement, while Structural Similarity
+Index (SSIM) quantifies perceptual similarity, approaching 1 for optimal
+structural integrity. PSNR is computed as:
+P SN R = 10 · log10
+( L2
+M SE
+)
+(7)
+where L is the maximum pixel intensity (255 for 8-bit images), and MSE is
+given by:
+M SE = 1
+mn
+m∑
+i=1
+n∑
+j=1
+(I(i, j) − K(i, j))2 (8)
+where I(i, j) and K(i, j) denote pixel intensities of the original and en-
+hanced images, respectively. SSIM, which evaluates structural similarity,
+is defined as:
+SSIM (x, y) = (2µxµy + C1)(2σxy + C2)
+(µ2x + µ2y + C1)(σ2x + σ2y + C2) (9)
+Page 7 Volume 20 | Issue 1 | April 2025
+
+PDF PAGE 8
+where µx, µy represent mean pixel intensities,σ2
+x, σ2
+y denote variances, and
+σxy is the covariance between images. Constants C1 and C2 stabilize com-
+putations.
+The PSNR and SSIM scores for EHO, PSO, and GA are summarized inFig-
+ure 10. GA demonstrated the highest PSNR (14.33) and SSIM (0.89), ben-
+efiting from evolutionary mechanisms that iteratively refine pixel intensity
+distributions. EHO and PSO achieved competitive PSNR values (13.72)
+but exhibited lower SSIM (0.67), indicating a balanced approach to noise
+reduction and contrast preservation.
+Figure 10. PSNR and SSIM Comparison for EHO, PSO, and GA
+8.3.2 Execution Time Analysis Across Algorithms
+Execution time is critical in real-time MRI applications. Figure 11 com-
+pares the execution times of EHO, GA, and PSO. EHO was the fastest, en-
+hancing each slice in 0.3004s, leveraging herd-based cooperation for rapid
+convergence. GA, though achieving better PSNR and SSIM, took 0.3948s
+due to its iterative evolutionary process. PSO was the slowest ( 0.6414s),
+hindered by velocity adjustments and global-best dependencies. These re-
+sults establish EHO as an efficient approach for large-scale medical imag-
+ing, balancing enhancement quality and computational speed.
+Figure 11. Execution Time Comparison for EHO, GA, and PSO
+8.3.3 Results of MRI Enhancement by All Approaches
+Figure 12 compares MRI slices enhanced using EHO, PSO, and GA. The
+original noisy, low-contrast slice was processed for clarity and artifact sup-
+pression. EHO preserved structural details while enhancing contrast effi-
+ciently. PSO achieved similar contrast but required longer execution times
+and occasionally lost finer structures. GA produced the most refined out-
+put with superior noise reduction but incurred higher computational costs.
+EHO balances speed and quality, making it ideal for real-time imaging,
+while the accuracy-time trade-off underscores the need for task-specific op-
+timization.
+Figure 12. Comparison of Original and Enhanced MRI Slices for EHO, PSO, and GA
+8.4 Individual 3D Model Creation for Each Enhanced MRI Slice
+The reconstruction of 3D models from enhanced MRI slices is an essential
+step in medical imaging, enabling the transition from 2D cross-sectional
+scans to volumetric representations. This process enhances spatial com-
+prehension, particularly in tumor analysis and surgical planning.
+8.4.1 Methodology for Slice-by-Slice 3D Reconstruction
+The methodology employs EHO, PSO, GA, and ACO, to individual MRI
+slices which are enhanced, aligned and processed to generate accurate 3D
+reconstructions, preserving critical anatomical features. The Marching
+Cubes algorithm from the skimage library was employed to identify iso-
+surfaces based on intensity transitions, creating a triangular mesh that de-
+lineates structural boundaries which were visualised using the mayavi li-
+brary, facilitating detailed rendering and interactive exploration. Ensur-
+ing inter-slice continuity prevented artifacts, preserving the accurate spatial
+structure of brain tissues.
+8.4.2 Results from Slice-by-Slice 3D Models with Enhanced MRI
+Slices
+The results from the slice-by-slice reconstruction demonstrated that EHO-
+based enhancement led to smoother and more precise 3D models, with
+well-defined anatomical contours. Compared to PSO and GA, EHO mini-
+mized voxel inconsistencies and preserved finer details, reducing artifacts.
+This capability is particularly valuable in applications requiring precise lo-
+calization of pathological structures, such as neurosurgical planning.
+Figure 13. 3D Model of an Individual MRI Slice Based on User Selection
+McGill Science Undergraduate Research Journal — msurjonline.mcgill.ca Page 8
+
+PDF PAGE 9
+8.5 Complete 3D Model Creation from All Slices
+The full 3D brain reconstruction process aggregates all enhanced MRI slices
+into a single volumetric model, providing a comprehensive view of anatom-
+ical structures. Unlike the individual slice-based approach, this method
+demands meticulous alignment of slices to preserve inter-slice continuity.
+8.5.1 Framework for Full 3D Brain Reconstruction Using Enhanced
+Slices
+Enhanced slices processed through bio-inspired algorithms ensure that
+structural integrity and contrast details are retained, making the volumetric
+model more suitable for diagnostic and analytical applications.
+3D reconstruction is TSP-reducible, where MRI slices act as nodes, and the
+goal is to optimize traversal for anatomical continuity. The cost function,
+based on inter-slice similarity metrics, ensures minimal distortion. Map-
+ping this to TSP allows EHO to optimize slice ordering, reducing misalign-
+ment and enhancing reconstruction fidelity.
+The reconstruction pipeline employs sequential stacking of enhanced slices,
+followed by Marching Cubes-based iso-surface extraction to generate a 3D
+triangular mesh. Post-processing techniques, such as Gaussian smoothing,
+are applied to refine surface details. The use of enhanced slices significantly
+improves the quality of the reconstructed model, mitigating noise artifacts
+and ensuring clearer differentiation of normal and pathological tissues.
+8.5.2 Results and Observations: 3D Brain Reconstruction and Tumor
+Detection
+The final 3D models constructed from all slices revealed the superior per-
+formance of EHO in producing anatomically accurate representations. The
+method effectively maintained smooth surfaces and well-defined structural
+boundaries while minimizing artifacts. PSO-based reconstructions, while
+computationally efficient, introduced minor distortions due to premature
+convergence. GA yielded high-contrast models but required longer pro-
+cessing times, making it less viable for real-time applications.
+T umor segmentation was successfully integrated into the reconstructed
+models, enabling the identification of abnormal regions with high preci-
+sion. The enhanced 3D visualization of tumors facilitates preoperative as-
+sessment, allowing clinicians to analyze tumor size and spatial relationships
+with surrounding structures. These findings highlight the potential of bio-
+inspired enhancement techniques in advancing volumetric medical imag-
+ing, offering a robust framework for both diagnostic and interventional ap-
+plications.
+Figure 14. Complete 3D Brain Model Constructed from Enhanced MRI Slices
+Figure 15. Final 3D Brain Model Showing Structural Details and Tumor Regions
+8.6 Medical Benefits of 3D Models
+The transition from enhanced 2D MRI slices to comprehensive 3D brain
+models marks a significant advancement in diagnostic imaging. Recon-
+structed 3D models, particularly those generated using bio-inspired algo-
+rithms such as EHO, provide superior visualization for assessing tumor
+size, location, and spatial distribution.
+8.6.1 Enhanced Visualization for Accurate Tumor Diagnosis
+Traditional 2D imaging may fail to fully capture tumors and their interac-
+tion with critical structures. 3D reconstruction integrates enhanced slices,
+providing a comprehensive view for precise tumor detection and evalua-
+tion.
+EHO’ s optimization preserves contrast and intensity variations, crucial for
+delineating tumors near critical areas. Intensity-based segmentation differ-
+entiates normal and pathological tissues, while interactive 3D visualization
+aids clinical decision-making, enhancing preoperative planning and treat-
+ment assessment.
+8.6.2 Scalability for Real-Time MRI Enhancements and Broader Ap-
+plications
+Real-time MRI enhancement and 3D reconstruction are vital for intraop-
+erative imaging and emergency care. EHO’ s efficiency enables fast, high-
+quality processing, supporting surgical guidance and diagnostics.
+Beyond brain imaging, these techniques extend to CT , PET , and SPECT
+scans, aiding radiation therapy planning and treatment monitoring. Inte-
+grating bio-inspired optimization with AI enhances predictive modeling,
+abnormality detection, and automated diagnostics, advancing real-time
+medical imaging and clinical decision-making.
+7. Conclusion
+Real-time MRI enhancement and 3D reconstruction are vital for intraop-
+erative imaging and emergency care. EHO’ s efficiency enables fast, high-
+quality processing, supporting surgical guidance and diagnostics. Beyond
+brain imaging, these techniques extend to CT , PET , and SPECT scans, aid-
+ing radiation therapy planning and treatment monitoring. Integrating bio-
+inspired optimization with AI enhances predictive modeling, abnormality
+detection, and automated diagnostics, advancing real-time medical imag-
+Page 9 Volume 20 | Issue 1 | April 2025
+
+PDF PAGE 10
+ing and clinical decision-making.
+8. Future Directions for Real-Time Applications
+Future research should optimize these methodologies for real-time appli-
+cations like intraoperative MRI and emergency diagnostics by enhancing
+computational efficiency. Parallelizing EHO on GPU architectures could
+accelerate processing, making real-time imaging feasible. Integrating ma-
+chine learning with bio-inspired optimization could refine tumor segmen-
+tation and anomaly detection, improving diagnostic automation.
+Expanding to large-scale, multi-modal datasets will ensure broader clinical
+adoption, while cloud-based integration could facilitate remote diagnos-
+tics and collaborative healthcare. Refining these techniques with emerging
+technologies will further establish bio-inspired optimization as a key driver
+in real-time medical imaging.
+References
+1. W ang, G., Deb, S. & Coelho, L. Elephant Herding Optimization:
+A New Metaheuristic Algorithm for Global Optimization Problems.
+International Journal of Bio-Inspired Computation 10, 1–14 (2016).
+10.1504/IJBIC.2016.074052
+2. Holland, J. Adaptation in Natural and Artificial Systems (University of
+Michigan Press, 1975).
+3. Dorigo, M. & Gambardella, L. Ant Colony System: A Coop-
+erative Learning Approach to the Traveling Salesman Problem.
+IEEE Transactions on Evolutionary Computation 1, 53–66 (1997).
+10.1109/4235.585892
+4. Kennedy, J. & Eberhart, R. Particle Swarm Optimization in Proceed-
+ings of the IEEE International Conference on Neural Networks (ICNN)
+4 (1995), 1942–1948.
+McGill Science Undergraduate Research Journal — msurjonline.mcgill.ca Page 10

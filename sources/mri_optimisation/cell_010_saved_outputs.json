@@ -1,0 +1,13 @@
+[
+  {
+    "output_type": "stream",
+    "name": "stdout",
+    "text": [
+      "Testing PSO on VRP...\n",
+      "PSO Best Value: 780.1233423612452, Execution Time: 0.35541 seconds\n",
+      "\n",
+      "Testing EHO on VRP...\n",
+      "EHO Best Value: 632.2427144445365, Execution Time: 0.15277 seconds\n"
+    ]
+  }
+]

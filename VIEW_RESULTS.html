@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EHO MRI — saved results and final reference</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; background: #f3f6fa; color: #182433; }
+    body { max-width: 1120px; margin: auto; padding: 32px 24px 48px; line-height: 1.6; }
+    h1, h2 { line-height: 1.2; }
+    .intro { max-width: 850px; }
+    a { color: #164f9c; }
+    video { width: 100%; max-height: 680px; background: #111; border-radius: 10px; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+    article { background: white; padding: 20px; border: 1px solid #dbe2eb; border-radius: 10px; }
+    article img { width: 100%; height: auto; }
+    .note { padding: 14px 18px; background: #e7eef8; border-left: 4px solid #326cb5; }
+    .button { display: inline-block; background: #164f9c; color: white; padding: 8px 14px; border-radius: 6px; text-decoration: none; }
+    small { color: #4d5d70; }
+  </style>
+</head>
+<body>
+  <header class="intro">
+    <p><a href="README.md">Repository documentation</a> · Pushkar Tuse and Nitya Mohta</p>
+    <h1>EHO MRI: saved results and final reference</h1>
+    <p>Open this file locally after cloning or downloading the complete repository. Each interactive viewer is self-contained and supports rotating, zooming and toggling surfaces.</p>
+    <p class="note">These are exploratory results from three labelled MRI volumes. Predicted whole-tumour masks and supplied reference annotations are separate outputs. The reconstructed imaging stages are new implementations; they do not authenticate the original manuscript figures.</p>
+  </header>
+  <section aria-labelledby="recording-heading">
+    <h2 id="recording-heading">Final reference recording</h2>
+    <video controls preload="metadata" poster="results/run_20261005/imaging/BRATS_001/meshes/prediction_reference_preview.png">
+      <source src="media/interactive_prediction_reference_brats001_2026-10-11.mp4" type="video/mp4">
+      Your browser cannot play this recording. <a href="media/interactive_prediction_reference_brats001_2026-10-11.mp4">Open the MP4 directly</a>.
+    </video>
+    <p><small>BRATS_001 viewer screen recording supplied by the author, 11 October 2026; duration approximately 61 seconds. This is a presentation reference, not an additional experiment.</small></p>
+  </section>
+  <section aria-labelledby="models-heading">
+    <h2 id="models-heading">Interactive prediction and reference models</h2>
+    <div class="cards">
+      <article>
+        <h3>BRATS_001</h3>
+        <img src="results/run_20261005/imaging/BRATS_001/meshes/prediction_reference_preview.png" alt="BRATS_001 predicted and reference surfaces">
+        <p>Modified EHO mean Dice: <strong>0.8675</strong><br>Direct Otsu Dice: <strong>0.8707</strong></p>
+        <a class="button" href="results/run_20261005/imaging/BRATS_001/meshes/interactive_prediction_reference.html">Open interactive model</a>
+      </article>
+      <article>
+        <h3>BRATS_002</h3>
+        <img src="results/run_20261005/imaging/BRATS_002/meshes/prediction_reference_preview.png" alt="BRATS_002 predicted and reference surfaces">
+        <p>Modified EHO mean Dice: <strong>0.4305</strong><br>Direct Otsu Dice: <strong>0.4651</strong></p>
+        <a class="button" href="results/run_20261005/imaging/BRATS_002/meshes/interactive_prediction_reference.html">Open interactive model</a>
+      </article>
+      <article>
+        <h3>BRATS_003</h3>
+        <img src="results/run_20261005/imaging/BRATS_003/meshes/prediction_reference_preview.png" alt="BRATS_003 predicted and reference surfaces">
+        <p>Modified EHO mean Dice: <strong>0.9120</strong><br>Direct Otsu Dice: <strong>0.9208</strong></p>
+        <a class="button" href="results/run_20261005/imaging/BRATS_003/meshes/interactive_prediction_reference.html">Open interactive model</a>
+      </article>
+    </div>
+    <p>Modified EHO values average three random seeds per case. Otsu is deterministic. Across these three cases, mean Dice is 0.737 for modified EHO and 0.752 for direct Otsu. Native masks determine Dice; display meshes use stride2 sampling.</p>
+  </section>
+  <section aria-labelledby="evidence-heading">
+    <h2 id="evidence-heading">Read the evidence</h2>
+    <ul>
+      <li><a href="reports/CODE_COMPLETENESS.md">Code recovery and reconstruction coverage</a></li>
+      <li><a href="results/run_20261005/reports/CLAIMS_VS_RERUNS.md">Measured results compared with manuscript claims</a></li>
+      <li><a href="reports/imaging_method_notes.md">Imaging methods and evaluation scope</a></li>
+      <li><a href="manuscripts/without_citations_draft.pdf">Original manuscript</a> · <a href="manuscripts/without_citations_draft_rewritten.docx">Rewritten manuscript</a></li>
+      <li><a href="DATA_ATTRIBUTION.md">Dataset and derived-output attribution</a></li>
+    </ul>
+  </section>
+</body>
+</html>
