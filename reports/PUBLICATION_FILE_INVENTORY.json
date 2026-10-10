@@ -6,7 +6,7 @@
     },
     {
       "path": ".github/workflows/checks.yml",
-      "bytes": 688
+      "bytes": 743
     },
     {
       "path": ".gitignore",
@@ -5174,6 +5174,6 @@
     }
   ],
   "total_files_excluding_inventory_itself": 1293,
-  "total_bytes_excluding_inventory_itself": 558326441,
+  "total_bytes_excluding_inventory_itself": 558326496,
   "self_omitted_to_avoid_recursive_size_metadata": true
 }
