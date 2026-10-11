@@ -15,6 +15,13 @@ ZIP holds cohort reports/manifests, pilot, ancillary studies and frozen sources.
 Extract **all ZIPs into the repository root**. They share a directory structure
 and contain no traversal paths. `EXTERNAL_RELEASE_MANIFEST.json` records per-file
 SHA256s and the archive hashes/sizes. Verify it before opening or analysing files.
+Optional: use `tools/restore_external_release.py --assets YOUR_DOWNLOAD_FOLDER`
+to verify every ZIP and safely restore the published tree. It checks SHA256s,
+refuses traversal paths and never silently replaces a modified existing file.
+`--verify-only` checks archives without extracting. Download the thirteen ZIPs
+and their manifest from the release page first; the helper performs no network
+or credential access.
+
 The raw official dataset is deliberately obtained from Figshare rather than
 duplicated in GitHub; download code, URLs, licence and official checksums are
 published. Run `src/download_external.py --manifest reports/mslesseg_case_manifest_local.json`

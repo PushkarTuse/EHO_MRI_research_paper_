@@ -1,0 +1,447 @@
+Elephant Herding Optimisation for Computational Search and MRI Visualisation
+
+Pushkar Tuse¹ and Nitya Mohta²
+
+¹ Independent researcher, Pune, India; pushkar.tuse@gmail.com
+
+² Independent researcher, Bengaluru, India; nityamohta1904@gmail.com
+
+Former student researchers, SRM Institute of Science and Technology, Kattankulathur, Tamil Nadu, India
+
+Abstract
+
+The sociological intricacies of nature motivate population-based optimisation through collective search and hierarchical influences. Elephant Herding Optimisation (EHO) represents these influences through clan organisation and leader-guided movement. This study examines an EHO-inspired formulation incorporating dimensionality-scaled attraction and iteration-dependent control parameters, alongside task-specific implementations for routing, multimodal optimisation and image processing. The evaluation considers the Travelling Salesman Problem, Vehicle Routing Problem, Rastrigin and Ackley functions, and synthetic rigid registration, with Genetic Algorithms, Ant Colony Optimisation and Particle Swarm Optimisation as comparators where available. The reported continuous-function results show task-dependent quality–time trade-offs: on Ackley, EHO records an objective of 4.80 compared with 5.09 for PSO, while taking 0.21845 s rather than 0.11082 s. Neither result reaches the known minimum. The imaging formulation extends the investigation to computational medical diagnostics through MRI intensity refinement, slice visualisation and isosurface-based three-dimensional reconstruction. Its reported comparison favours GA in PSNR and SSIM and EHO in processing time; the available measurement provenance does not support a validated MRI performance ranking. Routing feasibility defects and heterogeneous implementations likewise constrain attribution of the recorded outcomes to the proposed modifications. The study consequently identifies a candidate optimisation formulation and an exploratory MRI visualisation workflow, while distinguishing mathematical design, recorded numerical comparisons and demonstrated image-processing capability.
+
+Keywords: Elephant Herding Optimisation; MRI enhancement; three-dimensional reconstruction; bio-inspired optimisation; computational medical imaging
+
+1. Introduction
+
+Population-based optimisation represents a search problem through interacting candidate solutions. The interaction rule determines how information about promising candidates is propagated and how alternatives remain accessible. Genetic Algorithms (GA) organise this process through selection, recombination and mutation [2]; Ant Colony System uses pheromone-guided construction of candidate tours [3]; and Particle Swarm Optimisation (PSO) updates candidates using individual and collective search experience [4]. These mechanisms provide distinct ways of allocating search effort. Their biological or social analogies do not, by themselves, establish convergence rates or comparative performance.
+
+Elephant Herding Optimisation (EHO) uses clan organisation, matriarch-guided updating and separation as its organising mechanisms [1]. Hierarchical influences are therefore part of its established foundation. The present formulation examines dimensionality-dependent scaling of attraction and iteration-dependent coefficients for attraction and repulsion. The scientific question is whether these changes yield a useful relationship between objective quality and computational effort. Distinguishing the proposed operators from the mechanisms inherited from EHO is necessary to define the contribution and to avoid attributing every favourable observation to the same modification.
+
+The study connects this question to MRI processing, where a transformation of image intensities can alter both visible contrast and similarity to a reference. An optimiser must search over a specified representation using a defined objective; its name alone does not determine whether the output suppresses noise or preserves anatomy. Likewise, assembling slices into a volume and extracting a surface describe a visualisation procedure, whereas diagnostic assessment concerns a separate decision task. These distinctions guide the interpretation of the imaging component.
+
+The investigation is organised around three forms of evidence. Routing examples examine the requirements imposed by discrete feasibility. Rastrigin and Ackley comparisons examine recorded objective trajectories and runtimes in continuous search. Synthetic registration and MRI visualisations examine image-processing formulations and their reported outputs. The implementations differ across these tasks, so the study treats them as related investigations rather than as a validated, integrated implementation of one algorithm.
+
+2. Problem Statement
+
+The optimisation problem is to reduce a task-specific objective subject to its feasible set and a finite computational budget. For TSP, feasibility is a permutation that visits each city once and returns to its starting point. For capacitated VRP, it includes customer coverage, route continuity and vehicle capacity. For the continuous test functions, candidates lie within coordinate bounds. Registration instead searches transformation parameters, while MRI enhancement searches intensity configurations. These representations impose different admissible update operations and prevent a continuous position rule from being transferred unchanged to a route encoding.
+
+The central hypothesis is that controlling the scale and timing of EHO-inspired movement can improve the attainable objective for a given computational effort. Evidence for that hypothesis requires a comparison with the corresponding unmodified method as well as task-matched alternatives. A lower objective obtained from an infeasible route, a different evaluation budget or an unrelated implementation does not establish such an improvement. The present comparisons therefore distinguish recorded outcomes from a causal evaluation of the proposed modifications.
+
+The imaging question concerns intensity processing and volumetric representation. PSNR, SSIM, registration MSE and processing time describe different endpoints and are interpreted according to their reference images, transformation models and measurement conditions. Tumour classification, diagnostic sensitivity, surgical accuracy and clinical outcomes are outside the evaluated scope. Computational medical diagnostics provides the application context; it is not an outcome inferred from image appearance.
+
+3. Contributions
+
+The work specifies dimensionality-scaled attraction and time-dependent control within an EHO-inspired search formulation, clarifying the roles of clan leaders, repulsion and diversity. It connects this formulation to discrete and continuous objectives while identifying the feasibility conditions needed for routing. It also presents the recorded comparisons with GA, ACO and PSO without imposing a universal ranking across solution quality and time.
+
+The imaging contribution is a formulation of intensity refinement together with slice processing, volumetric assembly and surface visualisation. The accompanying analysis distinguishes synthetic registration from anatomical MRI, reference-image similarity from diagnostic accuracy, and surface appearance from geometric fidelity. The scope is exploratory: neither ablation of the proposed operators nor comparison with a learned imaging model is included in the reported results. Accordingly, the contribution is a specified direction for computational search and imaging analysis, rather than a demonstrated claim of algorithmic or clinical superiority.
+
+4. Algorithmic Description of EHO
+
+Elephant Herding Optimisation represents candidate solutions as members of interacting clans. Hierarchical influences provide a mechanism for directing local search, while additional variation operators alter the population beyond leader-directed interpolation. The framework below separates the proposed dimensionality scaling and parameter schedules from the task-specific implementations. This distinction is necessary because the benchmark programs use different update rules; their results do not constitute a controlled evaluation of one common modified EHO algorithm.
+
+4.1 Elephant Herding Optimisation (EHO) Algorithm
+
+Clan organisation and leader-guided search are inherited features of EHO [1]. The proposed changes concern the magnitude of attraction, a repulsive displacement from a poorly performing candidate, and iteration-dependent coefficients. These changes define candidate search operators rather than a new biological mechanism. All objectives in this section are minimised, so lower objective values indicate better candidates. The best and worst members of a clan are selected by the minimum and maximum of the same objective, respectively.
+
+4.1.1 Population Initialisation and Herd Division
+
+Let N denote population size, D the number of continuous decision variables, and X_i^t the position of candidate i at iteration t. For coordinate j, L_j and U_j are finite bounds with L_j<U_j. Independent uniform samples initialise the population within the rectangular feasible region Ω:
+
+X_{ij}^{0}=L_j+u_{ij}(U_j-L_j),\qquad u_{ij}\overset{\mathrm{iid}}{\sim}\mathcal{U}(0,1),\quad i=1,\ldots,N,\quad j=1,\ldots,D.
+
+Coordinates retain the units of their decision variables. This initialisation applies to continuous search; it is not a valid construction of a TSP permutation or a capacity-constrained vehicle assignment. Routing representations and feasibility conditions are therefore treated separately in Section 5.
+
+The continuous benchmark implementations divide the population with NumPy array_split. For C nonempty clans, their sizes differ by at most one: N mod C clans receive floor(N/C)+1 candidates and the others receive floor(N/C). The TSP implementation instead shuffles the population and takes equal floor(N/C)-sized slices, omitting a remainder when N is not divisible by C. A clan containing one candidate has no distinct follower; an update restricted to nonleaders then performs no search. Clan allocation is consequently part of the implemented algorithm, not an inconsequential storage choice.
+
+4.1.2 Cooperative and Competitive Behaviours Among Elephants
+
+Write m_c^t and w_c^t for the positions of the best and worst candidates in clan c at iteration t. A follower-directed attraction proposal is
+
+Y_i^{A}=X_i^t+a_{i,t}(m_c^t-X_i^t),\qquad 0\leq a_{i,t}\leq1.
+
+The proposal lies on the segment between the current candidate and its leader and contracts their separation by the factor 1−a_i,t. It remains within a convex box when both endpoints are feasible. At the leader, the displacement is zero; any leader movement arises from an additional operator. Randomness in the interpolation coefficient alone does not establish global exploration or prevent premature convergence.
+
+The dimensionality-scaled proposal replaces the attraction coefficient by α_tD^(−γ), where γ≥0 is a fixed exponent and α_t is a deterministic coefficient. The exponent γ is distinct from the repulsion coefficient β_t:
+
+Y_i^{A}=X_i^t+\alpha_tD^{-\gamma}(m_c^t-X_i^t).
+
+With γ=0 the dimensional adjustment disappears. For γ>0, the multiplier decreases as D increases, reducing the displacement relative to the unscaled proposal. This scaling changes step magnitude without correcting different physical scales among coordinates, and it provides no standalone convergence guarantee. No value of γ or measured benefit of this operator is established by the supplied benchmark implementations.
+
+A separate repulsion proposal uses the worst candidate as its reference:
+
+Y_i^{R}=X_i^t-\beta_t(w_c^t-X_i^t)=(1+\beta_t)X_i^t-\beta_tw_c^t,\qquad \beta_t\geq0.
+
+Repulsion extrapolates beyond the current candidate and may leave Ω. The continuous code handles out-of-bound coordinates by clipping; for an arbitrary trial position Y, this operation is
+
+[\Pi_{\Omega}(Y)]_j=\min\{U_j,\max\{L_j,Y_j\}\}.
+
+Clipping restores box feasibility but can concentrate candidates on a boundary. It cannot enforce tour validity, customer coverage or vehicle capacity. Attraction and repulsion are written as separate proposals because their sequential composition, alternative selection, and acceptance rule are not established as a common tested routine. The conceptual parameter p_clan denotes a fraction receiving clan updates; the continuous routines instead visit every member of each clan, so p_clan is not an implemented selection probability in those routines.
+
+The proposed separation expression is an interpolation towards another sampled candidate. For a minimised objective, a threshold-based poor-solution rule must select values above θ, not below it:
+
+f(X_i^t)>\theta\quad\Longrightarrow\quad Y_i^{S}=X_i^t+r(X_k^t-X_i^t),\qquad r\sim\mathcal{U}(0,1).
+
+Here θ has the units of the objective and X_k^t is a randomly selected population member. This expression changes a candidate within the segment joining existing solutions. It is not an independent reinitialisation from Ω and does not guarantee increased diversity. The threshold is a proposed design parameter; it is not a measured experimental setting shared by the benchmark routines.
+
+4.1.3 Mathematical Foundations and Optimisation Principles
+
+The objectives are total feasible route distance, the Rastrigin and Ackley functions, and registration mean squared error, specified in Sections 5–7. PSNR and SSIM describe image agreement under a specified reference; naming them does not define the enhancement fitness function. The MRI workflow is therefore described separately from the executable benchmark objectives.
+
+The proposed schedules are indexed by t=0,…,T, where T>0 is the iteration horizon:
+
+\alpha_t=\max\left\{\alpha_{\min},\alpha_{\mathrm{initial}}\left(1-\frac{t}{T}\right)\right\},\qquad 0\leq\alpha_{\min}\leq\alpha_{\mathrm{initial}}\leq1,
+
+\beta_t=\min\left\{\beta_{\max},\beta_{\mathrm{initial}}\frac{t}{T}\right\},\qquad 0\leq\beta_{\mathrm{initial}},\beta_{\max}\leq1.
+
+The attraction coefficient declines to its floor, whereas repulsion begins at zero and increases up to its cap. Despite its name, β_initial is the ramp scale, not β at t=0. These are predetermined schedules, not adaptation driven by observed search performance. Their directions alone do not imply early exploration or late refinement.
+
+Population spread is described by the mean squared Euclidean distance from the population centre:
+
+\bar X^t=\frac{1}{N}\sum_{i=1}^{N}X_i^t,\qquad V(t)=\frac{1}{N}\sum_{i=1}^{N}\lVert X_i^t-\bar X^t\rVert_2^2.
+
+The sum contains exactly N terms. The value has squared-coordinate units and is scale-dependent. When coordinate ranges differ, the same expression may be evaluated on Z_ij=(X_ij−L_j)/(U_j−L_j); this defines a dimensionless diagnostic rather than an implemented change to the search operators.
+
+A first-moment calculation is possible for an unprojected additive attraction–repulsion proposal. Conditional on the current population and fixed coefficients, take independent r_1,r_2∼U(0,1) and define
+
+Y_i=X_i^t+\alpha_tD^{-\gamma}r_1(m_c^t-X_i^t)-\beta_tr_2(w_c^t-X_i^t).
+
+\mathbb{E}[Y_i\mid\mathcal{F}_t]=X_i^t+\frac{\alpha_tD^{-\gamma}}{2}(m_c^t-X_i^t)-\frac{\beta_t}{2}(w_c^t-X_i^t).
+
+Here F_t denotes the population and search history available before those draws. This identity describes the mean of that proposal only; clipping, rejection and mutation change its distribution. It is neither a convergence proof nor a description of a verified combined implementation.
+
+Let b_t be the best objective value observed up to iteration t. A nonnegative improvement diagnostic over a window w≥1 is
+
+\delta_t=b_{t-w}-b_t\geq0,\qquad t\geq w;\qquad \delta_t\leq\epsilon,\quad\epsilon\geq0.
+
+The inequality expresses stagnation over the window, not attainment of a global optimum. The benchmark routines terminate at fixed loop limits; no common implemented patience-based stopping rule is established. Their task-specific variation also matters: Rastrigin uses greedy leader interpolation followed by probabilistic mutation, whereas Ackley uses a velocity term, a decreasing inertia weight, changing clan counts and mutation. These procedures do not implement the complete dimensionality-scaled attraction–repulsion specification. Accordingly, the reported comparisons cannot isolate the effect of its proposed modifications.
+
+5. Comparative Analysis of EHO with ACO PSO and GA
+
+The comparisons examine task-specific implementations of Elephant Herding Optimisation (EHO), Genetic Algorithms (GA), Ant Colony Optimisation (ACO) and Particle Swarm Optimisation (PSO). Solution quality and computational cost are distinct outcomes: a lower objective value does not imply a shorter runtime, and neither establishes a global optimum. The available results comprise individual observations and trajectories without a repeated-run estimate of uncertainty. Their interpretation is therefore restricted to the recorded configurations. The implementations also use different operators and computational budgets, so the algorithm names identify the variants considered here rather than interchangeable implementations of their canonical formulations.
+
+5.1 Travelling Salesman Problem
+
+The Travelling Salesman Problem (TSP) seeks a minimum-length closed tour through N cities, visiting each city once. A candidate X=(X₁,…,X_N) is a permutation of city identifiers, and d(Xᵢ,Xⱼ) denotes the distance between the corresponding cities. The objective includes each consecutive edge and the closing edge exactly once:
+
+f(X)=\sum_{i=1}^{N-1}d(X_i,X_{i+1})+d(X_N,X_1)
+
+The permutation representation determines which search operations are admissible. The supplied TSP variants use order crossover and swap mutation for GA and the herd-based method, a sequence of swaps for the PSO-labelled method, and pheromone-guided construction over unvisited cities for ACO. These discrete operators replace arithmetic updates on city identifiers. Minimising the tour length selects the best evaluated permutation; it does not certify that the tour is globally optimal.
+
+Tables 1 and 2 retain the reported tour lengths and runtimes for 10–100 cities. One supplied TSP implementation specifies 100 candidates and 100 herds. Every herd therefore contains one candidate, which is also its leader. Because crossover and mutation are conditional on a candidate being different from the leader, no such updates execute in this configuration. Its output is the best initial tour, despite repeated herd partitioning. The reported TSP comparison consequently cannot isolate the benefit of a herding update or establish an optimal herd size.
+
+Table 1. Reported TSP tour lengths. These observations are not certified optimal tours; instance-level route and run provenance is incomplete.
+
+Table 2. Reported TSP runtimes in seconds. These values describe the recorded comparison and do not establish efficiency under equal objective-evaluation budgets.
+
+EHO has the lowest listed values in both tables, including a tour-length decrease from 3200.4567 at 80 cities to 2680.2345 at 90 cities. A decrease across heuristic observations is not by itself an error, because results depend on the instances and sampled tours. Here, the absent route records and uncertain correspondence between the tabulation and generating configuration preclude a stronger interpretation. The source harness also uses a 0–90 city sequence, while the tables use 10–100 cities, and allocates different iteration limits to EHO and ACO. Hardware metadata, complete timing logs and repeated-seed distributions are not available for these tabulated observations. They are retained as descriptive records, not evidence of a reproducible speed or solution-quality advantage.
+
+5.2 Vehicle Routing Problem
+
+The capacitated Vehicle Routing Problem (VRP) assigns N−1 customers and a depot C₀ to at most M vehicle routes. Customer i has demand dᵢ and vehicle v has capacity Q_v. A feasible assignment serves every non-depot customer exactly once, respects each vehicle capacity and begins and ends each nonempty route at the depot. No time windows or service-duration constraints are represented in this formulation. The total-distance objective is:
+
+\min_{R_1,\ldots,R_M}\sum_{v=1}^{M}\operatorname{Cost}(R_v)
+
+For a nonempty route R_v listing its customers in visiting order, both depot connections are included:
+
+\operatorname{Cost}(R_v)=D(C_0,C_1)+\sum_{i=1}^{|R_v|-1}D(C_i,C_{i+1})+D(C_{|R_v|},C_0)
+
+Here D(Cᵢ,Cⱼ) is Euclidean distance, and an empty route has zero cost. These definitions distinguish the constrained routing problem from the evaluation of an arbitrary collection of customer sequences. The accompanying implementation computes the distance expression but does not enforce complete customer coverage, uniqueness or capacity during scoring. Its initial route construction respects accumulated capacity locally, yet can leave customers unassigned. Subsequent EHO updates retain a random subset of each route and supplement it from the herd leader; uniqueness is checked only within that route. The PSO-labelled update adds a numerical velocity to customer identifiers and applies modulo arithmetic. This can insert the depot or duplicate and omit customers. Neither procedure supplies the feasibility-preserving routing adaptation claimed by a constrained VRP solver.
+
+5.2.1 Observations and Analysis
+
+The reported example uses 20 non-depot customers and five vehicles. Its source configuration sets vehicle capacity to 50, uses 30 candidates for each method and runs 100 iterations; the EHO population is divided into five herds. The recorded EHO cost is 523.85, whereas PSO is recorded as 693.38 in the numerical account and 693.39 in the plotted label. This last-digit discrepancy does not change the principal limitation: lower distance can arise from omitted service, and the recorded candidates lack a feasibility certificate. Accordingly, these costs describe the unconstrained scoring output rather than a demonstrated reduction in feasible routing cost.
+
+Figure 1. Recorded customer-sequence visualisations for the PSO-labelled and EHO-labelled routing implementations. The drawings do not establish complete service, unique customer assignment or capacity compliance.
+
+Figure 2. Recorded distance scores for the VRP-labelled example: EHO 523.85 and PSO 693.39 in the plotted labels. The numerical account gives PSO 693.38. These scores are not certified costs of feasible VRP solutions.
+
+The implementation returns route sequences and their distance score without a measured runtime. Thus, no VRP speed comparison follows from this example. The route diagrams and single cost comparison likewise provide no estimate of variability or large-instance scalability. The result illustrates why constraint satisfaction must precede objective ranking in discrete optimisation: a low score is meaningful only for solutions belonging to the stated feasible set.
+
+6. Benchmarking EHO on Complex Functions
+
+Continuous benchmarks separate objective reduction from the additional feasibility requirements of routing. Rastrigin and Ackley supply explicit multimodal objectives with a known minimum of zero. Their source configurations use ten decision variables; these experiments therefore concern ten-dimensional search, rather than a demonstrated scaling law for increasing dimensionality. The reported trajectories and endpoint values are analysed with respect to their objective definitions and implemented operators.
+
+6.1 Rastrigin Function
+
+For X=(x₁,…,x_n), the Rastrigin objective combines a quadratic term with periodic modulation:
+
+f(X)=An+\sum_{i=1}^{n}\left[x_i^2-A\cos(2\pi x_i)\right],\quad A=10,\quad x_i\in[-5.12,5.12]
+
+The global minimum is f(0)=0. Consequently, each positive value in the comparison is also its absolute objective gap from the known minimum. The source configuration uses n=10, populations of 50, five EHO herds and 1000 iterations.
+
+6.1.1 Implementation of Elephant Herding Optimisation
+
+The implemented herd-based search initialises candidates uniformly within the coordinate bounds. Each candidate proposes a random convex combination of its current position and the best position in its herd; that proposal is accepted when it improves the objective. A subsequent mutation occurs with probability 0.2 and adds a vector drawn uniformly from the coordinate domain, followed by clipping to the bounds. This probability is constant in the supplied Rastrigin implementation. Mutation may worsen the current candidate, while a separate best-observed objective is retained. This implementation therefore differs from a time-decaying mutation schedule, and the trajectory alone does not identify the contribution of dimensionality scaling or the adaptive parameters introduced in the general framework.
+
+6.1.2 Comparative Analysis with Particle Swarm Optimisation
+
+The PSO comparator combines inertia with displacement toward personal and global best positions. The trajectory-producing source variant uses inertia 0.99 and cognitive and social coefficients of 0.2, whereas an earlier source variant uses 0.95 and 0.3. These distinct configurations prevent the algorithm label alone from specifying the experiment. Although both comparison loops use 1000 iterations, EHO can evaluate a candidate repeatedly during acceptance and mutation, so equal loop counts do not imply equal objective-evaluation budgets. The observed difference is not an estimate of the performance of every PSO or EHO configuration.
+
+6.1.3 Analysis of Convergence
+
+Table 3 gives the recorded best-observed values at six checkpoints. It represents a trajectory rather than a repeated-run mean, and no standard deviation or confidence interval is attached to it.
+
+Table 3. Recorded Rastrigin objective values at selected iterations. The known minimum is zero; no between-run uncertainty is reported.
+
+6.1.4 Observations and Insights
+
+At iteration 1000, the recorded EHO objective is 16.1309, compared with 44.8595 for PSO. EHO also remains at 21.2491 at the 200-, 400- and 600-iteration checkpoints. The later reduction is consistent with renewed improvement after a plateau, but does not establish that the method prevents stagnation. Neither trajectory reaches zero. The checkpoint sequence is non-increasing for both methods and gives no evidence of oscillation in best-observed fitness. Without independent seeds, matched evaluation budgets or an ablation, these observations cannot establish statistical significance or attribute the endpoint difference to one proposed modification.
+
+6.2 Ackley Function
+
+For a d-dimensional vector x, the Ackley objective is:
+
+f(x)=-a\exp\left(-b\sqrt{\frac{1}{d}\sum_{i=1}^{d}x_i^2}\right)-\exp\left(\frac{1}{d}\sum_{i=1}^{d}\cos(cx_i)\right)+a+\exp(1)
+
+The constants are a=20, b=0.2 and c=2π, with global minimum zero at the origin. The accompanying experiment uses d=10, coordinate bounds [−32.768,32.768], 50 candidates per method and 100 iterations or generations.
+
+6.2.1 Implementation of EHO
+
+The Ackley implementation combines herd guidance with a velocity term. Its inertia decreases from 0.9 according to the fraction of the iteration budget consumed, while the number of herds is reduced from an initial five toward one. Mutation probability decreases from 0.2 with elapsed iterations; a mutation adds a uniformly drawn domain-scale vector and clips the result to the coordinate bounds. The source thus supplies an iteration-dependent population-search variant, but not an isolated evaluation of each modification. For comparison, PSO uses inertia 0.7 and cognitive and social coefficients of 1.5. The GA selects parents randomly before crossover and mutation, and the ACO-labelled baseline applies continuous coordinate shifts controlled by a pheromone vector. These baseline variants are not a comprehensive comparison against tuned canonical implementations.
+
+6.2.2 Execution and Results
+
+Table 4 presents objective quality and runtime together. EHO has the lowest reported objective, 4.80, followed by PSO at 5.09, GA at 15.81 and ACO at 19.94. All remain above the known minimum.
+
+Table 4. Reported Ackley objective values and runtimes for the compared implementations. Values are individual observations without measured uncertainty.
+
+The runtime ranking differs from the objective ranking. EHO takes 0.21845 s, approximately 1.97 times the PSO runtime of 0.11082 s and 2.25 times the GA runtime of 0.09717 s. ACO has the largest recorded runtime, 0.52352 s. The observation therefore describes a quality–time trade-off: EHO produces the lowest listed objective while PSO and GA finish sooner. A single observation, absent hardware and repeated-run timing records, does not establish a general efficiency advantage or explain the runtime difference mechanistically.
+
+7. EHO for Synthetic Image Registration
+
+Registration extends the optimisation comparison to image-derived objectives. The experiment estimates rotation and translation between a generated reference array and its transformed counterpart. Its images are random intensity fields; the resulting evidence concerns synthetic registration and remains distinct from the MRI enhancement and reconstruction application.
+
+7.1 Definition of Image Registration and Its Challenges
+
+Registration estimates a spatial mapping that relates a moving image to a reference image. The transformation class and discrepancy measure are separate modelling choices. The present three-parameter model includes one rotation and two translations, with no scaling or deformable field. An intensity discrepancy measures agreement after resampling; it does not independently establish recovery of anatomical correspondences.
+
+7.2 The Impact of Random Noise on Image Registration
+
+A random field is not an anatomical image contaminated by a measured acquisition process. In the synthetic test, the reference is a 100×100 array of uniformly distributed intensities in [0,1), generated with NumPy seed 42. The moving array is obtained by applying a 25° rotation and translations of 5 and −3 pixels. This construction provides a controlled transformation task but contains no tissue structures or patient variation. Additive noise, motion and interpolation artifacts therefore require distinct interpretations rather than a single claim of robustness to medical-image noise.
+
+7.3 Mathematical Representation of Image Registration
+
+Let I_f and I_m denote the fixed and moving images. In the following sampling convention, x is a coordinate on the fixed grid and T(x) identifies the moving-image coordinate sampled there. The general registration objective is:
+
+T^{*}=\arg\min_T\left\{D\bigl(I_f(x),I_m(T(x))\bigr)+R(T)\right\}
+
+D denotes an image discrepancy and R(T) a regularisation term. For the implemented rigid synthetic experiment, R(T)=0: no deformation regulariser is evaluated. With N pixels in the evaluation array, the objective is mean squared error (MSE):
+
+D_{\mathrm{MSE}}=\frac{1}{N}\sum_{i=1}^{N}\left[I_f(x_i)-I_m(T(x_i))\right]^2
+
+The array implementation rotates about the image centre with linear interpolation and retains the original image dimensions, then applies circular shifts after converting both translations to integers. The first translation acts along array axis 0 and the second along axis 1. Rotation introduces cropping and padded boundaries, whereas circular translation wraps intensities across the array edges. MSE is computed over the complete array without an overlap mask. It consequently reflects boundary and resampling effects as well as intensity correspondence; a lower value is not a direct measurement of geometric recovery.
+
+7.4 Modelling Noise Effects in Image Registration
+
+A separate analytical perturbation model represents additive noise as:
+
+I_n(x)=I(x)+\eta(x)
+
+Here η(x) is a zero-mean Gaussian perturbation with variance σ², expressed in squared intensity units. Applying that perturbation to sampled moving-image intensities gives:
+
+D_{\mathrm{MSE,noise}}=\frac{1}{N}\sum_{i=1}^{N}\left[I_f(x_i)-\left(I_m(T(x_i))+\eta(x_i)\right)\right]^2
+
+For independent perturbations with this variance, the expected squared discrepancy increases by σ² under the stated additive model. The expression alone does not imply additional minima in the expected objective. A fixed noisy realisation and noise resampled at every objective evaluation also define different optimisation problems. The reported registration test applies the transformation to a fixed uniform random field; it does not evaluate this Gaussian model across noise levels. The model supplies an analytical description rather than an empirical claim of acquisition-noise robustness.
+
+7.5 Framework for Applying EHO in Image Registration
+
+Each candidate contains an angle bounded by [−45°,45°] and two translations bounded by [−20,20] pixels. The active EHO-labelled implementation forms a random convex combination of the current candidate and its herd leader, then adds 0.005 times the displacement toward the global best. Bounds are enforced by clipping. The population contains 30 candidates in five herds, and the search is capped at 20 iterations. This operator has no scaling parameter, dimensionality exponent or adaptive mutation schedule; the synthetic registration result therefore does not test all components of the general modified-EHO formulation.
+
+7.5.1 Adaptations for Noise-Induced Challenges
+
+The implemented discrepancy is a direct MSE evaluation of the transformed array. There is no averaging of repeated noisy evaluations, explicit smoothing of the fitness function or separate noise-removal stage in this registration experiment. Candidate displacement changes the proposed transformation rather than smoothing image intensities or objective values. Its effect on noise tolerance cannot be separated from search behaviour by the available single-field comparison.
+
+7.5.2 Implementation of Comparative Algorithms
+
+The PSO comparator uses inertia-weighted velocity updates with inertia 0.7 and cognitive and social weights of 1.5. The GA uses random parent sampling, single-point crossover and independent parameter mutation with probability 0.1; its parent selection is not tournament selection. The ACO-labelled comparator shifts continuous coordinates using a shared pheromone vector, with evaporation 0.1 and deposits inversely related to the best MSE. It does not construct graph-based paths. Each comparator uses 30 candidates and 50 iterations or generations, in contrast to the EHO cap of 20. These are custom baseline implementations rather than learned registration models.
+
+Figure 3. Synthetic registration example showing the generated reference field, its transformed moving field and the PSO-aligned field. Rotation, cropping, linear interpolation and circular integer translation contribute to the displayed differences; the arrays contain no anatomical MRI data.
+
+7.6 Execution Time MSE and Scalability Comparison
+
+Runtime and MSE are interpreted jointly because the implementations trade computational work against discrepancy reduction. The source times optimiser calls with elapsed wall-clock time. Different iteration limits, objective-evaluation counts and implementation details remain confounded with the algorithm labels.
+
+7.6.1 Execution Time Analysis
+
+The reported runtimes are 1.26775 s for ACO, 1.67355 s for EHO, 3.27865 s for GA and 4.93735 s for PSO. The printed output embedded in the image example instead gives 1.26770 s for ACO and 1.67352 s for EHO; this final-digit difference leaves their ranking unchanged. Figure 4 reproduces the numerical runtime comparison. These values do not measure complete clinical-workflow latency, and the shorter EHO budget precludes attributing the timing difference solely to its search operator.
+
+Figure 4. Reported optimiser runtimes for the synthetic registration comparison. EHO receives at most 20 iterations and the other implementations receive 50; the plotted observations have no repeated-run uncertainty. Connecting lines serve only as visual guides across algorithm categories and do not represent a continuous trajectory.
+
+7.6.2 MSE-Based Accuracy Evaluation
+
+The recorded MSE values are 0.133565 for PSO, 0.134779 for GA, 0.135149 for EHO and 0.138497 for ACO. EHO is therefore third by this intensity-discrepancy measure, while its runtime is second shortest. It has lower MSE than ACO and shorter runtime than GA or PSO, but does not dominate all comparators on both outcomes. The small differences have no accompanying distribution across seeds or images, and MSE on these random fields is not diagnostic accuracy.
+
+Figure 5. Reported MSE for the synthetic registration comparison. The ordering is PSO, GA, EHO and ACO from lowest to highest discrepancy; values describe full-array intensity error, not anatomical accuracy.
+
+7.6.3 Scalability Testing
+
+The workload experiment processes batches of 10, 20, 30, 40 and 50 generated pairs sequentially. Because image generation resets seed 42 on every call, all reference arrays are identical and their fixed transformed counterparts repeat as well. Figure 6 therefore measures repeated-work processing cost, not generalisation across a growing imaging cohort. Its EHO endpoint at 50 pairs is approximately 27–28 s by visual reading, and the GA endpoint is approximately 67 s; these plotted readings do not support the alternative 17 s and 60 s values. Exact endpoint reconstruction is unavailable from the aggregate records. No parallel execution path is used, and output quality is not recorded as a function of batch size.
+
+Figure 6. Reported elapsed time for sequential processing of increasing numbers of identical synthetic image pairs. The horizontal axis counts repeated tasks, not independent patients or image cases. Unequal optimiser budgets remain in effect.
+
+7.7 Overall Insights
+
+The synthetic comparison describes a non-dominating relationship between image discrepancy and runtime. PSO attains the lowest recorded MSE, ACO the shortest recorded time, and EHO lies between these endpoints. Search budgets and custom baseline operators limit causal interpretation, while the repeated-input workload supplies no evidence about variation across anatomy. The results characterise these implementations without establishing a general ranking of registration algorithms.
+
+7.8 Applications and Implications
+
+Training-free parameter search offers a way to formulate image processing without fitting a predictive model to training cases. Its practical value nevertheless depends on per-image computation, image quality and the requirements of the intended workflow. No learned-model comparison, resource-cost analysis or clinical outcome measurement is included here. The subsequent MRI study concerns slice enhancement and volumetric visualisation; the synthetic registration example is a separate optimisation experiment rather than a validated stage of an integrated diagnostic pipeline.
+
+8. EHO for MRI Image Enhancement and 3D Reconstruction
+
+MRI processing provides an application context for hierarchical population search in computational medical diagnostics. The formulation considered here separates intensity refinement, slice display, volumetric assembly and surface extraction. These stages have different outputs: enhancement changes image appearance, whereas reconstruction represents the spatial relationships encoded in an acquired volume. Their contributions are therefore considered separately.
+
+8.1 Role of MRI Enhancement in Diagnostics and 3D Modeling
+
+The enhancement problem is to modify the intensity representation while retaining information needed to interpret anatomical structure. Contrast adjustment, noise suppression and structure preservation are distinct criteria; improving one does not establish improvement in the others. Population-based optimisation offers a way to search over candidate intensity configurations, but the resulting image quality depends on the objective and constraints as well as the search rule. The present analysis concerns image processing and visualisation rather than a measured diagnostic endpoint.
+
+8.1.1 Need for 3D Reconstruction in Comprehensive Analysis
+
+A slice displays a cross-section of a spatially indexed volume. Combining slices in acquisition order makes their three-dimensional relationships accessible in a single view without adding anatomical information beyond the acquisition. Geometry depends on slice position, orientation and voxel spacing. Consequently, an intensity change and an improvement in geometric accuracy are different outcomes, and interpolation or smoothing alone cannot establish anatomical fidelity.
+
+8.1.2 Overview of the BRATS Dataset and Its Relevance
+
+BraTS provides the intended multimodal MRI and tumour-annotation context for the imaging application. The results presented here are restricted to a slice labelled 71 and selected surface illustrations; they do not define an identifiable BraTS release or patient cohort. Tumour annotations and clean intensity references also serve different purposes: a segmentation label does not supply the noise-free image required to evaluate denoising fidelity.
+
+8.2 Methodology for MRI Slice Enhancement
+
+The proposed intensity-refinement formulation represents a candidate as an image-intensity matrix. Its intended criteria are contrast adjustment, noise suppression and preservation of structure. A complete scalar objective combining these criteria is not specified, so the update equations describe candidate-search mechanisms rather than a fully determined restoration algorithm. EHO, PSO and GA appear in the recorded image comparison; ACO is included below as a theoretical comparator and has no reported MRI outcome.
+
+8.2.1 Algorithmic Approach for MRI Enhancement Using EHO
+
+In the image formulation, X_current denotes a candidate intensity matrix, while X_herd-best and X_global-best denote the selected best matrices within a clan and across the population, respectively. The proposed image-specific update is
+
+X_{\mathrm{new}}=X_{\mathrm{current}}+r\left(X_{\mathrm{herd-best}}-X_{\mathrm{global-best}}\right)
+
+where r is a step multiplier. This increment is the difference between two leaders, not an attraction vector from the current candidate to its clan leader. It becomes zero when the clan and global leaders coincide. The expression therefore differs from the matriarch-attraction rule of the general EHO formulation and does not itself implement dimensionality scaling or the adaptive control schedules. Its inclusion describes the image-search proposal; it does not establish which variant produced the recorded images.
+
+The interval 0–255 is an encoding convention for candidate display intensities, not an intrinsic range of acquired MRI data. Percentile-based rescaling adjusts the displayed range after intensity refinement. Such rescaling can change contrast, but its effect on image appearance does not establish suppression of acquisition noise or preservation of a pathological boundary. Random intensity initialisation and a search update alone impose no anatomical constraint.
+
+8.2.2 Adaptations for MRI Enhancement Using PSO
+
+The PSO formulation uses the position and velocity structure of PSO [4] with an inertia coefficient:
+
+V_{\mathrm{new}}=\omega V_{\mathrm{old}}+c_1r_1(P_{\mathrm{best}}-X_{\mathrm{current}})+c_2r_2(G_{\mathrm{best}}-X_{\mathrm{current}})
+
+Here V denotes a candidate velocity, ω is the inertia coefficient, c₁ and c₂ weight the personal-best and global-best influences, and r₁ and r₂ are stochastic multipliers. P_best and G_best denote the corresponding candidate matrices. In the standard position step, X_new = X_current + V_new. These relations explain the search mechanism; the MRI comparison does not specify its coefficient values, velocity restrictions or stochastic distributions. The reported PSO scores are consequently interpreted descriptively, without attributing them to noise sensitivity or a particular convergence mechanism.
+
+8.2.3 Implementation of MRI Enhancement Using ACO
+
+A pheromone-weighted transition model motivated by Ant Colony System [3] assigns a probability to an admissible move from state i to state j:
+
+P_{ij}=\frac{\tau_{ij}^{\alpha_{\mathrm{ACO}}}\eta_{ij}^{\beta_{\mathrm{ACO}}}}{\sum_{k\in\mathcal{N}_i}\tau_{ik}^{\alpha_{\mathrm{ACO}}}\eta_{ik}^{\beta_{\mathrm{ACO}}}}
+
+The set N_i contains admissible successor states, τ_ij is pheromone intensity and η_ij is heuristic desirability. The exponents α_ACO and β_ACO are ACO parameters, distinct from the EHO control parameters. Normalisation requires a positive denominator. An image application additionally depends on how states and transitions encode intensity adjustments and how a constructed solution becomes an image. Because those choices are not specified for this application, the equation supplies a conceptual comparison and no ACO enhancement-quality or runtime ranking is inferred.
+
+8.2.4 Comparative Methodology for MRI Enhancement Using GA
+
+The GA formulation treats intensity configurations as chromosomes and uses selection, crossover and mutation to explore candidate images [2]. Elitism, Gaussian perturbations, adaptive mutation and histogram-equalised initialisation are described as possible components of that formulation. Their separate effects are not identified by the recorded comparison. In particular, Gaussian perturbation introduces search diversity rather than demonstrating denoising, and different initialisation procedures can change both image quality and optimisation effort. The numerical results are therefore not assigned a causal explanation based solely on the evolutionary operators.
+
+8.3 Results and Analysis for MRI Slice Enhancement
+
+The numerical record consists of manually entered plotting values rather than per-case metric and timing outputs. It does not document the evaluated sample count, reference preprocessing, SSIM configuration, hardware or timing boundaries. The values are retained below as descriptive records, without inferential statistics. The illustrative error arrays in the plotting code are hypothetical and are excluded from the comparison.
+
+8.3.1 PSNR and SSIM Benchmark Analysis for MRI Enhancement Algorithms
+
+For an m × n input image I and a processed image K, the reported mean squared error is
+
+\mathrm{MSE}=\frac{1}{mn}\sum_{i=1}^{m}\sum_{j=1}^{n}\left(I(i,j)-K(i,j)\right)^2
+
+and peak signal-to-noise ratio is
+
+\mathrm{PSNR}=10\log_{10}\left(\frac{L^2}{\mathrm{MSE}}\right)
+
+where L is the data range used for metric evaluation. The value L = 255 is appropriate only for the stated 8-bit representation. With the original input as reference, these equations quantify departure from that input: unchanged processing gives zero MSE. They therefore do not, on their own, establish denoising or beneficial enhancement. PSNR is expressed in decibels and should not share a numerical scale with dimensionless SSIM.
+
+The structural similarity expression is
+
+\mathrm{SSIM}(x,y)=\frac{(2\mu_x\mu_y+C_1)(2\sigma_{xy}+C_2)}{(\mu_x^2+\mu_y^2+C_1)(\sigma_x^2+\sigma_y^2+C_2)}
+
+where x and y are corresponding image samples or windows; μ_x and μ_y are their means, σ_x² and σ_y² their variances, and σ_xy their covariance. Positive constants C₁ and C₂ stabilise the ratio. The reference, windowing and aggregation determine the interpretation of the resulting score. SSIM expresses image similarity rather than diagnostic accuracy.
+
+Recorded MRI enhancement scores and processing times. Values are reproduced from the numerical comparison; no measured uncertainty is available.
+
+GA has the highest recorded PSNR and SSIM, exceeding both EHO and PSO by 0.61 dB and 0.22, respectively. EHO and PSO have identical reported quality scores. These entries do not support the statement that EHO produces higher-fidelity enhancement than GA, nor do they establish population-level differences between methods.
+
+8.3.2 Execution Time Analysis Across Algorithms
+
+The recorded time ordering is EHO, GA and PSO, at 0.3004, 0.3948 and 0.6414 s, respectively. EHO is lower than GA by 0.0944 s, whereas GA is lower than PSO by 0.2466 s. Thus, within this numerical record, GA combines higher similarity scores with a longer time than EHO. These arithmetic comparisons describe the recorded quality–time relationship; they do not establish an end-to-end latency distribution, a throughput estimate or a real-time operating capability.
+
+8.3.3 Results of MRI Enhancement by All Approaches
+
+The image panel displays the slice labelled 71 alongside outputs labelled EHO, PSO and GA. It illustrates changes in intensity appearance for that example. The panel does not include ACO or repeated cases, and its display settings do not support a quantitative assessment of small anatomical structures. Accordingly, the illustration is used to show processing outputs rather than to infer comparative noise robustness or tumour delineation.
+
+MRI slice labelled 71 and processed outputs labelled EHO, PSO and GA. The panels reproduce the qualitative display associated with the recorded comparison; colour and visual appearance are not segmentation labels or measures of anatomical fidelity.
+
+8.4 Individual 3D Model Creation for Each Enhanced MRI Slice
+
+A single-slice surface display and a mesh extracted from a complete volume contain different geometric information. A two-dimensional intensity image alone does not determine three-dimensional anatomy. The selected-slice illustration is therefore treated as a display of the chosen image content, separately from the volume-derived surfaces.
+
+8.4.1 Methodology for Slice-by-Slice 3D Reconstruction
+
+The reconstruction description uses Marching Cubes from scikit-image for isosurface extraction and Mayavi for rendering. Marching Cubes operates on a three-dimensional scalar field; a lone two-dimensional slice is insufficient input. The selected-slice display does not specify whether the underlying geometry was embedded in a volume, extruded or represented by another surface construction. Its mathematical interpretation is consequently limited to a selected-slice visualisation. Rendering is a downstream display operation, not an additional EHO search step.
+
+8.4.2 Results from Slice-by-Slice 3D Models with Enhanced MRI Slices
+
+The selected-slice surface shows a boundary and internal displayed structures. Smoothness and visual prominence are properties of the rendering; they are not measurements of geometric error or preservation of tissue boundaries. No quantitative comparison between meshes is derived from this illustration.
+
+Surface display associated with an individually selected MRI slice. The display is retained as a qualitative illustration and is not interpreted as a complete anatomical volume.
+
+8.5 Complete 3D Model Creation from All Slices
+
+The full-volume formulation assembles slices into an intensity volume and extracts a surface from that field. Acquisition geometry, including spatial order and spacing, defines the relationship among slices. An intensity-refinement stage may affect the extracted surface, but this effect is distinct from recovery of acquisition geometry.
+
+8.5.1 Framework for Full 3D Brain Reconstruction Using Enhanced Slices
+
+The described pipeline consists of sequential stacking, Marching Cubes isosurface extraction and optional Gaussian smoothing before visualisation. Slice order is a geometric input to assembly rather than a TSP decision variable. Reordering spatially indexed slices by image similarity could alter anatomy and is not part of this formulation. The reconstruction therefore does not inherit the complexity or optimisation results of the routing experiments.
+
+The chosen isovalue, voxel spacing, mask and smoothing parameters determine the displayed surface. Smoothing may remove small features as well as visible irregularities, so an attractive surface is not sufficient evidence of greater fidelity. The supplied images document rendering outputs without a specified geometric reference or a measured surface-distance comparison.
+
+8.5.2 Results and Observations: 3D Brain Reconstruction
+
+The volume displays show complementary views of a brain-shaped surface. Their colour variation represents the rendering appearance and has no defined correspondence to predicted tumour classes. The illustrations demonstrate volumetric visualisation of the processed data; they do not supply a segmentation prediction, a tumour-volume measurement or an algorithm-specific reconstruction-accuracy comparison.
+
+Surface rendering associated with the assembled MRI volume. Geometry and colour are shown for qualitative inspection; the figure provides no quantitative surface-error measurement.
+
+Additional view of the rendered MRI volume. Colours have no defined segmentation legend and are not interpreted as tumour predictions or reference labels.
+
+8.6 Potential Role of 3D Models in Medical Image Analysis
+
+Combining slice inspection with a volumetric display can organise anatomical information for visual analysis. In this study, that role is confined to representation of the processed images. The conceptual contribution is the separation of population-based intensity search from subsequent geometric assembly and rendering, allowing each stage to be interpreted through its own output.
+
+8.6.1 Visualisation of Anatomical Relationships
+
+Three-dimensional views display relationships across slices, while slice views retain the original cross-sectional context. Intensity differences and surface colour do not independently identify pathology. Tumour delineation would constitute a separate segmentation task with its own image-to-label mapping and reference; it is not an evaluated output of the present processing formulation.
+
+8.6.2 Computational Scope and Broader Applications
+
+For computational medical diagnostics, the relevant operational trade-off is image quality relative to the resources consumed by the complete processing chain. Enhancement, volume assembly and rendering contribute different costs. The reported slice times cover an unspecified processing boundary and cannot be converted into hospital throughput or compute savings. Likewise, the formulation contains no completed learned-model comparison or validated transfer to CT, PET or SPECT. Its scope remains exploratory MRI intensity processing and visualisation.
+
+9. Conclusion
+
+This study relates EHO-inspired search to routing, multimodal optimisation and MRI visualisation through explicit distinctions between candidate representation, objective function and evaluation endpoint. Dimensionality-scaled attraction and time-dependent control coefficients define the proposed extension; clan hierarchy remains an inherited mechanism. The mathematical formulation explains how movement is regulated, but does not establish global convergence or identify the causal contribution of an individual modification.
+
+The recorded numerical comparisons do not support a uniform ranking. EHO attains a lower reported Ackley objective than the selected PSO configuration at a longer runtime, and the Rastrigin trace includes a prolonged plateau before further improvement. Routing outcomes are constrained by feasibility defects in the available implementations. Synthetic registration measures intensity agreement between generated images, whereas the MRI component provides an intensity-processing formulation and qualitative surface visualisations. Its reported quality and timing values lack the measurement provenance needed for a validated empirical comparison. These distinctions bound the conclusions of the study.
+
+The practical implication is that optimiser selection in computational medical imaging must consider image quality and computational effort together, with a task-appropriate reference and a valid feasible set. The present work supports investigation of hierarchical search for MRI processing; it does not establish diagnostic accuracy, real-time readiness or superiority over learned methods.
+
+10. Future Directions
+
+The next empirical question is whether the proposed operators improve a fixed, reproducible baseline under matched evaluation budgets. Original EHO, dimensionality scaling, scheduled attraction, repulsion and their combined formulation require separate comparisons. Routing evaluation must enforce customer coverage, uniqueness and capacity before reporting objective values. Repeated random seeds should be analysed separately from variation across problem instances or patients, using mean and standard deviation, uncertainty intervals, paired effect sizes and prespecified statistical tests. Convergence should be reported against objective evaluations and elapsed time rather than iteration count alone.
+
+For MRI, evaluation requires identified cases and modalities, spatial metadata, a defined enhancement objective and justified image-quality references. Patient-level separation between tuning and testing is necessary when several slices originate from one volume. Anatomical registration and geometric reconstruction fidelity require their own endpoints; image similarity and smooth surfaces cannot substitute for them. Noise sensitivity, parameter sensitivity and failure cases are also pertinent to the intended processing task.
+
+A comparison with learned methods can then address accuracy, training requirements, per-case optimisation or inference time, and memory use on stated hardware. Training and checkpoint preparation should be separated from recurring processing cost. A hybrid method constitutes a separate hypothesis and requires optimiser-only, learned-only and combined comparisons. GPU execution and cloud processing remain implementation possibilities whose value depends on measured end-to-end latency, resource consumption and workload. Broader datasets can test generalisation; clinical adoption would additionally require evidence concerning a defined workflow and its users.
+
+References
+
+[1] G.-G. Wang, S. Deb, X.-Z. Gao and L. dos S. Coelho, “A new metaheuristic optimisation algorithm motivated by elephant herding behaviour,” International Journal of Bio-Inspired Computation, vol. 8, no. 6, pp. 394–409, 2016. doi: 10.1504/IJBIC.2016.081335.
+
+[2] J. H. Holland, Adaptation in Natural and Artificial Systems. Ann Arbor, MI, USA: University of Michigan Press, 1975.
+
+[3] M. Dorigo and L. M. Gambardella, “Ant Colony System: A cooperative learning approach to the traveling salesman problem,” IEEE Transactions on Evolutionary Computation, vol. 1, no. 1, pp. 53–66, 1997. doi: 10.1109/4235.585892.
+
+[4] J. Kennedy and R. Eberhart, “Particle swarm optimization,” Proceedings of ICNN ’95—International Conference on Neural Networks, vol. 4, pp. 1942–1948, 1995.

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "checks": 48730,
+  "failures": [],
+  "archive_count": 13,
+  "archive_entries": 16019,
+  "completed_cases": 115,
+  "case_viewers": 115,
+  "case_masks": 2300,
+  "portable_local_links": 397,
+  "identical_git_release_measurement_files": 245,
+  "scope": "ZIP inventories and extraction paths, relative-link virtual layout, byte equality of compact measurement copies; no scientific rerun"
+}
