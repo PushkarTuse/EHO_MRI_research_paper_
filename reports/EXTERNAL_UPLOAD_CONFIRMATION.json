@@ -1,0 +1,111 @@
+{
+  "status": "published",
+  "release_url": "https://github.com/PushkarTuse/EHO_MRI_research_paper_/releases/tag/external-mslesseg-2026-10-11",
+  "tag": "external-mslesseg-2026-10-11",
+  "commit": "fdc3e41198577b86e0809d1883c914b94858083c",
+  "verified_assets": [
+    {
+      "name": "mslesseg-cases-01.zip",
+      "bytes": 575573634,
+      "sha256": "5e5c5920e3f831a3080a609265ed7f20c4d63e93e415a2b166da37cf481326be",
+      "url": "https://github.com/PushkarTuse/EHO_MRI_research_paper_/releases/download/external-mslesseg-2026-10-11/mslesseg-cases-01.zip",
+      "asset_id": 631426035
+    },
+    {
+      "name": "mslesseg-cases-02.zip",
+      "bytes": 606100381,
+      "sha256": "35d84fe5e5d63cc146c981a0a6e3116cd375b1ec6f20a6b8b26d347f3684bbcb",
+      "url": "https://github.com/PushkarTuse/EHO_MRI_research_paper_/releases/download/external-mslesseg-2026-10-11/mslesseg-cases-02.zip",
+      "asset_id": 631426034
+    },
+    {
+      "name": "mslesseg-cases-04.zip",
+      "bytes": 611201236,
+      "sha256": "689d6269f106a1841a1a937b6f8523b94e313b665962e1e907be5fc6d70c6a6a",
+      "url": "https://github.com/PushkarTuse/EHO_MRI_research_paper_/releases/download/external-mslesseg-2026-10-11/mslesseg-cases-04.zip",
+      "asset_id": 631426003
+    },
+    {
+      "name": "mslesseg-cases-03.zip",
+      "bytes": 562250989,
+      "sha256": "f3617f8ef55f7d2aa1ff7502231ca6b574452c0124329b08f1fe4e5d0af6b449",
+      "url": "https://github.com/PushkarTuse/EHO_MRI_research_paper_/releases/download/external-mslesseg-2026-10-11/mslesseg-cases-03.zip",
+      "asset_id": 631426018
+    },
+    {
+      "name": "mslesseg-cases-05.zip",
+      "bytes": 658935670,
+      "sha256": "8be619eb8fd3c0fbb051028ec65ebd495f3a7ec57b2bf99ec6ec165bd94bc126",
+      "url": "https://github.com/PushkarTuse/EHO_MRI_research_paper_/releases/download/external-mslesseg-2026-10-11/mslesseg-cases-05.zip",
+      "asset_id": 631440045
+    },
+    {
+      "name": "mslesseg-cases-06.zip",
+      "bytes": 690938889,
+      "sha256": "cc88fbde07a42229e85b6a4a19e95c06b49e4095f1df562625947dcd175b7341",
+      "url": "https://github.com/PushkarTuse/EHO_MRI_research_paper_/releases/download/external-mslesseg-2026-10-11/mslesseg-cases-06.zip",
+      "asset_id": 631443678
+    },
+    {
+      "name": "mslesseg-cases-08.zip",
+      "bytes": 673051083,
+      "sha256": "1604f94c1225df5989f0d1286550e4b7b96bffd356f9362c8b4554b5c0168f35",
+      "url": "https://github.com/PushkarTuse/EHO_MRI_research_paper_/releases/download/external-mslesseg-2026-10-11/mslesseg-cases-08.zip",
+      "asset_id": 631453505
+    },
+    {
+      "name": "mslesseg-cases-12.zip",
+      "bytes": 244521730,
+      "sha256": "8b9fb61a6d103e4f14e0a5d262047ef30044e73b1e27355fa1a117903566be89",
+      "url": "https://github.com/PushkarTuse/EHO_MRI_research_paper_/releases/download/external-mslesseg-2026-10-11/mslesseg-cases-12.zip",
+      "asset_id": 631467321
+    },
+    {
+      "name": "EXTERNAL_RELEASE_MANIFEST.json",
+      "bytes": 4031410,
+      "sha256": "48823699f88b19ecddc96524daf660633f2ef02863daf67685f960ee23ea7bf6",
+      "url": "https://github.com/PushkarTuse/EHO_MRI_research_paper_/releases/download/external-mslesseg-2026-10-11/EXTERNAL_RELEASE_MANIFEST.json",
+      "asset_id": 631470855
+    },
+    {
+      "name": "mslesseg-support.zip",
+      "bytes": 98657307,
+      "sha256": "7249862cfeeb0f58d6d4031303bc5f430f05196c5896ba7d3dcd19b3492e2af1",
+      "url": "https://github.com/PushkarTuse/EHO_MRI_research_paper_/releases/download/external-mslesseg-2026-10-11/mslesseg-support.zip",
+      "asset_id": 631468523
+    },
+    {
+      "name": "mslesseg-cases-07.zip",
+      "bytes": 822057438,
+      "sha256": "35678fb5e13c42fc88c8505d3c27c614153ab9d8089515300a8f31d5e45e19ed",
+      "url": "https://github.com/PushkarTuse/EHO_MRI_research_paper_/releases/download/external-mslesseg-2026-10-11/mslesseg-cases-07.zip",
+      "asset_id": 631447379
+    },
+    {
+      "name": "mslesseg-cases-09.zip",
+      "bytes": 665648879,
+      "sha256": "9c5d42d648cdd2f01ba55ce215bb1607e4117a445b8decb27a7b268de49187a2",
+      "url": "https://github.com/PushkarTuse/EHO_MRI_research_paper_/releases/download/external-mslesseg-2026-10-11/mslesseg-cases-09.zip",
+      "asset_id": 631459764
+    },
+    {
+      "name": "mslesseg-cases-11.zip",
+      "bytes": 642394839,
+      "sha256": "8d33b43f207c561ddb00b76a186ea075ef0dc4f7a3e1fb0c25da695c5415c07b",
+      "url": "https://github.com/PushkarTuse/EHO_MRI_research_paper_/releases/download/external-mslesseg-2026-10-11/mslesseg-cases-11.zip",
+      "asset_id": 631472943
+    },
+    {
+      "name": "mslesseg-cases-10.zip",
+      "bytes": 671893086,
+      "sha256": "cf91011cbc3397e53b81b0713dff6921294402449c01dce91af501bbeb6fac9e",
+      "url": "https://github.com/PushkarTuse/EHO_MRI_research_paper_/releases/download/external-mslesseg-2026-10-11/mslesseg-cases-10.zip",
+      "asset_id": 631471467
+    }
+  ],
+  "asset_bytes": 7527256571,
+  "tag_target_commit": "f42e0dba2661e08e02f7d6384b212ea029f9b63a",
+  "public_repository": true,
+  "public_api_verification": "all 14 assets match expected SHA256/size without authentication",
+  "source_tag_commit": "f42e0dba2661e08e02f7d6384b212ea029f9b63a"
+}
