@@ -23,3 +23,15 @@ The video is a recording supplied by Pushkar Tuse showing a derived viewer.
 Third-party scientific algorithms and libraries remain subject to their own
 references and licences. This notice does not assign a new licence to the
 authors' original code or manuscript text.
+
+## MSLesSeg external validation
+
+Official dataset: [MSLesSeg, Figshare record 27919209](https://doi.org/10.6084/m9.figshare.27919209).
+Dataset paper: https://doi.org/10.1038/s41597-025-05250-y.
+The deposit declares [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+The recorded official author metadata is retained in `data/MSLesSeg/source_metadata.json`;
+cite the dataset and its authors. Raw images and expert masks are acquired separately.
+Release assets contain modified contrast volumes, threshold predictions, given reference
+lesion masks, illustrations and physical-coordinate meshes, with this attribution.
+These are MS lesions, not brain tumours. The registered-grid outputs are adaptations
+of the supplied processed dataset, not native clinical volume measurements.

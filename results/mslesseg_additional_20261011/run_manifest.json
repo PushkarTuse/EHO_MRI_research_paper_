@@ -1,0 +1,86 @@
+{
+  "protocol_version": "external_image_only_stress_studies_20261011_v1",
+  "status": "completed",
+  "manifest": "D:\\RANDOM\\research_paper_iim\\code_reruns\\reports\\mslesseg_case_manifest.json",
+  "manifest_sha256": "3d1567aa4f928fc2b6a2228898da395889cd835e02c790f34914e35474620d07",
+  "selected_cases": [
+    {
+      "case_id": "P1_T1",
+      "subject": "P1",
+      "session": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P1\\T1\\P1_T1_FLAIR.nii.gz",
+      "modality": "FLAIR",
+      "modality_index": 0
+    },
+    {
+      "case_id": "P2_T1",
+      "subject": "P2",
+      "session": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P2\\T1\\P2_T1_FLAIR.nii.gz",
+      "modality": "FLAIR",
+      "modality_index": 0
+    },
+    {
+      "case_id": "P3_T1",
+      "subject": "P3",
+      "session": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P3\\T1\\P3_T1_FLAIR.nii.gz",
+      "modality": "FLAIR",
+      "modality_index": 0
+    }
+  ],
+  "subject_selection": "first 3 numeric subject IDs, earliest numeric session per subject",
+  "methods": [
+    "original_eho",
+    "modified_eho",
+    "pso",
+    "ga",
+    "acor"
+  ],
+  "objective_evaluations": 1500,
+  "population": 30,
+  "registration_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "registration_max_size": 128,
+  "registration_preferred_axis2_slice": 71,
+  "noise_sigmas": [
+    0.03,
+    0.08
+  ],
+  "corruption_seeds": [
+    0,
+    1,
+    2
+  ],
+  "noise_optimizer_seeds": [
+    0,
+    1,
+    2
+  ],
+  "gaussian_control_sigma_pixels": 1.0,
+  "reference_labels_accessed": false,
+  "clean_reference_used_by_optimizer": false,
+  "training": "none",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "code_sha256": {
+    "external_studies.py": "fc63e32ab08f1d13cfdacc1193e0c0c9fb2bf67ddc836985803326775edbd6b3",
+    "imaging.py": "734637f543e3d6efa514e8f301659ec52c1f46c86bed19c82f232ddc22218c22",
+    "registration.py": "bde223b972ab1ea9c5103e93d7ea4ef9b0e53a2823e08153d9d068e34ba507ca",
+    "optimizers.py": "612fe372065b73b4d27ffe2454992235b59d809ef371d67a6a243ba9c1aa5969"
+  },
+  "interpretation": "Controlled 2D image-only stress studies; no clinical registration/denoising claim",
+  "statistical_units": "Within-subject seed/corruption means, then SD over subjects; seeds are not patients",
+  "registration_runs": 75,
+  "noise_runs": 126,
+  "completed_utc": "2026-10-11T05:52:10Z",
+  "total_seconds_including_io_metrics_reports": 75.73012079996988
+}

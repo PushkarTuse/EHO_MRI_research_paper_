@@ -34,3 +34,13 @@ data/*
 # Fresh large runs should be reviewed before deliberately adding them
 results/new_run*/
 results/expanded_cohort*/
+
+# External raw corpus and large release assets
+external_datasets/
+publication_external*/
+results/external_mslesseg_20261011/imaging/*/*.nii.gz
+results/external_mslesseg_20261011/imaging/*/meshes/*.html
+results/external_mslesseg_20261011/imaging/*/meshes/*.stl
+results/external_mslesseg_20261011/imaging/*/meshes/*.ply
+!data/MSLesSeg/
+!data/MSLesSeg/**

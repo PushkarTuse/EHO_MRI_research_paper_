@@ -1,0 +1,690 @@
+{
+  "protocol": {
+    "provenance": "external_lesion_evaluation_of_frozen_unsupervised_reconstruction_2026-10-11",
+    "manifest_sha256": "3d1567aa4f928fc2b6a2228898da395889cd835e02c790f34914e35474620d07",
+    "cases": [
+      {
+        "case_id": "P10_T1",
+        "subject_id": "P10",
+        "native_subject_id": "P10",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P10\\T1\\P10_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P10\\T1\\P10_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      }
+    ],
+    "methods": [
+      "original_eho",
+      "modified_eho",
+      "pso",
+      "ga",
+      "acor"
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "budget_per_optimizer_stage": 1500,
+    "population": 30,
+    "normalization_percentiles": [
+      1,
+      99
+    ],
+    "hist_bins": 256,
+    "enhancement_bounds": [
+      [
+        0.7,
+        1.5
+      ],
+      [
+        0.8,
+        1.3
+      ]
+    ],
+    "threshold_bounds": [
+      [
+        0.02,
+        0.98
+      ],
+      [
+        0.02,
+        0.98
+      ]
+    ],
+    "primary_component_rule": "largest 6-connected component",
+    "secondary_component_rule": "all highest-class components for modified EHO and direct Otsu",
+    "selection": "lexically sorted native case IDs; no reference outcomes used",
+    "reference_access": "after all case predictions saved",
+    "geometry": "native 3D image grid; strict affine match; mm; no resampling",
+    "mesh_stride": 2,
+    "reference_display_stride": 1,
+    "requested_prediction_display_stride": 2,
+    "labels_used_for_training_or_tuning": false,
+    "source_code_sha256": {
+      "external_imaging.py": "88f3258282cf0db24a02ad0387019a833b63a73d3788bca9ad3fe270b917b112",
+      "imaging.py": "734637f543e3d6efa514e8f301659ec52c1f46c86bed19c82f232ddc22218c22",
+      "optimizers.py": "612fe372065b73b4d27ffe2454992235b59d809ef371d67a6a243ba9c1aa5969"
+    }
+  },
+  "protocol_sha256": "042f2ffb4d6405bf1bfc7dfa30e822f3820dfcc545c07e389e0d4f64e4a8b24c",
+  "dataset_metadata": {
+    "dataset": "MSLesSeg",
+    "dataset_name": "MSLesSeg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "doi": "10.6084/m9.figshare.27919209",
+    "source_url": "https://springernature.figshare.com/articles/dataset/MSLesSeg_baseline_and_benchmarking_of_a_new_Multiple_Sclerosis_Lesion_Segmentation_dataset/27919209",
+    "source_api_url": "https://api.figshare.com/v2/articles/27919209",
+    "created_utc": "2026-10-10T23:24:52.229418+00:00",
+    "preprocessing": {
+      "provided_by": "dataset authors",
+      "brain_extraction": "FSL BET",
+      "registration": "FSL FLIRT affine, 12 degrees of freedom, MNI152",
+      "template_spacing_mm": [
+        1,
+        1,
+        1
+      ],
+      "reported_orientation": "LAS",
+      "reported_shape": [
+        182,
+        218,
+        182
+      ]
+    },
+    "selection": {
+      "criterion": "all filename-matched FLAIR/reference pairs; unselected source inventory",
+      "reference_voxels_read_for_selection": false,
+      "lesion_metrics_used_for_selection": false,
+      "primary_cohort_selected": false
+    },
+    "counts": {
+      "sessions": 115,
+      "subjects": 75,
+      "training_sessions": 93,
+      "testing_sessions": 22
+    },
+    "protocol_checks": {
+      "header_examples": [
+        {
+          "case_id": "P1_T1",
+          "image_shape": [
+            182,
+            218,
+            182
+          ],
+          "label_shape": [
+            182,
+            218,
+            182
+          ],
+          "image_spacing": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "label_spacing": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "image_physical_units": [
+            "mm",
+            "sec"
+          ],
+          "label_physical_units": [
+            "mm",
+            "sec"
+          ],
+          "image_orientation": [
+            "L",
+            "A",
+            "S"
+          ],
+          "label_orientation": [
+            "L",
+            "A",
+            "S"
+          ],
+          "image_affine": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              90.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -126.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -72.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "label_affine": [
+            [
+              -1.0,
+              -0.0,
+              -0.0,
+              90.0
+            ],
+            [
+              -0.0,
+              1.0,
+              -0.0,
+              -126.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -72.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "case_id": "P1_T2",
+          "image_shape": [
+            182,
+            218,
+            182
+          ],
+          "label_shape": [
+            182,
+            218,
+            182
+          ],
+          "image_spacing": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "label_spacing": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "image_physical_units": [
+            "mm",
+            "sec"
+          ],
+          "label_physical_units": [
+            "mm",
+            "sec"
+          ],
+          "image_orientation": [
+            "L",
+            "A",
+            "S"
+          ],
+          "label_orientation": [
+            "L",
+            "A",
+            "S"
+          ],
+          "image_affine": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              90.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -126.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -72.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "label_affine": [
+            [
+              -1.0,
+              -0.0,
+              -0.0,
+              90.0
+            ],
+            [
+              -0.0,
+              1.0,
+              -0.0,
+              -126.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -72.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "case_id": "P1_T3",
+          "image_shape": [
+            182,
+            218,
+            182
+          ],
+          "label_shape": [
+            182,
+            218,
+            182
+          ],
+          "image_spacing": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "label_spacing": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "image_physical_units": [
+            "mm",
+            "sec"
+          ],
+          "label_physical_units": [
+            "mm",
+            "sec"
+          ],
+          "image_orientation": [
+            "L",
+            "A",
+            "S"
+          ],
+          "label_orientation": [
+            "L",
+            "A",
+            "S"
+          ],
+          "image_affine": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              90.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -126.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -72.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "label_affine": [
+            [
+              -1.0,
+              -0.0,
+              -0.0,
+              90.0
+            ],
+            [
+              -0.0,
+              1.0,
+              -0.0,
+              -126.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -72.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "case_id": "P2_T1",
+          "image_shape": [
+            182,
+            218,
+            182
+          ],
+          "label_shape": [
+            182,
+            218,
+            182
+          ],
+          "image_spacing": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "label_spacing": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "image_physical_units": [
+            "mm",
+            "sec"
+          ],
+          "label_physical_units": [
+            "mm",
+            "sec"
+          ],
+          "image_orientation": [
+            "L",
+            "A",
+            "S"
+          ],
+          "label_orientation": [
+            "L",
+            "A",
+            "S"
+          ],
+          "image_affine": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              90.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -126.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -72.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "label_affine": [
+            [
+              -1.0,
+              -0.0,
+              -0.0,
+              90.0
+            ],
+            [
+              -0.0,
+              1.0,
+              -0.0,
+              -126.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -72.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "case_id": "P2_T2",
+          "image_shape": [
+            182,
+            218,
+            182
+          ],
+          "label_shape": [
+            182,
+            218,
+            182
+          ],
+          "image_spacing": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "label_spacing": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "image_physical_units": [
+            "mm",
+            "sec"
+          ],
+          "label_physical_units": [
+            "mm",
+            "sec"
+          ],
+          "image_orientation": [
+            "L",
+            "A",
+            "S"
+          ],
+          "label_orientation": [
+            "L",
+            "A",
+            "S"
+          ],
+          "image_affine": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              90.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -126.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -72.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "label_affine": [
+            [
+              -1.0,
+              -0.0,
+              -0.0,
+              90.0
+            ],
+            [
+              -0.0,
+              1.0,
+              -0.0,
+              -126.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -72.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "label_encoding_examples": [
+        {
+          "case_id": "P1_T1",
+          "observed_label_values": [
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "case_id": "P1_T2",
+          "observed_label_values": [
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "case_id": "P1_T3",
+          "observed_label_values": [
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "case_id": "P2_T1",
+          "observed_label_values": [
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "case_id": "P2_T2",
+          "observed_label_values": [
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "reference_voxels_read_for_encoding_audit_only": true,
+      "unpaired_labels": [],
+      "missing_label_pairs": [],
+      "all_source_files_preserved": true
+    }
+  },
+  "cases": [
+    {
+      "case_id": "P10_T1",
+      "subject_id": "P10",
+      "native_subject_id": "P10",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P10\\T1\\P10_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P10\\T1\\P10_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    }
+  ],
+  "methods": [
+    "original_eho",
+    "modified_eho",
+    "pso",
+    "ga",
+    "acor"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "budget_per_optimizer_stage": 1500,
+  "population": 30,
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+    "logical_cpus": 12,
+    "ram_gb": 15.729297637939453,
+    "device": "CPU",
+    "thread_environment": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1"
+    },
+    "libraries": {
+      "numpy": "2.5.3",
+      "scipy": "1.18.1",
+      "nibabel": "5.4.2",
+      "scikit-image": "0.26.0",
+      "plotly": "7.1.0",
+      "trimesh": "5.1.1"
+    }
+  },
+  "started_utc": "2026-10-10T23:24:54Z",
+  "status": "completed",
+  "completed_cases": 1,
+  "failed_cases": 0,
+  "processed_cases": 1,
+  "output_records": 20,
+  "total_seconds_this_invocation": 23.007059999974445,
+  "completed_utc": "2026-10-10T23:25:17Z"
+}

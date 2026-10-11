@@ -1,0 +1,50 @@
+{
+  "updated_utc": "2026-10-10T23:26:14.641166+00:00",
+  "files": [
+    {
+      "name": "MSLesSeg Dataset.zip",
+      "path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\archives\\MSLesSeg Dataset.zip",
+      "size_bytes": 1473284755,
+      "md5": "cb30cfb13b0981443c300a5e51dd91cd",
+      "official_md5": "cb30cfb13b0981443c300a5e51dd91cd",
+      "verified": true,
+      "source_url": "https://ndownloader.figshare.com/files/52771814"
+    },
+    {
+      "name": "MSLesSeg_RAW.zip",
+      "path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\archives\\MSLesSeg_RAW.zip",
+      "size_bytes": 1295472528,
+      "md5": "8bae58b902c8b6ce4afb0bc5fc227959",
+      "official_md5": "8bae58b902c8b6ce4afb0bc5fc227959",
+      "verified": true,
+      "source_url": "https://ndownloader.figshare.com/files/53623946"
+    },
+    {
+      "name": "MSLesSeg-2024-main.zip",
+      "path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\archives\\MSLesSeg-2024-main.zip",
+      "size_bytes": 10966086,
+      "md5": "6236b036e17224613362702e712052e2",
+      "official_md5": "6236b036e17224613362702e712052e2",
+      "verified": true,
+      "source_url": "https://ndownloader.figshare.com/files/53623967"
+    },
+    {
+      "name": "mat_files.zip",
+      "path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\archives\\mat_files.zip",
+      "size_bytes": 148946,
+      "md5": "0d3b5fd1ed083e3cb3e9c9578b7cdf20",
+      "official_md5": "0d3b5fd1ed083e3cb3e9c9578b7cdf20",
+      "verified": true,
+      "source_url": "https://ndownloader.figshare.com/files/54605591"
+    },
+    {
+      "name": "README.md",
+      "path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\archives\\README.md",
+      "size_bytes": 2059,
+      "md5": "50ea39d80230c06b9bcd6018f3f4ab46",
+      "official_md5": "50ea39d80230c06b9bcd6018f3f4ab46",
+      "verified": true,
+      "source_url": "https://ndownloader.figshare.com/files/54605609"
+    }
+  ]
+}

@@ -1,0 +1,4566 @@
+{
+  "protocol": {
+    "provenance": "external_lesion_evaluation_of_frozen_unsupervised_reconstruction_2026-10-11",
+    "manifest_sha256": "3d1567aa4f928fc2b6a2228898da395889cd835e02c790f34914e35474620d07",
+    "cases": [
+      {
+        "case_id": "P10_T1",
+        "subject_id": "P10",
+        "native_subject_id": "P10",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P10\\T1\\P10_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P10\\T1\\P10_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P10_T2",
+        "subject_id": "P10",
+        "native_subject_id": "P10",
+        "session_id": "T2",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P10\\T2\\P10_T2_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P10\\T2\\P10_T2_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P11_T1",
+        "subject_id": "P11",
+        "native_subject_id": "P11",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P11\\T1\\P11_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P11\\T1\\P11_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P11_T2",
+        "subject_id": "P11",
+        "native_subject_id": "P11",
+        "session_id": "T2",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P11\\T2\\P11_T2_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P11\\T2\\P11_T2_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P12_T1",
+        "subject_id": "P12",
+        "native_subject_id": "P12",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P12\\T1\\P12_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P12\\T1\\P12_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P12_T2",
+        "subject_id": "P12",
+        "native_subject_id": "P12",
+        "session_id": "T2",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P12\\T2\\P12_T2_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P12\\T2\\P12_T2_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P12_T3",
+        "subject_id": "P12",
+        "native_subject_id": "P12",
+        "session_id": "T3",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P12\\T3\\P12_T3_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P12\\T3\\P12_T3_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P12_T4",
+        "subject_id": "P12",
+        "native_subject_id": "P12",
+        "session_id": "T4",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P12\\T4\\P12_T4_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P12\\T4\\P12_T4_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P13_T1",
+        "subject_id": "P13",
+        "native_subject_id": "P13",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P13\\T1\\P13_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P13\\T1\\P13_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P13_T2",
+        "subject_id": "P13",
+        "native_subject_id": "P13",
+        "session_id": "T2",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P13\\T2\\P13_T2_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P13\\T2\\P13_T2_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P14_T1",
+        "subject_id": "P14",
+        "native_subject_id": "P14",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P14\\T1\\P14_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P14\\T1\\P14_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P14_T2",
+        "subject_id": "P14",
+        "native_subject_id": "P14",
+        "session_id": "T2",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P14\\T2\\P14_T2_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P14\\T2\\P14_T2_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P14_T3",
+        "subject_id": "P14",
+        "native_subject_id": "P14",
+        "session_id": "T3",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P14\\T3\\P14_T3_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P14\\T3\\P14_T3_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P14_T4",
+        "subject_id": "P14",
+        "native_subject_id": "P14",
+        "session_id": "T4",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P14\\T4\\P14_T4_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P14\\T4\\P14_T4_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P15_T1",
+        "subject_id": "P15",
+        "native_subject_id": "P15",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P15\\T1\\P15_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P15\\T1\\P15_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P16_T1",
+        "subject_id": "P16",
+        "native_subject_id": "P16",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P16\\T1\\P16_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P16\\T1\\P16_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P17_T1",
+        "subject_id": "P17",
+        "native_subject_id": "P17",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P17\\T1\\P17_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P17\\T1\\P17_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P18_T1",
+        "subject_id": "P18",
+        "native_subject_id": "P18",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P18\\T1\\P18_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P18\\T1\\P18_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P19_T1",
+        "subject_id": "P19",
+        "native_subject_id": "P19",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P19\\T1\\P19_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P19\\T1\\P19_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P19_T2",
+        "subject_id": "P19",
+        "native_subject_id": "P19",
+        "session_id": "T2",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P19\\T2\\P19_T2_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P19\\T2\\P19_T2_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P19_T3",
+        "subject_id": "P19",
+        "native_subject_id": "P19",
+        "session_id": "T3",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P19\\T3\\P19_T3_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P19\\T3\\P19_T3_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P19_T4",
+        "subject_id": "P19",
+        "native_subject_id": "P19",
+        "session_id": "T4",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P19\\T4\\P19_T4_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P19\\T4\\P19_T4_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P1_T1",
+        "subject_id": "P1",
+        "native_subject_id": "P1",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P1\\T1\\P1_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P1\\T1\\P1_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P1_T2",
+        "subject_id": "P1",
+        "native_subject_id": "P1",
+        "session_id": "T2",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P1\\T2\\P1_T2_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P1\\T2\\P1_T2_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P1_T3",
+        "subject_id": "P1",
+        "native_subject_id": "P1",
+        "session_id": "T3",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P1\\T3\\P1_T3_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P1\\T3\\P1_T3_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P20_T1",
+        "subject_id": "P20",
+        "native_subject_id": "P20",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P20\\T1\\P20_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P20\\T1\\P20_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P20_T2",
+        "subject_id": "P20",
+        "native_subject_id": "P20",
+        "session_id": "T2",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P20\\T2\\P20_T2_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P20\\T2\\P20_T2_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P20_T3",
+        "subject_id": "P20",
+        "native_subject_id": "P20",
+        "session_id": "T3",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P20\\T3\\P20_T3_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P20\\T3\\P20_T3_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P21_T1",
+        "subject_id": "P21",
+        "native_subject_id": "P21",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P21\\T1\\P21_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P21\\T1\\P21_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P22_T1",
+        "subject_id": "P22",
+        "native_subject_id": "P22",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P22\\T1\\P22_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P22\\T1\\P22_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P22_T2",
+        "subject_id": "P22",
+        "native_subject_id": "P22",
+        "session_id": "T2",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P22\\T2\\P22_T2_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P22\\T2\\P22_T2_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P23_T1",
+        "subject_id": "P23",
+        "native_subject_id": "P23",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P23\\T1\\P23_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P23\\T1\\P23_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P24_T1",
+        "subject_id": "P24",
+        "native_subject_id": "P24",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P24\\T1\\P24_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P24\\T1\\P24_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P25_T1",
+        "subject_id": "P25",
+        "native_subject_id": "P25",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P25\\T1\\P25_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P25\\T1\\P25_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P26_T1",
+        "subject_id": "P26",
+        "native_subject_id": "P26",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P26\\T1\\P26_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P26\\T1\\P26_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P27_T1",
+        "subject_id": "P27",
+        "native_subject_id": "P27",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P27\\T1\\P27_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P27\\T1\\P27_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P28_T1",
+        "subject_id": "P28",
+        "native_subject_id": "P28",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P28\\T1\\P28_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P28\\T1\\P28_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P28_T2",
+        "subject_id": "P28",
+        "native_subject_id": "P28",
+        "session_id": "T2",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P28\\T2\\P28_T2_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P28\\T2\\P28_T2_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P29_T1",
+        "subject_id": "P29",
+        "native_subject_id": "P29",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P29\\T1\\P29_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P29\\T1\\P29_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P2_T1",
+        "subject_id": "P2",
+        "native_subject_id": "P2",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P2\\T1\\P2_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P2\\T1\\P2_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P2_T2",
+        "subject_id": "P2",
+        "native_subject_id": "P2",
+        "session_id": "T2",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P2\\T2\\P2_T2_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P2\\T2\\P2_T2_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P2_T3",
+        "subject_id": "P2",
+        "native_subject_id": "P2",
+        "session_id": "T3",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P2\\T3\\P2_T3_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P2\\T3\\P2_T3_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P2_T4",
+        "subject_id": "P2",
+        "native_subject_id": "P2",
+        "session_id": "T4",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P2\\T4\\P2_T4_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P2\\T4\\P2_T4_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P30_T1",
+        "subject_id": "P30",
+        "native_subject_id": "P30",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P30\\T1\\P30_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P30\\T1\\P30_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P31_T1",
+        "subject_id": "P31",
+        "native_subject_id": "P31",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P31\\T1\\P31_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P31\\T1\\P31_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P31_T2",
+        "subject_id": "P31",
+        "native_subject_id": "P31",
+        "session_id": "T2",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P31\\T2\\P31_T2_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P31\\T2\\P31_T2_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P32_T1",
+        "subject_id": "P32",
+        "native_subject_id": "P32",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P32\\T1\\P32_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P32\\T1\\P32_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P33_T1",
+        "subject_id": "P33",
+        "native_subject_id": "P33",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P33\\T1\\P33_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P33\\T1\\P33_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P33_T2",
+        "subject_id": "P33",
+        "native_subject_id": "P33",
+        "session_id": "T2",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P33\\T2\\P33_T2_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P33\\T2\\P33_T2_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P34_T1",
+        "subject_id": "P34",
+        "native_subject_id": "P34",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P34\\T1\\P34_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P34\\T1\\P34_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P35_T1",
+        "subject_id": "P35",
+        "native_subject_id": "P35",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P35\\T1\\P35_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P35\\T1\\P35_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P36_T1",
+        "subject_id": "P36",
+        "native_subject_id": "P36",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P36\\T1\\P36_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P36\\T1\\P36_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P37_T1",
+        "subject_id": "P37",
+        "native_subject_id": "P37",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P37\\T1\\P37_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P37\\T1\\P37_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P38_T1",
+        "subject_id": "P38",
+        "native_subject_id": "P38",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P38\\T1\\P38_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P38\\T1\\P38_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P39_T1",
+        "subject_id": "P39",
+        "native_subject_id": "P39",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P39\\T1\\P39_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P39\\T1\\P39_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P3_T1",
+        "subject_id": "P3",
+        "native_subject_id": "P3",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P3\\T1\\P3_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P3\\T1\\P3_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P3_T2",
+        "subject_id": "P3",
+        "native_subject_id": "P3",
+        "session_id": "T2",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P3\\T2\\P3_T2_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P3\\T2\\P3_T2_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P3_T3",
+        "subject_id": "P3",
+        "native_subject_id": "P3",
+        "session_id": "T3",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P3\\T3\\P3_T3_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P3\\T3\\P3_T3_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P3_T4",
+        "subject_id": "P3",
+        "native_subject_id": "P3",
+        "session_id": "T4",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P3\\T4\\P3_T4_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P3\\T4\\P3_T4_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P40_T1",
+        "subject_id": "P40",
+        "native_subject_id": "P40",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P40\\T1\\P40_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P40\\T1\\P40_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P41_T1",
+        "subject_id": "P41",
+        "native_subject_id": "P41",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P41\\T1\\P41_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P41\\T1\\P41_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P42_T1",
+        "subject_id": "P42",
+        "native_subject_id": "P42",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P42\\T1\\P42_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P42\\T1\\P42_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P43_T1",
+        "subject_id": "P43",
+        "native_subject_id": "P43",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P43\\T1\\P43_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P43\\T1\\P43_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P44_T1",
+        "subject_id": "P44",
+        "native_subject_id": "P44",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P44\\T1\\P44_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P44\\T1\\P44_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P45_T1",
+        "subject_id": "P45",
+        "native_subject_id": "P45",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P45\\T1\\P45_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P45\\T1\\P45_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P46_T1",
+        "subject_id": "P46",
+        "native_subject_id": "P46",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P46\\T1\\P46_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P46\\T1\\P46_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P47_T1",
+        "subject_id": "P47",
+        "native_subject_id": "P47",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P47\\T1\\P47_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P47\\T1\\P47_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P48_T1",
+        "subject_id": "P48",
+        "native_subject_id": "P48",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P48\\T1\\P48_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P48\\T1\\P48_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P49_T1",
+        "subject_id": "P49",
+        "native_subject_id": "P49",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P49\\T1\\P49_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P49\\T1\\P49_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P49_T2",
+        "subject_id": "P49",
+        "native_subject_id": "P49",
+        "session_id": "T2",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P49\\T2\\P49_T2_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P49\\T2\\P49_T2_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P4_T1",
+        "subject_id": "P4",
+        "native_subject_id": "P4",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P4\\T1\\P4_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P4\\T1\\P4_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P4_T2",
+        "subject_id": "P4",
+        "native_subject_id": "P4",
+        "session_id": "T2",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P4\\T2\\P4_T2_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P4\\T2\\P4_T2_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P4_T3",
+        "subject_id": "P4",
+        "native_subject_id": "P4",
+        "session_id": "T3",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P4\\T3\\P4_T3_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P4\\T3\\P4_T3_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P50_T1",
+        "subject_id": "P50",
+        "native_subject_id": "P50",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P50\\T1\\P50_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P50\\T1\\P50_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P50_T2",
+        "subject_id": "P50",
+        "native_subject_id": "P50",
+        "session_id": "T2",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P50\\T2\\P50_T2_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P50\\T2\\P50_T2_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P51_T1",
+        "subject_id": "P51",
+        "native_subject_id": "P51",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P51\\T1\\P51_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P51\\T1\\P51_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P51_T2",
+        "subject_id": "P51",
+        "native_subject_id": "P51",
+        "session_id": "T2",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P51\\T2\\P51_T2_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P51\\T2\\P51_T2_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P52_T1",
+        "subject_id": "P52",
+        "native_subject_id": "P52",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P52\\T1\\P52_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P52\\T1\\P52_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P52_T2",
+        "subject_id": "P52",
+        "native_subject_id": "P52",
+        "session_id": "T2",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P52\\T2\\P52_T2_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P52\\T2\\P52_T2_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P53_T1",
+        "subject_id": "P53",
+        "native_subject_id": "P53",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P53\\T1\\P53_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P53\\T1\\P53_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P53_T2",
+        "subject_id": "P53",
+        "native_subject_id": "P53",
+        "session_id": "T2",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P53\\T2\\P53_T2_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P53\\T2\\P53_T2_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P54_T1",
+        "subject_id": "P54",
+        "native_subject_id": "P54",
+        "session_id": "T1",
+        "partition": "testing",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P54\\P54_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P54\\P54_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P55_T1",
+        "subject_id": "P55",
+        "native_subject_id": "P55",
+        "session_id": "T1",
+        "partition": "testing",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P55\\P55_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P55\\P55_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P56_T1",
+        "subject_id": "P56",
+        "native_subject_id": "P56",
+        "session_id": "T1",
+        "partition": "testing",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P56\\P56_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P56\\P56_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P57_T1",
+        "subject_id": "P57",
+        "native_subject_id": "P57",
+        "session_id": "T1",
+        "partition": "testing",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P57\\P57_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P57\\P57_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P58_T1",
+        "subject_id": "P58",
+        "native_subject_id": "P58",
+        "session_id": "T1",
+        "partition": "testing",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P58\\P58_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P58\\P58_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P59_T1",
+        "subject_id": "P59",
+        "native_subject_id": "P59",
+        "session_id": "T1",
+        "partition": "testing",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P59\\P59_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P59\\P59_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P5_T1",
+        "subject_id": "P5",
+        "native_subject_id": "P5",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P5\\T1\\P5_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P5\\T1\\P5_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P5_T2",
+        "subject_id": "P5",
+        "native_subject_id": "P5",
+        "session_id": "T2",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P5\\T2\\P5_T2_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P5\\T2\\P5_T2_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P60_T1",
+        "subject_id": "P60",
+        "native_subject_id": "P60",
+        "session_id": "T1",
+        "partition": "testing",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P60\\P60_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P60\\P60_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P61_T1",
+        "subject_id": "P61",
+        "native_subject_id": "P61",
+        "session_id": "T1",
+        "partition": "testing",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P61\\P61_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P61\\P61_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P62_T1",
+        "subject_id": "P62",
+        "native_subject_id": "P62",
+        "session_id": "T1",
+        "partition": "testing",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P62\\P62_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P62\\P62_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P63_T1",
+        "subject_id": "P63",
+        "native_subject_id": "P63",
+        "session_id": "T1",
+        "partition": "testing",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P63\\P63_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P63\\P63_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P64_T1",
+        "subject_id": "P64",
+        "native_subject_id": "P64",
+        "session_id": "T1",
+        "partition": "testing",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P64\\P64_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P64\\P64_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P65_T1",
+        "subject_id": "P65",
+        "native_subject_id": "P65",
+        "session_id": "T1",
+        "partition": "testing",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P65\\P65_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P65\\P65_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P66_T1",
+        "subject_id": "P66",
+        "native_subject_id": "P66",
+        "session_id": "T1",
+        "partition": "testing",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P66\\P66_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P66\\P66_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P67_T1",
+        "subject_id": "P67",
+        "native_subject_id": "P67",
+        "session_id": "T1",
+        "partition": "testing",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P67\\P67_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P67\\P67_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P68_T1",
+        "subject_id": "P68",
+        "native_subject_id": "P68",
+        "session_id": "T1",
+        "partition": "testing",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P68\\P68_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P68\\P68_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P69_T1",
+        "subject_id": "P69",
+        "native_subject_id": "P69",
+        "session_id": "T1",
+        "partition": "testing",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P69\\P69_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P69\\P69_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P6_T1",
+        "subject_id": "P6",
+        "native_subject_id": "P6",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P6\\T1\\P6_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P6\\T1\\P6_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P6_T2",
+        "subject_id": "P6",
+        "native_subject_id": "P6",
+        "session_id": "T2",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P6\\T2\\P6_T2_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P6\\T2\\P6_T2_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P6_T3",
+        "subject_id": "P6",
+        "native_subject_id": "P6",
+        "session_id": "T3",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P6\\T3\\P6_T3_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P6\\T3\\P6_T3_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P70_T1",
+        "subject_id": "P70",
+        "native_subject_id": "P70",
+        "session_id": "T1",
+        "partition": "testing",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P70\\P70_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P70\\P70_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P71_T1",
+        "subject_id": "P71",
+        "native_subject_id": "P71",
+        "session_id": "T1",
+        "partition": "testing",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P71\\P71_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P71\\P71_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P72_T1",
+        "subject_id": "P72",
+        "native_subject_id": "P72",
+        "session_id": "T1",
+        "partition": "testing",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P72\\P72_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P72\\P72_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P73_T1",
+        "subject_id": "P73",
+        "native_subject_id": "P73",
+        "session_id": "T1",
+        "partition": "testing",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P73\\P73_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P73\\P73_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P74_T1",
+        "subject_id": "P74",
+        "native_subject_id": "P74",
+        "session_id": "T1",
+        "partition": "testing",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P74\\P74_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P74\\P74_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P75_T1",
+        "subject_id": "P75",
+        "native_subject_id": "P75",
+        "session_id": "T1",
+        "partition": "testing",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P75\\P75_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P75\\P75_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P7_T1",
+        "subject_id": "P7",
+        "native_subject_id": "P7",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P7\\T1\\P7_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P7\\T1\\P7_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P7_T2",
+        "subject_id": "P7",
+        "native_subject_id": "P7",
+        "session_id": "T2",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P7\\T2\\P7_T2_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P7\\T2\\P7_T2_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P8_T1",
+        "subject_id": "P8",
+        "native_subject_id": "P8",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P8\\T1\\P8_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P8\\T1\\P8_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P8_T2",
+        "subject_id": "P8",
+        "native_subject_id": "P8",
+        "session_id": "T2",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P8\\T2\\P8_T2_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P8\\T2\\P8_T2_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P9_T1",
+        "subject_id": "P9",
+        "native_subject_id": "P9",
+        "session_id": "T1",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P9\\T1\\P9_T1_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P9\\T1\\P9_T1_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P9_T2",
+        "subject_id": "P9",
+        "native_subject_id": "P9",
+        "session_id": "T2",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P9\\T2\\P9_T2_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P9\\T2\\P9_T2_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      },
+      {
+        "case_id": "P9_T3",
+        "subject_id": "P9",
+        "native_subject_id": "P9",
+        "session_id": "T3",
+        "partition": "training",
+        "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P9\\T3\\P9_T3_FLAIR.nii.gz",
+        "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P9\\T3\\P9_T3_MASK.nii.gz",
+        "modality": "FLAIR",
+        "allowed_labels": [
+          0,
+          1
+        ],
+        "foreground_labels": [
+          1
+        ]
+      }
+    ],
+    "methods": [
+      "original_eho",
+      "modified_eho",
+      "pso",
+      "ga",
+      "acor"
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "budget_per_optimizer_stage": 1500,
+    "population": 30,
+    "normalization_percentiles": [
+      1,
+      99
+    ],
+    "hist_bins": 256,
+    "enhancement_bounds": [
+      [
+        0.7,
+        1.5
+      ],
+      [
+        0.8,
+        1.3
+      ]
+    ],
+    "threshold_bounds": [
+      [
+        0.02,
+        0.98
+      ],
+      [
+        0.02,
+        0.98
+      ]
+    ],
+    "primary_component_rule": "largest 6-connected component",
+    "secondary_component_rule": "all highest-class components for modified EHO and direct Otsu",
+    "selection": "lexically sorted native case IDs; no reference outcomes used",
+    "reference_access": "after all case predictions saved",
+    "geometry": "native 3D image grid; strict affine match; mm; no resampling",
+    "mesh_stride": 2,
+    "reference_display_stride": 1,
+    "requested_prediction_display_stride": 2,
+    "labels_used_for_training_or_tuning": false,
+    "source_code_sha256": {
+      "external_imaging.py": "88f3258282cf0db24a02ad0387019a833b63a73d3788bca9ad3fe270b917b112",
+      "imaging.py": "734637f543e3d6efa514e8f301659ec52c1f46c86bed19c82f232ddc22218c22",
+      "optimizers.py": "612fe372065b73b4d27ffe2454992235b59d809ef371d67a6a243ba9c1aa5969"
+    }
+  },
+  "protocol_sha256": "b5990f2969f82fa605c812992490e6d67b1115d86d3e075fd3e7a58e55c7b90d",
+  "dataset_metadata": {
+    "dataset": "MSLesSeg",
+    "dataset_name": "MSLesSeg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "doi": "10.6084/m9.figshare.27919209",
+    "source_url": "https://springernature.figshare.com/articles/dataset/MSLesSeg_baseline_and_benchmarking_of_a_new_Multiple_Sclerosis_Lesion_Segmentation_dataset/27919209",
+    "source_api_url": "https://api.figshare.com/v2/articles/27919209",
+    "created_utc": "2026-10-10T23:24:52.229418+00:00",
+    "preprocessing": {
+      "provided_by": "dataset authors",
+      "brain_extraction": "FSL BET",
+      "registration": "FSL FLIRT affine, 12 degrees of freedom, MNI152",
+      "template_spacing_mm": [
+        1,
+        1,
+        1
+      ],
+      "reported_orientation": "LAS",
+      "reported_shape": [
+        182,
+        218,
+        182
+      ]
+    },
+    "selection": {
+      "criterion": "all filename-matched FLAIR/reference pairs; unselected source inventory",
+      "reference_voxels_read_for_selection": false,
+      "lesion_metrics_used_for_selection": false,
+      "primary_cohort_selected": false
+    },
+    "counts": {
+      "sessions": 115,
+      "subjects": 75,
+      "training_sessions": 93,
+      "testing_sessions": 22
+    },
+    "protocol_checks": {
+      "header_examples": [
+        {
+          "case_id": "P1_T1",
+          "image_shape": [
+            182,
+            218,
+            182
+          ],
+          "label_shape": [
+            182,
+            218,
+            182
+          ],
+          "image_spacing": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "label_spacing": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "image_physical_units": [
+            "mm",
+            "sec"
+          ],
+          "label_physical_units": [
+            "mm",
+            "sec"
+          ],
+          "image_orientation": [
+            "L",
+            "A",
+            "S"
+          ],
+          "label_orientation": [
+            "L",
+            "A",
+            "S"
+          ],
+          "image_affine": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              90.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -126.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -72.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "label_affine": [
+            [
+              -1.0,
+              -0.0,
+              -0.0,
+              90.0
+            ],
+            [
+              -0.0,
+              1.0,
+              -0.0,
+              -126.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -72.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "case_id": "P1_T2",
+          "image_shape": [
+            182,
+            218,
+            182
+          ],
+          "label_shape": [
+            182,
+            218,
+            182
+          ],
+          "image_spacing": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "label_spacing": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "image_physical_units": [
+            "mm",
+            "sec"
+          ],
+          "label_physical_units": [
+            "mm",
+            "sec"
+          ],
+          "image_orientation": [
+            "L",
+            "A",
+            "S"
+          ],
+          "label_orientation": [
+            "L",
+            "A",
+            "S"
+          ],
+          "image_affine": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              90.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -126.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -72.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "label_affine": [
+            [
+              -1.0,
+              -0.0,
+              -0.0,
+              90.0
+            ],
+            [
+              -0.0,
+              1.0,
+              -0.0,
+              -126.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -72.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "case_id": "P1_T3",
+          "image_shape": [
+            182,
+            218,
+            182
+          ],
+          "label_shape": [
+            182,
+            218,
+            182
+          ],
+          "image_spacing": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "label_spacing": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "image_physical_units": [
+            "mm",
+            "sec"
+          ],
+          "label_physical_units": [
+            "mm",
+            "sec"
+          ],
+          "image_orientation": [
+            "L",
+            "A",
+            "S"
+          ],
+          "label_orientation": [
+            "L",
+            "A",
+            "S"
+          ],
+          "image_affine": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              90.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -126.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -72.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "label_affine": [
+            [
+              -1.0,
+              -0.0,
+              -0.0,
+              90.0
+            ],
+            [
+              -0.0,
+              1.0,
+              -0.0,
+              -126.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -72.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "case_id": "P2_T1",
+          "image_shape": [
+            182,
+            218,
+            182
+          ],
+          "label_shape": [
+            182,
+            218,
+            182
+          ],
+          "image_spacing": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "label_spacing": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "image_physical_units": [
+            "mm",
+            "sec"
+          ],
+          "label_physical_units": [
+            "mm",
+            "sec"
+          ],
+          "image_orientation": [
+            "L",
+            "A",
+            "S"
+          ],
+          "label_orientation": [
+            "L",
+            "A",
+            "S"
+          ],
+          "image_affine": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              90.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -126.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -72.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "label_affine": [
+            [
+              -1.0,
+              -0.0,
+              -0.0,
+              90.0
+            ],
+            [
+              -0.0,
+              1.0,
+              -0.0,
+              -126.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -72.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "case_id": "P2_T2",
+          "image_shape": [
+            182,
+            218,
+            182
+          ],
+          "label_shape": [
+            182,
+            218,
+            182
+          ],
+          "image_spacing": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "label_spacing": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "image_physical_units": [
+            "mm",
+            "sec"
+          ],
+          "label_physical_units": [
+            "mm",
+            "sec"
+          ],
+          "image_orientation": [
+            "L",
+            "A",
+            "S"
+          ],
+          "label_orientation": [
+            "L",
+            "A",
+            "S"
+          ],
+          "image_affine": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              90.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -126.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -72.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "label_affine": [
+            [
+              -1.0,
+              -0.0,
+              -0.0,
+              90.0
+            ],
+            [
+              -0.0,
+              1.0,
+              -0.0,
+              -126.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -72.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "label_encoding_examples": [
+        {
+          "case_id": "P1_T1",
+          "observed_label_values": [
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "case_id": "P1_T2",
+          "observed_label_values": [
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "case_id": "P1_T3",
+          "observed_label_values": [
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "case_id": "P2_T1",
+          "observed_label_values": [
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "case_id": "P2_T2",
+          "observed_label_values": [
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "reference_voxels_read_for_encoding_audit_only": true,
+      "unpaired_labels": [],
+      "missing_label_pairs": [],
+      "all_source_files_preserved": true
+    }
+  },
+  "cases": [
+    {
+      "case_id": "P10_T1",
+      "subject_id": "P10",
+      "native_subject_id": "P10",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P10\\T1\\P10_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P10\\T1\\P10_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P10_T2",
+      "subject_id": "P10",
+      "native_subject_id": "P10",
+      "session_id": "T2",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P10\\T2\\P10_T2_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P10\\T2\\P10_T2_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P11_T1",
+      "subject_id": "P11",
+      "native_subject_id": "P11",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P11\\T1\\P11_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P11\\T1\\P11_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P11_T2",
+      "subject_id": "P11",
+      "native_subject_id": "P11",
+      "session_id": "T2",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P11\\T2\\P11_T2_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P11\\T2\\P11_T2_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P12_T1",
+      "subject_id": "P12",
+      "native_subject_id": "P12",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P12\\T1\\P12_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P12\\T1\\P12_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P12_T2",
+      "subject_id": "P12",
+      "native_subject_id": "P12",
+      "session_id": "T2",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P12\\T2\\P12_T2_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P12\\T2\\P12_T2_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P12_T3",
+      "subject_id": "P12",
+      "native_subject_id": "P12",
+      "session_id": "T3",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P12\\T3\\P12_T3_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P12\\T3\\P12_T3_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P12_T4",
+      "subject_id": "P12",
+      "native_subject_id": "P12",
+      "session_id": "T4",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P12\\T4\\P12_T4_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P12\\T4\\P12_T4_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P13_T1",
+      "subject_id": "P13",
+      "native_subject_id": "P13",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P13\\T1\\P13_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P13\\T1\\P13_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P13_T2",
+      "subject_id": "P13",
+      "native_subject_id": "P13",
+      "session_id": "T2",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P13\\T2\\P13_T2_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P13\\T2\\P13_T2_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P14_T1",
+      "subject_id": "P14",
+      "native_subject_id": "P14",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P14\\T1\\P14_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P14\\T1\\P14_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P14_T2",
+      "subject_id": "P14",
+      "native_subject_id": "P14",
+      "session_id": "T2",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P14\\T2\\P14_T2_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P14\\T2\\P14_T2_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P14_T3",
+      "subject_id": "P14",
+      "native_subject_id": "P14",
+      "session_id": "T3",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P14\\T3\\P14_T3_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P14\\T3\\P14_T3_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P14_T4",
+      "subject_id": "P14",
+      "native_subject_id": "P14",
+      "session_id": "T4",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P14\\T4\\P14_T4_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P14\\T4\\P14_T4_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P15_T1",
+      "subject_id": "P15",
+      "native_subject_id": "P15",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P15\\T1\\P15_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P15\\T1\\P15_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P16_T1",
+      "subject_id": "P16",
+      "native_subject_id": "P16",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P16\\T1\\P16_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P16\\T1\\P16_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P17_T1",
+      "subject_id": "P17",
+      "native_subject_id": "P17",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P17\\T1\\P17_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P17\\T1\\P17_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P18_T1",
+      "subject_id": "P18",
+      "native_subject_id": "P18",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P18\\T1\\P18_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P18\\T1\\P18_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P19_T1",
+      "subject_id": "P19",
+      "native_subject_id": "P19",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P19\\T1\\P19_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P19\\T1\\P19_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P19_T2",
+      "subject_id": "P19",
+      "native_subject_id": "P19",
+      "session_id": "T2",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P19\\T2\\P19_T2_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P19\\T2\\P19_T2_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P19_T3",
+      "subject_id": "P19",
+      "native_subject_id": "P19",
+      "session_id": "T3",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P19\\T3\\P19_T3_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P19\\T3\\P19_T3_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P19_T4",
+      "subject_id": "P19",
+      "native_subject_id": "P19",
+      "session_id": "T4",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P19\\T4\\P19_T4_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P19\\T4\\P19_T4_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P1_T1",
+      "subject_id": "P1",
+      "native_subject_id": "P1",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P1\\T1\\P1_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P1\\T1\\P1_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P1_T2",
+      "subject_id": "P1",
+      "native_subject_id": "P1",
+      "session_id": "T2",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P1\\T2\\P1_T2_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P1\\T2\\P1_T2_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P1_T3",
+      "subject_id": "P1",
+      "native_subject_id": "P1",
+      "session_id": "T3",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P1\\T3\\P1_T3_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P1\\T3\\P1_T3_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P20_T1",
+      "subject_id": "P20",
+      "native_subject_id": "P20",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P20\\T1\\P20_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P20\\T1\\P20_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P20_T2",
+      "subject_id": "P20",
+      "native_subject_id": "P20",
+      "session_id": "T2",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P20\\T2\\P20_T2_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P20\\T2\\P20_T2_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P20_T3",
+      "subject_id": "P20",
+      "native_subject_id": "P20",
+      "session_id": "T3",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P20\\T3\\P20_T3_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P20\\T3\\P20_T3_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P21_T1",
+      "subject_id": "P21",
+      "native_subject_id": "P21",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P21\\T1\\P21_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P21\\T1\\P21_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P22_T1",
+      "subject_id": "P22",
+      "native_subject_id": "P22",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P22\\T1\\P22_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P22\\T1\\P22_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P22_T2",
+      "subject_id": "P22",
+      "native_subject_id": "P22",
+      "session_id": "T2",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P22\\T2\\P22_T2_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P22\\T2\\P22_T2_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P23_T1",
+      "subject_id": "P23",
+      "native_subject_id": "P23",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P23\\T1\\P23_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P23\\T1\\P23_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P24_T1",
+      "subject_id": "P24",
+      "native_subject_id": "P24",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P24\\T1\\P24_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P24\\T1\\P24_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P25_T1",
+      "subject_id": "P25",
+      "native_subject_id": "P25",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P25\\T1\\P25_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P25\\T1\\P25_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P26_T1",
+      "subject_id": "P26",
+      "native_subject_id": "P26",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P26\\T1\\P26_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P26\\T1\\P26_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P27_T1",
+      "subject_id": "P27",
+      "native_subject_id": "P27",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P27\\T1\\P27_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P27\\T1\\P27_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P28_T1",
+      "subject_id": "P28",
+      "native_subject_id": "P28",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P28\\T1\\P28_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P28\\T1\\P28_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P28_T2",
+      "subject_id": "P28",
+      "native_subject_id": "P28",
+      "session_id": "T2",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P28\\T2\\P28_T2_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P28\\T2\\P28_T2_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P29_T1",
+      "subject_id": "P29",
+      "native_subject_id": "P29",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P29\\T1\\P29_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P29\\T1\\P29_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P2_T1",
+      "subject_id": "P2",
+      "native_subject_id": "P2",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P2\\T1\\P2_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P2\\T1\\P2_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P2_T2",
+      "subject_id": "P2",
+      "native_subject_id": "P2",
+      "session_id": "T2",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P2\\T2\\P2_T2_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P2\\T2\\P2_T2_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P2_T3",
+      "subject_id": "P2",
+      "native_subject_id": "P2",
+      "session_id": "T3",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P2\\T3\\P2_T3_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P2\\T3\\P2_T3_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P2_T4",
+      "subject_id": "P2",
+      "native_subject_id": "P2",
+      "session_id": "T4",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P2\\T4\\P2_T4_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P2\\T4\\P2_T4_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P30_T1",
+      "subject_id": "P30",
+      "native_subject_id": "P30",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P30\\T1\\P30_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P30\\T1\\P30_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P31_T1",
+      "subject_id": "P31",
+      "native_subject_id": "P31",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P31\\T1\\P31_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P31\\T1\\P31_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P31_T2",
+      "subject_id": "P31",
+      "native_subject_id": "P31",
+      "session_id": "T2",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P31\\T2\\P31_T2_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P31\\T2\\P31_T2_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P32_T1",
+      "subject_id": "P32",
+      "native_subject_id": "P32",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P32\\T1\\P32_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P32\\T1\\P32_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P33_T1",
+      "subject_id": "P33",
+      "native_subject_id": "P33",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P33\\T1\\P33_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P33\\T1\\P33_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P33_T2",
+      "subject_id": "P33",
+      "native_subject_id": "P33",
+      "session_id": "T2",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P33\\T2\\P33_T2_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P33\\T2\\P33_T2_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P34_T1",
+      "subject_id": "P34",
+      "native_subject_id": "P34",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P34\\T1\\P34_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P34\\T1\\P34_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P35_T1",
+      "subject_id": "P35",
+      "native_subject_id": "P35",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P35\\T1\\P35_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P35\\T1\\P35_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P36_T1",
+      "subject_id": "P36",
+      "native_subject_id": "P36",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P36\\T1\\P36_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P36\\T1\\P36_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P37_T1",
+      "subject_id": "P37",
+      "native_subject_id": "P37",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P37\\T1\\P37_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P37\\T1\\P37_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P38_T1",
+      "subject_id": "P38",
+      "native_subject_id": "P38",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P38\\T1\\P38_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P38\\T1\\P38_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P39_T1",
+      "subject_id": "P39",
+      "native_subject_id": "P39",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P39\\T1\\P39_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P39\\T1\\P39_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P3_T1",
+      "subject_id": "P3",
+      "native_subject_id": "P3",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P3\\T1\\P3_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P3\\T1\\P3_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P3_T2",
+      "subject_id": "P3",
+      "native_subject_id": "P3",
+      "session_id": "T2",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P3\\T2\\P3_T2_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P3\\T2\\P3_T2_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P3_T3",
+      "subject_id": "P3",
+      "native_subject_id": "P3",
+      "session_id": "T3",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P3\\T3\\P3_T3_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P3\\T3\\P3_T3_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P3_T4",
+      "subject_id": "P3",
+      "native_subject_id": "P3",
+      "session_id": "T4",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P3\\T4\\P3_T4_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P3\\T4\\P3_T4_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P40_T1",
+      "subject_id": "P40",
+      "native_subject_id": "P40",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P40\\T1\\P40_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P40\\T1\\P40_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P41_T1",
+      "subject_id": "P41",
+      "native_subject_id": "P41",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P41\\T1\\P41_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P41\\T1\\P41_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P42_T1",
+      "subject_id": "P42",
+      "native_subject_id": "P42",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P42\\T1\\P42_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P42\\T1\\P42_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P43_T1",
+      "subject_id": "P43",
+      "native_subject_id": "P43",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P43\\T1\\P43_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P43\\T1\\P43_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P44_T1",
+      "subject_id": "P44",
+      "native_subject_id": "P44",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P44\\T1\\P44_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P44\\T1\\P44_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P45_T1",
+      "subject_id": "P45",
+      "native_subject_id": "P45",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P45\\T1\\P45_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P45\\T1\\P45_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P46_T1",
+      "subject_id": "P46",
+      "native_subject_id": "P46",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P46\\T1\\P46_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P46\\T1\\P46_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P47_T1",
+      "subject_id": "P47",
+      "native_subject_id": "P47",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P47\\T1\\P47_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P47\\T1\\P47_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P48_T1",
+      "subject_id": "P48",
+      "native_subject_id": "P48",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P48\\T1\\P48_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P48\\T1\\P48_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P49_T1",
+      "subject_id": "P49",
+      "native_subject_id": "P49",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P49\\T1\\P49_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P49\\T1\\P49_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P49_T2",
+      "subject_id": "P49",
+      "native_subject_id": "P49",
+      "session_id": "T2",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P49\\T2\\P49_T2_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P49\\T2\\P49_T2_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P4_T1",
+      "subject_id": "P4",
+      "native_subject_id": "P4",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P4\\T1\\P4_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P4\\T1\\P4_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P4_T2",
+      "subject_id": "P4",
+      "native_subject_id": "P4",
+      "session_id": "T2",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P4\\T2\\P4_T2_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P4\\T2\\P4_T2_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P4_T3",
+      "subject_id": "P4",
+      "native_subject_id": "P4",
+      "session_id": "T3",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P4\\T3\\P4_T3_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P4\\T3\\P4_T3_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P50_T1",
+      "subject_id": "P50",
+      "native_subject_id": "P50",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P50\\T1\\P50_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P50\\T1\\P50_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P50_T2",
+      "subject_id": "P50",
+      "native_subject_id": "P50",
+      "session_id": "T2",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P50\\T2\\P50_T2_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P50\\T2\\P50_T2_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P51_T1",
+      "subject_id": "P51",
+      "native_subject_id": "P51",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P51\\T1\\P51_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P51\\T1\\P51_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P51_T2",
+      "subject_id": "P51",
+      "native_subject_id": "P51",
+      "session_id": "T2",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P51\\T2\\P51_T2_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P51\\T2\\P51_T2_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P52_T1",
+      "subject_id": "P52",
+      "native_subject_id": "P52",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P52\\T1\\P52_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P52\\T1\\P52_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P52_T2",
+      "subject_id": "P52",
+      "native_subject_id": "P52",
+      "session_id": "T2",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P52\\T2\\P52_T2_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P52\\T2\\P52_T2_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P53_T1",
+      "subject_id": "P53",
+      "native_subject_id": "P53",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P53\\T1\\P53_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P53\\T1\\P53_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P53_T2",
+      "subject_id": "P53",
+      "native_subject_id": "P53",
+      "session_id": "T2",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P53\\T2\\P53_T2_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P53\\T2\\P53_T2_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P54_T1",
+      "subject_id": "P54",
+      "native_subject_id": "P54",
+      "session_id": "T1",
+      "partition": "testing",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P54\\P54_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P54\\P54_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P55_T1",
+      "subject_id": "P55",
+      "native_subject_id": "P55",
+      "session_id": "T1",
+      "partition": "testing",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P55\\P55_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P55\\P55_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P56_T1",
+      "subject_id": "P56",
+      "native_subject_id": "P56",
+      "session_id": "T1",
+      "partition": "testing",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P56\\P56_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P56\\P56_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P57_T1",
+      "subject_id": "P57",
+      "native_subject_id": "P57",
+      "session_id": "T1",
+      "partition": "testing",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P57\\P57_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P57\\P57_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P58_T1",
+      "subject_id": "P58",
+      "native_subject_id": "P58",
+      "session_id": "T1",
+      "partition": "testing",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P58\\P58_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P58\\P58_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P59_T1",
+      "subject_id": "P59",
+      "native_subject_id": "P59",
+      "session_id": "T1",
+      "partition": "testing",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P59\\P59_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P59\\P59_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P5_T1",
+      "subject_id": "P5",
+      "native_subject_id": "P5",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P5\\T1\\P5_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P5\\T1\\P5_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P5_T2",
+      "subject_id": "P5",
+      "native_subject_id": "P5",
+      "session_id": "T2",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P5\\T2\\P5_T2_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P5\\T2\\P5_T2_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P60_T1",
+      "subject_id": "P60",
+      "native_subject_id": "P60",
+      "session_id": "T1",
+      "partition": "testing",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P60\\P60_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P60\\P60_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P61_T1",
+      "subject_id": "P61",
+      "native_subject_id": "P61",
+      "session_id": "T1",
+      "partition": "testing",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P61\\P61_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P61\\P61_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P62_T1",
+      "subject_id": "P62",
+      "native_subject_id": "P62",
+      "session_id": "T1",
+      "partition": "testing",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P62\\P62_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P62\\P62_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P63_T1",
+      "subject_id": "P63",
+      "native_subject_id": "P63",
+      "session_id": "T1",
+      "partition": "testing",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P63\\P63_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P63\\P63_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P64_T1",
+      "subject_id": "P64",
+      "native_subject_id": "P64",
+      "session_id": "T1",
+      "partition": "testing",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P64\\P64_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P64\\P64_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P65_T1",
+      "subject_id": "P65",
+      "native_subject_id": "P65",
+      "session_id": "T1",
+      "partition": "testing",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P65\\P65_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P65\\P65_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P66_T1",
+      "subject_id": "P66",
+      "native_subject_id": "P66",
+      "session_id": "T1",
+      "partition": "testing",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P66\\P66_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P66\\P66_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P67_T1",
+      "subject_id": "P67",
+      "native_subject_id": "P67",
+      "session_id": "T1",
+      "partition": "testing",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P67\\P67_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P67\\P67_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P68_T1",
+      "subject_id": "P68",
+      "native_subject_id": "P68",
+      "session_id": "T1",
+      "partition": "testing",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P68\\P68_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P68\\P68_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P69_T1",
+      "subject_id": "P69",
+      "native_subject_id": "P69",
+      "session_id": "T1",
+      "partition": "testing",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P69\\P69_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P69\\P69_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P6_T1",
+      "subject_id": "P6",
+      "native_subject_id": "P6",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P6\\T1\\P6_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P6\\T1\\P6_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P6_T2",
+      "subject_id": "P6",
+      "native_subject_id": "P6",
+      "session_id": "T2",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P6\\T2\\P6_T2_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P6\\T2\\P6_T2_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P6_T3",
+      "subject_id": "P6",
+      "native_subject_id": "P6",
+      "session_id": "T3",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P6\\T3\\P6_T3_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P6\\T3\\P6_T3_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P70_T1",
+      "subject_id": "P70",
+      "native_subject_id": "P70",
+      "session_id": "T1",
+      "partition": "testing",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P70\\P70_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P70\\P70_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P71_T1",
+      "subject_id": "P71",
+      "native_subject_id": "P71",
+      "session_id": "T1",
+      "partition": "testing",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P71\\P71_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P71\\P71_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P72_T1",
+      "subject_id": "P72",
+      "native_subject_id": "P72",
+      "session_id": "T1",
+      "partition": "testing",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P72\\P72_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P72\\P72_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P73_T1",
+      "subject_id": "P73",
+      "native_subject_id": "P73",
+      "session_id": "T1",
+      "partition": "testing",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P73\\P73_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P73\\P73_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P74_T1",
+      "subject_id": "P74",
+      "native_subject_id": "P74",
+      "session_id": "T1",
+      "partition": "testing",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P74\\P74_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P74\\P74_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P75_T1",
+      "subject_id": "P75",
+      "native_subject_id": "P75",
+      "session_id": "T1",
+      "partition": "testing",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P75\\P75_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\test\\P75\\P75_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P7_T1",
+      "subject_id": "P7",
+      "native_subject_id": "P7",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P7\\T1\\P7_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P7\\T1\\P7_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P7_T2",
+      "subject_id": "P7",
+      "native_subject_id": "P7",
+      "session_id": "T2",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P7\\T2\\P7_T2_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P7\\T2\\P7_T2_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P8_T1",
+      "subject_id": "P8",
+      "native_subject_id": "P8",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P8\\T1\\P8_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P8\\T1\\P8_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P8_T2",
+      "subject_id": "P8",
+      "native_subject_id": "P8",
+      "session_id": "T2",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P8\\T2\\P8_T2_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P8\\T2\\P8_T2_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P9_T1",
+      "subject_id": "P9",
+      "native_subject_id": "P9",
+      "session_id": "T1",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P9\\T1\\P9_T1_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P9\\T1\\P9_T1_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P9_T2",
+      "subject_id": "P9",
+      "native_subject_id": "P9",
+      "session_id": "T2",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P9\\T2\\P9_T2_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P9\\T2\\P9_T2_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    },
+    {
+      "case_id": "P9_T3",
+      "subject_id": "P9",
+      "native_subject_id": "P9",
+      "session_id": "T3",
+      "partition": "training",
+      "image_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P9\\T3\\P9_T3_FLAIR.nii.gz",
+      "label_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset\\MSLesSeg Dataset\\train\\P9\\T3\\P9_T3_MASK.nii.gz",
+      "modality": "FLAIR",
+      "allowed_labels": [
+        0,
+        1
+      ],
+      "foreground_labels": [
+        1
+      ]
+    }
+  ],
+  "methods": [
+    "original_eho",
+    "modified_eho",
+    "pso",
+    "ga",
+    "acor"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "budget_per_optimizer_stage": 1500,
+  "population": 30,
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+    "logical_cpus": 12,
+    "ram_gb": 15.729297637939453,
+    "device": "CPU",
+    "thread_environment": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1"
+    },
+    "libraries": {
+      "numpy": "2.5.3",
+      "scipy": "1.18.1",
+      "nibabel": "5.4.2",
+      "scikit-image": "0.26.0",
+      "plotly": "7.1.0",
+      "trimesh": "5.1.1"
+    }
+  },
+  "started_utc": "2026-10-10T23:28:18Z",
+  "status": "completed",
+  "completed_cases": 115,
+  "failed_cases": 0,
+  "processed_cases": 115,
+  "output_records": 2300,
+  "total_seconds_this_invocation": 2370.723921300145,
+  "completed_utc": "2026-10-11T00:07:49Z"
+}

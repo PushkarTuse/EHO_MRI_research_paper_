@@ -1,0 +1,87 @@
+{
+  "case_id": "P1_T1",
+  "selection_label": "First patient in natural numeric subject order; earliest session",
+  "primary_seed_mean_dice": 0.04859625510626984,
+  "preview_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\external_mslesseg_20261011\\imaging\\P1_T1\\preview3D.png",
+  "dashboard_preview_path": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\external_mslesseg_20261011\\imaging\\P1_T1\\meshes\\prediction_reference_preview.png",
+  "coordinate_units": "mm",
+  "axis_bounds_world_mm": [
+    [
+      -91.5,
+      -126.5,
+      -72.5
+    ],
+    [
+      90.5,
+      91.5,
+      109.5
+    ]
+  ],
+  "axis_bounds_rule": "supplied image-grid voxel-edge bounding box from saved affine and shape",
+  "reference_label_volume_opened": false,
+  "predictions_or_metrics_recomputed": false,
+  "geometry": "saved PLY world coordinates used directly; no affine applied twice",
+  "surfaces": {
+    "modified_eho_prediction": {
+      "saved_vertices": 149449,
+      "saved_faces": 315746,
+      "rendered_faces": 78937,
+      "display_face_sampling_step": 4,
+      "coordinate_transform_applied": false,
+      "world_bounds": [
+        [
+          -69.0,
+          -107.0,
+          -69.0
+        ],
+        [
+          71.0,
+          71.0,
+          73.0
+        ]
+      ],
+      "source_display_stride": 2
+    },
+    "reference_lesion": {
+      "saved_vertices": 16889,
+      "saved_faces": 33730,
+      "rendered_faces": 33730,
+      "display_face_sampling_step": 1,
+      "coordinate_transform_applied": false,
+      "world_bounds": [
+        [
+          -44.5,
+          -85.5,
+          -37.5
+        ],
+        [
+          46.5,
+          29.5,
+          59.5
+        ]
+      ],
+      "source_display_stride": 1
+    },
+    "image_foreground": {
+      "saved_vertices": 31634,
+      "saved_faces": 63272,
+      "rendered_faces": 63272,
+      "display_face_sampling_step": 1,
+      "coordinate_transform_applied": false,
+      "world_bounds": [
+        [
+          -71.0,
+          -109.0,
+          -69.0
+        ],
+        [
+          73.0,
+          73.0,
+          81.0
+        ]
+      ]
+    }
+  },
+  "display_only_face_budget": 100000,
+  "reference_faces_sampled": false
+}

@@ -1,0 +1,3 @@
+stage,candidate,baseline,n_manifest_patients,both_improved,objective_improved_dice_worsened,objective_worsened_dice_improved,both_worsened,either_tied,undefined
+enhancement,modified_eho,ga,75,0,0,37,36,2,0
+segmentation,modified_eho,ga,75,0,0,37,36,2,0

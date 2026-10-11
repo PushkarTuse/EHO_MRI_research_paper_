@@ -1,0 +1,24 @@
+{"progress_cases": 5, "expected_cases": 115, "last_case_id": "P2_T2", "last_case_status": "validated", "elapsed_seconds": 14.1}
+{"progress_cases": 10, "expected_cases": 115, "last_case_id": "P3_T3", "last_case_status": "validated", "elapsed_seconds": 28.8}
+{"progress_cases": 15, "expected_cases": 115, "last_case_id": "P5_T1", "last_case_status": "validated", "elapsed_seconds": 43.8}
+{"progress_cases": 20, "expected_cases": 115, "last_case_id": "P7_T1", "last_case_status": "validated", "elapsed_seconds": 58.6}
+{"progress_cases": 25, "expected_cases": 115, "last_case_id": "P9_T2", "last_case_status": "validated", "elapsed_seconds": 73.3}
+{"progress_cases": 30, "expected_cases": 115, "last_case_id": "P11_T2", "last_case_status": "validated", "elapsed_seconds": 88.1}
+{"progress_cases": 35, "expected_cases": 115, "last_case_id": "P13_T1", "last_case_status": "validated", "elapsed_seconds": 103.3}
+{"progress_cases": 40, "expected_cases": 115, "last_case_id": "P14_T4", "last_case_status": "validated", "elapsed_seconds": 121.3}
+{"progress_cases": 45, "expected_cases": 115, "last_case_id": "P19_T1", "last_case_status": "validated", "elapsed_seconds": 139.7}
+{"progress_cases": 50, "expected_cases": 115, "last_case_id": "P20_T2", "last_case_status": "validated", "elapsed_seconds": 157.7}
+{"progress_cases": 55, "expected_cases": 115, "last_case_id": "P23_T1", "last_case_status": "validated", "elapsed_seconds": 176.0}
+{"progress_cases": 60, "expected_cases": 115, "last_case_id": "P28_T1", "last_case_status": "validated", "elapsed_seconds": 192.9}
+{"progress_cases": 65, "expected_cases": 115, "last_case_id": "P31_T2", "last_case_status": "validated", "elapsed_seconds": 211.4}
+{"progress_cases": 70, "expected_cases": 115, "last_case_id": "P35_T1", "last_case_status": "validated", "elapsed_seconds": 230.4}
+{"progress_cases": 75, "expected_cases": 115, "last_case_id": "P40_T1", "last_case_status": "validated", "elapsed_seconds": 248.7}
+{"progress_cases": 80, "expected_cases": 115, "last_case_id": "P45_T1", "last_case_status": "validated", "elapsed_seconds": 268.4}
+{"progress_cases": 85, "expected_cases": 115, "last_case_id": "P49_T2", "last_case_status": "validated", "elapsed_seconds": 286.7}
+{"progress_cases": 90, "expected_cases": 115, "last_case_id": "P52_T1", "last_case_status": "validated", "elapsed_seconds": 304.6}
+{"progress_cases": 95, "expected_cases": 115, "last_case_id": "P55_T1", "last_case_status": "validated", "elapsed_seconds": 323.2}
+{"progress_cases": 100, "expected_cases": 115, "last_case_id": "P60_T1", "last_case_status": "validated", "elapsed_seconds": 342.0}
+{"progress_cases": 105, "expected_cases": 115, "last_case_id": "P65_T1", "last_case_status": "validated", "elapsed_seconds": 360.2}
+{"progress_cases": 110, "expected_cases": 115, "last_case_id": "P70_T1", "last_case_status": "validated", "elapsed_seconds": 378.3}
+{"progress_cases": 115, "expected_cases": 115, "last_case_id": "P75_T1", "last_case_status": "validated", "elapsed_seconds": 396.9}
+{"status": "validated", "cases_checked": 115, "records_checked": 2300, "failed_case_ids": [], "global_failures": 0, "report": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\external_mslesseg_20261011\\reports\\external_validation_full.json"}

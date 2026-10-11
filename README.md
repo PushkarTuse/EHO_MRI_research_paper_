@@ -11,6 +11,34 @@ concepts. Their results cannot authenticate the original manuscript figures.
 
 Authors: **Pushkar Tuse** and **Nitya Mohta**.
 
+## Independent MS lesion validation — 11 October 2026
+
+The frozen reconstructed pipeline was evaluated on **115 FLAIR scans from 75
+MSLesSeg patients**, five optimisers with three seeds and direct Otsu, followed by
+component ablations, controlled registration/noise studies and independent
+saved-output verification. These expert annotations are **multiple-sclerosis
+lesions, not tumours**. The external results are preserved separately from BraTS.
+
+Mean lesion Dice is **0.0289** for modified EHO and **0.0348** for direct Otsu;
+modified-EHO precision is about **1.5%**. Controlled registration and noise studies
+also expose limitations. These results do not support broad lesion accuracy,
+registration-superiority or denoising claims. **127 canonical tests and 155,498
+independent output checks passed**, establishing consistency rather than clinical
+accuracy.
+
+- [Complete comparison report](results/external_mslesseg_20261011/reports/COMPLETE_EXTERNAL_VALIDATION.md)
+- [Dataset access and suitability ranking](reports/external_dataset_access_20261011.md)
+- [External code and reproduction commands](EXTERNAL_VALIDATION_README.md)
+- [Download every prediction, mesh and 115 interactive viewers](https://github.com/PushkarTuse/EHO_MRI_research_paper_/releases/tag/external-mslesseg-2026-10-11)
+- [Release extraction and provenance instructions](reports/EXTERNAL_PUBLICATION.md)
+
+Download and extract all release ZIPs into this clone, then open
+`results/external_mslesseg_20261011/reports/VIEW_EXTERNAL_RESULTS.html`. GitHub
+displays HTML source; these self-contained viewers run in a local browser.
+All 115 viewer links resolve once the complete release is extracted. The raw
+official dataset is obtained separately with the attributed, checksum-verified
+downloader.
+
 ## Read or view the results
 
 - [Code completeness and provenance](reports/CODE_COMPLETENESS.md)

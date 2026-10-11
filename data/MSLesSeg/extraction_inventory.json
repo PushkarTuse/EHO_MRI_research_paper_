@@ -1,0 +1,40 @@
+{
+  "archives": [
+    {
+      "archive": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\archives\\MSLesSeg Dataset.zip",
+      "archive_md5": "cb30cfb13b0981443c300a5e51dd91cd",
+      "root": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg Dataset",
+      "members": 637,
+      "uncompressed_bytes": 1491011061,
+      "completed_utc": "2026-10-10T23:24:03.997971+00:00",
+      "author_code_executed": false
+    },
+    {
+      "archive": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\archives\\MSLesSeg_RAW.zip",
+      "archive_md5": "8bae58b902c8b6ce4afb0bc5fc227959",
+      "root": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg_RAW",
+      "members": 546,
+      "uncompressed_bytes": 1329658453,
+      "completed_utc": "2026-10-10T23:26:04.911127+00:00",
+      "author_code_executed": false
+    },
+    {
+      "archive": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\archives\\MSLesSeg-2024-main.zip",
+      "archive_md5": "6236b036e17224613362702e712052e2",
+      "root": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\MSLesSeg-2024-main",
+      "members": 5,
+      "uncompressed_bytes": 10967701,
+      "completed_utc": "2026-10-10T23:26:07.802527+00:00",
+      "author_code_executed": false
+    },
+    {
+      "archive": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\archives\\mat_files.zip",
+      "archive_md5": "0d3b5fd1ed083e3cb3e9c9578b7cdf20",
+      "root": "D:\\RANDOM\\research_paper_iim\\code_reruns\\external_datasets\\MSLesSeg\\extracted\\mat_files",
+      "members": 548,
+      "uncompressed_bytes": 66388,
+      "completed_utc": "2026-10-10T23:26:13.690546+00:00",
+      "author_code_executed": false
+    }
+  ]
+}

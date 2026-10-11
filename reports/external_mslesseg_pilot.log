@@ -1,0 +1,18 @@
+IMAGE-ONLY P10_T1 original_eho seed=0
+IMAGE-ONLY P10_T1 original_eho seed=1
+IMAGE-ONLY P10_T1 original_eho seed=2
+IMAGE-ONLY P10_T1 modified_eho seed=0
+IMAGE-ONLY P10_T1 modified_eho seed=1
+IMAGE-ONLY P10_T1 modified_eho seed=2
+IMAGE-ONLY P10_T1 pso seed=0
+IMAGE-ONLY P10_T1 pso seed=1
+IMAGE-ONLY P10_T1 pso seed=2
+IMAGE-ONLY P10_T1 ga seed=0
+IMAGE-ONLY P10_T1 ga seed=1
+IMAGE-ONLY P10_T1 ga seed=2
+IMAGE-ONLY P10_T1 acor seed=0
+IMAGE-ONLY P10_T1 acor seed=1
+IMAGE-ONLY P10_T1 acor seed=2
+INDEPENDENT EVALUATION P10_T1: 20 predictions saved
+PROGRESS 1/1 completed=1 failed=0
+{"status": "completed", "completed_cases": 1, "failed_cases": 0, "output": "D:\\RANDOM\\research_paper_iim\\code_reruns\\results\\external_mslesseg_pilot_20261011\\imaging"}

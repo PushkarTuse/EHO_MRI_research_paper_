@@ -1,0 +1,7 @@
+baseline,endpoint,n_manifest_patients,positive,negative,zero,undefined,mean_candidate_minus_baseline,median_candidate_minus_baseline
+ga,dice_lesion,75,37,36,2,0,0.0008460768896069854,0.0
+ga,enhancement_objective,75,0,75,0,0,0.004333129134855585,0.004737732340307943
+ga,segmentation_objective,75,0,75,0,0,0.00266732203740668,0.0026451884499183453
+direct_otsu,dice_lesion,75,51,22,2,0,-0.005891505124432563,0.0003530246962646336
+direct_otsu,enhancement_objective,75,0,0,0,75,,
+direct_otsu,segmentation_objective,75,0,0,0,75,,
